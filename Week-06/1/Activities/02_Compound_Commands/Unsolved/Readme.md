@@ -28,9 +28,9 @@ Reminders of common programs you can chain together:
 
 1. Create a research directory and copy all system logs along with the `shadow`, `passwd`, and `hosts` files in one long command.
 
-2. Create a list of all executable files in the home folder and save it to a text file in the research folder with one long command.
+2. Create a list of all files with `777` permission in the `/home` folder and save it to a text file in the research folder with one long command.
 
-3. Create a list of the 10 most active processes. The list should only contain the `USER`, `PID`, `%CPU`, `%MEM` and `COMMAND`. Save this list to a text file in your research directory with one long command.
+3. Create a list of the 10 most memory intensive processes. The list should only contain the `USER`, `PID`, `%CPU`, `%MEM` and `COMMAND`. Save this list to a text file in your research directory with one long command.
 
 #### Bonus
 
