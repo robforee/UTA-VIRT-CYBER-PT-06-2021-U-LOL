@@ -24,7 +24,8 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 | [5.1 Backups and tar.pdf](Week-05/1/5.1%20Backups%20and%20tar.pdf) | [5.1 Student Guide](Week-05/1/StudentGuide.md) |
 |[5.2 Cron and Scheduled Jobs.pdf](Week-05/2/5.2%20Cron%20and%20Scheduled%20Jobs.pdf) | [5.2 Student Guide](Week-05/2/StudentGuide.md) |
 |[5.3 Monitoring Log Files.pdf](Week-05/3/5.3%20Monitoring%20Log%20Files.pdf) | [5.3 Student Guide](Week-05/3/StudentGuide.md) | [05-Archiving-and-Logging-Data](Week-05/Homework)
-|[6.1 Combining Commands.pdf](Week-06/1/6.1%20Combining%20Commands.pdf) | [6.1 Student Guide](Week-06/1/StudentGuide.md)
+|[6.1 Combining Commands.pdf](Week-06/1/6.1%20Combining%20Commands.pdf) | [6.1 Student Guide](Week-06/1/StudentGuide.md) |
+|[6.2 Ifs and Lists.pdf](Week-06/2/6.2%20Ifs%20and%20Lists.pdf) | [6.2 Studnet Guide](Week-06/2/StudentGuide.md)
 ### Module 3 - Networks and Network Security - Project 1
 
 ### Module 4 - Offensive Security
