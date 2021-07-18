@@ -99,7 +99,7 @@ fi
 # check for my_cool_folder
 if [ ! -d /my_cool_folder ]
 then 
-  echo "my_cool_folder isn\'t there!"
+  echo "my_cool_folder isn't there!"
 fi
 
 # check for my_file.txt
