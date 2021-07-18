@@ -50,11 +50,12 @@ then
 fi
 
 # If str1 is not equal to str2, run the echo command and exit the script.
-if [ $str1 != $str2 ]
+if [ "$str1" != "$str2" ]
 then 
   echo "These strings do not match."
   echo "Exiting this script."
-  exit
+  # using the exit command here will exit the script
+  # exit
 fi
 
 # If x is greater than y, run the echo command - only works for integer values
@@ -73,7 +74,7 @@ fi
 
 # check if $str1 is equal to 'this string' AND $x is greater than $y
 # only works if x and y are integers
-if [ $str1 = 'this string' ] && [ $x -gt $y ]
+if [ "$str1" = 'this string' ] && [ $x -gt $y ]
 then
   echo "Those strings match and $x is greater than $y!"
 else
@@ -82,7 +83,7 @@ fi
 
 # check if $str1 is equal to str2 OR $x is less than $y
 # only works if x and y are integers
-if [ $str1 != $str2 ] || [ $x -lt $y ]
+if [ "$str1" != "$str2" ] || [ $x -lt $y ]
 then
   echo "Either those strings don't match OR $x is less than $y!"
 else
