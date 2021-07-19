@@ -1,0 +1,1 @@
+[Day 1 - Slides](https://docs.google.com/presentation/d/1oyjrVzFQcJjtK1eSP6LO8q27MTAM8kghZuIipWOAa-I/)
