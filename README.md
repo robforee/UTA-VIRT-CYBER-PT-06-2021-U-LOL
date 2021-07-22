@@ -25,8 +25,9 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 |[5.2 Cron and Scheduled Jobs.pdf](Week-05/2/5.2%20Cron%20and%20Scheduled%20Jobs.pdf) | [5.2 Student Guide](Week-05/2/StudentGuide.md) |
 |[5.3 Monitoring Log Files.pdf](Week-05/3/5.3%20Monitoring%20Log%20Files.pdf) | [5.3 Student Guide](Week-05/3/StudentGuide.md) | [05-Archiving-and-Logging-Data](Week-05/Homework)
 |[6.1 Combining Commands.pdf](Week-06/1/6.1%20Combining%20Commands.pdf) | [6.1 Student Guide](Week-06/1/StudentGuide.md) |
-|[6.2 Ifs and Lists.pdf](Week-06/2/6.2%20Ifs%20and%20Lists.pdf) | [6.2 Studnet Guide](Week-06/2/studentguide.md) |
-|[6.3 Linux Scavenger Hunt.pdf](Week-06/3/6.3%20Linux%20Scavenger%20Hunt.pdf) | [Google Slides Link](https://docs.google.com/presentation/d/1R1cLZa_xRXYqOwEHsiyGWP90YndeZmhE8cFmx8tK168/edit#slide=id.g4f80a3047b_0_990) | [06-Bash-Scripting-and-Programming](Week-06/Homework) 
+|[6.2 Ifs and Lists.pdf](Week-06/2/6.2%20Ifs%20and%20Lists.pdf) | [6.2 Student Guide](Week-06/2/studentguide.md) |
+| [6.3 Linux Scavenger Hunt.pdf](Week-06/3/6.3%20Linux%20Scavenger%20Hunt.pdf) | [Google Slides Link](https://docs.google.com/presentation/d/1R1cLZa_xRXYqOwEHsiyGWP90YndeZmhE8cFmx8tK168/edit#slide=id.g4f80a3047b_0_990) | [06-Bash-Scripting-and-Programming](Week-06/Homework) |
+| [7.1 Introduction to Windows.pdf](Week-07/1/7.1%20Introduction%20to%20Windows.pdf) | [7.1 Student Guide](Week-07/1/StudentGuide.md) |
 ### Module 3 - Networks and Network Security - Project 1
 
 ### Module 4 - Offensive Security
