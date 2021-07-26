@@ -28,7 +28,7 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 |[6.2 Ifs and Lists.pdf](Week-06/2/6.2%20Ifs%20and%20Lists.pdf) | [6.2 Student Guide](Week-06/2/studentguide.md) |
 | [6.3 Linux Scavenger Hunt.pdf](Week-06/3/6.3%20Linux%20Scavenger%20Hunt.pdf) | [Google Slides Link](https://docs.google.com/presentation/d/1R1cLZa_xRXYqOwEHsiyGWP90YndeZmhE8cFmx8tK168/edit#slide=id.g4f80a3047b_0_990) | [06-Bash-Scripting-and-Programming](Week-06/Homework) |
 | [7.1 Introduction to Windows.pdf](Week-07/1/7.1%20Introduction%20to%20Windows.pdf) | [7.1 Student Guide](Week-07/1/StudentGuide.md) | 
-[7.2 PowerShell Scripting](Week-07/2/7.2%20PowerShell%20Scripting.pdf) | [7.2 Student Guide](Week-07/2/StudentGuide.md)
+[7.2 PowerShell Scripting.pdf](Week-07/2/7.2%20PowerShell%20Scripting.pdf) | [7.2 Student Guide](Week-07/2/StudentGuide.md)
 ### Module 3 - Networks and Network Security - Project 1
 
 ### Module 4 - Offensive Security
