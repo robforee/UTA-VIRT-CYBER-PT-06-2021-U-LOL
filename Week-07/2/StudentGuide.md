@@ -65,9 +65,10 @@ If you are not familiar with `Chocolatey` packages and want to know more, please
 
 </details>
 
-### Class Slideshow 
+### Slideshow 
 
-The slides for today can be viewed on Google Drive here: [7.2 Slides](https://docs.google.com/presentation/d/1NKi0SOZMFsHSlSQTQeq2kdjpsVy5EmU-xaWrAQ4Hw-w/edit#slide=id.g4f80a3047b_0_990)
+- The slides for today can be viewed on Google Drive here: [7.2 Slides](https://docs.google.com/presentation/d/1NKi0SOZMFsHSlSQTQeq2kdjpsVy5EmU-xaWrAQ4Hw-w/edit#slide=id.g4f80a3047b_0_990)
+
 ---
 
 ### 01. Welcome and Overview
