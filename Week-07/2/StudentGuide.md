@@ -63,7 +63,7 @@ After completing the day, if you ran the package removal scripts, you can restag
 
 If you are not familiar with `Chocolatey` packages and want to know more, please checkout [Why Chocolatey?](https://chocolatey.org/why-chocolatey). 
 
-<details>
+</details>
 
 ### Class Slideshow 
 
