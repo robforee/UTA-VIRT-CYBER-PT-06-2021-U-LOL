@@ -31,7 +31,9 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 [7.2 PowerShell Scripting.pdf](Week-07/2/7.2%20PowerShell%20Scripting.pdf) | [7.2 Student Guide](Week-07/2/StudentGuide.md) | 
 [7.3 Active Directory Domain Services.pdf](Week-07/3/7.3%20Active%20Directory%20Domain%20Services.pdf) | [7.3 Student Guide](Week-07/3/StudentGuide.md) | [07-Windows-Administration-and-Hardening](Week-07/Homework) |
 ### Module 3 - Networks and Network Security - Project 1
-
+| Slides | Student Guide | Homework |
+|--------| ------------- | -------- |
+|[8.1 Introduction to Networking.pdf](Week-08/1/8.1%20Introduction%20to%20Networking.pdf) | [8.1 Student Guide](Week-08/1/StudentGuide.md) |
 ### Module 4 - Offensive Security
 
 ### Module 5 - Defensive Security - Project 2
