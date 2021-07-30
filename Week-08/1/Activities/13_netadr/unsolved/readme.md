@@ -18,6 +18,7 @@ In this activity, you will continue to play the role of a security analyst at Ac
     5.  `00001010000000000000000001001100`
 
 2. Determine if the numeric IP addresses are public or private.
+    - Use [Acme's Server List](../Images/acmeserverlist.png) as a guide.
 
 3. Compare the numeric IP addresses to the Acme server list and determine which server the IPs belong to.
 
