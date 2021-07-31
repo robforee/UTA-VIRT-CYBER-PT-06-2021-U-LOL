@@ -33,7 +33,8 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 ### Module 3 - Networks and Network Security - Project 1
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
-|[8.1 Introduction to Networking.pdf](Week-08/1/8.1%20Introduction%20to%20Networking.pdf) | [8.1 Student Guide](Week-08/1/StudentGuide.md) |
+|[8.1 Introduction to Networking.pdf](Week-08/1/8.1%20Introduction%20to%20Networking.pdf) | [8.1 Student Guide](Week-08/1/StudentGuide.md) | 
+|[8.2 Ports, Protocols, and the OSI Model.pdf](Week-08/2/8.2%20Ports,%20Protocols,%20and%20the%2OSI%20Model.pdf) | [8.3 Student Guide](Week-08/2/StudentGuide.md)
 ### Module 4 - Offensive Security
 
 ### Module 5 - Defensive Security - Project 2
