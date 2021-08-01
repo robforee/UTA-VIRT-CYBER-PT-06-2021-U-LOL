@@ -8,7 +8,7 @@ In this exercise, you'll continue to play the role of a security analyst at Acme
 
 ### Instructions 
    
-   1. Open the log file provided to you, and note that each log record is distinguished with a title: Log Record 1, Log Record 2, etc.
+   1. Open the [log file provided to you](../../../Resources/secondlogfile), and note that each log record is distinguished with a title: Log Record 1, Log Record 2, etc.
    
   2. Determine the source and destination port for each request.
    
