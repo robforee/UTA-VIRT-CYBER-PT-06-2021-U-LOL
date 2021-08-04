@@ -14,11 +14,5 @@ In this activity, you will continue to play the role of a security analyst at Ac
    
 3. Find any TCP terminations.
    
-4.  Use your findings to determine what the employee is doing during their first week of work.
-  
-    -  *Hint: Try to determine what websites are being visited.*
-
-    - *Hint: If the IPs aren't being resolved within Wireshark, use the following website to lookup the domains that the IPs are connected to:* https://securitytrails.com/domain/example.com/dns 
-    
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
