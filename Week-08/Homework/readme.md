@@ -68,7 +68,7 @@ You have been provided a list of network assets belonging to RockStar Corp. Use 
      - Use `fping <IP Address>` and ignore any results that say "Request timed out".
      - If any of the IP addresses send back a Reply, enter Ctrl+C to stop sending requests.
 
-  - Create a summary file in a word document that lists out the `fping` command used, as well as a summary of the results.
+  - Create a summary file in a google doc that lists out the `fping` command used, as well as a summary of the results.
 
   - Your summary should determine which IPs are accepting connections and which are not.
 
