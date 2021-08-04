@@ -8,7 +8,7 @@ In this activity, you will continue to play the role of a security analyst at Ac
 
 ### Instructions
 
-1.  Open the packet capture provided and filter out for TCP activity.
+1.  Open the [packet capture](../../../Resources/packetcapTCPclass.pcapng) provided and filter out for TCP activity.
    
 2. Find all the TCP handshakes for establishing a connection.
    
