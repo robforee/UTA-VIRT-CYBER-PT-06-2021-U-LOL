@@ -7,7 +7,7 @@ In this activity, you will continue to play the role of a security analyst at Ac
 - You must determine what ports are open, closed, and filtered.
 
 ### Instructions
-1. Open the packet capture provided to you.
+1. Open the [packet capture](../../../Resources/synscan.pcapng) provided to you.
    
 2. Based on the host responses, determine which ports are open, closed, or filtered.
    
