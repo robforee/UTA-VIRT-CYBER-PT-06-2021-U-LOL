@@ -10,7 +10,7 @@ In this activity, you will play the role of a security analyst at Acme Corp.
 
 ### Instructions
    
-Open the provided packet capture with Wireshark.
+Open the [provided packet](DHCPactivity.pcapng) capture with Wireshark.
 
 1. Create a filter to determine the count for _each_ DHCP activity:
     - DHCP Discover
