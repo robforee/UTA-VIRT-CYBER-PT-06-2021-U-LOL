@@ -13,7 +13,7 @@
 
 **Note:** If you add an `ssid` column to your main pcap screen, depending on your screen real estate, you may want to remove other columns that you aren't using so you don't have to scroll. Just right click and deselect a few columns you aren't using.
    
-Open the provided packet capture provided.
+Open the [provided packet capture](wireless2.pcapng).
 
 1. Determine how many wireless routers are in the Kansas City Office.
 
