@@ -8,7 +8,7 @@ In this activity, you will continue to play the role of a security analyst at Ac
 
 ### Instructions
    
-Open the network diagrams provided.
+Open the [network diagrams](AcmeOffice.png) provided.
 
 1. For each network diagram, provide the **shortest path** between the following servers:
 
