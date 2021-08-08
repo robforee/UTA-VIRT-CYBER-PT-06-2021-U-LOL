@@ -8,7 +8,7 @@ Open [reviewpackets.pcap](reviewpackets.pcapng).
 
  - Make sure Name Resolution for Resolving Network Addresses is enabled.
 
-  - There should be four HTTP packets. 
+  - There should be six HTTP packets. 
 
 A. Answer the following questions on HTTP:
 
@@ -134,7 +134,7 @@ B. Answer the following questions on UDP:
 
 ### Part Five: Network Devices, Topologies, and Routing
 
-Open [reviewdoc.pdf](../../../resources/reviewdoc.pdf) and answer the following questions:
+Open [reviewdoc.pdf](../../../Resources/reviewdoc.pdf) and answer the following questions:
 
   - **Topologies**
   
