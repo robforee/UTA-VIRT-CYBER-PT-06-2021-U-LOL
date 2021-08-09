@@ -68,7 +68,7 @@ Continue viewing the same PCAP.
 
   - Filter for DHCP traffic.
 
-  - There should be four DHCP packets. 
+  - There should be five DHCP packets. 
 
  A. Answer the following questions on DHCP:
 
@@ -178,7 +178,7 @@ Answer the following questions.
 
 6. Use a web tool to determine the IP of the following binary representation: `11000000.10101000.00100000.00101011`
 
-7. What is the difference between primary and public IP addresses?
+7. What is the difference between private and public IP addresses?
 
 8. What is CIDR?
 
