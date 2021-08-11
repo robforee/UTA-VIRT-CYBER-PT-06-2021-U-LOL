@@ -38,7 +38,7 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 |[8.3 Following Data Through  Layers 2, 3, and 4.pdf](Week-08/3/8.3%20Following%20Data%20Through%20%20Layers%202,%203,%20and%204.pdf) | [8.3 Student Guide](Week-08/3/StudentGuide.md) | [08-Networking-Fundamentals](Week-08/Homework) | 
 |[9.1 IP and Protocols.pdf](9.1%20IP%20and%20Protocols.pdf) | [9.1 Student Guide](Week-09/1/StudentGuide.md) |
 |[9.2 Email Networks and Security.pdf](9.2%20Email%20Networks%20and%20Security.pdf) | [9.2 Student Guide](Week-09/2/studentguide.md) |
-| Place holder | Place holder | [09-Networking-Fundamentals-II](Week-09/Homework)
+|[9.3 Networking CTF](9.3%20Networking%20Capture%20the%20Flag.pdf) | [Google Slides Link](https://docs.google.com/presentation/d/1yFYFlcLYuO90e1fC4snuyZ95XnjNrixQv-_0pJnx0vo/edit?usp=sharing) | [09-Networking-Fundamentals-II](Week-09/Homework)
 ### Module 4 - Offensive Security
 
 ### Module 5 - Defensive Security - Project 2
