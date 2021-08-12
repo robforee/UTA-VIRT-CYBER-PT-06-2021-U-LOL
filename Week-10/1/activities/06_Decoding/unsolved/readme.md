@@ -10,7 +10,7 @@ You will continue the role of a security analyst working for the Hill Valley Pol
 
 ### Instructions
 
-1. View the message left at the Mayor's house, provided in the TXT file. Use one of the following websites to decode the message:
+1. View the message left at the Mayor's house, provided in the [TXT file](../../../resources/Message_left_at_Mayor's_House.txt). Use one of the following websites to decode the message:
     - [Browserling](https://www.browserling.com/)
     - [Rapid Tables](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
 
