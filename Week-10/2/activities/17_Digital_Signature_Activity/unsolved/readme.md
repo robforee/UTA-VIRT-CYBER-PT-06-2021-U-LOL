@@ -10,9 +10,9 @@ In this activity, you will continue to play the role of a security analyst worki
 
 ### Instructions
 
-1. Extract the messages from Captain Strickland.
+1. Extract the [messages](../../../resources/Stricklands_messages.zip) from Captain Strickland.
 
-2. Import Captain Strickland's public key.
+2. Import Captain Strickland's [public key](../../../resources/strickland_publickey.gpg).
 
 3. Use GPG to determine which of the messages are not authentic and thus not from Captain Strickland.
 
