@@ -4,8 +4,8 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 
 ### Module 1 - Security Fundamentals
 <details>
-    <summary>Click here to expand</summary>
-    <br>
+    <summary>Click to expand!</summary>
+
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
 |[1.1 The Cybersecurity Mindset.pdf](Week-01/1/1.1%20The%20Cybersecurity%20Mindset.pdf) | [1.1 Student Guide](Week-01/1/StudentGuide.md) |
@@ -14,9 +14,13 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 |[2.1 Introduction to Security Within the Organization.pdf](Week-02/1/2.1%20Introduction%20to%20Security%20Within%20the%20Organization.pdf) | [2.1 Student Guide](Week-02/1/StudentGuide.md)|
 |[2.2 Risk Management and Threat Modeling.pdf](Week-02/2/2.2%20Risk%20Management%20and%20Threat%20Modeling.pdf) | [2.2 Student Guide](Week-02/2/StudentGuide.md)|
 |[2.3 Governance and Compliance.pdf](Week-02/3/2.3%20Governance%20and%20Compliance.pdf)|[2.3 Student Guide](Week-02/3/StudentGuide.md) | [02-GRC](Week-02/Homework)
+
 </details>
 
 ### Module 2 - System Administration
+<details>
+    <summary>Click to expand!</summary>
+
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
 |[3.1 How Sweet is Terminal.pdf](Week-03/1/3.1%20How%20Sweet%20is%20Terminal.pdf) | [3.1 Student Guide](Week-03/1/StudentGuide.md) |
@@ -34,6 +38,8 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 | [7.1 Introduction to Windows.pdf](Week-07/1/7.1%20Introduction%20to%20Windows.pdf) | [7.1 Student Guide](Week-07/1/StudentGuide.md) | 
 [7.2 PowerShell Scripting.pdf](Week-07/2/7.2%20PowerShell%20Scripting.pdf) | [7.2 Student Guide](Week-07/2/StudentGuide.md) | 
 [7.3 Active Directory Domain Services.pdf](Week-07/3/7.3%20Active%20Directory%20Domain%20Services.pdf) | [7.3 Student Guide](Week-07/3/StudentGuide.md) | [07-Windows-Administration-and-Hardening](Week-07/Homework) |
+</details>
+
 ### Module 3 - Networks and Network Security - Project 1
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
