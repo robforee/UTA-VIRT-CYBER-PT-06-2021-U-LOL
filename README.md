@@ -41,7 +41,8 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 |[9.3 Networking CTF](Week-09/3/9.3%20Networking%20Capture%20the%20Flag.pdf) | [Google Slides Link](https://docs.google.com/presentation/d/1yFYFlcLYuO90e1fC4snuyZ95XnjNrixQv-_0pJnx0vo/edit?usp=sharing) | [09-Networking-Fundamentals-II](Week-09/Homework) |
 |[10.1 Intro to Cryptography.pdf](Week-10/1/10.1%20Intro%20to%20Cryptography.pdf) | [10.1 Student Guide](Week-10/1/StudentGuide.md) |
 |[10.2 Asymmetric Encryption and Hashing.pdf](Week-10/2/10.2%20Asymmetric%20Encryption%20and%20Hashing.pdf) | [10.2 Student Guide](Week-10/2/StudentGuide.md) |
-|[10.3 Applied Cryptography and Attacks.pdf](Week-10/3/10.3%20Applied%20Cryptography%20and%20Attacks.pdf) | [10.3 Student Guide](Week-10/3/StudentGuide.md) | [10-Cryptography](Week-10/Homework)
+|[10.3 Applied Cryptography and Attacks.pdf](Week-10/3/10.3%20Applied%20Cryptography%20and%20Attacks.pdf) | [10.3 Student Guide](Week-10/3/StudentGuide.md) | [10-Cryptography](Week-10/Homework) |
+[11.1 Introduction to Firewalls and Network Security.pdf](Week-11/1/11.1%20Introduction%20to%20Firewalls%20and%20Network%20Security.pdf) | [11.1 Student Guide](Week-11/1/StudentGuide.md)
 ### Module 4 - Offensive Security
 
 ### Module 5 - Defensive Security - Project 2
