@@ -52,7 +52,8 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 |[10.1 Intro to Cryptography.pdf](Week-10/1/10.1%20Intro%20to%20Cryptography.pdf) | [10.1 Student Guide](Week-10/1/StudentGuide.md) |
 |[10.2 Asymmetric Encryption and Hashing.pdf](Week-10/2/10.2%20Asymmetric%20Encryption%20and%20Hashing.pdf) | [10.2 Student Guide](Week-10/2/StudentGuide.md) |
 |[10.3 Applied Cryptography and Attacks.pdf](Week-10/3/10.3%20Applied%20Cryptography%20and%20Attacks.pdf) | [10.3 Student Guide](Week-10/3/StudentGuide.md) | [10-Cryptography](Week-10/Homework) |
-[11.1 Introduction to Firewalls and Network Security.pdf](Week-11/1/11.1%20Introduction%20to%20Firewalls%20and%20Network%20Security.pdf) | [11.1 Student Guide](Week-11/1/StudentGuide.md)
+[11.1 Introduction to Firewalls and Network Security.pdf](Week-11/1/11.1%20Introduction%20to%20Firewalls%20and%20Network%20Security.pdf) | [11.1 Student Guide](Week-11/1/StudentGuide.md) |
+[11.2 Intrusion Detection, Snort, and Network Security Monitoring.pdf](Week-11/2/11.2%20Intrusion%20Detection,%20Snort,%20and%20Network%20Security%20Monitoring.pdf) | [11.2 Student Guide](Week-11/2/StudentGuide.md)
 ### Module 4 - Offensive Security
 
 ### Module 5 - Defensive Security - Project 2
