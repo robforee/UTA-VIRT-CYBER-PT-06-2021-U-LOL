@@ -4,7 +4,7 @@ https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/
 
 ### Module 1 - Security Fundamentals
 <details>
-    <summary>Click to expand!</summary>
+    <summary>Click to expand!!</summary>
 
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
