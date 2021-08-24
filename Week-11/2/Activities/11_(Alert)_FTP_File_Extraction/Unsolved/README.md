@@ -28,34 +28,30 @@ You will also use these credentials to access Sguil.
 
 2. Using the information presented in the Event Query window, highlight the alert that contains the IP `130.89.149.129`, and answer the following questions:
 
-    - In the Packet Data window, what was the FTP server response and what type of file was downloaded?
+    - In the Packet Data window, what was the FTP server response and what type of file was downloaded?  **RETR /pub/software/mic/micro535.exe**
     
     
-    - What Snort rule triggered this alert?
+    - What Snort rule triggered this alert? **file requested over FTP**
     
     
-    - What is the Snort message?
+    - What is the Snort message? **ET INFO .exe File requested over FTP**
     
     
-    - What is the direction of traffic flow indicated by this alert?
+    - What is the direction of traffic flow indicated by this alert? **inside to outside**
     
 
-    - Looking at the DNS resolution information contained in the IP Resolution Window, in what country is the victim located?
+    - Looking at the DNS resolution information contained in the IP Resolution Window, in what country is the victim located?  **NL**
 
-   
+
  3. Switch from Sguil to NetworkMiner, select the **Parameters** tab, and answer the following questions.
- 
+
     - What username and password did the attacker use to log into the system?
-        
-        
+      
     - Was the login successful?
     
-        
     - What is the name of the file the attacker tried to install on the victim's machine?
-        
-        
+      
     - Was the file transfer successful?
-    
     
 4. In NetworkMiner, click on the **Hosts (2)** tab, right-click the IP `130.89.149.129`, and select **Expand All**. Answer the following questions.
 
@@ -83,5 +79,5 @@ You will also use these credentials to access Sguil.
 
     - Is this URL malicious?
 
---- 
+---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

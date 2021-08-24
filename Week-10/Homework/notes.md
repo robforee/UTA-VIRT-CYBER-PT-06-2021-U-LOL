@@ -4,12 +4,11 @@
     <summary>Encryption
     </summary>
 	<details> <summary>More </summary>
-    		* more stuff
+		* more stuff
 	</details>
 </details>
 
 
-- Encryption
 - Decryption
 - Caesar Cipher
 - Encoding and Decoding

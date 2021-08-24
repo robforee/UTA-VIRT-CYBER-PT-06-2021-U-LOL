@@ -71,15 +71,15 @@ Good luck and act fast as the Nakatomi Patients are counting on you!
 
 ## Career Services: Developing Your Resume and LinkedIn Profile
 
- 
+
 You are nearly halfway through the boot camp; now is a great time to tackle another career service milestone.
- 
+
 In order to stand out in the job market, you'll need to pair the tools and skills you've learned so far with polished and up-to-date materials that highlight your experience, skills and connections. In this milestone, you will become more employer-competitive by strengthening your resume.
- 
+
 To meet the submission criteria for the milestone: 
 - Polish your resume using the resources via [BootcampSpot](https://www.bootcampspot.com/login) (select ‘Career Services’ in the left panel menu).
 - [Submit Milestone: Develop Your Resume to the Career Services](https://www.bootcampspot.com/login) team for feedback. 
- 
+
 **Still have earlier milestones you'd like to complete?** You can complete them by visiting the Career Services Homepage via [BootcampSpot](https://www.bootcampspot.com/login).
 
 ---

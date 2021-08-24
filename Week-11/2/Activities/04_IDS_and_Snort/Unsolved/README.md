@@ -30,43 +30,46 @@ Read and answer each question.
         - `alert`
 
     
-        - `ip`
+        - `ip`  traffic protocol
 
 
-        - `any any` 
+        - `any any`  souce IP and port
 
-    
-        - `->`
 
-    
-        - `any any`
+​    
+        - `->` dest
 
-    
+
+​    
+        - `any any`  dest IP and port
+
+
+​    
         - `{msg: "IP Detected";}`
 
  
 
+
 5. An intrusion system that can act on an alert by blocking traffic is referred to as what?
 
-    
 6. Name the two types of detection techniques used by intrusion detection systems.
 
- 
+
 7. What type of IDS establishes its rules using a baseline?
 
- 
+
 8. True or False: Signature-based IDS systems are not effective against zero-day attacks.
 
 
 9. When used together, which should be placed farthest from the data: a firewall, an IDS, or an IPS?
 
 #### Bonus Questions
-   
+
 10. What part of this Snort alert is the "rule header"?
 
     - `alert ip any any -> any any {msg: "IP Packet Detected";}`
 
-   
+
 11. Name and define the three Snort configuration modes.
 
 
