@@ -29,7 +29,7 @@ Open Sguil and filter the source IP `192.168.204.137.`
 2. According to the Snort rule, what is the source port?
 
 
-3. Taking a closer look at the Snort rule option, what is the message in the HTML body of the Content section?
+3. Taking a closer look at the Snort rule option, what are the reference URLs listed?
 
 
 From the Sguil console, right-click on the Alert ID and pivot to Transcript, then scroll to the bottom of the Transcript window.  
