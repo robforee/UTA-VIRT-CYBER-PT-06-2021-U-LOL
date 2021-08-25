@@ -43,7 +43,7 @@ Close the Transcript window and go back to the Snort rule window. Click on the r
 5. What type of threat is this?
 
 
-6. Did this threat remove Windows registry keys?
+6. Did this threat disable Windows registry keys?
 
 
 7. Why does this threat disable key Windows processes?
