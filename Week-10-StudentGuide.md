@@ -26,7 +26,7 @@ Distribute a student-facing version of the lesson plan: [10.2 Student Guide](Stu
 
 
 -------
- 
+
 ### 01.  Introduction to Cryptography 
 
 This unit will cover the exciting world of cryptography!
@@ -45,12 +45,13 @@ It is critical for organizations to keep private information secure. Information
 
      - This can also have financial impact, as a leak can result in significant legal fines for disclosure of sensitive data. 
      
+
 A primary method for keeping information secure is  **cryptography**.  
 
   - Cryptography is the art and science of keeping information secure through the use of  mathematical concepts and techniques.
-  
+
 This week we will be learning the various methods and techniques of cryptography, and how they are applied with current technologies and devices we use every day.
-  
+
 ### 02. The History of Cryptography
 
 While cryptography seems like a modern concept, cryptographic techniques were actually in use in early human civilizations.
@@ -82,6 +83,7 @@ The Caesar cipher is a method of **encryption**—a process of modifying a messa
      - Once encrypted, the ciphertext message could be "Odxqfk dq dwwdfn dw vxqulvh."
      - Even if Caesar's enemies intercept the ciphertext, they would not understand the message.
      
+
 The goal of the Caesar cipher is not only to prevent unauthorized parties from reading the communication, but to also allow authorized parties, such as Caesar's military, to receive and understand the hidden message.
 
   - This is accomplished through **decryption**.
@@ -91,7 +93,7 @@ The goal of the Caesar cipher is not only to prevent unauthorized parties from r
     - In the previous example, the military would receive the ciphertext message "Odxqfk dq dwwdfn dw vxqulvh."
 
     - Once decrypted by Caesar's military, it would be converted back to the plaintext message of "Launch an attack at sunrise," and Caesar's military would understand the message.
- 
+
 The Caesar cipher is a simple method in which each letter in the message is replaced by a letter located a fixed number of positions further down the alphabet.
 
   - The first step is to select this fixed number, known as a key, to determine how many letters to shift in the alphabet.
@@ -104,22 +106,22 @@ The Caesar cipher is a simple method in which each letter in the message is repl
     - A shift (or key) of three would result in a **D**.
     - If the shift passes the letter **Z** it would start back at **A** and continue.
       
+
 This method is used to encrypt a plaintext message:
 
    - To encrypt "hello" with a shift or key of two:
-      
-      
+     
+     
       - H > J
       - E > G
       - L > N
       - L > N
       - O > Q
       
-
   - This results in a ciphertext message of "jgnnq."
 
   - To decrypt "jgnnq," we would apply the same rule in reverse, shifting the letters back two characters in the alphabet.
-   
+
 
     - J > H
     - G > E
@@ -129,7 +131,7 @@ This method is used to encrypt a plaintext message:
 
 
   - This decryption takes the ciphertext of "jgnnq" and returns it to the plaintext of "hello."
-  
+
 While the Caesar cipher provided confidentiality to Caesar many years ago, it's only used today for educational purposes, due to how easily it can be decrypted. 
 
 Over time, individuals and countries adopted new techniques and technologies for more advanced encryption methods.
@@ -155,8 +157,9 @@ After the end of the World War I, a German engineer named Arthur Scherbius devel
       ![Engima](images/enigma.png)   
     
     
+
 Let's look at how an Enigma machine was used to create keys and encrypt and decrypt messages. 
-   
+
 - **Configuration**
 
   Settings for the Enigma machine were configured by the user.
@@ -170,7 +173,7 @@ Let's look at how an Enigma machine was used to create keys and encrypt and decr
     - Arranging rotor settings.
       
       ![rotor](images/rotors.png)
-      
+    
   - While the details of these settings aren't important, it's important to understand that how the user configured them determined how the data was encrypted.
 
   - The settings selected by the user were the key.
@@ -178,7 +181,7 @@ Let's look at how an Enigma machine was used to create keys and encrypt and decr
   - These exact settings needed to be used by the recipient for decryption.
 
 - **Encryption**
-    
+  
   - Next, an individual typed the plaintext using the machine's keyboard, one letter at a time.
 
   - After each letter was pressed on the keyboard, another letter lit up on the machine's lampboard.
@@ -187,9 +190,8 @@ Let's look at how an Enigma machine was used to create keys and encrypt and decr
 
   - The ciphertext was transmitted to the recipient.
 
-  
 - **Decryption**
- 
+
   - The recipient received the secret key (the configuration) in advance.
 
   - The recipient used the key to configure their machine with the exact settings used for encryption.
@@ -200,20 +202,20 @@ Let's look at how an Enigma machine was used to create keys and encrypt and decr
   
   
 #### Cracking the Enigma Cipher
-   
+
 During the height of World War II,  Alan Turing, an English mathematician and computer scientist, developed a method to exploit the weaknesses of the Enigma machine's design.  
 
   - Turing developed a machine known as the Bombe, which helped decrypt the most complex versions of the Enigma cipher.
 
   - This was considered one of the most important victories of the Allied forces during the war, as Turing's Bombe machine was able to prevent many attacks by decrypting secret messages sent by the Germans.
-  
+
 This is a brief introduction to the Enigma cipher. If you're interested in researching more about this topic:
-   
+
    - Refer them to the Wikipedia page on [Cryptanalysis of the Enigma](https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma).
    
    - Refer them to the film _The Imitation Game_, about Alan Turing and how he cracked the Enigma cipher.
 
-  
+
  #### Summary
 
    - **Plaintext**: Information in human-readable form. 
@@ -231,7 +233,7 @@ This is a brief introduction to the Enigma cipher. If you're interested in resea
    - **Caesar cipher**: A type of cipher that shifts the letters in the alphabet by a fixed number.
 
    - **Enigma cipher**: A type of cipher used by Germany in World War II to encrypt messages.
-   
+
 
 ### 03. Caesar Cipher Code Names Activity 
 
@@ -241,7 +243,7 @@ This is a brief introduction to the Enigma cipher. If you're interested in resea
 
 ### 04. Review Caesar Cipher Code Names Activity 
 
-- [Solution Guide: Caesar Cipher Code Names](activities/03_Caesar_Cipher_Code_Names/solved/readme.md)
+- [Solution Guide: Caesar Cipher Code Names](1/activities/03_Caesar_Cipher_Code_Names/solved/readme.md)
 
 
 ### 05. Introduction to Character Encoding
@@ -273,9 +275,9 @@ We've just covered several methods that were historically used to hide a sender'
   - The goal of encryption is to keep information from being accessed by unauthorized parties. Encryption
 
   - Encryption uses a key, which encrypts and decrypts the data.
-  
+
 There are many encoding schemes available. The primary types we will review are: binary, ASCII, hex, and octal. 
-  
+
 #### Binary Encoding
 
 Binary is the basis of digital communications.
@@ -301,9 +303,9 @@ Character encoding with :
       - The byte `11111111`  represents the decimal 255.
 
    - This conversion is called a **binary to decimal encoding**.
-   
+
 #### ASCII Encoding   
- 
+
 Since each byte can only represent a number from zero to 255, and since we read text with letters, we need a method to convert these numbers to letters.
 
 This is accomplished with **ASCII encoding**:
@@ -347,14 +349,14 @@ This is accomplished with **ASCII encoding**:
     - The hex representation of the word "hello" is **68 65 6c 6c 6f**.
 
  - This conversion is called **hex to ASCII encoding** or **hex to text encoding**. 
- 
+
 Finally, briefly introduce **octal** as a system that applies a principle similar to hex, but uses digits zero through seven. 
 
   - For example: The octal value **042** represents the decimal **34**.
 
 
 You won't be expected to translate between the various character encodings themselves—that's a job best left to translation tools. However, the underlying purpose and theory of character encoding is an important concept. 
-  
+
 While it may seem difficult to encode and decode with these various schemes, there are many free online resources available that can help. 
 
 #### Encoding and Decoding Tools
@@ -363,7 +365,7 @@ Here are two popular, free encoding decoding websites:
 
   - [Browserling](https://www.browserling.com/)
   - [Rapid Tables](https://www.rapidtables.com/)
-  
+
 We will complete a brief walkthrough of decoding a binary message using Browserling.
 
 - First, access the [Binary to Text Converter](https://www.browserling.com/tools/binary-to-text) page.
@@ -381,7 +383,7 @@ We will complete a brief walkthrough of decoding a binary message using Browserl
 - The message should show that the binary data represents the text data "I love cryptography!"
 
  #### Summary
- 
+
    - The goal of encoding isn't to keep a message secret, but to transform data to be used by another system.
 
    - Encoding, unlike encryption, does not use a key.
@@ -391,7 +393,7 @@ We will complete a brief walkthrough of decoding a binary message using Browserl
    - There are many types of encoding schemes available and each is relevant for different circumstances.
 
    - There are many free online resources for encoding and decoding messages, such as [Browserling](https://www.browserling.com/) and [Rapid Tables](https://www.rapidtables.com/).
- 
+
 ### 06. Decoding Activity 
 
 - [Activity File: Decoding](activities/06_Decoding/unsolved/readme.md)
@@ -417,7 +419,7 @@ So far we have covered and illustrated how cryptographic concepts can be used to
     
 
 #### 1.  Privacy and Confidentiality
- 
+
 We have already discussed the cryptography goal of **privacy and confidentiality**, which refers to keeping data secure from unauthorized parties.
 
  - Confidentiality applies to two types of digital data:
@@ -433,16 +435,16 @@ We have already discussed the cryptography goal of **privacy and confidentiality
      - For example, Bob sends an encrypted email to Alice saying "The meeting is at noon."
      
      - To protect the confidentiality of this data in motion, the email data that moves across the internet between Bob and Alice would need to be encrypted.
- 
- 
+
+
 #### 2. Authentication
- 
+
 An attacker can send an encrypted message claiming to be someone they are not. Therefore, another goal of cryptography is **authentication**.
- 
+
 Authentication confirms the identities of the sender and receiver of data.
 
 For instance, in the previous example with Bob and Alice:
- 
+
   - Bob sends an encrypted email to Alice, saying "The meeting is at noon."
 
   - Alice receives the email from Bob.
@@ -456,7 +458,7 @@ For instance, in the previous example with Bob and Alice:
  Without authentication, an attacker can send data that is encrypted, but claims to be from someone it's not.
 
  #### 3. Integrity
- 
+
 Even with encryption (privacy) and authentication, an attacker can alter the contents of a message. 
 
  - This brings us to the next cryptography goal, **integrity**.
@@ -474,13 +476,14 @@ Using the same email example:
   - Alice could be tricked into meeting Bob at 5 a.m.
 
  #### 4. Non-Repudiation
-  
+
 Lastly, the goal of **non-repudiation** is to prevent the sender of a message to deny that they are the sender.
 
   - For example: An employee sends an inappropriate message to their entire office. Because of non-repudiation, that employee will be unable to deny they sent the email. 
     
+
 There are technologies and techniques to ensure each of these four cryptography goals are met. They will be illustrated throughout this week.
-  
+
 ### 09. Introduction to Cryptography Ciphers
 
 We will continue to focus on the primary goal of of cryptography: privacy and confidentiality.
@@ -526,14 +529,14 @@ Transposition ciphers rearrange a sequence of characters.
 - Transposition ciphers break an input message into equal-sized blocks and rearrange the letters of each block according to a fixed rule.
 
 We'll look at how the transposition cipher works by encrypting the message "Hello!":
-  
+
 - We will use the following key to encrypt the message:
 
   ```
         | 1 2 3 |
   Key = |       |
         | 3 1 2 |
-  ```              
+  ```
 - This key indicates that we: 
 
   1. Break the message into blocks of three characters.
@@ -557,7 +560,7 @@ There are many more cipher types.
 - If you are interested in researching more other ciphers types, refer them to the [American Cryptogram Association's list of cipher types](https://www.cryptogram.org/resource-area/cipher-types/).
   
 #### Summary
- 
+
 
 - The goals of cryptography are illustrated with the **P.A.I.N. model**.
 
@@ -574,7 +577,7 @@ There are many more cipher types.
 - Substitution ciphers replace each character with a different character.
 
 - Transposition ciphers rearrange the letters within a defined block size.
-   
+  
    
 ### 10. Cryptography Concepts and Ciphers Activity
 
@@ -617,9 +620,9 @@ Modern cryptographic keys :
     - You may often hear these bit size encryptions referenced in security conversations.
 
       - For example, "This email has 64-bit encryption," or "This laptop contains 256-bit encryption."
-  
+
 A common question you may hear IT professionals ask is: "How much more secure is _x_ more bits of encryption?"
-  
+
 To answer this, we first need to understand the mathematical concepts behind how bit size affects the key space and the level of encryption.
 
   - Remind class that one bit is simply a `1` or a `0`.
@@ -629,16 +632,18 @@ To answer this, we first need to understand the mathematical concepts behind how
   - If we add another bit to the key, the possible values are now `000` , `001`, `010`, `011`, `100`, `101`, `110`, `111`. 
     - So for a three-bit key, the key space is eight, or eight possible values.
     
+
 This progression illustrates that for each bit that is added to the key, the key space **doubles** in size.
 
  - In order to mathematically compute the key space, we can use the formula: 
 
     - Two to the power of the bit size, or  2 ^ [bit size].
     
+
 Now, we will do larger key space calculations using a free online calculator.
 
 - We will calculate the key spaces of a 10-bit key and a 30-bit key.    
-   
+  
 
 #### Encryption Strength Walkthrough
 
@@ -657,7 +662,7 @@ The equation we will use is key space = 2^10.
 
 This just calculated the key space for a 10-bit key as 1,024.
   - This means that for a 10-bit key, there are 1,024 possible values.
-  
+
   ![calc2](images/calc2.png)
 
 To get the key space for the 30-bit key, we repeat the same process.
@@ -674,7 +679,7 @@ This walkthrough illustrates that for each bit of encryption that is added, ther
 ### 14. Review Encryption Strength Activity 
 
 - [Solution Guide: Encryption Strength](activities/14_encryption_strength/solved/readme.md) 
-   
+  
 
 ### 15. Symmetric Key Algorithms 
 
@@ -689,11 +694,11 @@ We just discussed how the larger the bit size is, the stronger the encryption is
  - This concept is a **security tradeoff**, which asks the question:
   
     - Do we want an incredibly strong cipher that's hard to compute and difficult to decrypt, or do we want "average" security that's faster?
-        
+    
  - Over the last 50 years, cryptographers have been tasked with finding an algorithm to address this security tradeoff and provide strong encryption that is also fast.
 
 This was accomplished with **modern symmetric key algorithms**.
- 
+
   - Cryptographers developed symmetric key algorithms that can be used as an approved standard for secure communication.
 
   - Symmetric key algorithms use a single, shared key to encrypt and decrypt a message.
@@ -702,8 +707,9 @@ This was accomplished with **modern symmetric key algorithms**.
   
  - This key must be private to prevent messages from being decrypted by unauthorized individuals. 
    
+
 The most widely known symmetric key algorithms developed in the last 50 years are **DES**, **3DES**, and **AES**.
-   
+
 #### Data Encryption Standard (DES)
 
   - DES was published in 1977 by the United States government to secure all government communications.
@@ -713,7 +719,7 @@ The most widely known symmetric key algorithms developed in the last 50 years ar
   - Over time, it was determined that the DES algorithm had many flaws, leading the federal government to no longer considered it secure.
 
   - There were some versions of DES with added security, such as **Triple DES** and **3DES**.
-  
+
 Because **DES** was no longer considered secure, the security community had to develop a new, secure symmetric encryption algorithm.
 
 #### Advanced Encryption Standard (AES)
@@ -733,13 +739,13 @@ The next symmetric encryption algorithm, Advanced Encryption Standard (**AES**),
   - Rijndael was refined, standardized, and renamed the Advanced Encryption Standard (AES).
 
   - AES offers multiple encryption strengths: 128-bits, 192-bits, and 256-bits. 
-  
+
 AES is a symmetric encryption that is still used and considered secure today.  
- 
+
 ### 16. Introduction to OpenSSL 
 
 We just covered several types of symmetric algorithms. Some of these algorithms, such as AES, are commonly used today to encrypt secure data.
-  
+
 Unlike algorithms like the Caesar cipher, which we can use to encrypt a message by hand, the AES algorithm is complicated and cannot be used without advanced technologies.
 
 Fortunately, there is a free command-line based program called OpenSSL which can simplify symmetric encryption and decryption.
@@ -752,8 +758,9 @@ Begin by opening up your command line in your virtual machine.
 
   - OpenSSL is already preinstalled on your VM, as well as on your Ubuntu machine.
     
+
 Next, create a file that will contain a message to be encrypted. Using an echo command, create a file called `plainmessage.txt`.
-  
+
   - Run `echo "this is a secret message" > plainmessage.txt`
 
 #### Creating the Key and Initialization Vector
@@ -763,13 +770,13 @@ The first step for encryption is to create the key and **initialization vector**
   - The key, which is the private key, will be used for encryption and decryption.
   
   - The initialization vector is an additional value that adds randomness to the key.
-  
+
 Enter the following command on the command line to create the key and IV:
-  
+
   - Run `openssl enc -pbkdf2 -nosalt -aes-256-cbc -k mypassword -P > key_and_IV`
-     
+    
     - Note: we do not need to know the specificity of every key type and cipher used at this point: 
-  
+    
      - `openssl` initializes the OpenSSL program.
      - `enc` stands for _encryption_.
      - `-pbkdf2` specifies the encryption key type. 
@@ -778,7 +785,7 @@ Enter the following command on the command line to create the key and IV:
      - `-aes-256-cbc` is the name of the cipher used. 
      - `-k PASSWORD` creates a key, with the password `mypassword`.
      - `-P > key_and_IV` prints out the key and IV to a file called `key_and_IV`.
-  
+
 
 - Run the command. This just created a file called `key_and_IV` containing the key and IV.
   
@@ -792,15 +799,15 @@ Enter the following command on the command line to create the key and IV:
   ```
 
 #### Encrypting with OpenSSL
-  
+
 Next, we will use OpenSSL to encrypt the file `plainmessage.txt` with the key and IV we just created.
 
 - Enter the following command on the command line:
 
 
   `openssl enc -pbkdf2 -nosalt -aes-256-cbc -in plainmessage.txt -out plainmessage.txt.enc -base64 -K 89E01536AC207279409D4DE1E5253E01F4A1769E696DB0D6062CA9B8F56767C8 -iv EE99333010B23C01E6364E035E97275C`
-   
-        
+
+
     - `openssl` initializes the OpenSSL program.
     - `enc` stands for _encryption_.
     - `-pbkdf2` specifies the encryption key type. 
@@ -811,7 +818,7 @@ Next, we will use OpenSSL to encrypt the file `plainmessage.txt` with the key an
     - `-base64` specifies completing the encryption in a text format.
     - `-K 89E01536AC207279409D4DE1E5253E01F4A1769E696DB0D6062CA9B8F56767C8` specifies the key and the key value.
     - `-iv EE99333010B23C01E6364E035E97275C` specifies the IV and the IV value.
-   
+
 - Run the command. The file `plainmessage.txt.enc` has been created and contains the encrypted text.
 
 - Open the file. The text looks encrypted as it is not readable:
@@ -836,9 +843,9 @@ Now, we will decrypt the encrypted message.
 - Run the command and note that it displays the following plaintext message:
   
       this is a secret message
-      
+  
  #### Summary
- 
+
    - OpenSSL is a free command-line tool used for symmetric encryption and decryption.
 
    - OpenSSL can generate a random key and initialization vector (IV).
@@ -861,7 +868,7 @@ Now, we will decrypt the encrypted message.
 The solution file is provided here:
 
 - [Solution Guide: Open SSL Activity Solution Guide](activities/17_openSSL/solved/readme.md)
-   
+  
 
 
 -----
@@ -944,11 +951,12 @@ In the previous activity, you used symmetric key encryption with OpenSSL.
   - Symmetric key encryption has many benefits, such as:
 
     - Speed of encryption and decryption.
-  
+    
     - Efficiency of encryption and decryption, with minimal computer resources required.
-  
+    
     - Simple implementation for communication between two parties, as only one key is required.
     
+
 While symmetric key encryption has these benefits, it also comes with several disadvantages.
 
 #### Disadvantage One: Secure Key Exchange
@@ -976,7 +984,7 @@ There are several other methods that can be used to exchange symmetric keys:
    - If interested, you can research further using the following article and video:
      - [Diffie–Hellman Key Exchange (Wikipedia)](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
      - [Secret Key Exchange (Diffie-Hellman) Video
- (YouTube)](https://www.youtube.com/watch?v=NmM9HA2MQGI)
+      (YouTube)](https://www.youtube.com/watch?v=NmM9HA2MQGI)
      
 ### Disadvantage Two: Key Management 
 
@@ -1000,21 +1008,22 @@ Another disadvantage of symmetric key cryptography is key management.
 While it would be challenging to write out all the different combinations for a larger organization, we can use a formula to calculate the number of required symmetric keys:
 
 - Where N is the count of individuals
-    
+  
   - (N * (N-1)) / 2  = count of symmetric keys
-    
+  
 - For example, in order to figure out symmetric keys for an organization of seven people:
-   
+  
     -  (7 * 6) / 2  =    42/2 = 21  
 
 - An organization of 1,000 employees would require managing almost half a million symmetric keys:
-   
+  
     - (1000 * 999) / 2 = 499,500‬
-        
+    
 - This formula illustrates the challenge of key management that large organizations face when using symmetric encryption.
 
    - Additionally, note that calculating the number of keys required is often featured in security exams, such as Security+.
-        
+     
+
 In the next section, we will introduce a solution that was created to address these disadvantages with symmetric key encryption, called **asymmetric key encryption**.     
 
 ### 05. Asymmetric/Public Key Cryptography 
@@ -1028,7 +1037,7 @@ Now that we covered the various disadvantages that come with symmetric key encry
     - **Private keys** need to be kept secret, as exposure could affect confidentiality of messages.
 
  - Private and public keys are similar to symmetric keys, in that they are typically a string of random numbers and letters.   
-  
+
 Let's look at the following scenario to see how asymmetric key encryption works to encrypt a message:
 
 Tim wants to send Julie his bank account number using asymmetric key encryption.
@@ -1039,11 +1048,12 @@ Tim wants to send Julie his bank account number using asymmetric key encryption.
 
     - Julie's key pair: **[Julie's private key]**   **[Julie's public key]**
                   
-                  
+    
   - Julie's public keys are truly public: Julie puts her public key on her own website so anyone in the world can see it.
         
+
 **Step 2: Message Creation and Encryption**
-   
+
   - Tim creates a plaintext message that contains his bank account number. 
 
   - He creates his message, he goes to Julie's website and gets her public key.
@@ -1052,16 +1062,18 @@ Tim wants to send Julie his bank account number using asymmetric key encryption.
   
      **[Tim's plain text secret message]** encrypted with **[Julie's public key]** = **[Tim's encrypted message]**
            
+
 **Step 3: Message Exchange**
-   
+
   - Tim sends his encrypted message to Julie.
 
     - He can send this message any way he chooses, even email or Slack, as it is now encrypted and can only be decrypted by Julie.
 
   - Once it has been encrypted with Julie's public key, the only person who can decrypt it is Julie, as she owns the matching private key.
-      
+    
+
 **Step 4: Decryption**
-  
+
   - Julie receives Tim's encrypted message and decrypts with her matching private key.
 
   - Julie can now see Tim's bank account number.
@@ -1076,9 +1088,9 @@ Summary:
   - If Julie wanted to send an encrypted response to Tim, she would apply the same process, but in reverse.
 
      - Tim would need to create his own public and private key pair and put his public key on his website.
-  
+    
      - Julie would encrypt her message with Tim's public key, which she obtained from his website.
-  
+    
      - Tim would receive Julie's encrypted message and then decrypt it with his private key.
   
   - Keys pairs always have to be used together.
@@ -1097,7 +1109,7 @@ In the scenario above, there was no need for Julie to find a secure way to to ge
   - Since the key was public and can be seen and accessed by anyone, a secure key exchange method isn't required.
 
   - This is one of the biggest advantages of asymmetric key encryption.
-  
+
 #### Key Management 
 
 If Tim and Julie each needed to send messages to each other, four keys would be required for for a secure communication:
@@ -1107,8 +1119,9 @@ If Tim and Julie each needed to send messages to each other, four keys would be 
   - (3) **[Julie's private key]**      
   - (4) **[Julie's public key]**
                
+
 As noted earlier, while symmetric keys use only one key for a secure exchange between two individuals, when more individuals are added in larger organizations, more and more keys are required, making keys difficult to manage.
-   
+
 - For example, in an organization of 12 employees, symmetric encryption would require 66 symmetric keys.
 
   - (12 * 11) /2 = 66
@@ -1120,7 +1133,7 @@ For asymmetric encryption, each employee would only require their own key pair:
 
 - 12 employees would require 24 keys to be managed.
   - (12 * 2) = 24
-    
+  
 - Note that for an organization of 12 employees, using asymmetric instead of symmetric would require 42 fewer keys. 
   - 66 - 24 = 42
 
@@ -1139,6 +1152,7 @@ Similar to symmetric encryptions use of modern algorithm such as DES, 3DES, and 
     - If you are interested in further researching RSA, refer them to:
       - [RSA (cryptosystem) (Wikipedia)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
       
+
 Summary
 
   - Unlike symmetric encryption which uses one key, asymmetric encryption uses two keys: one public and one private.
@@ -1154,7 +1168,7 @@ Summary
     - Using a smaller number of keys for larger organizations.
 
   - The standard asymmetric algorithm used today is RSA. 
- 
+
 ### 06. Optimizing with Asymmetric Public Keys Activity
 
 - [Activity File: Optimizing with Asymmetric Public Keys](activities/06_Optimizing_w_Asymmetric/unsolved/readme.md)
@@ -1175,7 +1189,7 @@ The next command-line tool we will demonstrate is called **GPG**.
   - It is a free software program available on many Linux distributions, which can run symmetric and asymmetric encryption algorithms.
 
   - It can support a variety of algorithms such as 3DES, AES, and RSA.
-  
+
 We will demonstrate how to create a key pair and do asymmetric encryption and decryption with GPG.
 
  - We will be using the same scenario of Tim sending his bank account number to Julie.
@@ -1185,7 +1199,7 @@ We will demonstrate how to create a key pair and do asymmetric encryption and de
      - While not required, it is recommended to have two virtual machines open in order to simulate two individuals: one VM representing Tim, and one representing Julie.
 
      - If you conduct the demonstration on a single VM, be sure to clarify whether each command is executed by either Julie or Tim.
-   
+
 #### GPG Demonstration Setup
 
 Begin by opening up your command line in your virtual machine.
@@ -1194,7 +1208,6 @@ Begin by opening up your command line in your virtual machine.
   
   - We will first be conducting the activities of Julie, as she needs to create her key pair and provide her public key to Tim.
   
-             
 - **Step 1: Creating the Key Pair**
 
 The first step of using asymmetric encryption is for Julie to generate her key pair.
@@ -1226,7 +1239,7 @@ The first step of using asymmetric encryption is for Julie to generate her key p
   - If Julie wanted to validate the keys that are created, she would enter the following command:
 
     `gpg --list-keys`
-          
+    
   - This would return all the keys that are in Julie's keyring, as it is possible to have more than one key. A keyring is simply the storage of multiple keys. 
     
     - A sample key ring with one key could like like the following:
@@ -1240,7 +1253,6 @@ The first step of using asymmetric encryption is for Julie to generate her key p
       sub   rsa3072 2019-12-11 [E] [expires: 2021-12-10]
       ```
 
-    
 - #### Step 2: Exporting and Importing Keys
 
 The sender of the message needs to have the receiver's public key to encrypt the message.
@@ -1258,13 +1270,12 @@ Julie needs to **export** her public key to make it public, so Tim can use it.
     - `--output julie.gpg`: Creates the public key in an accessible format. In this case, we named the key `julie.gpg`. 
     - `--export julie@email.com`: References which key to use from the key ring. It is referenced by the email.
     
-    
 - Run the command to export the public key in a format that can be shared.
 
 - To view the key, run the following command:
 
     - `cat julie.gpg`
-            
+    
 - The results should resemble the following format:
 
     - Note: This is a shortened example.
@@ -1279,7 +1290,7 @@ Julie needs to **export** her public key to make it public, so Tim can use it.
 
         -----END PGP PUBLIC KEY BLOCK-----
     ```
-            
+    
   - For our scenario, Julie would put this public key on her website, or she could directly share it with Tim.
   
   Next, we will illustrate the steps that Tim needs to take:
@@ -1289,11 +1300,11 @@ Julie needs to **export** her public key to make it public, so Tim can use it.
   - The command for Tim to import this key is:
 
     `gpg --import julie.gpg`
-      
+    
   - Run this command. To confirm that Julie's key has been imported, the `list-keys` command can be run again:  
 
     `gpg --list-keys`
-        
+    
   - Show that the results display that Julie's public key was added to Tim's key ring.
 
     - Tim has not yet created any keys. We will do that later.
@@ -1303,7 +1314,6 @@ Julie needs to **export** her public key to make it public, so Tim can use it.
                 uid   [ultimate] Julie <julie@email.com>
                 sub   rsa3072 2019-12-03 [E] [expires: 2021-12-02]
 
-         
 - #### Step 3: Encryption
 
   Tim now has Julie's public key in his key ring, so he is ready to create a message and encrypt it.
@@ -1317,7 +1327,7 @@ Julie needs to **export** her public key to make it public, so Tim can use it.
   - We will use the following command:
   
       `gpg --armor --output Tims_encryptedmessage.txt --encrypt --recipient julie@email.com Tims_plainmessage.txt`
-        
+      
       - `gpg`: The command to run GPG.
       - `--armor`: Puts the encrypted message in an ASCII format.
       - `--output Tims_encryptedmessage.txt`: Command for the output file, which creates the name of the encrypted file.
@@ -1330,16 +1340,16 @@ Julie needs to **export** her public key to make it public, so Tim can use it.
     - Run a preview command to illustrate the file has now been encrypted:
     
       `cat Tims_encryptedmessage.txt`
-          
+      
     - The encrypted message should look like the following:
-        
+      
         ```
         -----BEGIN PGP MESSAGE-----
-
+      
         hQGMA1p4Le4c2oCaAQv+MT2ghzg9RYymSIxnbwe41LpOPx76mA9f6mQYZO77c/Ij
         u14kEgfaVM9PxxBw8KpEkg5NvmBVPAfxFbFrcLoKB8lVW8MTpp3mQ8r0257PNORK
         bQOC+HHktQN3AJrsgN/Oj4OduM+hMtnPUdWa0X7uOOKRFW9r5CbuYga134EzoHG3
-
+      
         -----END PGP MESSAGE-----
         ```
 
@@ -1357,24 +1367,25 @@ Julie needs to **export** her public key to make it public, so Tim can use it.
       - `gpg`: The command to run gpg.
       - `--output Tims_decrypted_message`: This creates an output file, which is the decrypted message.
       - `--decrypt Tims_encryptedmessage.txt`: This is indicating to decrypt and what file to decrypt.
-          
+      
     - Run the command. It just decrypted Tim's message and placed the results into a file called `Tims_decrypted_message`.
     
     - Preview the decrypted file by running:
     
       - `cat Tims_decrypted_message`
-            
+      
     - This shows that now Julie can see Tim's plaintext message:
     
       - "Hi Julie, my bank account number is 2783492."
-    
+  
+
 Summary: 
 
   - This walkthrough illustrated the steps for asymmetric encryption and decryption.
 
   - While it may seem complicated at first, the best way to understand them is to apply them yourself.
                 
-  
+
 ### 09. GPG Activity 
 
 - [Activity File: GPG](activities/09_GPG/unsolved/readme.md)
@@ -1392,15 +1403,16 @@ Over the last several sections, we covered how cryptography can be applied to pr
 - Cryptography can also be applied to protect the **integrity of data**.
 
      - For example, a police investigator wants to present to a court a computer file as evidence. 
-   
+     
      - The police investigator will want to also prove the file hasn't been modified or tampered with since it was collected.
-   
+     
      - This is to prove to the court that the integrity of the data has been protected.
      
+
 **Hashing** is a cryptographic method for proving the integrity of data.
- 
+
 Hashing, like encryption, uses mathematical algorithms, called **hashing algorithms**, to take data and generate a unique output.
- 
+
 We will show how hashing works with a simple hashing demonstration:
 
   - W will use the following plaintext sentence:
@@ -1412,7 +1424,7 @@ We will show how hashing works with a simple hashing demonstration:
       - `676e4bff90a76853bda00773f7ad4bed`
   
   - This is an MD5 hashing algorithm.
- 
+
 - At first glace, hashing may look similar to encryption, as you are unable to understand the resulting message.
 
 It is important to understand that hashing and encryption actually have several significant differences:
@@ -1424,7 +1436,7 @@ It is important to understand that hashing and encryption actually have several 
         - A message digest, also known as a fingerprint, hash, or checksum, is a unique identifier of the plaintext which is outputted from a hashing algorithm.
 
         - In the example, the message digest was `676e4bff90a76853bda00773f7ad4bed`.  
- 
+
 2. With encryption, plaintext gets converted into ciphertext, and then gets returned back to plaintext with decryption.
 
     - With hashing, once the plaintext gets converted into a message digest, it cannot be converted back into plaintext.
@@ -1432,13 +1444,13 @@ It is important to understand that hashing and encryption actually have several 
       - In other words, `676e4bff90a76853bda00773f7ad4bed` is irreversible, and can never be converted back to "I Love Cryptography!"
 
       - This is why hashing is called a **one way function**.
-     
+    
 3. With encryption, the input can be any length and the output can be any length with a specific algorithm.
 
     - With hashing, the input can be any length and the output has a fixed length with a specific hashing algorithm.
-     
+    
 4. The primary goal of encryption is privacy. The primary goal of hashing is integrity.
-  
+
 Integrity is accomplished with hashing:
 
   - If a small change is made to the sentence, the same hashing algorithm would produce a completely different message digest.
@@ -1454,39 +1466,41 @@ Integrity is accomplished with hashing:
     
     - `I Love Cryptography!!` = `4e6fc433ff57a6c4a854cbbeff65f61a` 
                  
+
 While the above example shows a simple sentence, cybersecurity professionals apply the same hashing concept to much larger sets of data such as files, website code, emails, databases, and computer hard drives.
-  
+
 - In these larger sets of data, even the smallest change would result in a significantly different message digest.
 
 We covered that encryption has common algorithms, such as AES, DES, and RSA.
-  
+
   - Hashing has several hashing algorithms we should be familiar with, such as:
   
     - **SHA** (Secure Hash Algorithms), which include its successors, SHA1 and SHA2.
-  
+    
       - SHA2 has variations, with different security strengths: SHA-256 and SHA-512.
-  
+    
      - **MD** (Message Digest) has several variations: MD2, MD4, and MD5.
-  
+    
      - **LM** and **NTLM** are hashes used by Windows.
-  
+
 While each of these hashing algorithms have different mathematical formulas, they are all used to convert plaintext into a message digest.
 
 - The easiest way to get familiar with the behavior of the various hash algorithms is to use them!
 
 #### Creating Hashes on the Command Line  
-     
+
 While these hashing algorithms have complex mathematical formulas, there are command-line tools that easily create message digests with a simple terminal command.
 
 We will be using two command line tools to create hashes: `md5sum` and `sha256sum`.
-  
+
 
 - Running `md5sum` uses the MD5 hashing algorithm to create a message digest from a plaintext message.
 
 - Running `sha256sum` uses the SHA-256 hashing algorithm to create a message digest from a plaintext message.
-    
-We will apply these commands against a new file called `secretmessage.txt`.
   
+
+We will apply these commands against a new file called `secretmessage.txt`.
+
   - First, create a basic message inside the file, such as: "This is my first hashing activity."
   
   - Run the following command:
@@ -1496,7 +1510,7 @@ We will apply these commands against a new file called `secretmessage.txt`.
 In order to create an MD5 message digest of the new file, we will use the following command:
 
 - `md5sum secretmessage.txt > hashes.txt`
-    
+  
     - `md5sum`: The terminal command to run the MD5 algorithm.
     - `secretmessage.txt`: The file to be hashed.
     - `> hashes.txt`: The output file where the message digest is placed.
@@ -1517,13 +1531,13 @@ In order to create an MD5 message digest of the new file, we will use the follow
 `md5sum` can also be used to check the integrity of the file.
 
   - In other words, it will check to see if the file has been modified since the message digest was created.
- 
+
 We will demonstrate how to do this by making a change to the `secretmessage.txt` file.
 
 - Modify the `secretmessage.txt` file by overwriting it with the following command.
 
   - `echo "This is my second hashing activity" > secretmessage.txt`
-     
+  
 - Next, we will run the `md5sum` check command to validate the integrity of the file.
   
     - `md5sum -c hashes.txt > md5check.txt`
@@ -1532,7 +1546,7 @@ We will demonstrate how to do this by making a change to the `secretmessage.txt`
       - `-c`: The option to have `md5sum` check the hashes.
       - `hashes.txt`: The file the check is being run against.
       - `> md5check.txt`: The output file where the results of the check are placed.
-  
+    
   - The command works by:
 
       - Looking in the `hashes.txt` file for the file name and associated message digest.
@@ -1546,15 +1560,17 @@ We will demonstrate how to do this by making a change to the `secretmessage.txt`
   - Preview the output file to confirm which file failed the check:
 
       - `cat md5check.txt`
-        
+      
   - The results should clearly show the file that was modified:
 
       -  `secretmessage.txt: FAILED`
-       
+      
+
 `md5sum` uses the MD5 hashing algorithm and the exact same steps can be accomplished with the SHA-256 algorithm by simply replacing: 
 
   - `md5sum` with `sha256sum`
         
+
 Summary: 
 
   - While encryption is used for confidentiality, hashing is used for integrity.
@@ -1566,8 +1582,8 @@ Summary:
   - Common hashing algorithms are SHA1, SHA2 and MD5.
 
   - `md5sum` and `sha256sum` are command-line tools used to create message digests and check the integrity of files.
-       
-  
+    
+
 ### 12. Generating Hashes Activity
 
 - [Activity File: Generating Hashes](activities/13_Generating_Hashes/unsolved/readme.md)
@@ -1588,7 +1604,7 @@ So far, we have covered how the cryptographic process of encryption is used for 
   - The accounting representative needs to validate the message is authentic and actually from the CEO.
   
   - If the accounting representative wires the funds before finding out the message was from a scammer and thus inauthentic, this could have a significant financial impact on the organization.
-          
+  
 - There is a cryptographic process used to verify authenticity that can assist with this example and much more, called **digital signatures**.
 
   - A digital signature is a mathematical scheme for verifying the authenticity of digital data.
@@ -1596,19 +1612,19 @@ So far, we have covered how the cryptographic process of encryption is used for 
   - While its primary purpose is for authenticity, it can also provide non-repudiation and integrity.
 
   - In the United States and several other countries, digital signatures are considered legally binding, similar to a standard signature.
- 
+
 Like asymmetric encryption, digital signatures also use public key cryptography, except digital signatures use public and private keys in reverse.
 
 #### Digital Signature Walkthrough
-  
+
 We will illustrate how digital signatures work with public key cryptography with the following scenario:
 
 Tim wants to send Julie a message that says "Transfer $500 to the account I provided to you." He also wants to digitally sign the message so Julie knows it originated from him and is authentic.
- 
+
 - **Step 1:  Key Creation**
-   
+  
   - We previously created a key pair for Julie, but we now will create a key pair for Tim.
-                    
+  
 - **Step 2: Creating the Message**  
   
   - Tim places his message in a file called `Tims_message.txt`.
@@ -1624,7 +1640,7 @@ Tim wants to send Julie a message that says "Transfer $500 to the account I prov
      - Encryption uses the recipient's public key to encrypt.   
   
      - Digital signatures use the sender's private key to sign.
-    
+  
 - **Step 4: Sending the Message and Signature**  
   - Tim sends the digital signature to Julie along with his plaintext message.
   
@@ -1643,11 +1659,13 @@ Tim wants to send Julie a message that says "Transfer $500 to the account I prov
       - Confirm the message is authentic and came from Tim.
       - Deny, if the message is inauthentic and didn't come from Tim.
       
+
 This scenario shows how digital signatures can be also used for integrity and non-repudiation:
 
  - Integrity: If Tim's message was modified, the digital signature validation would fail.
  - Non-Repudiation: Tim would not be able to deny he was the one who signed the message.
    
+
 This walkthrough illustrates one of the ways digital signatures can be used to verify a message's authenticity. This method is called a **detached signature**.
 
   - It is called a detached signature because the message and the signature are sent separately and not attached to each other.
@@ -1669,7 +1687,7 @@ IIn the next demonstration, we will illustrate how to apply a detached digital s
 #### Walkthrough
 
 - **Step 1: Key Creation**
-   
+  
   - Since we've only created a key pair for Julie, we will now create one for Tim with the same commands:
     
     - `gpg --gen-key`
@@ -1690,7 +1708,7 @@ IIn the next demonstration, we will illustrate how to apply a detached digital s
     - `gpg --armor --output tim.gpg --export tim@email.com`
   
   - Tim will put his public key, `tim.gpg`, on his website for anyone to use.    
-                            
+  
 - **Step 2: Creating the Message** 
 
   - Tim will place his message in a file called `Tims_message.txt`.
@@ -1713,45 +1731,45 @@ IIn the next demonstration, we will illustrate how to apply a detached digital s
             - `--detach-sig Tims_message.txt` specifies that a detached signature will be created against the file `Tims_message.txt`.
 
 - Run the command. Since digital signatures automatically use your private key, GPG will prompt you to put in the password used to create your key pair.
-   
+  
 - Enter the password. A separate digital signature called `Tims_signature` has just been created.
-   
+  
   - Preview the Signature by running the following command:
-      
+    
       `cat Tims_signature`
 
 - The signature should look like the following:  
   ```
         -----BEGIN PGP SIGNATURE-----
-
+  
         iQGzBAABCgAdFiEEObK9bJPh5j6MAEGD/pGventOwmcFAl3pGKoACgkQ/pGventO
         wmdPfQv8CigGztcvrdbZrJVr91mPiLL5cry7nKYDAsRqkyIDltiJMxtggVbCtSPm
         YLfqZATWYofBWdE4wkpmeYE96gXTeJP4VVNUpwnshg1A1q0att10S+rlv6N73g4V
-
+  
         -----END PGP SIGNATURE-----
   ```
-      
+  
 - **Step 4:  Sending the Message and Signature**  
 
   - Tim will send the digital signature file to Julie along with his plaintext message.
     
   - Julie will receives `Tims_signature` and `Tims_message.txt`. 
-                
+    
   - Julie needs to place both files in the directory where she is running the verification.
-     
+    
   
 - **Step 5: Validating the Signature**
 
   - After Julie receives Tim's digital signature and Tim's message, she will grab Tim's public key from Tim's website to validate the signature.
   
   - For Julie to verify Tim's message, Julie will need to import Tim's public key that she got from Tim's website with the following command:
-      
+    
       - `gpg --import tim.gpg`
 
   -  For Julie to validate Tim's signature, the following command will be run:
   
      - `gpg --verify Tims_signature Tims_message.txt`
-        
+     
   - Run the command to verify that the signature is valid:
 
     ```
@@ -1763,13 +1781,13 @@ IIn the next demonstration, we will illustrate how to apply a detached digital s
 We will now show how digital signatures with GPG can be used to not only validate the authenticity, but also the integrity.
 
 - **Step 1: Modifying the Message**
-   
+  
   - We will run the following command to modify the amount of money specified in the message:
                                                     
     `echo "Transfer $34,547 to the account I provided to you" > Tims_message.txt`
   
 - **Step 2: Validating the Signature Again**
-   
+  
   - Run `gpg --verify Tims_signature Tims_message.txt`
     
   - This now clearly shows the the signature failed.
@@ -1918,7 +1936,7 @@ Most current operating systems on laptops include disk encryption.
   - These disk encryptions prevent an unauthorized party from viewing the data on a laptop in case it is accessed by someone it shouldn't be.
 
 **Email and Web Security**
- 
+
 Public key cryptography can be used to secure emails and web applications. 
 
 - Emails are not natively encrypted and therefore can be sent and received in plaintext.
@@ -1931,6 +1949,7 @@ Public key cryptography can be used to secure emails and web applications.
 
   - For example: A sender of an email can use PGP to sign an email with their private key. The receiver of the email can verify the authenticity by validating it with the sender's public key.
   
+
 Public key cryptography works for securing websites:
 
 - **SSL** (Secure Socket Layer) is a protocol designed to provide encryption for web traffic.
@@ -1940,7 +1959,7 @@ Public key cryptography works for securing websites:
 - Websites are issued **SSL certificates** as a "seal of approval," confirming the website can be trusted.
 
 - These certificates use public key cryptography to establish a secure connection between the browser and the server before the web traffic is encrypted with symmetric encryption.
- 
+
 Websites also use hashing to store their passwords. 
 
 - Storing passwords in plaintext comes with risks.
@@ -1952,8 +1971,9 @@ Websites also use hashing to store their passwords.
 - This same algorithm is applied when a user logs in, then it is validated against the user's hashed password to provide authorization into the user's account.
 
   - This concept isn't just limited to website logins. It is also applied to server logins.
+    
      
-     
+
 **Digital Forensics and Steganography**
 
 A forensic examiner is a cybersecurity professional who is tasked with capturing and investigating digital evidence from computers, cellular phones, and other devices that contain digital data.
@@ -1966,6 +1986,7 @@ A forensic examiner is a cybersecurity professional who is tasked with capturing
   
   - This hash can be used by the examiner in legal proceedings to later prove that the hard drive they collected hasn't been modified since its original collection, proving the integrity of the evidence. 
   
+
 Forensic examiners might also be tasked with using the cryptographic technique of **steganography**.
 
   - Steganography is the cryptographic technique of placing hidden messages within a file, image, or video.
@@ -1973,13 +1994,13 @@ Forensic examiners might also be tasked with using the cryptographic technique o
     - For example, a forensic investigator is conducting an investigation on an employee who is suspected to be selling insider trading information.
 
     - The suspicious employee has no files that contain any obvious evidence of wrongdoing. Their laptop only contains pictures of their family.
-     
+    
       ![family](images/family.jpg)
-     
+    
     - The forensic investigator can apply steganographic forensic tools to analyze these family photos and determine if they contain hidden data related to insider trading.
     
        ![steg](images/steg.jpg)
-  
+
 We will do a brief walkthrough demonstrating how to apply the steganographic command-line tool **`steghide`** to hide a secret message in an image.
 
 #### `steghide` Walkthrough
@@ -1993,7 +2014,7 @@ Begin by opening up a command line in your virtual machine.
 - Save the image `family.jpg` in this same local directory. 
 
 Next, type the following command:
-  
+
   - `steghide embed -cf family.jpg -ef hidden_message.txt`
     
     - `steghide` is the command to run `steghide`.
@@ -2005,13 +2026,13 @@ Next, type the following command:
     - `-ef hidden_message.txt` uses `-ef`, which stands for _embed file_, to specify the file that is being hidden. In this example, we are hiding `hidden_message.txt`.
   
   - Run the command and enter a password when prompted.
- 
+
   - While it may look like nothing happened, the secret message is now hidden inside of the family picture.
 
 - Now delete the hidden message so it will be kept secret and only exist in `family.jpg`.
- 
+
   - Run `rm hidden_message.txt`
- 
+
 Next, we will demonstrate how to extract the secret message from the image. Type the following command:
 
 - `steghide extract -sf family.jpg`
@@ -2076,11 +2097,13 @@ Before we cover how SSL certificates provide authentication and confidentiality,
   - DigiCert
   - Comodo
   - Symantec
-      
+    
+
 Widgets will request an SSL certificate called an **X.509 certificate**.
-  
+
   - X.509 is the current standard for SSL certificates for securing online communications.
-      
+    
+
 Next, the certificate authority will require the following information from Widgets Corp in their application.
 
   - Company documents
@@ -2100,13 +2123,13 @@ Next, the certificate authority will require the following information from Widg
     - The private key remains hidden on the web server.
     
  - After the certificate authority validates and approves the information provided in the application, they will send the SSL certificate back to Widgets Corp.
- 
+
  - Widgets Corp will then install the SSL certificate on the web server where they are hosting widgets.com.
- 
+
  - After this, anyone who views widgets.com will be able to see the SSL certificate installed on the website.
- 
+
      ![widgets](images/widgets.jpg)
- 
+
 #### SSL Certificates and Authenticity
 
 We will now demonstrate how SSL certificates can be used to validate the authenticity of a website.
@@ -2116,7 +2139,7 @@ We will now demonstrate how SSL certificates can be used to validate the authent
   - The user is a customer of Superbank, but they have never seen this website and aren't sure it's legitimate.
 
   - The user can check the SSL certificate of this suspicious website to determine if the website is in fact authentic.
-  
+
 Validating authenticity with SSL certificates is accomplished with a **chain of trust**:
 
 - Browsers (such as Chrome and Internet Explorer) predetermine which certificate authorities to trust.
@@ -2134,7 +2157,7 @@ Validating authenticity with SSL certificates is accomplished with a **chain of 
     - Select **Trusted Root Certification Authorities**. 
     
     ![rootca](images/rootCA.jpg)
-    
+  
 - This list contains a certain type of certificate authority called a **root certificate authority**, which your browser trusts.
 
     - Root certificate authorities are CAs at the top of the chain of trust and are typically not the organizations that issue SSL certificates.
@@ -2153,20 +2176,21 @@ Validating authenticity with SSL certificates is accomplished with a **chain of 
 
   - If a website is issued a valid certificate from a CA that is not in the root store, your browser will warn you that the site isn't a trusted website.
   
+
 **Valid Certificate Walkthrough** 
- 
+
 We will now walkthrough how to view and validate the SSL certificate for a website.
-   
+
 - We will view a valid SSL certificate for Google. 
 
 - Begin by opening up a Chrome browser and going to [Google](https://www.google.com/).
-   
+  
    - Select the lock next to the URL of the website.
    
    - The following image confirms the SSL certificate is trusted.
-    
+   
       ![google1](images/google1.png)
-      
+   
 - Next, select **Certificate (Valid)** to view the details of the certificate.
 
   - The following three important values from the details of the certificate:
@@ -2176,10 +2200,10 @@ We will now walkthrough how to view and validate the SSL certificate for a websi
     3. **Valid from** identifies the date the certificate was issued and the expiration date.
 
     ![google2](images/google2.png)
-      
-      
+    
+  
 - Next, select the **Certificate path**, which shows the the chain of trust for the certificate.
-     
+  
     ![google3](images/google3.png)
     
     1. **google.com** is the website that was issued the certificate.
@@ -2187,15 +2211,16 @@ We will now walkthrough how to view and validate the SSL certificate for a websi
     2. **GTS CA 101** is the intermediate certificate authority that issued a certificate to google.com.
     3. **Google Trust Services, Global Sign Root CA** is the root certificate authority that signed off on the intermediate certificate authority, GTS CA 101.
        
+
 The chain of trust on the above certificate is:
 - **google.com** is trusted by ...
   -  The intermediate CA of **GTS CA 101**, which is trusted by ...
      - The root CA of **Google Trust Services, Global Sign Root CA**, which is trusted by ...
         - The Chrome browser, as this root CA is in the root store. 
-    
+  
 
 **Invalid Certificate Walkthrough**  
- 
+
 So far, we have only looked at a valid SSL certificate. Sometimes certificates aren't valid and your browser will warn you before you access the website.
 
 Walkthrough the following steps to show an invalid certificate:
@@ -2221,17 +2246,17 @@ Walkthrough the following steps to show an invalid certificate:
   - If you are interested in viewing additional invalid certificates, check out the website www.badssl.com. It has many invalid certificates that you can safely view.
 
  #### SSL Certificates and Privacy
- 
+
 We just covered how the browser and the user of a website use SSL certificates to validate the site's authenticity. We will now cover how a website uses SSL certificates to offer privacy by securing a user's web traffic.
-   
+
 - **Step 1**: When we access a website that is secure, the browser asks the web server to provide the details of the certificate.
   
   - These are the details we saw when we viewed the certificate details.
-                
+  
 - **Step 2**: The server responds with the copy of its SSL certificate, and also provides the public key.
- 
+
 - **Step 3**: The browser validates the certificate by checking expiration date and the root CA.
- 
+
 - **Step 4**: Once the certificate is validated, the browser uses the server's public key to create, encrypt, and send a new key called a **session key**.
 
   - A session key is a key that is used to secure a communication session between two devices.
@@ -2248,16 +2273,15 @@ An important concept to understand from the above steps is that accessing an HTT
 
    - More specifically, steps one through five use asymmetric methods and step six uses symmetric methods.
    
-      
    - SSL certificates were originally used to work with the SSL cryptographic protocol, but SSL was later replaced with a more secure cryptographic protocol called **TLS (Transport Layer Security)**.
    
    - Even with this change, the certificates are still considered SSL certificates.
    
    - If you are interested in researching this topic further, consult the following article: 
-    
+        
       - [GlobalSign: SSL vs TLS - What's the Difference?](https://www.globalsign.com/en/blog/ssl-vs-tls-difference/)
- 
- 
+
+
 Summary: 
 
   - One of the most common applications of cryptographic concepts is the securing of website traffic.
@@ -2280,7 +2304,7 @@ Summary:
      - Issued by a CA that is not in the browser's root store. 
 
   - Websites use both asymmetric and symmetric encryption to accomplish secure communication with the HTTPS protocol.   
-  
+
 
 ### 08. SSL Certificates Activity
 
@@ -2391,11 +2415,11 @@ In this method, the attacker has access to the ciphertext and the associated pla
 - The attacker does an analysis to determine the encryption/decryption algorithm of the ciphertext and plaintext data to determine future encrypted messages.
 
 - For example, suppose a hacker captured the following plaintext and ciphertext:
-    
+  
    - Plaintext: **hello**, ciphertext: **8 5 12 12 15**
 
    A hacker could analyze this data and determine that each alphabet letter corresponds to a number in alphabetical order, where:
-    
+   
   -  a = 1, b = 2, c= 3, etc. 
 
     If a future message comes through as: **7 15 15 4 2 14 5** the hacker can decrypt it as: **goodbye**. 
@@ -2417,11 +2441,11 @@ In a chosen-plaintext attack, an attacker has access to the encryption device an
     - plaintext: **boy**, ciphertext: **oby**
     - plaintext: **red**, ciphertext: **erd**
     - plaintext: **hot**, ciphertext: **oht**
-    
+  
    Based on these results, we can conclude that this is a transposition cipher using the key: {1, 2, 3) = {2, 1, 3}
-   
+  
    - If we apply this key in reverse to **act**, we can determine the plaintext is **cat**.
-   
+  
 - **Mitigation**: 
   - Limit access of the encryption device and use an advanced encryption algorithm.
     
@@ -2435,7 +2459,7 @@ Summary
   - Cryptographic attack types include statistical, birthday, brute force, frequency, replay, known-plaintext, and chosen-plaintext attacks.
 
   - With each of these attacks, there are also measures that security professionals can use to protect from them.
-  
+
 
 ### 11. Cryptographic Attacks Activity  
 
@@ -2452,11 +2476,11 @@ Summary
 ### 13. Introduction to Rainbow Tables and Hashcat 
 
 We just covered many techniques that can be used to attack cryptographic methods.
- 
+
  - The last activity demonstrated that some of these attack methods can be applied with manual methods and deductive reasoning.
- 
+
  - Cracking other types of cryptography can require more advanced methods and technologies.
- 
+
 One type of cryptography that requires an advanced cracking method is **hashing**.
 
   - Hashing is a cryptographic method that uses a mathematical algorithm to create a one-way ciphertext, which can not be reverted back to its original plaintext.
@@ -2466,7 +2490,7 @@ One type of cryptography that requires an advanced cracking method is **hashing*
 A different approach can be used to crack hashes: a cryptographic method called rainbow tables.
 
 #### Rainbow Tables
- 
+
 **Rainbow tables** are resources that contain precomputed hashes with the associated plaintext password.
 
 - For example:
@@ -2480,7 +2504,8 @@ A different approach can be used to crack hashes: a cryptographic method called 
 - The advantage of using rainbow tables is that finding the correct password is as "simple" as looking up the password associated with a given hash.
 
 - One disadvantage is that some rainbow tables are extremely large, and take a lot of storage space and computing power to work effectively.
-   
+  
+
 A defense against rainbow tables is the cryptographic method known as salting.
 
 - A **salt** is simply a random value.
@@ -2493,11 +2518,11 @@ A defense against rainbow tables is the cryptographic method known as salting.
 
   - Therefore, a unique output is created for each plaintext/salt combination.
 
- 
+
 #### Hashcat
- 
+
 Although we've talked about John the Ripper in the past, to make you a more versatile candidate, we'll be looking at another hash cracking program called hashcat.  
- 
+
 **Hashcat** is a command-line tool that can automate the cracking of hashes.
 
    - Hashcat is available as a free download.
@@ -2505,7 +2530,7 @@ Although we've talked about John the Ripper in the past, to make you a more vers
    - Hashcat uses dictionary wordlists, rainbow tables, and brute force methods to figure out plaintext passwords from hashes. 
 
    - Hashcat works with a variety of hashing algorithms.
-   
+
 We will demonstrate how to use Hashcat to crack a hash with the following scenario:
 
   - A cybersecurity professional is tasked with testing the security of a company's website by confirming if they can log into their website as the root user.
@@ -2555,23 +2580,21 @@ We will demonstrate how to use Hashcat to crack a hash with the following scenar
     - ` echo ea847988ba59727dbf4e34ee75726dc3 > hash.txt`
   
   - We can add multiple hashes to this file, as long as each hash is on a separate line.
-      
+  
 - Next, we will type the following Hashcat command to crack this hash: 
 
   - `hashcat -m 0 -a 0 -o solved.txt hash.txt rockyou.txt --force`
-
-    - `hashcat`: The command to execute Hashcat.
-
-    - `-m 0`: The `0` indicates the script will use the MD5 hash, as this was the hash the security professional determined to be in use.
-
-        - If a different hashing algorithm is in use, we would change the value of `0`.
-
-        - For example: We would use `-m 100` for SHA-1, and `-m 1400` for SHA-256.
-        
+  - `hashcat`: The command to execute Hashcat.
     
+  - `-m 0`: The `0` indicates the script will use the MD5 hash, as this was the hash the security professional determined to be in use.
+    
+      - If a different hashing algorithm is in use, we would change the value of `0`.
+    
+      - For example: We would use `-m 100` for SHA-1, and `-m 1400` for SHA-256.
+        
     - `-a 0`: The `0` tells the script to apply the attack method of "dictionary."
         - The above link provides additional attack types.
-
+    
     - `-o solved.txt`: Creates an output file called `solved.txt`.
 
     - `hash.txt`: The input file of the hash.
@@ -2579,7 +2602,7 @@ We will demonstrate how to use Hashcat to crack a hash with the following scenar
     - `rockyou.txt`: The file containing the wordlist we will check against.
 
     - `--force`: Overrides any small errors that may occur.
-    
+
 - Run the command to place the results in the file called `solved.txt`.
 
 - Open the `solved.txt` file and note that it displays the hash and the plaintext value of the hash separated by a colon: `ea847988ba59727dbf4e34ee75726dc3:topsecret`
@@ -2588,6 +2611,7 @@ We will demonstrate how to use Hashcat to crack a hash with the following scenar
 
 - They are now able to log into the website with these credentials.
   
+
 Summary: 
 
   - Some cryptographic attack methods require advanced methods and technologies to crack.

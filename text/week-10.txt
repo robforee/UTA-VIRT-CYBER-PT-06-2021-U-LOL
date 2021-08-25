@@ -79,7 +79,7 @@ initialization vector
 echo $msg | openssl enc -pbkdf2 -nosalt -aes-256-cbc -base64 -K <kkk> -iv <iviviv> >$enc-file
 
 ..... openssl asymmetric decryption command
-echo $msg | openssl enc -pbkdf2 -nosalt -aes-256-cbc -base64 -d -K <kkk> -iv <iviviv> >$enc-file
+echo $msg | openssl enc -pbkdf2 -nosalt -aes-256-cbc -base64 -d -K $key -iv $iv >$enc-file
 
 
 ... Asymmetric encryption ~ uses public-private keypair
@@ -128,8 +128,12 @@ disadvantage of symmetric key cryptography is insecure methods of distributing t
 Another disadvantage of symmetric key cryptography is key management.
 If you have a key for everyone you are sending to (in an organization!)
 
-.... calculate keys for 7 people
-(7 * 6) / 2  =    42/2 = 21
+.... calculate symmetric keys for 12 people
+(12 * 11) / 2 = 66
+num-keys = ( N * (N-1) ) / 2  ~ num-kes( 6 ) = 15
+
+.... calculate asymmetric keys for 12 people
+num-keys = ( N * 2 )          ~ num-keys( 6 ) = 12
 
 
 
@@ -157,6 +161,7 @@ a one way function
 ... Using Hashcat
 .... hashcat cracks (unsalted) hashed password hashes
 ..... hashcat -m 0 -a 0 -o solved.txt hash.txt rockyou.txt --force
+..... cat ~/.hashcat/hashcat.potfile
 
 .. -------
 .. Digital Signatures
