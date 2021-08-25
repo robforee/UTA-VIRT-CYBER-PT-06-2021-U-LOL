@@ -2,6 +2,13 @@
 VM Maintenance Document:  
 https://docs.google.com/document/d/1h-zcoKt6c4AnZBENHLPWsXJ1djs1c96-9zkf7Jsb_GQ/edit
 
+Azure Lab Services
+- [Set Up Guide](Week-06/3/LabAccessGuide.md)
+- [Sign Up Doc](https://docs.google.com/spreadsheets/d/1SY4lAN5ElXK7JJvklO5_CYoSs0NUc1vSqFUaqsw3vrQ/edit#gid=0)
+
+Personal Azure Account:
+- [Set Up Guide](https://docs.google.com/document/d/1gs_09b7eotl7hzTL82xlqPt-OwOd0aWA78qcQxtMr6Y/edit)
+
 ### Module 1 - Security Fundamentals
 <details>
     <summary>Click to expand!</summary>
