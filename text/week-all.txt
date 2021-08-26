@@ -1,0 +1,349 @@
+. Cryptography
+.. Encoding
+... Encoding is for
+Encoding is for maintaining data usability and can be reversed by employing the same algorithm that encoded the content, i.e. no key is used.
+
+.... common use of encoding
+common use of encoding is to transform digital text to binary data
+
+.... what online tools are available for encoding/decoding
+[Browserling](https://www.browserling.com/tools/binary-to-text)
+
+[Rapid Tables](https://www.rapidtables.com/)
+
+.... Binary Encoding
+..... how many bits in a byte
+a byte is equal to 8 bits
+each byte can represent a decimal (0-255 for a count of 256)
+binary to decimal encoding translates bytes to decimals
+
+.... ASCII Encoding
+ASCII represents every upper and lowercase letter of the english alphabet
+as well as common punctuation marks and graphic and mathematical symbols
+
+... Hex and Octal Encoding
+Hexidecimal composed of 0-9 + A-F
+
+
+.. Encryption
+... encryption is the process of using a cypher
+... cipher is encryption algorithm
+... cipher Types
+
+.... Stream Cipher
+apply algorithm on bit or character at a time
+eg Ceasar Cipher
+
+.... Substitution Cipher
+eg Caesar and Enigma
+
+.... Block Cipher
+apply algorithm to chuncks of characters
+eg Transposition Cipher
+
+.... Transposition Cipher
+breaks message into blocks and rearranges the letters of each block
+
+
+... Symmetric encryption ~ uses the same key to encrypt/decrypt
+symmetric encryption relies on a shared (private) key and
+uses the same secret key to encrypt and decrypt sensitive information
+
+.... DES (1977)
+uses a 56-bit key
+many flaws
+.... 3DES
+.... AES (1997)
+Advanced Encryption Standard (1997)
+the Rijndael cipher
+offers multiple strengths 128, 192 and 256-bits
+
+.... Using OpenSSL SYMMETRIC ENCRYPTION
+openSSL can encrypt and decrypt messages
+
+..... create the key and initialization vector
+openssl enc -pbkdf2 -nosalt -aes-256-cbc -k mypassword >key_and_iv
+
+...... read that
+encryption, key-type, salting, cipher-name
+
+...... what is the key
+it is a private key
+
+...... what is the iv
+initialization vector
+
+..... send key, iv and message to recipiant
+
+..... openssl asymmetric encryption 
+echo $msg | openssl enc -pbkdf2 -nosalt -aes-256-cbc -base64 -K <kkk> -iv <iviviv> >$enc-file
+
+..... openssl asymmetric decryption command
+echo $msg | openssl enc -pbkdf2 -nosalt -aes-256-cbc -base64 -d -K $key -iv $iv >$enc-file
+
+
+... Asymmetric encryption ~ uses public-private keypair
+asymmetric encryption relies on a public-private keypair 
+where one is used to enrypt, the other to decrypt
+also known as public-key cryptography or public-key encryption, 
+uses mathematically linked public- and private-key pairs 
+.... RSA, Diffe-Hellman, ECC, El Gamal, and DSA.
+
+
+.... Using GPG, ASYMMETRIC ENCRYPTION and decryption
+..... create the key pair
+gpg --gen-key < real-name email-addy pass-phrase
+..... list keys in ring
+gpg --list-keys
+l /home/robforee/.gnupg/
+..... export julie@email.com public key and share
+gpg --armor --output julie.gpg --export julie@email.com
+--- begin pgp --- end pgp 
+..... import julie public key
+gpg --import julie.gpg
+..... encrypt message to send to julie
+gpg --armor --output Tims_encryptedmessage.txt --encrypt --recipient julie@email.com Tims_plainmessage.txt
+..... encrypt message message from Tim
+gpg --output Tims_decrypted_message --decrypt Tims_encryptedmessage.txt
+
+
+
+... key space
+a range of number that hand be used for a specific algorithm
+eg key of 1 digit has a keyspace of 10
+defined by bit size
+
+.... how much more secure is X more bits of encryption
+for each bit added, the key space doubles
+calculate space as 2^[bit-size]
+
+
+... Secure Key Exchange
+disadvantage of symmetric key cryptography is insecure methods of distributing the keys.
+
+.... Offline exchange
+.... Diffie-Hellman key exchange
+
+... Key management
+Another disadvantage of symmetric key cryptography is key management.
+If you have a key for everyone you are sending to (in an organization!)
+
+.... calculate symmetric keys for 12 people
+(12 * 11) / 2 = 66
+num-keys = ( N * (N-1) ) / 2  ~ num-kes( 6 ) = 15
+
+.... calculate asymmetric keys for 12 people
+num-keys = ( N * 2 )          ~ num-keys( 6 ) = 12
+
+
+
+
+
+.. -------
+.. Hashing
+... Hashing creates a message digest
+message digest, fingerprint, hash, checksum 
+unique identifier of plaintext 
+cannot be converted back to plaintext
+a one way function
+
+... SHA (Secure Hash Algorithms) SHA1 SHA2
+... MD (Message Digest) MD2 MD4 MD5
+... LM NTLM Microsoft algos
+
+... Using md5sum
+.... md5sum secretmessage.txt > hashes.txt {hash+filename}
+.... md5sum -c hashes.txt > md5check.txt
+... Using sha256sum
+.... sha256sum secretmessage.txt > hashes.txt {hash+filename}
+.... sha256sum -c hashes.txt > md5check.txt
+
+... Using Hashcat
+.... hashcat cracks (unsalted) hashed password hashes
+..... hashcat -m 0 -a 0 -o solved.txt hash.txt rockyou.txt --force
+..... cat ~/.hashcat/hashcat.potfile
+
+.. -------
+.. Digital Signatures
+... Signature types
+.... detached signature
+....  all-at-once
+....  clearsigned
+....  signed hash
+... Signing with gpg
+.... Tim creats a key
+gpg --gen-key < name, email, passphrase
+.... Tim exports his public key
+gpg --armor --output tim.gpg --export tim@email.com
+.... Tim signs the message < passphrase
+..... using recipient public key for encryption
+..... using sender private key to sign
+gpg --output Tims_signature --armor --detach-sig Tims_message.txt
+.... Send the message and signature  
+.... recipient validate the signature 
+..... using recipient private for decryption
+..... using sender public key to verify signature
+gpg --import tim.gpg
+gpg --verify Tims_signature Tims_message.txt
+.. 
+.. -------
+
+
+
+.. Obfuscation is for
+Obfuscation is used to prevent people from understanding the meaning of something, and is often used with computer code to help prevent successful reverse engineering and/or theft of a product’s functionality.
+
+.. -------
+.. Cryptography is
+... the art and science for keeping information secure
+... Goals of cryptography are PAIN 
+.... Privacy, Authentication, Integrity and Non-Repudiation
+
+.. Applied Cryptography
+... Disk Encryption
+.... Windows BitLocker (AES?)
+.... OSX FileVault (AES?)
+... Email 
+.... S/MIME && PGP
+... Websites
+.... SSL Certificates (public key)
+.... password hashing
+... Digital Forensics
+.... apply hashing to prove harddrive is unchanged
+.... steganography to find messages in images
+
+... SSL Certificates
+.... X.509 certificate
+..... company documents
+..... unique IP address
+..... CSR ~ Certificate Signing Request ~ which contains public key
+.... chain of trust ~ root ships with OS
+..... root certificate authority > intermediate certificate authority
+.... 6 Step certificate usage
+..... 1 client request cert, 2 server send cert+key, 3 client verify date+root
+..... 4 client create and send session key
+..... 5 server decrypts session key with own private key
+..... 6 two way encrypted communication for this session
+.... using both asymmetric and symmetric keys (step 6)
+.... SSL vs TLS protocols
+..... handshake protocols used to determine secret and type of encryption
+.... cypher suite processes
+..... Key exchange
+..... digital signature
+..... message authentication
+..... hashing algorythm
+
+.. Cryptographic Attacks
+... Statistical Attack
+to find the algo used by the random number generator
+... Brute Force Attack
+... Birthday Attack
+hashing collision
+... Frequency Analysis
+eg alphabet alignment by frequency
+... Replay Attack
+... Known-Plaintext
+... Chosen-Plaintext
+run the alphabet through the decoder
+
+.. Cryptographic tools
+... use steghide
+.... steghide embed -cf family.jpg -ef hidden_message.txt
+.... steghide extract -sf family.jpg
+... use openSSL
+
+.. __________________
+
+
+
+. Firewalls
+.. 2 Firewall Architectures
+... using UFW
+... using firewalld Usage
+... using nmap usage for testing firewall rules
+.. 2 Intrusion Detection (IDS)
+... IDS Architecture
+... IDS Types
+... using snort for intrusion detection
+
+. Network Security
+.. NSM ~ network security monitoring
+... NSM Focus 
+threat-centric, visibility of attack, statistics generator (IOA and IOCs)
+... NSM Pros / Cons
+.... activity tracnking, situational awareness, incident response, forensics
+.... unable to deencrypt, needs better hardware, stores PII, needs a tap
+... NSM Stages
+.... Detection
+.... Response
+... NSM Sensor connectivity
+.... SPAN ~ Mirrored port
+.... TAP ~ Network Test Access Point
+
+.. using Security Onion for forensic investigation
+... contains many NSM tools to add layers of defense and help enforce the kill chain
+... Security Onion tools   ~ network forensic investigation tools
+.... using Snort to collect data
+.... using Sguil to display filtered data from snort IDS engine
+.....     ~ Alert Panel, Snort Rule, Packet Data, IP Resolution
+.... using Transcript to render tcpflow
+.... using NetworkMinder for advanced analysis and extraction
+....     ~ advanced NTA (network traffic analysis)
+....     ~ open from Sguil interface > select alert-id > right-click
+....     ~ tabs [files,..]
+.... using virustotal.com to check a file for known malware signatures
+
+
+.. ESM ~ Enterprise security monitoring
+... using Security Onion as alert aggrigator
+...       ~ using ossec server for alert storage
+... using OSSEC agent to detect and alert host intrusion (HIDS)
+....      ~ monitors all syslog data
+..... using Elastic Stack to analyze packet captures
+.....     ~ elasticscarch, logstash, kabana
+..... using logstash to store alerts
+..... using squert as web ui to sguil databse
+..... using sguil as database interface
+..... using kibana to access elastic data analytics engine
+
+.. Threat Hunting
+... Threat Intelligence Cards
+.... TPP
+..... Reconnaissance 
+The threat actor utilized online resources such as Facebook, DNS registration websites, and the "About" page of the company website. 
+..... Weaponization 
+The creation of a Remote Access Trojan or RAT Downloader.    
+..... Delivery 
+A breached corporate email account.                          
+..... Exploitation 
+Crusher.exe is an executable hidden inside of a .pdf document that establishes persistence by modifying Windows registry key C:\ Windows\System32\config under the names SAM, SECURITY, SOFTWARE and SYSTEM. 
+..... Installation 
+A user who clicks on the email attachment.                   
+..... Command & Control (C2)
+A command channel tunnels through Internet Relay Chat (IRC) establishing a connection to the attacker's server. 
+..... Actions on Objectives
+Attacker exfiltrates private user account information.       
+
+
+
+
+
+
+
+
+... NSM layers 
+.... NIDS
+.... NIPS
+.... HID
+
+
+
+... start sguil
+
+
+TTPs ~ Traffic Techniques Procedures
+
+OSSEC ~ host-based IDS (HIDS)
+
+sqert web-app
+	

@@ -1,0 +1,91 @@
+. Firewalls
+.. 2 Firewall Architectures
+... using UFW
+... using firewalld Usage
+... using nmap usage for testing firewall rules
+.. 2 Intrusion Detection (IDS)
+... IDS Architecture
+... IDS Types
+... using snort for intrusion detection
+
+. Network Security
+.. NSM ~ network security monitoring
+... NSM Focus 
+threat-centric, visibility of attack, statistics generator (IOA and IOCs)
+... NSM Pros / Cons
+.... activity tracnking, situational awareness, incident response, forensics
+.... unable to deencrypt, needs better hardware, stores PII, needs a tap
+... NSM Stages
+.... Detection
+.... Response
+... NSM Sensor connectivity
+.... SPAN ~ Mirrored port
+.... TAP ~ Network Test Access Point
+
+.. using Security Onion for forensic investigation
+... contains many NSM tools to add layers of defense and help enforce the kill chain
+... Security Onion tools   ~ network forensic investigation tools
+.... using Snort to collect data
+.... using Sguil to display filtered data from snort IDS engine
+.....     ~ Alert Panel, Snort Rule, Packet Data, IP Resolution
+.... using Transcript to render tcpflow
+.... using NetworkMinder for advanced analysis and extraction
+....     ~ advanced NTA (network traffic analysis)
+....     ~ open from Sguil interface > select alert-id > right-click
+....     ~ tabs [files,..]
+.... using virustotal.com to check a file for known malware signatures
+
+
+.. ESM ~ Enterprise security monitoring
+... using Security Onion as alert aggrigator
+...       ~ using ossec server for alert storage
+... using OSSEC agent to detect and alert host intrusion (HIDS)
+....      ~ monitors all syslog data
+..... using Elastic Stack to analyze packet captures
+.....     ~ elasticscarch, logstash, kabana
+..... using logstash to store alerts
+..... using squert as web ui to sguil databse
+..... using sguil as database interface
+..... using kibana to access elastic data analytics engine
+
+.. Threat Hunting
+... Threat Intelligence Cards
+.... TPP
+..... Reconnaissance 
+The threat actor utilized online resources such as Facebook, DNS registration websites, and the "About" page of the company website. 
+..... Weaponization 
+The creation of a Remote Access Trojan or RAT Downloader.    
+..... Delivery 
+A breached corporate email account.                          
+..... Exploitation 
+Crusher.exe is an executable hidden inside of a .pdf document that establishes persistence by modifying Windows registry key C:\ Windows\System32\config under the names SAM, SECURITY, SOFTWARE and SYSTEM. 
+..... Installation 
+A user who clicks on the email attachment.                   
+..... Command & Control (C2)
+A command channel tunnels through Internet Relay Chat (IRC) establishing a connection to the attacker's server. 
+..... Actions on Objectives
+Attacker exfiltrates private user account information.       
+
+
+
+
+
+
+
+
+... NSM layers 
+.... NIDS
+.... NIPS
+.... HID
+
+
+
+... start sguil
+
+
+TTPs ~ Traffic Techniques Procedures
+
+OSSEC ~ host-based IDS (HIDS)
+
+sqert web-app
+	

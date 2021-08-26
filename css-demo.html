@@ -14,6 +14,7 @@ li {
     list-style-type: circle;
     color: red;
 }
+.hidden{ display:none; }
 
 </style>
 </head>
@@ -29,27 +30,16 @@ li {
 </div>
 
 <hr>
-<ul id="list"> </ul>
-
-List 2
-<ul id="list2"> 
-    <li>Cryptography</li>
-    <ul>
-        <li>Encoding</li>
-        <ul>
-            <li>Encoding is ..</li>
-            <li>Binary Encoding is ..</li>
-            <li>Hex Encoding is ..</li>
-            <li>ASCII Encoding is ..</li>
-            <li>Hex and OcatalEncoding is ..</li>
-        </ul>
-        <li>Encryption</li>
-        <li>Hashing</li>
-        <li>Digital Signatures</li>
-    </ul>
-</ul>
-
+<ul id="week-all"> </ul>
 <hr>
+<ul id="week-10"> </ul>
+<hr>
+<ul id="week-11"> </ul>
+<hr>
+                
+<input type="file" id="file-input" />
+<h3>Contents of the file:</h3>
+<pre id="file-content"></pre>
 
 
 <p>
@@ -59,84 +49,71 @@ List 2
 <script>
     var user_name = document.getElementById("name");
 
+
+function readSingleFile(e) {
+  var file = e.target.files[0];
+    console.log( file )
+  if (!file) {
+    return;
+  }
+  var reader = new FileReader();
+  reader.onload = function(e) {
+      console.log('e.target.result')
+    var contents = e.target.result;
+    displayContents(contents,file.name);
+  };
+  reader.readAsText(file);
+}
+
+function displayContents(contents,name) {
+  var element = document.getElementById('file-content');
+    depth = 1;
+    tag = name.replace(".txt","")
+    console.log("post " + tag)
+    thisUL = $("#"+tag);
+    
+    contents.split("\n").forEach(function(item){
+        level = item.split(' ')[0].length;
+        // console.log( level + " : " + item );
+            if(item.substring(0,1) == "."){
+
+                if( level > depth){
+                    newul = document.createElement("UL");
+                    $(newul).addClass("hidden")
+                    $(thisUL).append( newul )
+                    thisUL= newul;
+                    depth = level;
+                }
+                while( level < depth ){
+                    console.log( "go up for " + item)
+                    thisUL = $(thisUL).parent();
+                    depth--
+                }
+                if( level == depth){
+                    clean = item.replace(/^\W*\./,'')
+                    $(thisUL).append( '<li class="node"> ' + clean + '</li>')
+                }
+            }else{
+                console.log('no dot :' + item.length);
+                //console.log( item );
+            }
+    });
     $(".node").click(function(){
         eThis = $(event.srcElement);
-        eNext = eThis.next();
-        $(eThis).children().toggle()
-
-        // console.log( $(event.srcElement).next().prop('tagName'));
-        
+        eNext = $(event.srcElement).next().first();
+        $(eNext).toggle()
     })
-    var data = { }
-    function addNode(root,info){
-        // if begin with . create li
-        $(root).append(info)
-    }
+}
+
+document.getElementById('file-input')
+  .addEventListener('change', readSingleFile, false);
+
     $(document).ready(function(){ 
-        check = [];
-        check.push(". x")
-        check.push("xable ")
-        check.push(".. xx")
-        check.push("you can")
-        check.push("... xxx")
-        check.push("more info")
-        check.push(".. xx 2")
-        check.push("you dide")
-
-        var root = $("#list");
-        var ul1 = $(root).append( "<li>cats</li>");
-        var ul2 = $(root).append( "<li><ul><li>cats</li></ul></li>");
-        var ul3 = $(root).append( "<ul><li>cats</li></ul>");
-        $(root).append("dogs")
-        console.log(ul1);
-        return;
-        var ul1 = document.createElement( "UL" );
-            $(ul1).append($("<li>First</li>"));
-
-        var ul2 = document.createElement( "UL" );
-        // ul2.append("<li>First</li>");
-
-        var ul3 = document.createElement( "UL" );
-        // ul3.append("Second");
-
-        var node1 = $("#list").append(ul1)
-        var node2 = $("#list > UL").append( ul2 )
-        var node3 = $("#list > UL > UL").append( ul2 )
-        return;
-
-        return;
-        check.forEach(element => {
-            var tag = element.split(' ')[0]
-            var ele = document.createElement("LI")
-            $(ele).html(element)
-            if(tag == ".") {
-                console.log("one")
-                ul1.append(ele)
-            }
-            if(tag == "..") {
-                console.log("two")
-                ul2.append(ele)
-            }
-            if(tag == "...") {
-                console.log("three")
-                ul3.append(ele)
-            }
-           console.log("\t\t" + element) 
-        });
-
-
-        return;
-        newI = document.createElement( "li" );
-        $(newI).append("checking on you")
-
-        eThat = $('#list').append('<li>This is the text in new element. (with jQuery)</li>');
-
-        $("#list").append(
-            newI
-        );
-        console.log(eThat);
-        console.log( $(eThat).text() );
-        $( "p" ).add( "div" ).addClass( "widget" ).append("che3ck");
+    $(".node").click(function(){
+        eThis = $(event.srcElement);
+        eNext = $(event.srcElement).next().first();
+        $(eNext).toggle()
+    })
 
     });
 

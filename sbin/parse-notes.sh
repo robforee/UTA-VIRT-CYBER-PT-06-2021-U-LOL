@@ -13,4 +13,4 @@ $1 == "..." {print s2 $0};
 $1 == "...." {print s3 $0}
 $1 == "....." {print s4 $0} 
 # $1 == "......" {print s5 $0} 
-' text/week-10.txt |  sed 's/\.\{1,6\}//g'
+' text/week-11.txt |  sed 's/\.\{1,6\}//g'
