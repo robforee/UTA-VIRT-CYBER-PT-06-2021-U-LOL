@@ -14,7 +14,7 @@ In this activity, you will continue building out the resources needed for XCorp'
 
 1. Create a network security group. 
 
-2. Create an inbound security rule that blocks all traffic to your subnet. 
+2. Create an inbound security rule that blocks all traffic to your subnet that have the lowest priority possible. 
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
