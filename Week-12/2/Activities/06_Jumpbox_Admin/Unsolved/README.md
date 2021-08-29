@@ -20,13 +20,13 @@ Next, log into portal.azure.com and complete the following:
 
 2. Locate the network security group that you created in the last class and click on it.
 
-3. Create a rule to allow SSH connections from your current public IP address to your VM's internal IP address. 
+3. Create a rule to allow SSH connections from your current public IP address to your VM's public IP address. 
 
    - In the configuration settings, select **Inbound security rules** on the left panel. 
 
-   - Makes sure to set a priority level lower than your rule to deny all traffic. 
+   - Makes sure to set a priority level with a lower number than your rule to deny all traffic. 
 
-	 - Limit traffic from your external IP address and to only the internal IP address of the Jump-Box.
+	 - Limit traffic from your external IP address and to only the public IP address of the Jump-Box.
 
 	**HINT:** Remember that the source port is chosen at random when a system attempts to make a connection. Because the source port cannot be known before you start a connection, always set the source port to '*' or 'Any'.
 
