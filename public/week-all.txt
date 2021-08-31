@@ -1,3 +1,58 @@
+. Networking
+
+.. network topologies
+tree, ring, hybrid
+
+.. network layers 1-7
+... please .. away
+
+
+.. network devices
+internet-firewall-balancer-router-switch-database-data
+
+.. network addressing
+... cidr 0-255
+
+.. network routing
+distance-vector-routing link-state-routing
+
+.. network protocols
+... ARP
+arp-poisioning-attack
+... DHCP
+dhcp-starvation-attack
+
+... TCP and UDP
+transport-layer-4
+tcp-hadshake tcp-terminate sequence
+tcp-protocol connection-oriented
+user-datagram-protocol connection-less
+TCP: SYN > SYN/ACK > ACK
+
+tcp-port-status-scan
+
+.... Wireless
+
+.. IEEE 802.11 local area technical standard 
+defining media-access-control=MAC and physical-layer=PHY protocls for implementing wireless-local-area-network=WLAN
+... security
+wired-equivalent-privacy=WEP
+wifi-protected-access=WPA
+wpa2 ~ most commonly used in most WAPs
+BSSID, SSID, Channel, Security
+... beacon signals
+... using packets to determine security
+broadcast vs data-ack packets
+wireless-management tagged-parameters vendor-specific=microsoft version-or-wep
+
+... using aircrack-ng to crack WEP key
+aircrack-ng wlan-packets.pcap
+
+
+.. traffic analysis
+... using packets to determine procotol 
+... using tcp packets to determine activity being supported
+... using wireshark to monitor WLAN
 . Cryptography
 .. Encoding
 ... Encoding is for
@@ -204,13 +259,13 @@ Obfuscation is used to prevent people from understanding the meaning of somethin
 .... Windows BitLocker (AES?)
 .... OSX FileVault (AES?)
 ... Email 
-.... S/MIME && PGP
+S/MIME && PGP
 ... Websites
-.... SSL Certificates (public key)
-.... password hashing
+SSL Certificates (public key)
+password hashing
 ... Digital Forensics
-.... apply hashing to prove harddrive is unchanged
-.... steganography to find messages in images
+apply hashing to prove harddrive is unchanged
+steganography to find messages in images
 
 ... SSL Certificates
 .... X.509 certificate
@@ -257,11 +312,74 @@ run the alphabet through the decoder
 
 
 . Firewalls
-.. 2 Firewall Architectures
+.. Firewall Architectures
+... MAC Layer Filtering Firewall
+     pros / cons
+... Packet-Filtering firewalls
+     Stateless-firewall ~ does not keep track of conversations
+     Stateful-firewall ~ determine NEW / ESTABLISHED / ROGUE packet
+          network layer only HTTP yes / jpg no
+     Circuit layer firewall
+          layer 5 ~ session
+          verify 3 way TCP handshake
+     Application or Proxy firewall
+          layer 3 - 7
+
+... using firewalld
+	sudo apt remove ufw # for proper functioning of firewalld
+	
+	live changes!
+	runtime configurations AND perminant configurations
+	
+	service firewalld status
+	start options
+	        sudo service firewalld start
+	        sudo systemctl ..
+	        sudo /etc/init.d/firewalld start
+	
+	sudo fireall-cmd
+	fireall-cmd --list-all-zones
+	fireall-cmd -zone=work --change-interface=eth1
+	fireall-cmd --zone=work --list-all
+	fireall-cmd --get-services   # for this host
+	fireall-cmd --zone=work --list-all
+	fireall-cmd --zone=work --add-rich-rule='rule family="ipv4" source address="10.10.0.10" reject' --permanent
+	fireall-cmd --zone=work  -add-icmp-block=echo-reply --add-icmp-block=echo-request
+	
 ... using UFW
-... using firewalld Usage
+	sudo ufw reset
+	ufw status
+	ufw default deny incoming
+	ufw default deny outgoing
+	ufw allow 80, 22, 443
+	ufw status verbose
+	ufw delete deny 110
+
+	ufw version to determine what version of UFW is installed.
+	ufw reset to reset all UFW rules to factory defaults.
+	ufw status to check the current status of the firewall.
+	ufw enable to start the firewall and update rules.
+	ufw default deny incoming to block all incoming connections.
+	ufw default allow outgoing to allow all outgoing connections.
+	ufw allow to open specific ports.
+	ufw deny to close specific ports.
+	ufw delete to delete rules.
+	ufw disable to shut down the firewall.
+	ufw reload to reload the UFW firewall.
+
+	ufw allow from 192 to any port 22
+	
+
 ... using nmap usage for testing firewall rules
-.. 2 Intrusion Detection (IDS)
+.... scan scan ports 1-500 and guess the OS
+sudo nmap -O -p 1-500 --osscan-guess
+.... enumerate service types
+sudo nmap -sV scenariolab-2019.com
+.... identify fast OS fingreprint
+sudo nmap -A -T4 scenariolab-2019.com
+sudo nmap -sU -F scenariolab-2019.com
+
+.. Intrusion Detection (IDS)
 ... IDS Architecture
 ... IDS Types
 ... using snort for intrusion detection

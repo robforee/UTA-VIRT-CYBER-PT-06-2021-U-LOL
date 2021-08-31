@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {color:black;}
+h1   {color: blue;}
+p    {color: black;}
+input:checked + div { display:none; }
+
+.node { }
+
+.freetext {color:red;}
+.isusing{ color:orange;}
+
+li {
+    background-color: transparent;
+    list-style-position: outside;
+    list-style-type: circle;
+}
+.hidden{ display:none; }
+.wrapper{
+    width: 30em;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Notes</h1>
+<h3 onclick="$('node').toggle()">Toggle</h3>
+
+<ul id="raw-data" class="wrapper"></ul>
+
+
+
+<p>
+
+</p>
+
+<script>
+    var user_name = document.getElementById("name");
+
+    var ourContents;
+
+function displayContents(contents,name) {
+    console.log(contents.length + " dataas")
+
+    var element = document.getElementById('file-content');
+
+    depth = 1;
+    tag = name.replace(".txt","")
+    console.log("post " + tag)
+    thisUL = $("#raw-data");
+    
+    contents.split("\n").forEach(function(item){
+        level = item.split(' ')[0].length;
+        // console.log( level + " : " + item );
+            if(item.substring(0,1) == "."){
+                if( level > depth){
+                    newul = document.createElement("UL");
+                    if( level > 3 ) $(newul).addClass("hidden")
+                    $(thisUL).append( newul ); // ADD NEW LIST
+                    thisUL= newul;
+                    depth = level;
+                }
+                while( level < depth ){
+                    // console.log( "go up for " + item)
+                    thisUL = $(thisUL).parent();   // RETURN TO PARENT
+                    depth--
+                }
+                if( level == depth){
+                    clean = item.replace(/^\W*\./,''); // APPEND LINE ITEM
+
+                    newli = document.createElement("LI");
+                    $(newli).addClass("node");
+                    $(newli).html( clean )
+                    
+                    if( item.toLowerCase().indexOf("using") > -1)
+                        $(newli).addClass("isusing");
+
+                    $(thisUL).append( newli )
+
+                }
+                freeTextDiv = false;
+            }else{
+                //console.log('no dot :' + item.length);
+                if(!freeTextDiv) {
+                    freeTextDiv = document.createElement("DIV");
+                    $(freeTextDiv).addClass("node");
+                    $(freeTextDiv).addClass("hidden");
+                    $(freeTextDiv).addClass("freetext");
+                    $(thisUL).append( freeTextDiv )
+                }
+                $(freeTextDiv).append( item + "<br>" );
+
+                //console.log( item );  // APPEND A P
+
+            }
+    });
+    $(".node").click(function(){
+        eThis = $(event.srcElement);
+        eNext = $(event.srcElement).next().first();
+        $(eNext).toggle()
+    })
+}
+
+// document.getElementById('file-input').addEventListener('change', readSingleFile, false);
+
+    $(document).ready(function(){ 
+    $(".node").click(function(){
+        eThis = $(event.srcElement);
+        eNext = $(event.srcElement).next().first();
+        $(eNext).toggle()
+    })
+
+    });
+$( document ).ready(function(){
+    console.log('init');
+    getData();
+})
+
+function getData(){
+    var txtFile = new XMLHttpRequest();
+    txtFile.onload = function(){
+        console.log('week-all.txt loaded');
+        // console.log( txtFile.responseText )
+        displayContents(txtFile.responseText,"home");
+    }
+
+    txtFile.open("GET", "week-all.txt", true);
+    txtFile.send()
+
+}
+
+
+</script>
+</body>
+</html>

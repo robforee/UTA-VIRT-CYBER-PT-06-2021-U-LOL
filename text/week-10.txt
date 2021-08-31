@@ -204,13 +204,13 @@ Obfuscation is used to prevent people from understanding the meaning of somethin
 .... Windows BitLocker (AES?)
 .... OSX FileVault (AES?)
 ... Email 
-.... S/MIME && PGP
+S/MIME && PGP
 ... Websites
-.... SSL Certificates (public key)
-.... password hashing
+SSL Certificates (public key)
+password hashing
 ... Digital Forensics
-.... apply hashing to prove harddrive is unchanged
-.... steganography to find messages in images
+apply hashing to prove harddrive is unchanged
+steganography to find messages in images
 
 ... SSL Certificates
 .... X.509 certificate

@@ -11,7 +11,8 @@
 ### Instructions
 
 1. Start by identifying your public IP address.
-   - If you are unsure of your IP address, open the terminal and enter the command `curl icanhazip.com`. You can also google "Whats my Ipv4 address."
+   - If you are unsure of your IP address, open the terminal and enter the command `curl icanhazip.com`. You can also google "Whats my Ipv4 address."  **99.159.81.88**
+	  
 	 - Make sure you get your IPv4 address and not your IPv6 address.
 	 - Note that if you connect to the internet from another location, this rule will need to be updated if you would like to connect from that new location. 
 	 - Note also that your home network IP address _may_ change at some point, in which case you will need to update this rule with your new IP.

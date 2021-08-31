@@ -22,16 +22,17 @@ Using Squert, answer the following questions:
 Adjust time interval to go back to the year 2010 till End of current day.
 
 1. From the **Summary** tab, what is the top source IP?
-
+   1. 172.16.150.20
 2. From the same screen, what is the top destination IP?
-
+   1. 58.64.132.141
 3. From the **Views** tab, answer the following questions: 
 
    - What is the source/destination IP pair?
-   
+     - 172.16.150.20 <> 58.64.132.141
    - From source to destination, what is the count?
-   
+     - 196
    - From destination to source, what is the count?   
+     - 0
 
 **Investigation and Escalation**
 
@@ -80,6 +81,6 @@ Now that you have gathered all the information needed to fully determine the sco
 9. Using Sguil, escalate the alert status and add the following note: "Further Analysis required. Possible breach in progress." 
 
 10. Switch to the **Escalated Events** tab, right-click on the **Alert ID** of the recently escalated event, and select **Event History**. Take a screenshot of the results showing your comment. 
-  
+
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

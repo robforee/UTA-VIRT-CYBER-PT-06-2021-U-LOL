@@ -33,6 +33,14 @@ Example 2: This setup uses two gateways to access the network.
 
 What are the pros and cons of each example and which do you prefer?
 
+fault~ (2)
+cost~ (1)
+complex~ (1)
+contain~
+select option 2, cost exists but connnectivity is -100%
+
+
+
 ---
 #### Databases
 
@@ -46,6 +54,12 @@ Example 2: This setup splits up databases for each department into separate serv
 
 What are the pros and cons of each example and which do you prefer?
 
+fault~
+cost~
+complex~ 
+contain~
+select~ option 2 because of better containment
+
 ---
 #### Logs
 
@@ -58,6 +72,16 @@ Example 2: This setup sends logs directly to a log server.
 ![](Images/log_server.png)
 
 What are the pros and cons of each example and which do you prefer?
+
+fault~
+cost~
+complex~
+contain~
+select
+
+---
+
+#### 
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
