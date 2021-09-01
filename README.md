@@ -63,7 +63,9 @@ Personal Azure Account:
 [11.2 Intrusion Detection, Snort, and Network Security Monitoring.pdf](Week-11/2/11.2%20Intrusion%20Detection,%20Snort,%20and%20Network%20Security%20Monitoring.pdf) | [11.2 Student Guide](Week-11/2/StudentGuide.md) |
 [11.3 Enterprise Security Management.pdf](Week-11/3/11.3%20Enterprise%20Security%20Management.pdf) | [11.3 Student Guide](Week-11/3/StudentGuide.md) | [11-Network-Security](Week-11/Homework) |
 [12.1 Intro to Cloud Computing.pdf](Week-12/1/12.1%20Intro%20to%20Cloud%20Computing.pdf) | [12.1 Student Guide](Week-12/1/StudentGuide.md) |
-[12.2 Cloud System Management.pdf](Week-12/2/12.2%20Cloud%20System%20Management.pdf) | [12.2 Student Guide](Week-12/2/StudentGuide.md)
+[12.2 Cloud System Management.pdf](Week-12/2/12.2%20Cloud%20System%20Management.pdf) | [12.2 Student Guide](Week-12/2/StudentGuide.md) |
+[12.3 Load Balancing and Redundancy.pdf](Week-12/3/12.3%20Load%20Balancing%20and%20Redundancy.pdf) | [12.3 Student Guide](Week-12/3/StudentGuide.md)
+
 ### Module 4 - Offensive Security
 
 ### Module 5 - Defensive Security - Project 2
