@@ -26,7 +26,7 @@
 
     - Go to your security group settings and create an inbound rule.
     - Create a rule allowing SSH connections from your jump box's internal IP address.
-  
+
 The rule should look similar to the following: 
 
 - Source: Use the **IP Addresses** setting with your jump box's internal IP address in the field.
@@ -51,3 +51,4 @@ The rule should look similar to the following:
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. 
+
