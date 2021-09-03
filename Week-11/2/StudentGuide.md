@@ -71,7 +71,7 @@ Note the following:
 
 - The day will culminate by exploring the concepts of threat hunting and the role it plays in Network Security Monitoring through a hands-on lab.
 
-**Intrusion detection systems** (**IDS**) are tools that can both analyze traffic and look for malicious signatures. An IDS is similar to a firewall but has addtional capabilities such as, reads the data in the packets it inspects, issues alerts/alarms, and blocks malicious traffic if configured to do so.
+**Intrusion detection systems** (**IDS**) are tools that can both analyze traffic and look for malicious signatures. An IDS is similar to a firewall but has additional capabilities such as, reads the data in the packets it inspects, issues alerts/alarms, and blocks malicious traffic if configured to do so.
 
 - There are many different types of intrusion detection systems but today's lesson will focus on **Snort**, the world's most popular open-source solution. 
 
@@ -253,7 +253,7 @@ Consider the following Snort rule:
 Another example: 
 
 `alert tcp any 21 -> 10.199.12.8 any {msg: "TCP Packet Detected";}`
- 
+
    - This rules triggers an alert whenever a TCP packet from port `21`, with any source IP address, is sent to the IP `10.199.12.8`. With each alert, it will print the message "TCP Packet Detected."
 
    - Rule Header
@@ -427,7 +427,7 @@ As shown in the screenshot, the Snort IDS generated the alert `GPL ATTACK_RESPON
 - The alert panel has four fields that we should look at:
 
   - **ST or Status**: Colors indicate severity levels of "real-time" or "RT" events.
-   
+  
      - **Red**: Critical, possible data breach in progress. Must be resolved immediately.
      - **Orange**: Moderate, high potential for data breach. Requires immediate review.
      - **Yellow**: General, low potential for data breach. Requires review.

@@ -1,3 +1,28 @@
+. 1 The Cybersecurity Mindset
+
+. 2 Security Culture Framework
+
+. 3 Terminal and Scripts
+
+. Linux Systemss
+... 4 Linux Access Controls
+... 4 Managing Permissions and Services
+... 5.1 Backup and Restore with TAR 
+... 5.2 Cron
+... 5.3 Monitoring Log Files
+... 6.1 Advanced Bash
+
+. Windows
+..
+... 7.1 Windows CMD
+... 7.1 PowerShell
+... 7.1 Active Directory
+
+. Networking
+.. 8.1 Networking
+.. 8.1 Ports, Protocols, and the OSI Model
+.. 8.1 Wireshark and Layers 2, 3, 4
+
 . Networking
 
 .. network topologies
@@ -379,10 +404,11 @@ sudo nmap -sV scenariolab-2019.com
 sudo nmap -A -T4 scenariolab-2019.com
 sudo nmap -sU -F scenariolab-2019.com
 
-.. Intrusion Detection (IDS)
-... IDS Architecture
-... IDS Types
-... using snort for intrusion detection
+. Intrusion Detection (IDS)
+.. Intrusion detection systems (IDS) are tools that can both analyze traffic and look for malicious signatures. An IDS is similar to a firewall but has additional capabilities such as, reads the data in the packets it inspects, issues alerts/alarms, and blocks malicious traffic if configured to do so.
+.. IDS Architecture
+.. IDS Types
+.. using snort for intrusion detection
 
 . Network Security
 .. NSM ~ network security monitoring

@@ -1,0 +1,26 @@
+. 1 The Cybersecurity Mindset
+
+. 2 Governance, Risk and Complieance
+.. Security Culture Framework
+
+. 3 Terminal and Scripts
+
+. Linux Systemss
+... 4 Linux Access Controls
+... 4 Managing Permissions and Services
+... 5.1 Backup and Restore with TAR 
+... 5.2 Cron
+... 5.3 Monitoring Log Files
+... 6.1 Advanced Bash
+
+. Windows
+..
+... 7.1 Windows CMD
+... 7.1 PowerShell
+... 7.1 Active Directory
+
+. Networking
+.. 8.1 Networking
+.. 8.1 Ports, Protocols, and the OSI Model
+.. 8.1 Wireshark and Layers 2, 3, 4
+

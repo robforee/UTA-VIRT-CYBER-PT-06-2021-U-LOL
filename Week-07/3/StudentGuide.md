@@ -550,7 +550,7 @@ We're going run the command `gpupdate` on the Windows 10 machine so that it pull
 
   ```
   Updating policy...
-
+  
   Computer Policy update has completed successfully.
   User Policy update has completed successfully.
   ```

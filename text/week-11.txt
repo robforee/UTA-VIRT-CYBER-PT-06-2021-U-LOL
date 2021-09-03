@@ -1,3 +1,10 @@
+. Concepts
+.. DiD
+defense in depth
+... firewall 
+unable to parse packet contents
+... 
+
 . Firewalls
 .. Firewall Architectures
 ... MAC Layer Filtering Firewall
@@ -66,10 +73,11 @@ sudo nmap -sV scenariolab-2019.com
 sudo nmap -A -T4 scenariolab-2019.com
 sudo nmap -sU -F scenariolab-2019.com
 
-.. Intrusion Detection (IDS)
-... IDS Architecture
-... IDS Types
-... using snort for intrusion detection
+. Intrusion Detection (IDS)
+.. Intrusion detection systems (IDS) are tools that can both analyze traffic and look for malicious signatures. An IDS is similar to a firewall but has additional capabilities such as, reads the data in the packets it inspects, issues alerts/alarms, and blocks malicious traffic if configured to do so.
+.. IDS Architecture
+.. IDS Types
+.. using snort for intrusion detection
 
 . Network Security
 .. NSM ~ network security monitoring

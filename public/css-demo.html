@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
      <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {color:black;}
@@ -18,123 +19,138 @@ li {
     background-color: transparent;
     list-style-position: outside;
     list-style-type: circle;
+    margin: 13px;
+    font-size: x-large;
 }
 .hidden{ display:none; }
 .wrapper{
     width: 30em;
     overflow-x: auto;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
+.tog{ font-size: x-large; display:inline;}
 
 </style>
 </head>
 <body>
 
 <h1>Notes</h1>
-<h3 onclick="$('node').toggle()">Toggle</h3>
+<p class="tog". onclick="$('.node1').show()">Show 1</p>
+<p class="tog". onclick="$('.node2').show()">2</p>
+<p class="tog". onclick="$('.node3').show()">3</p>
+<p class="tog". onclick="$('.node4').show()">4</p>
+<br>
+<p class="tog". onclick="$('.node1').hide()">Show 1</p>
+<p class="tog". onclick="$('.node2').hide()">2</p>
+<p class="tog". onclick="$('.node3').hide()">3</p>
+<p class="tog". onclick="$('.node4').hide()">4</p>
+
 
 <ul id="raw-data" class="wrapper"></ul>
 
-
-
-<p>
-
-</p>
 
 <script>
     var user_name = document.getElementById("name");
 
     var ourContents;
 
-function displayContents(contents,name) {
-    console.log(contents.length + " dataas")
-
-    var element = document.getElementById('file-content');
-
-    depth = 1;
-    tag = name.replace(".txt","")
-    console.log("post " + tag)
-    thisUL = $("#raw-data");
+	// DISPLAY FUNCTION
+	function displayContents(contents,name) {
+	    console.log(contents.length + " dataas")
+	
+	    var element = document.getElementById('file-content');
+	
+	    depth = 1;
+	    tag = name.replace(".txt","")
+	    console.log("post " + tag)
+	    thisUL = $("#raw-data");
     
-    contents.split("\n").forEach(function(item){
-        level = item.split(' ')[0].length;
-        // console.log( level + " : " + item );
-            if(item.substring(0,1) == "."){
-                if( level > depth){
-                    newul = document.createElement("UL");
-                    if( level > 3 ) $(newul).addClass("hidden")
-                    $(thisUL).append( newul ); // ADD NEW LIST
-                    thisUL= newul;
-                    depth = level;
-                }
-                while( level < depth ){
-                    // console.log( "go up for " + item)
-                    thisUL = $(thisUL).parent();   // RETURN TO PARENT
-                    depth--
-                }
-                if( level == depth){
-                    clean = item.replace(/^\W*\./,''); // APPEND LINE ITEM
+		// work input line by line
+	    contents.split("\n").forEach(function(item){
+	        level = item.split(' ')[0].length;
+	            if(item.substring(0,1) == "."){
 
-                    newli = document.createElement("LI");
-                    $(newli).addClass("node");
-                    $(newli).html( clean )
-                    
-                    if( item.toLowerCase().indexOf("using") > -1)
-                        $(newli).addClass("isusing");
+	                if( level > depth){
+	                //}
 
-                    $(thisUL).append( newli )
+	                //while( level > depth ){
+										// console.log( item, $(thisUL) )
+	                    newul = document.createElement("UL");
+											$(newul).addClass("hidden")
+	                    $(thisUL).append( newul ); // ADD NEW LIST
+	                    thisUL = newul; // descend into it
+	                    depth++
+									}
+	                while( level < depth ){
+	                    // console.log( "go up for " + item)
+	                    thisUL = $(thisUL).parent();   // RETURN TO PARENT
+	                    depth--
+	                }
+	                if( level == depth){
+	                    clean = item.replace(/^\W*\./,''); // APPEND LINE ITEM
+	
+	                    newli = document.createElement("LI");
+	                    $(newli).addClass("node");
+	                    $(newli).addClass("node"+level);
+	                    $(newli).html( clean )
+	                    
+	                    if( item.toLowerCase().indexOf("using") > -1)
+	                        $(newli).addClass("isusing");
+	
+	                    $(thisUL).append( newli )
+	
+	                }
+	                freeTextDiv = false;
+	            }else{
+	                //console.log('no dot :' + item.length);
+	                if(!freeTextDiv) {
+	                    freeTextDiv = document.createElement("DIV");
+	                    $(freeTextDiv).addClass("node");
+	                    $(newli).addClass("node"+level);
 
-                }
-                freeTextDiv = false;
-            }else{
-                //console.log('no dot :' + item.length);
-                if(!freeTextDiv) {
-                    freeTextDiv = document.createElement("DIV");
-                    $(freeTextDiv).addClass("node");
-                    $(freeTextDiv).addClass("hidden");
-                    $(freeTextDiv).addClass("freetext");
-                    $(thisUL).append( freeTextDiv )
-                }
-                $(freeTextDiv).append( item + "<br>" );
+	                    $(freeTextDiv).addClass("hidden");
 
-                //console.log( item );  // APPEND A P
+	                    $(freeTextDiv).addClass("freetext");
+	                    $(thisUL).append( freeTextDiv )
+	                }
+	                $(freeTextDiv).append( item + "<br>" );
+	
+	            }
+			// add toggle to nodex
+    		$(".node").click(function(){
+       		 	eThis = $(event.srcElement);
+       		 	eNext = $(event.srcElement).next().first();
+       		 	eNext = $(event.srcElement).next()[0];
+       		 	$(eNext).toggle()
+    		}) 
 
-            }
-    });
-    $(".node").click(function(){
-        eThis = $(event.srcElement);
-        eNext = $(event.srcElement).next().first();
-        $(eNext).toggle()
-    })
-}
+			// init node state
+			//$(".node1").show();
+			//$(".node2").show();
+			//$(".node3").hide();
+			//$(".node4").hide();
+	    });
+	
+	}//# end DISPLAY FUNCTION
 
-// document.getElementById('file-input').addEventListener('change', readSingleFile, false);
 
     $(document).ready(function(){ 
-    $(".node").click(function(){
-        eThis = $(event.srcElement);
-        eNext = $(event.srcElement).next().first();
-        $(eNext).toggle()
-    })
+    	getData();
 
     });
-$( document ).ready(function(){
-    console.log('init');
-    getData();
-})
 
-function getData(){
-    var txtFile = new XMLHttpRequest();
-    txtFile.onload = function(){
-        console.log('week-all.txt loaded');
-        // console.log( txtFile.responseText )
-        displayContents(txtFile.responseText,"home");
-    }
-
-    txtFile.open("GET", "week-all.txt", true);
-    txtFile.send()
-
-}
+	function getData(){
+	    var txtFile = new XMLHttpRequest();
+	    txtFile.onload = function(){
+	        console.log('week-all.txt loaded');
+	        // console.log( txtFile.responseText )
+	        displayContents(txtFile.responseText,"home");
+	    }
+	
+	    txtFile.open("GET", "week-all.txt", true);
+	    txtFile.send()
+	
+	}//#
 
 
 </script>

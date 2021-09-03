@@ -1,4 +1,4 @@
-## Unit 11 Homework: Network Security
+## 34Unit 11 Homework: Network Security
 
 
 ### Submission Guidelines
@@ -289,23 +289,23 @@ Answer the following review questions.
 ---
 
 ### Bonus Lab: "Green Eggs & SPAM"
- 
+
 This bonus activity is a culmination of the topics and tools covered during the following Unit 11 activities:
- 
+
 - Alert - FTP File Extraction
 - Alert - ET INFO Executable Download
 - Alert - C2 Beacon
 - Investigation, Analysis, and Escalation Activity
 - Threat Hunting - Cyber Threat Intelligence
- 
+
 In this activity, you will target spam, uncover its whereabouts, and attempt to discover the intent of the attacker.
- 
+
 - You will assume the role of a Jr. Security administrator working for the Department of Technology for the State of California.
- 
+
 - As a junior administrator, your primary role is to perform the initial triage of alert data: the initial investigation and analysis followed by an escalation of high priority alerts to senior incident handlers for further review.
- 
+
 - You will work as part of a Computer and Incident Response Team (CIRT), responsible for compiling **Threat Intelligence** as part of your incident report.
- 
+
 
 #### Instructions
 

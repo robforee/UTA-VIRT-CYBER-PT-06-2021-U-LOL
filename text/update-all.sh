@@ -1,1 +1,3 @@
-cat week-??.txt > ../public/week-all.txt 
+#!/bin/bash
+# cd /home/robforee/Documents/UTCyber
+cat text/week-??.txt > public/week-all.txt 
