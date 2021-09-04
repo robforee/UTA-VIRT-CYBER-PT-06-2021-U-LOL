@@ -65,7 +65,7 @@ Personal Azure Account:
 [12.1 Intro to Cloud Computing.pdf](Week-12/1/12.1%20Intro%20to%20Cloud%20Computing.pdf) | [12.1 Student Guide](Week-12/1/StudentGuide.md) |
 [12.2 Cloud System Management.pdf](Week-12/2/12.2%20Cloud%20System%20Management.pdf) | [12.2 Student Guide](Week-12/2/StudentGuide.md) |
 [12.3 Load Balancing and Redundancy.pdf](Week-12/3/12.3%20Load%20Balancing%20and%20Redundancy.pdf) | [12.3 Student Guide](Week-12/3/StudentGuide.md) |
-[12.4 Testing Redundant Systems.pdf](Week-12/4/12.4%20Testing%20Redundant%20Systems.pdf) | [12.4 Student Guide](Week-12/4/StudentGuide.md)
+[12.4 Testing Redundant Systems.pdf](Week-12/4/12.4%20Testing%20Redundant%20Systems.pdf) | [12.4 Student Guide](Week-12/4/StudentGuide.md) | [12-Cloud-Securit](Week-12/Homework) |
 
 ### Module 4 - Offensive Security
 
