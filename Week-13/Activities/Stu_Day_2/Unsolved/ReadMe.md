@@ -27,7 +27,7 @@ Below are links to the Filebeat and Docker documentation. It is strongly suggest
 
 You can also use the following resources if you get stuck:
 
-- [Docker and Ansible Cloud Week Cheat Sheet](../12-Cloud-Security/CheatSheet.md)
+- [Docker and Ansible Cloud Week Cheat Sheet](Resources/CheatSheet.md)
 - [Ansible Roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html)
 
 ---
@@ -94,7 +94,7 @@ Today, you will continue building up your ELK server. Specifically, if you have 
 
   - You can use the provided template for the Filebeat configuration file:
 
-     - [Filebeat Configuration File Template](Activities/Stu_Day_2/Unsolved/Resources/filebeat-config.yml).
+     - [Filebeat Configuration File Template](Resources/filebeat-config.yml).
  
        - Note that when text is copy and pasted from the web into your terminal, formatting differences are likely to occur that will corrupt this configuration file.
 
