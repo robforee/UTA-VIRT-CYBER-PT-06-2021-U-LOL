@@ -57,6 +57,9 @@ Instead of having a single playbook called `main.yml`, your directory structure 
     hosts
     main.yml
     roles/
+      install-elk/
+        files/
+        tasks/
       install-filebeat/
         files/
         tasks/
@@ -73,13 +76,13 @@ Note that there is still a `main.yml`, but instead of including a long list of t
 
 ```
 - hosts: elkservers
-- become: True
-- roles:
+  become: True
+  roles:
   - install-elk
 
 - hosts: dvwa
-- become: True
-- roles:
+  become: True
+  roles:
   - install-filebeat
   - install-metricbeat
 ```
