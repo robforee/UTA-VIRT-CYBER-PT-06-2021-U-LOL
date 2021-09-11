@@ -58,7 +58,11 @@ Instead of having a single playbook called `main.yml`, your directory structure 
     main.yml
     roles/
       install-filebeat/
+        files/
+        tasks/
       install-metricbeat/
+        files/
+        tasks/
 ```
 
 In other words, you will:

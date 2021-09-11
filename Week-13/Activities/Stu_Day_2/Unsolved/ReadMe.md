@@ -132,14 +132,14 @@ Today, you will continue building up your ELK server. Specifically, if you have 
     - Note that the default credentials are `elastic:changeme` and should not be changed at this step.
 
 
-    - Save this file in  `/etc/ansible/files/filebeat-config.yml`.
+    - Save the file `filebeat-config.yml` in the appropriate directory.
 
 #### Part 3: Creating the Filebeat Installation Play
 
 5. Next, create a new playbook that installs Filebeat and then copies the Filebeat configuration file you just made to the correct location.
 
     - On the Ansible VM, create a playbook file, `filebeat-playbook.yml`.
-      - Locate this file in your `/etc/ansible/roles/` directory.  
+      - Locate this file in the correct directory.  
 
     - Open your playbook and implement the following tasks:
       
