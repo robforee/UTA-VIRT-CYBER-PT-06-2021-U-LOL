@@ -1,0 +1,8 @@
+. ELK stack
+
+data, create log reforamt in logstash
+
+The Beats family..
+	Filebeat ~ about filesystem
+	Metric   ~ about machine metrics
+

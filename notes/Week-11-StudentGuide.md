@@ -1,5 +1,5 @@
 ## 11.1 Student Guide: Introduction to Firewalls and Network Security
- 
+
 ### Overview 
 
 - This week introduces you to network security through the principles of network defense. By the end of the week, you will have the foundations upon which to build and execute a network defense strategy.
@@ -35,35 +35,35 @@ Last week, we learned how cryptographic tools are used to maintain the confident
 -  In an effort to keep the private health information of their patients secure, the hospital protects secured access to its website using a 256bit cryptographic RSA VPN connection that provides authorized medical staff with access to patient records when responding to emergencies while away from the hospital. Emergency room physicians also use secured VPNs to host virtual appointments with patients who are unable to visit the hospital.
 
 While these tools are important, cryptography is only a part of a multifaceted network defense ecosystem used to protect private information and critical network infrastructure.
- 
+
 - While cryptographic applications help protect private data and critical network infrastructure from specific network attacks, other aspects of website security remain at risk.
- 
+
 - For example, suppose the same website is the target of a denial of service (DoS) attack.  Cryptography defenses aren't of much use. 
 
 - Security practitioners need to implement network security protections like **firewalls** that provide an additional layer of defense. 
 
 **Firewalls** are a technical security control that distinguish between trusted and untrusted network traffic and network connections.
- 
+
 Defending against a wide variety of threats requires the knowledge and use of **network security**. 
 
 - According to SANS Institute:  
- 
+
   - _"Network Security is the process of taking physical and software preventative measures to protect the underlying networking infrastructure from unauthorized access, misuse, malfunction, modification, destruction, or improper disclosure, thereby creating a secure platform for computers, users and programs to perform their permitted critical functions within a secure environment."_ - [SANS Network Security Resources](https://www.sans.org/network-security)
 
 Firewalls are the first line of defense on the perimeter of the network's edge. However, they are merely the first layer upon which others preventive and protective layers are built.
- 
+
 - This concept of layered security protections is known as the **defense-in-depth** methodology, which we touched briefly on in our GRC unit.
 
 In the GRC unit, we covered how defense-in-depth plays a critical role in securing organizations. Throughout this unit, we will apply a DiD mindset to layer security measures that aims to slow an attack's progression, thus providing network defenders with enough time to respond:
 
 - Today, we will cover the benefits, limitations, for various types of firewalls. We will also explore defense-in-depth methodologies.
- 
+
 - On Day 2, we will introduce intrusion detection systems (IDS) and network security monitoring (NSM). NSM is particularly useful for tracking an adversary through the network after a breach.
- 
+
 - On Day 3, we will conduct advanced cyber threat hunting using Enterprise Security Management or (ESM). ESM expands upon the concept of NSM through the inclusion of endpoint telemetry. We'll discuss all these concepts in depth on day 3.
- 
+
 Today's lesson will explore:
- 
+
 - How open ports contribute to a machine's attack surface and how firewalls are used to protect a computer's open ports.
 
 - Usage of different types of firewalls and their application.
@@ -89,11 +89,11 @@ Firewalls are the tools used to implement network access control. It is expected
    - It also enables them to direct IT personnel to modify their firewall policies in order to mitigate future attacks. 
 
 - **Penetration Tester**: Penetration testers don't usually implement firewall rules themselves. However, launching a successful attack against a network requires them to determine whether a firewall sits between them and their target and, if so, identify which rules are enabled based on the results of their probe. 
-   
+  
    - This allows them to identify ways to bypass the firewall and continue their test.
 
 Emphasize that familiarity with today's content is essential knowledge for performing any of these roles.
- 
+
 Take a moment to address questions before proceeding.
 
 
@@ -144,116 +144,116 @@ A firewall is a multifunctional network security appliance that operates on mult
 - Circuit-level gateways 
 - Application gateways 
 
- ![Firewalls and the OSI Model](Images/firewall-osi.png)
+ ![Firewalls and the OSI Model](Week-11/2/Images/firewall-osi.png)
 
 #### MAC Layer Filtering Firewall
- 
+
 Each device on a network has a unique hardware identification called a Media Access Control (MAC) address. This unique hardware ID is what allows all devices to communicate.
- 
+
 As its name suggests, this firewall operates at Layer 2 of the OSI model and filters based on source and destination MAC addresses.
- 
+
 - MAC layer firewalls, also referred to as MAC filtering, are commonly found on Wi-Fi systems. 
- 
+
 - This firewall will first compare a device's MAC address against a statically approved list of MAC addresses. If there is a match, all traffic will be forwarded.
- 
+
 - One advantage of MAC layer firewalls is that they may help secure a network from novice attackers.
   
 - One disadvantage is that this security control can easily be bypassed by MAC spoofing, the process of changing a MAC address to match that of another, typically one that is already allowed in the firewall.
- 
+
 #### Stateless Firewall
- 
+
 Stateless firewalls, also known as **packet-filtering** firewalls, operate at Layer 3 and 4 of the OSI model. These firewalls statically evaluate the contents of packets and do not keep track of the state of a network connection (aka Stateless).
- 
+
 Packet-filtering firewalls examine the network and transport headers closely for the following information:
- 
+
 - **Source and destination IP address:** Source IP address is from a device that initiates a communication. The destination IP address is the intended receiving device.
- 
+
 - **Source and destination port information:**  When combined with an IP address, ports enable applications that are running on TCP/IP network hosts to communicate.
- 
+
 - **IP (Internet Protocol):** Responsible for addressing devices on a network and ensuring the delivery of data from a source to a destination.
- 
+
   - This delivery can be through connection-oriented TCP, meaning a successful three-way handshake must occur before the transmission of data.
- 
+
   - This delivery can also be through connectionless UDP (User Datagram Protocol), which doesn't rely on a three-way handshake.
- 
+
 - **Ingress/egress interface:** Interface of data being received (ingress) and data being sent out (egress).
- 
+
 Packet-filtering firewalls are the oldest type of firewall architecture.
- 
+
 - It creates checkpoints within a router or switch and examines packet data as it is transported through a network interface.
- 
+
 - If the information contained within the packet does not pass this inspection process, it is dropped.
- 
+
 - This kind of filtering works by inspecting the contents of each individual packet. Stateless firewalls do not consider the state of the connection as a whole.
- 
+
 - One advantage is that stateless firewalls are not resource intensive, meaning they are low-cost and do not significantly impact system performance.
 
 - One disadvantage is that they are easy to subvert compared to more robust firewalls. They are vulnerable to IP spoofing and do not support custom-based rule sets.
- 
+
 #### Stateful Firewall
- 
+
 Stateful firewalls operate at Layer 3 and 4 of the OSI model.
- 
+
 - It uses a combination of TCP handshake verification and packet inspection technology to create stronger protection than either of the two previously discussed firewalls.
- 
+
 Rather than looking at individual packets, stateful firewalls examine the connection as a whole, looking at whole streams of packets.
- 
+
 This allows stateful firewalls to detect more information than stateless firewalls can. For example, they can determine:
 
   - If a packet is trying to establish a new connection. This is called a **NEW** state.
- 
+
   - If a packet is part of an existing connection. This is called an **ESTABLISHED** state.
- 
+
   - If a packet is not opening a new connection or belongs to an existing one. This is considered a **Rogue** packet.
- 
+
 Since stateful firewalls understand the context of the entire data stream, they can determine which application layer protocols are in use. However, they cannot actually understand application layer protocols, so they can't determine what the underlying traffic is doing.
- 
+
 - For example: Stateful firewalls can identify that a connection is using HTTP, but cannot identify if the connection is being used to request an HTML file or a PNG image.
- 
+
 - One advantage of stateful firewalls is that they offer transparent mode, which allows direct connections between clients and servers.
- 
+
    - They can also implement protocol specific algorithms and complex models to ensure more secure connections.
- 
+
 - One disadvantage is that they are resource-intensive systems that can slow the transmission of legitimate packets when compared to other solutions. If exploited, this can cause a DoS condition.
- 
+
 #### Circuit-Level Gateway Firewall
- 
+
 Circuit-level firewalls operate at Layer 5 of the OSI model.
- 
+
 - Circuit-level gateways determine the legitimacy of TCP connections by observing the handshake process between packets.
- 
+
 Once the circuit is allowed to establish an end-to-end connection, all data is tunneled between the parties.
- 
+
 - Circuit-level gateways work by verifying the three-way TCP handshake. TCP handshake checks are designed to ensure that session packets are from legitimate sources.
- 
+
 - Circuit-level gateways use the following information to determine the legitimacy of network connections before forwarding traffic:
- 
+
   - Unique session identifier
   - State of the connection (Handshake established, closed)
   - Sequencing information
- 
+
 - One advantage of circuit-level gateways is that they quickly and easily approve or deny traffic without consuming a significant amount of computing resources. They are also relatively inexpensive and provide anonymity to the private network.
   
 - One disadvantage is that they do not check the contents of the packet itself.
- 
+
   - If a packet contains malware but has the correct TCP handshake information, the data is allowed to pass through.
- 
+
   - This is why using circuit-level gateways are not capable of fully protecting a network on their own.
- 
+
 #### Application or Proxy Firewalls
- 
+
 Application or proxy firewalls, often referred to as "application-level gateways" , operate at Layers 3 through 7 of the OSI model.
- 
+
   - This firewall actually inspects the contents of the packet, including authentication and encryption components.
- 
+
 Proxy firewalls use deep packet inspection and stateful inspection to determine if incoming traffic is safe or harmful.
- 
+
 - Proxy firewalls intercept all traffic on its way to its final destination, without the data source knowing. A connection is established to the proxy firewall, which inspects the traffic and forwards it if it's determined to be safe, or drops it if it's determined to be malicious.
- 
+
 Proxy firewalls create an extra layer of protection between the traffic source and its destination behind the network by obscuring the destination from the source creating an additional layer of anonymity and protection for the network.
- 
+
 - One advantage is that it's more secure than other implementations and provides simple log and file audit management for incoming traffic.
- 
+
 - One disadvantage is that it is resource intensive, requiring robust modern hardware and higher costs.
 
 #### Summary
@@ -274,6 +274,7 @@ Proxy firewalls create an extra layer of protection between the traffic source a
 
 - Firewalls are not immune to attacks.
   
+
 We'll now demonstrate how to configure rules with an uncomplicated firewall or UFW in the next lecture.
 
 ### 03. UFW Overview and Demonstration 
@@ -417,8 +418,8 @@ The tasks we need to complete are:
 
    - `sudo ufw allow 80`  
     `sudo ufw allow 443`  
-    `sudo ufw allow 22`  
-    `sudo ufw allow 110`
+     `sudo ufw allow 22`  
+     `sudo ufw allow 110`
 
    Output should look similar to below:
 
@@ -441,7 +442,7 @@ The tasks we need to complete are:
 
       ```bash
       Status: active
-
+    
       To                         Action      From
       --                         ------      ----
       80                         ALLOW       Anywhere                  
@@ -478,7 +479,7 @@ The tasks we need to complete are:
 
       ```bash
       Status: active
-
+    
       To                         Action      From
       --                         ------      ----
       80                         ALLOW       Anywhere                  
@@ -490,7 +491,7 @@ The tasks we need to complete are:
       22 (v6)                    ALLOW       Anywhere (v6)             
       110 (v6)                   DENY        Anywhere (v6) 
       ```
-   
+
    - We can see that port `110` is now blocked.
 
    - if we want to verify if these rules to take effect, we need to run: `sudo ufw status`
@@ -594,8 +595,8 @@ The tasks we need to complete are:
 
         ```bash
          Firewall is active and enabled on system startup
-         ```
-         
+        ```
+        
          - `reload` loads all the current rules without stopping the firewall.
          - `disable` shuts down or turns off the firewall.
          - `enable` starts and loads all the current rules.
@@ -760,7 +761,7 @@ The steps we need to take are:
    Type the following command:
 
    - `sudo firewall-cmd --zone=work --list-all`
-        
+     
         - `--list-all`: Lists all settings for a specific zone.
 
    Output should look similar to: 
@@ -796,12 +797,12 @@ The steps we need to take are:
       ```
       RH-Satellite-6 amanda-client amanda-k5-client bacula bacula-client bgp bitcoin bitcoin-rpc bitcoin-testnet bitcoin-testnet-rpc ceph ceph-mon cfengine condor-collector ctdb dhcp dhcpv6 dhcpv6-client dns docker-registry docker-swarm dropbox-lansync elasticsearch freeipa-ldap freeipa-ldaps freeipa-replication freeipa-trust ftp ganglia-client ganglia-master git high-availability http https imap imaps ipp ipp-client ipsec irc ircs iscsi-target kadmin kerberos kibana klogin kpasswd kprop kshell ldap ldaps libvirt libvirt-tls managesieve mdns minidlna mosh mountd ms-wbt mssql murmur mysql nfs nfs3 nrpe ntp openvpn ovirt-imageio ovirt-storageconsole ovirt-vmconsole pmcd pmproxy pmwebapi pmwebapis pop3 pop3s postgresql privoxy proxy-dhcp ptp pulseaudio puppetmaster quassel radius redis rpc-bind rsh rsyncd samba samba-client sane sip sips smtp smtp-submission smtps snmp snmptrap spideroak-lansync squid ssh synergy syslog syslog-tls telnet tftp tftp-client tinc tor-socks transmission-client vdsm vnc-server wbem-https xmpp-bosh xmpp-client xmpp-local xmpp-server zabbix-agent zabbix-server
       ```
-
+    
      Iit's important to know which serivces are running on your system. 
-     
+
    -  The `--get-services` command option provides insight into which services are running. 
       
-    - Based on your needs, disable the ones that are not critical to business operations. This is a form of system hardening.
+        - Based on your needs, disable the ones that are not critical to business operations. This is a form of system hardening.
 
 5. Next, we will block all traffic coming from the Fifth Street location. The IP address associated with that location is `10.10.0.10`.
 
@@ -810,7 +811,7 @@ The steps we need to take are:
    - `sudo firewall-cmd --zone=work --add-rich-rule='rule family="ipv4" source address="10.10.0.10" reject'`
 
         
-        
+     
         - `--add-rich-rule=`: The option to add a new rich rule.
         - `rule family="ipv4"`: Limits the rule to the IPV4 protocol.
         - `source address="10.10.0.10"`: The source IP address.
@@ -872,7 +873,7 @@ The steps we need to take are:
     rich rules: 
             rule family="ipv4" source address="10.10.0.10" reject
     ```
-    
+
 - We can see that `icmp-blocks` will block `echo-reply` and `echo-request`.
 
 
@@ -965,7 +966,7 @@ We'll need to complete the following steps:
       - `172.17.18.72`: IP address to perform network scan against.
 
    The output should resemble: 
-   
+
    ```bash
    Starting Nmap 7.60 ( https://nmap.org ) at 2020-03-18 14:42 EDT
    Nmap scan report for 172.17.18.72
@@ -995,7 +996,7 @@ We'll need to complete the following steps:
    - The `nmap` scan returned the MAC address of the machine.
 
    - It also returned the best guess of a version of OS (linux):
-    
+
     ```bash
     Running: Linux 3.X|4.X
     OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
@@ -1003,6 +1004,8 @@ We'll need to complete the following steps:
     ```
 
    
+
+
    From within the UFW VM, type the following command:
 
    - `uname -a`
@@ -1024,11 +1027,11 @@ We'll need to complete the following steps:
    Return to the firewalld VM and try the command one more time. 
 
     Type the following command:
-
+    
     - `sudo nmap -O -p 1-500 --osscan-guess 172.17.18.72`
-
+    
       Output should look similar to: 
-
+    
         ```bash
         Starting Nmap 7.60 ( https://nmap.org ) at 2020-03-18 14:52 EDT
          Nmap scan report for 172.17.18.72
@@ -1047,7 +1050,7 @@ We'll need to complete the following steps:
         ```
 
    - With `ufw` enabled, even though `nmap` performed an "Aggressive OS guesses", the scan returned a lot more possible versions of Linux. 
- 
+
 
    - We can see that `nmap` is also (96%) sure that the host's Linux version is 3.10 - 4.8. That's a bit further off from our version of OS which is `4.15.0-70-generic`.
 
@@ -1141,7 +1144,7 @@ We'll need to complete the following steps:
      The attacker was able to enumerate the OS type through port `80` of the HTTP web server, which returned the result: `(Ubuntu)`.
 
    - It's difficult to obfuscate this information, because the Apache web server is a public-facing web server designed primarily for public access. 
-   
+
    In this case, security professionals must rely on other security controls to ensure that their networks remain protected.
 
 #### Device and Port Enumeration
@@ -1171,7 +1174,7 @@ We'll need to complete the following steps:
 
    - There are 100 ports that are `open,filtered`. This occurs when the scanned port doesn't give a response. This is most typically an indication that the firewall dropped the probe by not responding to it. 
 
-   
+
    Type the following command with the firewalld VM:
 
    - `sudo nmap -sA 172.17.18.72`
@@ -1199,11 +1202,11 @@ We'll need to complete the following steps:
       Filtered ports are a major obstacle for attackers, because scans provide little information about them.
 
   We can also see that ports `22`, `80`, and `443` are `unfiltered`. 
-  
+
   - This means that the scan determined that the ports are in fact accessible, but is unable to determine wether the ports are open or closed. This indicates that a stateful firewall is being used.
 
   The ACK scan is used to determine if a firewall is stateful, meaning it will only accept connections to previously established connections. 
-  
+
   - With this information, an attacker will know that they need to perform source routing in order to bypass the firewall's security controls. 
 
  - Source routing allows attackers to craft packets that specify the route the packet must take through a network. 
@@ -1408,8 +1411,8 @@ Intrusion detection systems have two basic architectures:
    - Acts as a second line of defense against malicious traffic that successfully bypasses a NIDS.
    - Examines entire file systems on a host, compares them to previous snapshots or a baseline, and generates an alert if there are significant differences between the two.
 
-![NIDS](Images/NIDS.png)
-![NIDS](Images/HIDS.png)
+![NIDS](../Week-11/2/Images/NIDS.png)
+![NIDS](../Week-11/2/Images/HIDS.png)
 
 [Image Source](https://www.comparitech.com/net-admin/network-intrusion-detection-tools/)
 
@@ -1417,7 +1420,7 @@ Intrusion detection systems have two basic architectures:
 
 An **intrusion prevention system** (**IPS**) does everything that an IDS can do, but can also respond to attacks. An IDS doesn’t alter or react to packets as they enter the network. An IPS does this by blocking malicious traffic and preventing it from being delivered to a host on the network.
 
-![IDS vs IPS](Images/IDSvsIPS.png)
+![IDS vs IPS](../Week-11/2/Images/IDSvsIPS.png)
 
 The two main differences of an IPS and IDS:
 
@@ -1438,7 +1441,7 @@ An IDS generates an alert when a Snort rule detects malicious traffic that match
 
 There are two primary types of indicators:
 
-- Indicators of attack indicate attacks happening in real time.
+- **Indicators of attack (IOA)** indicate attacks happening in real time.
    - Proactive approach to intrusion attempts.
    - Indicate that an attack is currently in progress but a full breach has not been determined or has not occurred yet. 
    - Focus on revealing the intent and end goal of the attacker regardless of the exploit or malware used in the attack.
@@ -1501,7 +1504,7 @@ Consider the following Snort rule:
 Another example: 
 
 `alert tcp any 21 -> 10.199.12.8 any {msg: "TCP Packet Detected";}`
- 
+
    - This rules triggers an alert whenever a TCP packet from port `21`, with any source IP address, is sent to the IP `10.199.12.8`. With each alert, it will print the message "TCP Packet Detected."
 
    - Rule Header
@@ -1517,7 +1520,7 @@ Another example:
 
     - `{msg: "TCP Packet Detected";}`: The message printed with the alert.
 
-   ![Snort Rule](Images/SnortRule.png) 
+   ![Snort Rule](../Week-11/2/Images/SnortRule.png) 
 
 - Snort provides many additional actions and protocols, which can be combined to design rules for almost any type of packet.
 
@@ -1599,7 +1602,7 @@ NSM operates under two distinct stages, each with two processes.
    - **Resolution**: The process of containment, remediation, and any additional necessary response.
    
 
-![NSM Process](Images/NSMProcess.png)
+![NSM Process](../Week-11/2/Images/NSMProcess.png)
 
 #### NSM Sensor Connectivity
 
@@ -1609,11 +1612,11 @@ An IDS can be physically connected to a network in two ways:
 
 - **Mirrored port or SPAN**: A SPAN port is a function of an enterprise-level switch that allows you to mirror one or more physical switch ports to another port. A mirror image of all data will flow across both ports equally. This is what allows the IDS to perform packet captures on all inbound and outbound traffic within a network.
   
-  ![SPAN or Mirrored Port](Images/SPANPORT.png)
+  ![SPAN or Mirrored Port](../Week-11/2/Images/SPANPORT.png)
 
 - **Network Test Access Point (TAP)**: TAPs allow us to access our network and send that data in real time to our monitoring systems. One example of a TAP is known an aggregated TAP, in which a cable connects the TAP monitor port with the NIC on the sensor. This specific placement allows traffic to be monitored between the router and switch.  
 
-  ![Network Tap](Images/NetworkTap.png)
+  ![Network Tap](../Week-11/2/Images/NetworkTap.png)
 
 #### Security Onion
 
@@ -1669,13 +1672,13 @@ Sguil is made up of four main sections:
 
 As shown in the screenshot, the Snort IDS generated the alert `GPL ATTACK_RESPONSE id check returned root`. The analyst must decide if this is benign or malicious. This demonstration will focus on how to obtain data and use tools and process to make this decision.
 
-![Sguil Alert Panel](Images/Sguil_Alerts.png)
+![Sguil Alert Panel](../Week-11/2/Images/Sguil_Alerts.png)
 
 
 - The alert panel has four fields that we should look at:
 
   - **ST or Status**: Colors indicate severity levels of "real-time" or "RT" events.
-   
+  
      - **Red**: Critical, possible data breach in progress. Must be resolved immediately.
      - **Orange**: Moderate, high potential for data breach. Requires immediate review.
      - **Yellow**: General, low potential for data breach. Requires review.
@@ -1698,7 +1701,7 @@ The next screenshot is an example of the Snort rule set in Sguil that activated 
   
    - The packet analyzer shows a detailed view of the data capture. It includes packet header information and data streams presented in hex and text form.
 
-![Alert Rule](Images/Rules.png)
+![Alert Rule](../Week-11/2/Images/Rules.png)
 
 #### Sguil's IP Resolution Section
 
@@ -1708,7 +1711,7 @@ This section of Sguil's analyst console provides reverse DNS lookup information.
 
 Analysts can use the data obtained from IP resolution to formulate attacker profiles. 
 
-![IP Resolution](Images/Reverse%20DNS.png)
+![IP Resolution](../Week-11/2/Images/Reverse%20DNS.png)
 
 
 ### 07. Security Onion and NSM Overview 
@@ -1742,7 +1745,7 @@ Launch an instance of Security Onion. Do the following steps:
 
 - Click **Query by IP** in the dropdown menu.
 
-   ![Query Pivot](Images/Query%20Pivot.png)
+   ![Query Pivot](../Week-11/2/Images/Query%20Pivot.png)
 
 Next, input the IP address that we obtained from the IOA alert:
 
@@ -1750,7 +1753,7 @@ Next, input the IP address that we obtained from the IOA alert:
 
 - Click **Submit**.
 
-  ![IP Builder](Images/IP%20Builder.png)
+  ![IP Builder](../Week-11/2/Images/IP%20Builder.png)
 
 Now, we will only see information related to our filtered alert data, as seen below.
 
@@ -1767,7 +1770,7 @@ Now, we will only see information related to our filtered alert data, as seen be
 
 4. Server response message in the packet data section.
 
-   ![Filtered Alert](Images/Filtered%20Alert.png)
+   ![Filtered Alert](../Week-11/2/Images/Filtered%20Alert.png)
 
 Since we've now compiled critical information from the attack signature, we have a partial picture of the attack profile. Let's continue our network forensic investigation.
 
@@ -1797,7 +1800,7 @@ From our Sguil window, we will switch to NetworkMiner by following the steps bel
 - Click on **NetworkMiner** in the dropdown menu.
 
 
-![Network Minor Pivot](Images/Network%20Minor%20Pivot.png)
+![Network Minor Pivot](Week-11/2/Images/Network%20Minor%20Pivot.png)
 
 - Now we are presented with NetworkMiner's interface. Pay attention to the tabs at the top. We'll focus on the **Files** tab next.
 
@@ -1807,7 +1810,7 @@ From our Sguil window, we will switch to NetworkMiner by following the steps bel
 
 - Protocols used during transmission (Box 4).
 
-![Network Minor Files](Images/Network%20Minor%20Files.png)
+![Network Minor Files](../Week-11/2/Images/Network%20Minor%20Files.png)
 
 - Right-click on one of the files.
 

@@ -8,45 +8,59 @@ The concept of defense in depth can be broken down into three different security
 
 1. Walls, bollards, fences, guard dogs, cameras, and lighting are what type of security control?
 
-    Answer: **appliances**
+    Answer: **physical**
 
 2. Security awareness programs, BYOD policies, and ethical hiring practices are what type of security control?
 
-    Answer:  **security culture**
+    Answer:  **administrative**
 
 3. Encryption, biometric fingerprint readers, firewalls, endpoint security, and intrusion detection systems are what type of security control?
 
-    Answer:  **technical security controls**
+    Answer:  **technical**
 
 #### Intrusion Detection and Attack indicators
 
 1. What's the difference between an IDS and an IPS?
 
-    Answer:  IDS and IPS both monitor network traffic for malicious signatures, but an IPS can also block traffic based on rules.
+    Answer:  
 
-    
+    > 
+    >
+    > The primary diffence between IDS and IPS is that an IDS operates on a copy of network traffic, where an IPS works on the live network stream. 
+    >
+    > The difference allows an IPS to block traffic in real time, at the expense of greater resources.
+    >
+    > 
 
 2. What's the difference between an Indicator of Attack and an Indicator of Compromise?
 
-   Answer: An indicator of attack is real-time evidence of malicious activity while IOC is indicate previous malicious activity.
+   Answer: 
+   
+   > 
+   >
+   > An indicator of compromise (IOC) is evidence of a successfuly executed exploit, such as the maliciious code which has been installed on the victim's computer.
+   >
+   > An Indicator of attack (IOA) is evidence of activity which contributes to a successful exploit, such as records of a SYN scan used by the successful perpatrator.
+   >
+   > 
 
 #### The Cyber Kill Chain
 
 Name each of the seven stages for the Cyber Kill chain and provide a brief example of each.
 
-1. Stage 1: Reconnaissance
+1. Stage 1:  Reconnaissance == social media trolling
 
-2. Stage 2: Weponization
+2. Stage 2: Weponization   == create an exfiltration app
 
-3. Stage 3: Delivery
+3. Stage 3: Delivery   ==  sending a phishing email
 
-4. Stage 4: Exploitation
+4. Stage 4: Exploitation  == an executable installs C2 code
 
-5. Stage 5: Installation
+5. Stage 5: Installation  == a user clicking phishing email
 
-6. Stage 6: Command and Control (C2)
+6. Stage 6: Command and Control (C2) == remote server hosting malicious code to be downloaded
 
-7. Stage 7: Actions on Objectives
+7. Stage 7: Actions on Objectives == attacker exfiltrates data
 
 
 #### Snort Rule Analysis
@@ -61,15 +75,21 @@ alert tcp $EXTERNAL_NET any -> $HOME_NET 5800:5820 (msg:"ET SCAN Potential VNC S
 
 1. Break down the Sort Rule header and explain what is happening.
 
-   Answer:  **Alert on inbound TCP traffic whose destination ports are 5800 and 5820**
+   Answer:  
+
+   > Alert on inbound TCP traffic whose destination ports are between 5800 and 5820 (zone for vnc via java)
 
 2. What stage of the Cyber Kill Chain does this alert violate?
 
-   Answer: **This violates stage 1, reconnaissance**
+   Answer: 
+
+   > A successfult port scan is a stage 1 attack, reconnaissance.
 
 3. What kind of attack is indicated?
 
-   Answer: **This indicates a port scan attack**
+   Answer: 
+   
+   > This indicates a port scan attack 
 
 Snort Rule #2
 
@@ -79,21 +99,29 @@ alert tcp $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"ET POLICY PE EXE or D
 
 1. Break down the Sort Rule header and explain what is happening.
 
-   Answer: **Alert on inbound TCP traffic on port 80 and 443 when downloading a pe, exe or dll file** 
+   Answer: 
+
+   > Alert on inbound TCP traffic on port 80 and 443 when downloading a pe, exe or dll file
 
 2. What layer of the Defense in Depth model does this alert violate?
 
-   Answer:  **Downloading a malicious file violates stage 3, delivery.**
+   Answer:  
+
+   > Attempting file download is a stage 3 attack, delivery
 
 3. What kind of attack is indicated?
 
-   Answer: **This indicates a payload delivery into the protected system.**
+   Answer: 
+   
+   > This indicates a payload delivery into the protected system.
 
 Snort Rule #3
 
 - Your turn! Write a Snort rule that alerts when traffic is detected inbound on port 4444 to the local network on any port. Be sure to include the `msg` in the Rule Option.
 
-    Answer: **alert tcp any 4444 -> any any (msg:"Traffic on port 4444;)**
+    Answer: 
+    
+    > alert tcp any 4444 -> any any (msg:"Traffic on port 4444")
 
 ### Part 2: "Drop Zone" Lab
 
@@ -111,7 +139,7 @@ Before getting started, you should verify that you do not have any instances of 
 - Run the command that removes any running instance of `ufw`.
 
     ```bash
-    $ sudo ufw halt; sudo apt remove ufw
+    $ sudo ufw halt && sudo apt remove ufw
     ```
 
 #### Enable and start `firewalld`
@@ -303,21 +331,22 @@ Now, we will work on another lab. Before you start, complete the following revie
 
 1. Name and define two ways an IDS connects to a network.
 
-   Answer 1: **network tap**
+   > Answer 1: **network tap**
+   >
 
-   Answer 2: **SPAN**
+   > Answer 2: **SPAN**
 
 2. Describe how an IPS connects to a network.
 
-   Answer: **inline with the flow of data**
+   > Answer: **inline with the flow of data**
 
 3. What type of IDS compares patterns of traffic to predefined signatures and is unable to detect Zero-Day attacks?
 
-   Answer: **Signature based IDS**
+   > Answer: **Signature based IDS**
 
 4. Which type of IDS is beneficial for detecting all suspicious traffic that deviates from the well-known baseline and is excellent at detecting when an attacker probes or sweeps a network?
 
-   Answer: **Anomaly-based IDS**
+   > Answer: **Anomaly-based IDS**
 
 #### Defense in Depth
 
@@ -325,72 +354,77 @@ Now, we will work on another lab. Before you start, complete the following revie
 
     1.  A criminal hacker tailgates an employee through an exterior door into a secured facility, explaining that they forgot their badge at home.
 
-        Answer: **Perimeter**
+        > Answer: physical
 
     2. A zero-day goes undetected by antivirus software.
 
-        Answer: ~~
+        > Answer: technical
 
     3. A criminal successfully gains access to HR’s database.
 
-        Answer: **~~**
+        > Answer:  technical
 
     4. A criminal hacker exploits a vulnerability within an operating system.
 
-        Answer: **~~**
+        > Answer: technical
 
     5. A hacktivist organization successfully performs a DDoS attack, taking down a government website.
 
-        Answer: **~~**
+        > Answer: technical network
 
     6. Data is classified at the wrong classification level.
 
-        Answer: **~~**
+        > Answer:  administrative
 
     7. A state sponsored hacker group successfully firewalked an organization to produce a list of active services on an email server.
 
-        Answer: **~~**
+        > Answer:  technical network
 
 2. Name one method of protecting data-at-rest from being readable on hard drive.
 
-    Answer: **disk encryption**
+    > Answer: disk encryption
 
 3. Name one method to protect data-in-transit.
 
-    Answer: **TSL encryption**
+    > Answer: TSL encryption
 
 4. What technology could provide law enforcement with the ability to track and recover a stolen laptop.
 
-   Answer: 
+   > Answer:  GPS or Wi-Fi geolocation and an app running on the laptop
 
 5. How could you prevent an attacker from booting a stolen laptop using an external hard drive?
 
-    Answer: **disk encryption**
+    > Answer:  configure a bios password
 
 
 #### Firewall Architectures and Methodologies
 
 1. Which type of firewall verifies the three-way TCP handshake? TCP handshake checks are designed to ensure that session packets are from legitimate sources.
 
-  Answer: curcit level
+>   Answer: circuit level
+>
 
 2. Which type of firewall considers the connection as a whole? Meaning, instead of looking at only individual packets, these firewalls look at whole streams of packets at one time.
 
-  Answer: stateful firewall
+>   Answer:  stateful firewall
+>
 
 3. Which type of firewall intercepts all traffic prior to being forwarded to its final destination. In a sense, these firewalls act on behalf of the recipient by ensuring the traffic is safe prior to forwarding it?
 
-  Answer:
+>   Answer:  proxy firewall
+>
 
 
 4. Which type of firewall examines data within a packet as it progresses through a network interface by examining source and destination IP address, port number, and packet type- all without opening the packet to inspect its contents?
 
-  Answer:
+>   Answer: packet filter firewall
+>
 
 
 5. Which type of firewall filters based solely on source and destination MAC address?
 
-  Answer:
+>   Answer: MAC layer filter
+>
 
 
 

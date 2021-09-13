@@ -288,7 +288,7 @@ The details of this plan will vary for every situation. However, the high-level 
 
 ### 07. Break
 
-### 08.1 Revisiting the Security Culture Framework  
+### 08 Revisiting the Security Culture Framework  
 
 Now that we have a better understanding of the organizational layout of business, we'll continue discussing the security culture framework.
 
@@ -395,7 +395,7 @@ Each type of control can have different goals:
   - **Corrective** controls attempt to fix an incident and possibly prevent reoccurrence.
 
   - **Compensating** controls do not prevent attacks, but restore the function of compromised systems.
-  
+
 These categories are important to know for the Security+ exam.
 
 Regardless of type, all controls seek to restrain or respond to _access_ to a given resource. **Access control** is the practice of controlling who can access which resources. This topic will be covered in detail in future units. 

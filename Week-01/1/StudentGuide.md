@@ -230,7 +230,7 @@ Finally, you will have access to many resources for additional learning and revi
 
 The following document includes the information on lab environments covered in this section:
 - [Cybersecurity Lab Solutions Breakdown](https://docs.google.com/document/d/1SGzZHWmxZY76cGzYzOhGsmmuOeVAH2nvQDQY3r9PGXw)
- 
+
 ### 06. Online Learning
 :globe_with_meridians: Let's discuss the online nature of this boot camp and some of the tools we'll use to facilitate and optimize learning in an online environment. 
 
@@ -293,7 +293,7 @@ In this activity, you will start to think like a cybersecurity professional
 - Remember, the main tasks of cybersecurity are assessing threats and mitigating risks. 
 
 - These two tasks often require creativity and outside-the-box thinking.
- 
+
 For each activity, you will be provided the instructions via an "activity file" that you can access on GitLab. 
 
 ### 09. Activity: Assessing Threats

@@ -1,6 +1,4 @@
-# Student Guide
-
-## Terminal 101 - Day 3: Stick to the Script
+## 3.3 Student Guide: Terminal 101 - Day 3: Stick to the Script
 
 ### Overview
 
@@ -190,8 +188,7 @@ We will walk through a simple `sed` command to create a basic string replacement
 
    - `The Dog Chased the Cat`
 
-
-### Demo Summary
+Demo Summary
 
 We covered the following concepts:
 
@@ -286,7 +283,7 @@ We'll demonstrate how to isolate the State field from the above example by using
 
 This was a very basic example, and security professionals often need to isolate out multiple fields from complex log files. Now we will do another more challenging demonstration to illustrate how `awk` can be used to assist with a security incident.
 
-### `awk` Demonstration for a Security Incident
+#### `awk` Demonstration for a Security Incident
 
 In this scenario, you are security analysts at ACME Corp, which has just experienced an attack of a high volume of network requests. You have been provided the logs of these network requests.
 
@@ -334,7 +331,7 @@ You are tasked with isolating out the IP addresses and time or requests from the
     - Identifying an IP address of an attacker can assist a security professional with determining what IP address should be blocked from the network to prevent future attacks.
 
 
- ### `awk` Summary  
+ #### `awk` Summary  
 
  Review the following concepts:
 
@@ -516,7 +513,7 @@ The script we just created will run the exact same process each time it is execu
 
 - Rather than manually edit the script to make this change each time the script is run, we can add a **passing argument**.
 
-### Passing a Single Argument
+#### Passing a Single Argument
 
 How to pass a single argument in a shell script:
 
@@ -542,7 +539,7 @@ How to pass a single argument in a shell script:
 
         `zip logs0519 logfiles.zip`
 
-### Adding Multiple Arguments   
+#### Adding Multiple Arguments   
 
   - Additional arguments can be added with the following syntax:
 
@@ -557,7 +554,7 @@ How to pass a single argument in a shell script:
        - Argument2 = `$2`
        - Argument3 = `$3`
 
- ### Passing Arguments summary  
+ #### Passing Arguments summary  
 
  Review the following concepts:
 
@@ -602,6 +599,6 @@ In your `Git Bash` or `Mac Terminal`:
 
 -------
 
-## Copyright
+Copyright
 
 Trilogy Education Services © 2020. All Rights Reserved.

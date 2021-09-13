@@ -1,6 +1,4 @@
-# Student Guide
-
-## Terminal 101 Day 1: How Sweet is the Terminal?
+## 3.1 Student Guide: Terminal 101 Day 1: How Sweet is the Terminal?
 
 ### Overview
 
@@ -19,7 +17,7 @@ By the end of this lesson, you will be able to:
   * Use commands like `head`, `tail`, `more`, and `less` to preview files in the command line. 
 
   * Combine the above commands in sequence to accomplish relevant IT tasks. 
-  
+
 
 ### Slideshow
 
@@ -37,7 +35,7 @@ Welcome to the third week of class. Today, you will be learning the basics of th
 Most of you are likely familiar with a Microsoft Windows or a Mac interface that looks like the following:
 
    ![winvsmac](Images/gui.png)
-  
+
 - These interfaces are called **Graphical User Interfaces** or **GUI** (pronounced "gooey").
 
 - They are called GUIs because they contain graphical elements, such as  icons, windows and buttons.
@@ -66,7 +64,7 @@ Have you ever worked on the command line before?
     For example: rather than clicking on a file to open it, we type a command that opens the file. 
 
   -  The command line is a critical core competency for IT and security professionals.
-  
+
 #### Why the Command Line?
 
 While the command line may seem challenging at first, learning and using it provides important benefits for IT and security professionals. The command line can be:
@@ -75,7 +73,7 @@ While the command line may seem challenging at first, learning and using it prov
   - In many cybersecurity and IT jobs, you will find yourself working with systems and tools that have no GUI interface. This is typical of many servers. 
   
   - For example: As a security professional, you may need to configure a system that does not have a GUI, and the command line will be your only mode for configuration.
-      
+  
 - **The fastest way to achieve a desired outcome.**
 
   - The command line has many tools and scripts that are not available on a GUI. These tools can often speed up a task.
@@ -95,9 +93,9 @@ In today's exercises, you will be playing the role of security analysts at a can
 - You will be using the command line to  investigate a potential rogue employee, who may be selling secret Wonka Corp recipes to a rival organization, Slugworth Corp.  
 
 - You will be tasked with using the command line to identify evidence on the system of suspicious activity from this employee.
-   
+  
 
-### 2. Basic Terminal Commands 
+### 02. Basic Terminal Commands 
 
 We will begin by talking about the common GUI equivalent of a directory:
 
@@ -112,7 +110,8 @@ Within this Windows GUI, we can complete the following common tasks:
 - Navigate through the directories and files by clicking directly onto the folder to access its sub-folders or files.
 
 - Create folders by right-clicking and selecting "New" >> "Folder."
-    
+  
+
 We will complete these same tasks on the command line using the following text commands:
 - `pwd` to display the current working directory.
 - `ls` to list the directories and files in the current directory.
@@ -123,7 +122,8 @@ We will complete these same tasks on the command line using the following text c
 - `rm` to remove a file.
 - `clear` to clear the terminal history on the page.
   
-#### Demonstration Scenario
+
+Demonstration Scenario
 
 The upcoming demonstration will introduce many of the most common text commands used by IT and security professionals.
 
@@ -141,12 +141,12 @@ We'll use the following scenario:
 
 This computer doesn't have a GUI, so we will complete all these tasks on the command line.  
 
-#### Basic Terminal Demonstration
+Basic Terminal Demonstration
 
 1. Open an instance of a terminal on your Ubuntu VM.
 
    - For our scenario, this is the new computer provided by your manager.
-  
+
 
 2. First, we need to know our current location in the file directory. 
   
@@ -165,7 +165,7 @@ This computer doesn't have a GUI, so we will complete all these tasks on the com
    - The results only show a directory called `security_evidence`.
    
 4. Next, we will navigate into  the  `security_evidence` folder, as your manager requested.
- 
+
    - Run the command `cd security_evidence` to navigate into that folder.
 
      - `cd` stands for _change directory_ and the syntax is  `cd  <folder name>`.
@@ -199,22 +199,22 @@ This computer doesn't have a GUI, so we will complete all these tasks on the com
        `Case3` should no longer exist.   
 
 7. Your manager's last request was to put an empty file called  `case1_evidence` in the `Case1` directory.
- 
+
     - First, we'll run `cd Case1` to navigate into that folder.
 
     - Run the following command: `touch case1_evidence`.
 
       -  `touch` creates an empty file. The syntax is   `touch <filename>`.
-        
+      
     - Run `ls` to show that `case1_evidence` has been created.
 
     - If you accidentally create the wrong file, similar to `rmdir`, you can use `rm  <filename>` to remove a file.
- 
+
 8. You have now completed your manager's requests and can use the `clear` command to clear the terminal history on your page.
   
    - `clear` removes the text from the page and starts from a fresh command line.
 
-#### Summary
+Summary
 
 In this demonstration, we covered the following commands:
 
@@ -226,7 +226,7 @@ In this demonstration, we covered the following commands:
    - `touch`: Creates an empty file.
    - `rm`: Removes a file.
    - `clear`: Clears the terminal history on the page.
-  
+
 
 In the first command line activity of the day, you will use these commands to prepare for an investigation into the malicious employee who may or may not be selling secrets to your rival organization Slugworth Corp.
 
@@ -238,7 +238,7 @@ In the first command line activity of the day, you will use these commands to pr
 
 ### 04. Activity Review: Take Five and Practice the Command Line 
 * [Solution Guide: Take Five and Practice the Command Line](Activities/04_takefive/solved/readme.md)
- 
+
 ### 05. Relative Vs. Absolute Paths and the `cp` and `mv` Commands 
 
 We just covered several commands that assist with file navigation and creation.
@@ -261,6 +261,7 @@ Note the following example: `/home/Sally/Desktop/my_images/cat.jpg`
   
     - This path says the `logfile1.txt` log file is in the `log` directory, which is in the `var` directory.
     
+
 There are two methods for providing paths to a file or directory on the command line: **absolute paths** and **relative paths**.  
 
 An absolute path indicates the location of a file regardless of your current location in the file directory.
@@ -297,12 +298,12 @@ Relative and absolute paths are very helpful shortcuts when working on the comma
       - `cd Desktop`
       - `cd textfiles`
       - `cd Sallysfiles`
-   
+    
        You can use the relative path from the home/Sally directory as a single command:
 
       `cd Desktop/textfiles/Sallysfiles/`
-  
-#### File Path Scenario
+
+File Path Scenario
 
 We will practice relative and absolute paths in the following demonstration by using this scenario:
 
@@ -315,16 +316,16 @@ We will practice relative and absolute paths in the following demonstration by u
      2. Navigate into the directory `/Case1/`  and create an empty file called `Web_logs`. 
 
      3. Navigate back to the home folder.
-  
-### Path Navigation Demonstration  
+
+Path Navigation Demonstration  
 
 1.  Similar to the last demonstration, you need to know your current location in the file directory.
 
     - To find your current location, run the `pwd` command to show the path.
 
     - Your current location should display as `/03-instructor/day1/pathnav_demonstration/`. 
-   
-   
+
+
 2.  Next, your manager requested you to navigate to the `security_evidence/Case2/` directory.
 
      - To navigate to that directory using a relative path, you would run:
@@ -366,18 +367,19 @@ We will practice relative and absolute paths in the following demonstration by u
 
     - Run `pwd` again to demonstrate that you should now be back in the `/03-instructor/` directory.
 
-### Copying and Moving Files
+Copying and Moving Files
 
 Several other important basic commands can also be used with absolute and relative paths.
 
 Security and IT professionals are often asked to _copy_ files from one location to another:
-  
+
   - For example, a security analyst may be asked to make a copy of a log file and place it in a separate evidence folder. This way, if notes need to be added to the copied file, the original will remain untouched.
   
 - The command `cp`, which stands for _copy_, creates a copy of the file and places it in a specified location.
-    
+  
   - The original file will remain and a copy of the original will be moved to the new location.
-   
+  
+
 Security professionals are also often asked to _move_ files from one location to another.
 
    - For example, an image file may have been accidentally placed in the email directory. An IT professional may be asked to move the file out of the email directory and into the correct image directory.
@@ -388,6 +390,7 @@ Security professionals are also often asked to _move_ files from one location to
   - Note: `move` is similar to the _cut and paste_ Windows commands.
     
   
+
 The syntax for both `cp` and `mv` is:
 
   `<command> <file> <location to copy or move>`
@@ -401,7 +404,7 @@ The `<file>` or `<location>` can be indicated with an absolute or relative path 
   - For example:  `mv  dirA/dirB/dirC/cat.jpg  /dirA/dirB`
 
      This command will move the file `cat.jpg` from the `dirC` directory to the `dirB` directory.
- 
+
 #### Copy and Move Demonstration Scenario
 
  We will demonstrate how to use `cp` and `mv` by continuing with the same scenario.
@@ -410,9 +413,8 @@ The `<file>` or `<location>` can be indicated with an absolute or relative path 
 
   - After you move the file into the `Case2` directory, make a copy of the file `Web_logs` and place it in the `security_evidence` folder, so you can add notes to the file later.
 
+Copying and Moving Files Demonstration
 
-### Copying and Moving Files Demonstration
-  
 1. Similar to the previous demonstrations, you need to know your current location in the file directory to get started.
   
     - Run the `pwd` command to retrieve the path of your current location. 
@@ -420,7 +422,7 @@ The `<file>` or `<location>` can be indicated with an absolute or relative path 
       - Your current location should display as `/03-instructor/day1/pathnav_demonstration/`.
 
         Change back to `/03-instructor/day1/pathnav_demonstration/` if you are not currently there.
-     
+    
 2.  Your manager has asked you to move the file called `Web_logs` from `Case1` to `Case2`.  
 
     - We will use the move command. Run the following: 
@@ -432,7 +434,7 @@ The `<file>` or `<location>` can be indicated with an absolute or relative path 
     - Note: we are using absolute paths for the file and the new destination.
     
  3. Next, your manager asked you to make a copy of the file `Web_logs` from `Case 2` and place it in the `security_evidence` folder.
- 
+
     - We will use the copy command. Run the following:  
     
       `cp /03-instructor/day1/pathnav_demonstration/security_evidence/Case2/Web_logs   /03-instructor/day1/pathnav_demonstration/security_evidence/`
@@ -455,6 +457,7 @@ The `<file>` or `<location>` can be indicated with an absolute or relative path 
 
     - Confirm the `Web_logs` file has been copied to this directory by running `ls`.
     
+
 In the previous two demonstrations, we practiced the following:
 
    -  `file path`: Identifies a unique location in a file system. 
@@ -466,7 +469,7 @@ In the previous two demonstrations, we practiced the following:
    - `cp`: Copies files.
 
    - `mv`: Moves files.
-  
+
 
 In the next activity, we'll use these same concepts to continue preparing for an investigation into the malicious employee that may be selling secret recipes to Wonka Corp's rival, Slugworth Corp. 
       
@@ -488,7 +491,7 @@ Occasionally, IT and security professionals will need to preview the contents of
   - A security administrator wants to preview the top 10 lines of an email file to figure out whom the email was sent to.
 
   - A network administrator wants to preview the bottom of a log file to see the last timestamp captured in a file.
-  
+
 Multiple preview commands can assist with these tasks.
     
   - To preview and scroll through a whole file, we can use the `more` or `less` commands.
@@ -524,22 +527,22 @@ We will practice using the preview commands with the following scenario:
   - We will use the preview commands to determine which of these files are actually access logs.
 
   - Once you determine that a file is an access log, document the last timestamp in the file.
-  
+
 
 #### Preview Commands Demonstration
 
 
 1. First, navigate into the `evidence_directory`. 
 - Note: This is located in the `/03-instructor/day1/preview_demonstration/` folder.
-    
+  
     - Run `cd evidence_directory`.  
-     
+    
 2.  Your manager told you there are four evidence files in this directory. 
 
      - Confirm this is correct by running `ls`.
 
      - Output should confirm there are four files: `File1`, `File2`, `File3`, `File4`.
- 
+
 3. Next, we need to preview the first file  with the `more` command to determine if it's an access log file.
 
      - First, use the `more` command by running `more File1`.
@@ -548,7 +551,7 @@ We will practice using the preview commands with the following scenario:
 
        -  Use the space bar to scroll down through the file.
 
-  
+
 4. We will preview the next file using the `less` command.
 
      - Use the less command by running `less File2`.
@@ -578,9 +581,9 @@ We will practice using the preview commands with the following scenario:
 7.  Lastly, since we have found the access log file, we now need to preview the bottom of the file to see the last timestamp.
 
      - Run the command `tail File4`.
-     
+    
         - The last timestamp on the file shows Sally logging out at 12/23/19 04:33 PM.      
-  
+
 
 In this demonstration  we covered the following preview commands:
 
@@ -593,7 +596,7 @@ In this demonstration  we covered the following preview commands:
    - `tail`: Previews the bottom 10 lines of a file.
 
    - Adding `-number` after `head` or `tail` will change the number of lines previewed.
-  
+
 
 In the next activity, we will use these preview commands to begin investigating the malicious employees that may be selling secret recipes to Wonka Corp's rival, Slugworth Corp.      
 
@@ -613,7 +616,7 @@ In the next activity, we will use these preview commands to begin investigating 
   -  For example: A security professional may need to combine several of the same type of log file into a single log file.
 
   -  Combining files lets you do one single analysis of data, rather than analyzing multiple files.
-  
+
 We can use the `cat` command to complete this task.
 
   - `cat` is short for _concatenate_, a word meaning to link together.
@@ -661,12 +664,13 @@ How to use redirection with `cat`:
 
   - This command will create a new file called `combined_1_and_2.txt`. If the file name already exists, it will overwrite it with the combined data from `1.txt` and `2.txt`.
     
+  
   Another example: You want to combine two separate files, `3.txt` and `4.txt`, into a single file called `combined_3_and_4.txt`.
   
   - You would run the following command:
-
+  
     `cat 3.txt 4.txt >> combined_3_and_4.txt` 
-
+  
   - This command will create a new file called `combined_3_and_4.txt`. If the file name already exists, it will add to the bottom of the file with the combined data from `3.txt` and `4.txt`.
 
 The following example shows how `cat` works with _stdin_ and _stdout_:
@@ -697,12 +701,12 @@ We will walk through the `cat` command using the following scenario:
     
 
 #### `Cat` Walkthrough
-  
+
 1. Start by navigating into the `Logfile_evidence` directory.
    - Note: This is located in the `/03-instructor/day1/cat_demonstration` folder. 
-    
+   
     - Run `cd Logfile_evidence`.  
-     
+   
 2.  Confirm there are four log evidence files in this directory. 
 
      - Run `ls`.
@@ -710,9 +714,9 @@ We will walk through the `cat` command using the following scenario:
        - There are four files in this directory: `LogFile1`, `LogFile2`, `LogFile3`, `LogFile4`.
 
      - Use the `more` command to preview the files and show that each log file is a log for a different day.
-     
+    
        - For example, run `more LogFile1`.
- 
+
 3. Next, we will use the `cat` command to combine these four log files together. First, we will do it without saving.
 
      - Type the following command: `cat LogFile1 LogFile2 LogFile3 LogFile4`.
@@ -735,7 +739,7 @@ We will walk through the `cat` command using the following scenario:
 
      - Run `more rogue_employee_log_evidence` and push the space bar to scroll through the file and confirm the combination of the four log files.
 
-   
+
 Demonstration Summary: 
 
    - `cat` is used to concatenate and combine multiple files together.
@@ -745,7 +749,7 @@ Demonstration Summary:
      - `>` will write to a file, but overwrite the file if the file name already exists.
 
      - `>>` will write to a file, but append to the file if the file name already exists.
-  
+
 In the final command line activity of the day, you will use all the commands you've learned today to help Wonka Corp identify the insider selling secret recipes to Slugworth Corp.
 
 
@@ -762,6 +766,6 @@ In the final command line activity of the day, you will use all the commands you
 
 -------
 
-### Copyright
+Copyright
 
 Trilogy Education Services © 2018. All Rights Reserved.

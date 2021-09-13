@@ -1,4 +1,4 @@
-##  8.1 Student Guide: Introduction to Networking
+## 8.1 Student Guide: Introduction to Networking
 
 ### Overview
 

@@ -161,37 +161,37 @@ Let's look at the first option: `journalctl --list-boots`
 `journalctl -ef`
   - `-e`: Displays the **end** of the journal 
   - `-f`: **Follow mode** keeps the journal screen open, displaying real-time messages in order of occurrence.
- 
+
 `journalctl _UID`
- 
+
 - You can view **systemd-journald** logs for a user by using `_UID=`. This command option will display journal data for the mapped user.
- 
+
 - You can see a list of user IDs by running `cat /etc/passwd`.
- 
+
 `journalctl` provides a vast array of command options. Students can download this PDF to learn some of the most popular commands:
- 
+
 - [How to Use journalctl to Read Linux System Logs](../resources/How_to_Use_journalctl.pdf)
 
 #### `journalctl` Demo Setup
- 
+
 We'll demonstrate how to use the `journalctl` command with the following scenario:
- 
+
 - The IT administrator recommended that you enable **log persistence** due to a huge loss of log data that resulted from this unplanned system reboot and improper shutdown.
- 
+
  - Log persistence is the process of saving system logs across reboots to ensure they are not lost.
- 
+
 - In this demonstration, we'll also show how to use `journalctl` to identify suspicious activity, such as malicious user account creation and un-authorized login attempts.
- 
+
 #### `journalctl` Demonstration
- 
+
 1. The first thing we should do is enable log persistence, which ensures that system logs are saved across reboots.
- 
+
    - In order to persist logs, the `Storage` line in the `/etc/systemd/journald.conf` file will need to be uncommented and its value will need to be set to `Storage=auto`.
- 
+
    - These settings are defined in `/etc/systemd/journald.conf`.
- 
+
    - Run: `sudo nano /etc/systemd/journald.conf`
- 
+
       ```bash
       #  This file is part of systemd.
       #
@@ -205,90 +205,90 @@ We'll demonstrate how to use the `journalctl` command with the following scenari
       # Defaults can be restored by simply deleting this file.
       #
       # See journald.conf(5) for details.
-  
+      
       [Journal]
       #Storage=auto
       #Compress=yes
       ```
- 
+
       - `Storage=` is the persistence setting.
- 
+
        - `auto` indicates logging persistence if space is available.
- 
+
       - Uncomment the `Storage=auto` and save the file.
- 
+
    - Whenever the `journal.conf` file is modified, `systemd-journald` needs to be restarted before the changes take effect.
- 
+
    - Run: `sudo systemctl restart systemd-journald`
- 
+
    -  Log persistence is now enabled.
- 
+
 2. Next, we'll observe and interpret real-time journal messages. We'll assume the role of an attacker that breached a user account with admin privileges and then attempted lateral movement through the system.
- 
+
    - For this part of the demo, you will need to open two terminal windows: 
      - **Terminal #1** for our real-time journal monitoring.
      - **Terminal #2** to perform malicious activity.
- 
+
   - **Terminal #1**
 
     - Run: `journalctl -ef`
 
- 
+
   - **Terminal #2**
 
     - Now open the 2nd terminal and attempt to switch to a non-existent user.
 
     - Run: `sudo su badguy`
- 
+
     - Enter any random password. It will fail, as expected since this user doesn't exist.
- 
+
   - **Terminal #1**
- 
+
     - Observe the results of the journal messages.
- 
+
     - We should be able to see the failed login attempt. This journal message is an example of the kinds of suspicious activities we would look for. In this case, the failed login attempt sticks out like a sore thumb and is cause for further investigation.
- 
+
       ![Bad Guy login](Images/123.png)
- 
+
     - Criminal hackers will try and leverage breached administrator accounts to create new user accounts.
- 
+
     - This provides the criminal hackers with persistence because they will have the capability to log into the system at any point in the future using the fake user account that they created.
- 
+
 3. We can also display `journalctl` messages based on a user `ID`. This is useful when researching any suspicious users IDs on the system.
   
    - **Terminal #2**
-    
+   
      - First, let's see which users IDs exist on the system:
 
      - Run: `cat /etc/passwd`
- 
+
        - For this example, we'll used the **asgard** user.
- 
+
      - Then, let's look at journal data for the user as follows:
- 
+
        - Run: `journalctl _UID=1010`
- 
+
      - Note that we can see journal data related to the **asgard** user. Specifically we see basic logon and logoff information, nothing special, in this case.
- 
+
      - Examples of malicious activity we want to keep an eye out for are the creation of malicious user’s accounts and unauthorized login attempts.
 
 
 #### Demo Summary
- 
+
 Summarize this demonstration by reviewing the following concepts:
- 
+
 - `journalctl` queries the `systemd` journal.
- 
+
 - Edit `/etc/systemd/journald.conf` to establish persistent storage.
- 
+
 - `-ef` displays jump to the **end** of the journal `-e` and uses **follow mode** `-f` which keeps the journal screen open, which displays real-time messages in order of occurrence.
- 
+
 - `_UID=` display journal data for specific users.
- 
+
 Knowing how to manage logs using `journalctl` is a crucial skill for security administrators.
- 
+
 - While this was a basic introduction to `journaltcl` and `systemd`, these skills are very useful when administering Linux systems.
- 
+
 ### 02. Log Filtering Activity
 
 - [Activity File: Log Filtering](./Activities/03_Log_Filtering/Unsolved/README.md)
@@ -296,7 +296,7 @@ Knowing how to manage logs using `journalctl` is a crucial skill for security ad
 ### 03. Review Log Filtering 
 
 - [Solution Guide: Log Filtering](./Activities/03_Log_Filtering/Solved/README.md)
- 
+
 
 ### 04. Log Size Management 
 
@@ -336,27 +336,27 @@ Logs are rotated based on a schedule. With logrotate, when a specific threshold 
 Display the following contents of a typical `/etc/logrotate.conf` file. Output may vary slightly from the Vagrant machine. 
 
 ```bash
-# see "man logrotate" for details
+ # see "man logrotate" for details
 
-# rotate log files weekly
+ # rotate log files weekly
 weekly
 
-# keep 4 weeks worth of backlogs
+ # keep 4 weeks worth of backlogs
 rotate 4
 
-# create new (empty) log files after rotating old ones
+ # create new (empty) log files after rotating old ones
 create
 
-# use date as a suffix of the rotated file
+ # use date as a suffix of the rotated file
 #dateext
 
-# uncomment this if you want your log files compressed
-#compress
+ # uncomment this if you want your log files compressed
+ #compress
 
-# packages drop log rotation information for this directory
+ # packages drop log rotation information for this directory
 include /etc/logrotate.d
 
-# system-specific logs may also be configured here. 
+ # system-specific logs may also be configured here. 
 ```
 
   - `weekly`: Rotate out existing logs every week
@@ -433,7 +433,7 @@ For this demo, launch an instance of Ubuntu using your VM environment and run th
       ```bash
       # packages drop log rotation information into this directory
       include /etc/logrotate.d
-      ```  
+      ```
     - Explain that this section introduces a directory of other logrotate configuration files for specific applications. 
 
 3.  `/etc/logrotate.d` is a directory that contains application specific configuration files. These configurations will vary from the default configurations found in `/etc/logrotate.conf`.  
@@ -465,7 +465,6 @@ For this demo, launch an instance of Ubuntu using your VM environment and run th
 
     - In this output, we can a list of the applications that logrotate has specific configurations for. 
     
-
 4. After browsing the contents of the `/etc/logrotate.d`, note that a configuration file for mail does not exist. Therefore, we will need to create a configuration file and add the specific parameters requested by the IT administration. 
 
    - Within `/etc/logrotate.d`, run `nano mail` to create a new configuration file. 
@@ -534,12 +533,12 @@ For this demo, launch an instance of Ubuntu using your VM environment and run th
       .
       .
       Handling 16 logs
-
+     
       rotating pattern: /var/log/alternatives.log  forced from command line (12 rotations)
       empty log files are not rotated, old logs are removed
       switching euid to 0 and egid to 106
       error: error switching euid to 0 and egid to 106: Operation not permitted
-
+     
       rotating pattern: /var/log/apport.log  forced from command line (7 rotations)
       empty log files are not rotated, old logs are removed
       switching euid to 0 and egid to 106
@@ -703,7 +702,7 @@ Launch an instance of Ubuntu using your VM environment.
      #
      # This file controls the configuration of the audit daemon
      #
-
+  
      local_events = yes
      write_logs = yes
      log_file = /var/log/audit/audit.log

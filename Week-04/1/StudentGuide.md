@@ -366,7 +366,7 @@ Because files in `/tmp` are deleted between reboots, hackers often save maliciou
 
 ### 06. Activity: Linux Landmarks
  - [Activity File: Linux Landmarks](Activities/06_Linux_Landmarks/Unsolved/README.md)
- 
+
  **Note**: You need to run the following command to set up this activity: 
   -  `sudo bash /home/instructor/Documents/setup_scripts/instructor/landmarks_review.sh`
 
@@ -786,7 +786,7 @@ This raises the prompt: `Do you want to continue? [y/n]`
 Using `apt` to install software is practically a daily task for sysadmins, and makes installing new software straightforward.
 
 The final activity of the day will be a take home activity to practice installing several packages.
- 
+
 ### 13. Take Home Activity: Installing Packages 
 
 - [Activity File: Installing Packages](Activities/13_Installing_Packages/Unsolved/README.md)

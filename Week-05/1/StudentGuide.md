@@ -1,4 +1,4 @@
-# 5.1 Student Guide: Backups and Restoring Data with `tar`
+## 5.1 Student Guide: Backups and Restoring Data with `tar`
 
 ### Overview
 
@@ -150,7 +150,7 @@ We can break down the command using the general syntax of the command as shown b
   - `c` stands for create. We will always need this option when creating an archive.
 
   - `v` stands for [_verbose_](<https://www.gnu.org/software/tar/manual/html_node/verbose-tutorial.html>). While not necessary to used when creating an archive, this option shows details about the results of running the `tar` command.  
-      
+    
      - It is a best practice to use this option to validate for errors. For example, that the file *permissions* and file *sizes* and file *dates* are archived properly.
 
   - `f` stands for [_use this archive file_](<https://www.gnu.org/software/tar/manual/html_node/file-tutorial.html#SEC14>). It is followed by the title of the archive. It also be written as `--file=archive_name`.  This option must be present when creating an archive.
@@ -473,7 +473,7 @@ Completing this activity will require the following steps:
       -rw-r--r--  1   instructor  instructor   9  Jul 4   02:55   file3
       -rw-r--r--  1   instructor  instructor  13  Jul 4   03:26   file4
       -rw-r--r--  1   instructor  instructor  13  Jul 3   03:28   file5
-
+      
       discharge:
       total 4
       -rw-r--r--  1   instructor  instructor  19  Jul 3   22:34   file2
@@ -540,20 +540,20 @@ Completing this activity will require the following steps:
         - `f`: indicates the file.
         - `emerg_back_sun.tar`: the archive to use.
         - `--incremental`: indicates an incremental backup.
-   
+
 
     - Output should look like:
-
+    
         ```
         drwxr-xr-x instructor/instructor        45 2019-12-28 17:30 emergency/admit/
         Y file1.txt
         Y file2.txt
         Y file3.txt
         Y file4.txt
-
+    
         drwxr-xr-x instructor/instructor        12 2019-12-28 17:35 emergency/discharge/
         Y file2.txt
-
+    
         -rwxr-xr-x instructor/instructor     10244 2019-12-28 17:35 emergency/.DS_Store
         -rwxr-xr-x instructor/instructor         0 2019-12-20 13:05 emergency/.gitkeep
         -rw-r--r-- instructor/instructor     10240 2019-12-28 17:37 emergency/emerg_back_sun.tar
@@ -564,10 +564,10 @@ Completing this activity will require the following steps:
         -rwxr-xr-x instructor/instructor       661 2019-12-28 17:30 emergency/admit/file3.txt
         -rwxr-xr-x instructor/instructor       840 2019-12-28 17:30 emergency/admit/file4.txt
         -rwxr-xr-x instructor/instructor       341 2019-12-28 17:35 emergency/discharge/file2.txt
-
+    
         drwxr-xr-x instructor/instructor        12 2019-12-28 17:35 emergency/discharge/
         Y file2.txt
-
+    
         -rwxr-xr-x instructor/instructor     10244 2019-12-28 17:35 emergency/.DS_Store
         -rwxr-xr-x instructor/instructor         0 2019-12-20 13:05 emergency/.gitkeep
         -rw-r--r-- instructor/instructor     10240 2019-12-28 17:37 emergency/emerg_back_sun.tar
@@ -579,17 +579,17 @@ Completing this activity will require the following steps:
         -rwxr-xr-x instructor/instructor       840 2019-12-28 17:30 emergency/admit/file4.txt
         -rwxr-xr-x instructor/instructor       341 2019-12-28 17:35 emergency/discharge/file2.txt
         ```
-
+    
         - For each directory in the `emerg_back_sun.tar` file, this command will list the files in the directory at the time the archive was created for (as indicated by the `t` option).
-
+    
     - Using the  `--incremental` option will display one of the following next to each file:
-
+    
         - `Y` indicates that the file is contained in the `emerg_back_sun.tar` archive.
-
+    
         - `N` indicates that the file was present in the directory at the time the archive was made, but was not added to the `emerg_back_sun.tar` archive because it has not changed since the last backup.
-
+    
         - `D` indicates the file is a directory.
-
+    
     - Pause and see if there are any question before proceeding.
 
 6. Now, we will simulate the Monday and Tuesday incremental backups that were run by the system admin team.
@@ -608,7 +608,7 @@ Completing this activity will require the following steps:
 
         ```
         drwxr-xr-x  instructor/instructor   29  2019-07-04  03:28   emergency/admit/
-
+  
         N file1.txt
         N file3.txt
         N file4.txt
@@ -962,7 +962,7 @@ Now, we'll use the following scenario to demonstrate how to carryout this exploi
        - There is only one file here, an executable `.cachefile`.
 
    - Run: `./.cachefile` to execute it.
-    
+   
     - This will  change the user prompt from `instructor` to `root`. We now have root access.
 
 

@@ -74,7 +74,7 @@ Our program is primarily concerned with the technical aspects of cybersecurity, 
 
 ### 05. Facilitated Discussion: Cybersecurity Careers Research 
 It's important for you to assess your existing skills and job level:
- 
+
 - Are you a career switcher or starter? Are you entering the security field for the first time? 
 
 - If you have existing experience, what is it? Possibilities include:
@@ -114,19 +114,19 @@ Now discuss common job titles and where they fit in different pathways.
   - **Systems administrator** and **network administrator** jobs are also entry level jobs in the networking space. 
     
       - Technical cybersecurity roles require a strong foundation in networking, which our program covers. We also provide relevant cybersecurity context to our networking modules, so they are still relevant for those who already have sysadmin or networking experience. These roles are within reach for career switchers and starters.
-    
+      
       - Networking roles focus on configuring and maintaining networks, and often include security-related tasks such as monitoring logs, implementing firewalls, and maintaining network-based backups. 
 
   - A range of entry level security jobs focus on the operations and defensive side of security. Our program will equip you with the skills to be hired in these roles, like many of our graduates.
   
     - **SOC analysts** are the most common entry level security jobs. Specifically a Tier 1 SOC analyst can be hired with no prior professional experience. They work at a security operations center (SOC) within an organization, monitoring and analyzing network traffic. 
       - They are the first level of defense and responsible for monitoring the security of users, systems, and the network. They detect and investigate suspicious and potentially malicious activity on the network and within systems.
-  
+    
     - **Security or information specialists/analysts** encompass different skill levels and responsibilities, so it is important to always read the job description, specific skills, and qualifications. These roles actively protect an organization from security threats and breaches. 
       - Common responsibilities for entry level roles include keeping up-to-date with security improvements, monitoring and protecting security systems, implementing security tools and protocols, developing security requirements, analyzing security policies and protocols for weaknesses and flaws, and designing and developing training. 
-  
+    
     - **Information assurance technicians** protect computer assets by establishing and documenting access and maintaining files.
-  
+    
     - **Forensics specialists** come in after a crime has been committed. They  analyze logs and other data to determine what occurred. 
       - Some common responsibilities include conducting security incident investigations, recovering and examining data from computers and other devices, compiling evidence for legal cases, writing technical reports, preparing evidence for trial, and working with law enforcement on the validity and preservation of data. 
     
@@ -222,7 +222,7 @@ As of August 2020, the average annual pay for an information security analyst in
 #### What skills and knowledge areas are assessed in this certification?
 
 The following domains covered in the exam:
-  
+
   - Threats, attacks, and vulnerabilities
   
   - Technologies and tools

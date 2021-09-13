@@ -1,4 +1,4 @@
-## 6.2: Bash Scripting Continued
+## 6.2 Student Guide: Bash Scripting Continued
 
 ### Lesson Overview
 
@@ -98,12 +98,12 @@ Let's examine `if` statement syntax.
 The syntax of bash `if` statements works as follows:
 
   ```bash
-  # if [ <condition> ]
-  # then
-  #   <run_this_command>
-  #   <run_this_command>
-  #   <run_this_command>
-  # fi
+   # if [ <condition> ]
+   # then
+   #   <run_this_command>
+   #   <run_this_command>
+   #   <run_this_command>
+   # fi
   ```
 
 Break down the syntax:
@@ -124,12 +124,12 @@ Sometimes, if the condition is not true, we want the script to do something else
 Show the following statement:
 
 ```bash
-# if [ <condition> ]
-# then
-#   <run_this_command>
-# else
-#   <run_this_command>
-# fi
+ # if [ <condition> ]
+ # then
+ #   <run_this_command>
+ # else
+ #   <run_this_command>
+ # fi
 ```
 
 Break down the syntax:
@@ -154,12 +154,12 @@ If both conditions need to be true, we can use the "and" condition, indicated by
 For this next example, both conditions have to be true in order for the following commands to run.
 
 ```bash
-# if [ <condition1> ] && [ <condition2> ]
-# then
-#   <run_this_command>
-#   <run_this_command>
-#   <run_this_command>
-# fi
+ # if [ <condition1> ] && [ <condition2> ]
+ # then
+ #   <run_this_command>
+ #   <run_this_command>
+ #   <run_this_command>
+ # fi
 ```
 
 If at least one of the two or more conditions needs to be true, then we can use the OR keyword, indicated by the `||` symbol.
@@ -167,14 +167,14 @@ If at least one of the two or more conditions needs to be true, then we can use 
 For this example, only [condition1] or [condition2] needs to be true.
 
 ```bash
-# if [ <condition1> ] || [ <condition2> ]
-# then
-#   <run_this_command>
-#   <run_this_command>
-#   <run_this_command>
-# else  
-#   <run_this_command>
-# fi
+ # if [ <condition1> ] || [ <condition2> ]
+ # then
+ #   <run_this_command>
+ #   <run_this_command>
+ #   <run_this_command>
+ # else  
+ #   <run_this_command>
+ # fi
 ```
 
 Break down the syntax:
@@ -194,11 +194,11 @@ Now we'll explain how to use conditional logic to run certain commands when cert
 The following examples use conditions to numerical values and strings. For these comparisons, we use the numeric variables(`x` and `y`) and the string variables (`str1` and `str2`):
 
 ```bash
-# set num variables
+ # set num variables
 x=5
 y=100
 
-# string variables
+ # string variables
 str1='this is a string'
 str2='this is different string'
 ```
@@ -229,7 +229,7 @@ Notice that in this case, we are comparing the string values of 5 and 100, as op
 On your own, see what happens if we use `-eq` in place of `=`.
 
 ```bash
-# If $x is equal to $y, run the echo command.
+ # If $x is equal to $y, run the echo command.
 if [ $x = $y ]
 then
   echo "X is equal to Y!"
@@ -252,7 +252,7 @@ If we wanted this condition to be true, we would change `=` to `!=`, which stand
 On your own, see what happens if we use `-ne` in place of `!=`.
 
 ```bash
-# If x is not equal to y, exit the script
+ # If x is not equal to y, exit the script
 if [ $x != $y ]
 then
   echo "$x does not equal $y"
@@ -272,7 +272,7 @@ Break down the syntax:
 
 ```bash
 
-# If str1 is not equal to str2, run an echo command and exit the script.
+ # If str1 is not equal to str2, run an echo command and exit the script.
 if [ $str1 != $str2 ]
 then
   echo "These strings do not match."
@@ -307,7 +307,7 @@ On your own, think about why we cannot use the less than and greater than symbol
 What would happen if we replaced `-gt` with `>`?  The result will be quite unexpected! 
 
 ```bash
-# If x is greater than y, run the echo command
+ # If x is greater than y, run the echo command
 if [ $x -gt $y ]
 then
   echo "$x is greater than $y".
@@ -323,7 +323,7 @@ Break down the syntax:
 In this next example, if `x` is less than `y`, an echo command runs. If the condition is false, i.e. x is not less than y, an `else` code block runs a different echo command.
 
 ```bash
-#check if x is less than y
+ #check if x is less than y
 if [ $x -lt $y ]
 then
   echo "$x is less than $y!"
@@ -347,7 +347,7 @@ We can also use greater than or less than conditions to compare strings.
 In the next example, we'll combine that feature with some other conditions.
 
 ```bash
-# check if $str1 is equal to 'this string' AND $x is greater than $y
+ # check if $str1 is equal to 'this string' AND $x is greater than $y
 if [ "$str1" = 'this string' ] && [ $x -gt $y ]
 then
   echo "Those strings match and $x is greater than $y!"
@@ -355,7 +355,7 @@ else
   echo "Either those strings don't match, or $x is not greater than $y"
 fi
 
-# check if $str1 is equal to str2 OR $x is less than $y
+ # check if $str1 is equal to str2 OR $x is less than $y
 if [ "$str1" != "$str2" ] || [ $x -lt $y ]
 then
   echo "Either those strings don't match OR $x is less than $y!"
@@ -384,19 +384,19 @@ Breakdown:
 In the following examples, we check if the following directories and files exist. If they do, we run echo commands.
 
 ```bash
-# check for the /etc directory
+ # check for the /etc directory
 if [ -d /etc ]
 then
   echo The /etc directory exists!
 fi
 
-# check for my_cool_folder
+ # check for my_cool_folder
 if [ ! -d /my_cool_folder ]
 then
   echo my_cool_folder isn\'t there!
 fi
 
-# check for my_file.txt
+ # check for my_file.txt
 if [ -f /my_file.txt ]
 then
   echo my_file.txt is there
@@ -431,7 +431,7 @@ Lastly, in the following three examples, we use built-in variables and command e
 
 
 ```bash
-# if the user running this script is not the "sysadmin" then run the echo command
+ # if the user running this script is not the "sysadmin" then run the echo command
 if [ $USER != 'sysadmin' ]
 then
   echo "You are not sysadmin!"
@@ -444,7 +444,7 @@ Syntax breakdown:
 - `if [ $USER != 'sysadmin' ]`: If the user running this script is **not** "sysadmin", then run the following echo command.
 
 ```bash
-# Ensure that the current user's UID is 1000 before proceeding
+ # Ensure that the current user's UID is 1000 before proceeding
 if [ $UID -ne 1000 ]
 then
   echo "Your UID is wrong."
@@ -459,7 +459,7 @@ Syntax breakdown:
 Notice that we use `-ne` here.  Why is that?  What would happen if we used `!=` instead?
 
 ```bash
-# if this script is being run by "sysadmin"
+ # if this script is being run by "sysadmin"
 if [ $(whoami) = 'sysadmin' ]
 then
   echo "You are sysadmin!"
@@ -656,11 +656,11 @@ First, we'll cover the syntax of `for loops`.
 Output should be:
 
 ```bash
-# for <item> in <list>
-# do
-#   <run_this_command>
-#   <run_this_command>
-# done
+ # for <item> in <list>
+ # do
+ #   <run_this_command>
+ #   <run_this_command>
+ # done
 ```
 Break down the syntax:
 
@@ -681,7 +681,7 @@ Now we we will take a look at a few examples.
 First let's make a list:
 
 ```bash
-# list variables
+ # list variables
 months=(
     'january'
     'february'
@@ -705,7 +705,7 @@ In the first example, we have a for loop that will print out
 
 
 ```bash
-#print out months
+ #print out months
 for month in ${months[@]}
 do
     echo $month
@@ -726,7 +726,7 @@ Can anyone guess what this code does?
 
 ```bash
 
-#iterate over a list of days
+ #iterate over a list of days
 
 for day in ${days[@]}
 do
@@ -755,7 +755,7 @@ Syntax breakdown:
 In the next examples, we can use command expansion or brace expansion directly in place of the list:
 
 ```bash
-# run a command on each file
+ # run a command on each file
 for file in $(ls);
 do
     ls -lah $file
@@ -773,7 +773,7 @@ Syntax breakdown:
 The final block:
 
 ```bash
-# run an operation on each number
+ # run an operation on each number
 for num in {0..5}
 do
     if [ $num = 1 ] || [ $num = 4 ]
@@ -846,14 +846,14 @@ In this example, we are using a for loop to run through a list of packages and c
 
 
 ```bash
-# Define packages list
+ # Define packages list
 packages=(
     'nano'
     'wget'
     'net-tools'
 )
 
-# loop though the list of packages and check to see if they are installed
+ # loop though the list of packages and check to see if they are installed
 
 for package in ${packages[@]}
 
@@ -876,12 +876,13 @@ Syntax breakdown:
 
   - **Note:** Many languages have an `exit code`, or `exit value`.  Upon success, bash returns the exit code `0` and upon failure it returns `1`. This is often counter-intuitive since  `1` is equal to TRUE and `0` is equal to FALSE in Boolean logic. 
     - This exit code is can be seen by running `echo $?`. 
-   
-    - `echo $?` means show me the exit code of the previously executed command.
-   
-    - For example, if you ran `which foobar`, there will be no visible output on screen. In order to verify that the command was successful, we can run `echo$?`. If it returns `1`, then the command failed. If it returns 0, the command was sucessful. 
-   
     
+    - `echo $?` means show me the exit code of the previously executed command.
+    
+    - For example, if you ran `which foobar`, there will be no visible output on screen. In order to verify that the command was successful, we can run `echo$?`. If it returns `1`, then the command failed. If it returns 0, the command was sucessful. 
+    
+    
+
    Try running `echo $?` after running `which ls`.  What do you expect to see?
 
 - `echo "$package is installed at $(which $package)."`: Display a message, and show the packages installation folder.
@@ -896,7 +897,7 @@ In this example, we search each user's home directory for files with the `.sh` e
   But for this example, we assume all script files, and only script files have the `.sh` extension.
 
 ```bash
-# Search each user's home directory for scripts and provide a formatted output.
+ # Search each user's home directory for scripts and provide a formatted output.
 for user in $(ls /home)
 do   
     for item in $(find /home/$user -iname '*.sh')
@@ -931,7 +932,7 @@ Note the use of the `-e` flag and the `\n` line break in the echo command, to fo
 Move on to the next example:
 
 ```bash
-# loop through scripts in my scripts folder and set permissions to executable
+ # loop through scripts in my scripts folder and set permissions to executable
 for script in $(ls ~/scripts)
 do
     if [ ! -x ~/scripts/$script ]
@@ -955,7 +956,7 @@ In the final example, we create a `for` loop that iterates over a list of files 
 **note:**`files_for_hashing` is simply a placeholder for a folder that would contain files to hash.  You can run the command `sha256sum <any_file>` on any file to see the output.
 
 ```bash
-# loop through a list of files and create a hash of each file.
+ # loop through a list of files and create a hash of each file.
 for file in $(ls ~/Documents/files_for_hashing/)
 do
     sha256sum $file
@@ -989,7 +990,6 @@ Type: `for user in $(ls /home); do echo "Username is: $user"; done`
   - Semicolons are used on the command line to replace mandatory carriage returns. In other words, they signify where a line break would occur in our script file. 
   
   - However, while a line break would occur after `do` in our script, there is no semicolon after `do` in our single line command. This is because a line break is actually not necessary after a script. Rather, it is added for readability. 
-  
   
 - Run: `for user in $(ls /home); do echo "Username is: $user"; done`
 
@@ -1057,7 +1057,7 @@ This script runs several commands that need `sudo` access, so we want to ensure 
 - Type:
 
   ```bash
-  # Make sure the script is run as root.
+   # Make sure the script is run as root.
   if [ ! $UID -ne 0 ]
   then
   echo "Please run this script with sudo."
@@ -1072,7 +1072,7 @@ Our script will log all of its progress, and to that end, we create a variable t
 - Type:
 
   ```bash
-  # Create a log file that our script will use to track its progress
+   # Create a log file that our script will use to track its progress
   log_file=/var/log/setup_script.log
   ```
 
@@ -1080,7 +1080,7 @@ Now, we want our log file to have a header and a nice format:
 
 - Type:
   ```bash
-  # Log file header
+   # Log file header
   echo "Log file for general server setup script." >> $log_file
   echo "############################" >> $log_file
   echo "Log generated on: $(date)" >> $log_file
@@ -1095,7 +1095,7 @@ Start by creating a list of packages:
 - Type:
 
   ```bash
-  # List of necessary packages
+   # List of necessary packages
   packages=(
     'nano'
     'wget'
@@ -1112,7 +1112,7 @@ Now we need a `for` loop to iterate over this list, and ensure that each package
 - Type:
 
   ```bash
-  # Ensure all packages are installed
+   # Ensure all packages are installed
   for package in ${packages[@]}
   do
     if [ ! $(which $package) ]
@@ -1141,7 +1141,7 @@ After these installations are complete, we log each package and the current date
 We want to be sure to use the `-a` option so that `tee` _appends_ to our log file, otherwise it overwrites it:
 
 ```bash
-# Print it out and Log it
+ # Print it out and Log it
 echo "$(date) Installed needed pacakges: ${packages[@]}" | tee -a $logfile
 ```
 
@@ -1149,7 +1149,7 @@ echo "$(date) Installed needed pacakges: ${packages[@]}" | tee -a $logfile
 Next, we setup our `sysadmin` user on the system, and grant the correct `sudo` permissions:
 
 ```bash
-# Create the user sysadmin with no password (password to be created upon login)
+ # Create the user sysadmin with no password (password to be created upon login)
 useradd sysadmin
 chage -d 0 sysadmin
 
@@ -1159,7 +1159,7 @@ Add `sysadmin` to the `sudo` group:
 
 
 ```bash
-# Add the ryan user to the `sudo` group
+ # Add the ryan user to the `sudo` group
 
 usermod -aG sudo ryan
 ```
@@ -1168,8 +1168,7 @@ Log these actions:
 
 
 ```bash
-
-# Print and log
+ # Print and log
 echo "$(date) Created sys_admin user. Password to be created upon login" | tee -a $log_file
 ```
 
@@ -1177,20 +1176,20 @@ Next, we harden the system:
 
 
 ```bash
-# Remove roots login shell and lock the root account.
+ # Remove roots login shell and lock the root account.
 usermod -s /sbin/nologin root
 usermod -L root
 
-# Print and log
+ # Print and log
 echo "$(date) Disabled root shell. Root user cannot login." | tee -a $log_file
 
-# Change permissions on sensitive files
+ # Change permissions on sensitive files
 chmod 600 /etc/shadow
 chmod 600 /etc/gshadow
 chmod 644 /etc/group
 chmod 644 /etc/passwd
 
-# Print and log
+ #  Print and log
 echo "$(date) Changed permissions on sensitive /etc files." | tee -a $log_file
 ```
 Now we create our `scripts` folder, and add it to `$PATH`, so that custom commands can be run from any location.
@@ -1198,27 +1197,27 @@ Now we create our `scripts` folder, and add it to `$PATH`, so that custom comman
 - **Note:** We check if the folder already exists before creating it.
 
 ```bash
-# Setup scripts folder
+ # Setup scripts folder
 if [ ! -d /home/ryan/scripts ]
 then
 mkdir /home/ryan/scripts
 chown ryan:ryan /home/ryan/scripts
 fi
 
-# Add scripts folder to .bashrc for ryan
+ # Add scripts folder to .bashrc for ryan
 echo "" >> /home/ryan/.bashrc
 echo "PATH=$PATH:/home/ryan/scripts" >> /home/ryan/.bashrc
 echo "" >> /home/ryan/.bashrc
 
 
-# Print and log
+ # Print and log
 echo "$(date) Added ~/scripts directory to sysadmin's PATH." | tee -a $log_file
 
 
 Adding a few custom aliases might be nice too!
 
 ```bash
-# Add custom aliases to /home/ryan/.bashrc
+ # Add custom aliases to /home/ryan/.bashrc
 echo "#Custom Aliases" >> /home/ryan/.bashrc
 echo "alias reload='source ~/.bashrc && echo Bash config reloaded'" >> /home/ryan/.bashrc
 echo "alias lsa='ls -a'" >> /home/ryan/.bashrc
@@ -1227,14 +1226,14 @@ echo "alias dwn='cd ~/Downloads'" >> /home/ryan/.bashrc
 echo "alias etc='cd /etc'" >> /home/ryan/.bashrc
 echo "alias rc='nano ~/.bashrc'" >> /home/ryan/.bashrc
 
-# Print and log
+ # Print and log
 echo "$(date) Added custom alias collection to sysadmin's bashrc." | tee -a $log_file
 ```
 
 We end our script with a message to let the user know it's finished.
 
 ```bash
-#Print out and log Exit
+ #Print out and log Exit
 echo "$(date) Script Finished. Exiting."
 echo "$(date) Script Finished. Exiting." >> $log_file
 
@@ -1249,6 +1248,6 @@ This script should be ready to run on any new system.
 
 -------
 
-### Copyright
+Copyright
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

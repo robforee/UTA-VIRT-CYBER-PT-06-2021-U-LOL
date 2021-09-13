@@ -155,30 +155,30 @@ Internal policies often support business goals, such as guaranteeing 99% uptime.
 - However, businesses often have to follow rules that they don't necessarily set for themselves. 
 
 - Such rules may not directly benefit the business, but rather, may be mandated by regulations, laws, or industry standards.
- 
+
 As information security professionals, it is important to understand the distinctions between **laws**, **regulations**, **policies**, **guidelines**, and **frameworks**. All of these will help guide your decision making process in everything you do.
- 
+
 #### Policies
- 
+
 A policy is a set of ideas or plans that inform decision making within business, government, politics, or economics.
- 
+
 Examples of policies include:
- 
+
 - **Bring Your Own Device (BYOD)** is a non-intrusive policy adopted by organizations that specifically defines the acceptable use of non-company owned devices. Devices referenced in this policy may include personally owned devices such as desktop computers, routers, switches, test measurement equipment, and weather equipment.
- 
+
 - **Mobile Device Management (MDM)** is an example of a restrictive or intrusive policy that is a subset of a BYOD policy. MDM is an **acceptable use policy** related to personally owned mobile devices. Devices referenced in this policy include cell phones, laptops, and WiFi hotspots.
- 
+
 :question: Can anyone think of circumstances in which an organization would require a mobile device management policy? 
 
   - Answer: Any company that has a remote workforce.
 
 #### Guidelines
- 
+
 A guideline is similar to a rule. Guidelines are issued by organizations to make the actions of its employees or departments more predictable and, presumably, higher quality.
- 
+
  - Guidelines are not mandatory. They are suggestions meant to be followed by those to which they apply.
 
- 
+
 #### Laws
 
 Laws are policies that are written in legal language, voted on, and passed by legislative bodies of government.
@@ -188,13 +188,13 @@ Laws are enforced by agencies who are tasked with overseeing and monitoring the 
 - One such organization is the **Security and Exchange Commission** (**SEC**).
   
   - Governance frameworks codify standards that all businesses should follow. 
-   
+  
   - In the United States, these frameworks come from statutes (laws passed by Congress) adopted by the SEC, the regulatory body in charge of enforcing and proposing laws about financial instruments (stocks, bonds, options, etc.), and protecting consumers from fraud.
- 
+
   - In the 1990s, the internet grew explosively, leading to the emergence of cybercrime. During the 90s, the SEC worked with Congress to pass anti-fraud statutes to discourage cybercrime.
- 
+
   - **Note:** An anti-fraud statute, in our context, is a law criminalizing the use of technology to commit fraud.
- 
+
 - Since businesses in different industries manage different kinds of data, they must meet these obligations in different ways. This is why there are different laws for different industries. You should be aware of some of these, including:
 
   - **The Family Educational Rights and Privacy Act (FERPA)** protects the privacy of student educational records. Parents or eligible students have the right to request that records be corrected if they believe they are misleading and/or inaccurate.
@@ -202,13 +202,13 @@ Laws are enforced by agencies who are tasked with overseeing and monitoring the 
   - **Gramm-Leach-Bliley Act (GLBA)** requires financial institutions who provide consumers financial products and services to provide an explanation of their information-sharing practices to safeguard sensitive data.
 
   - **Federal Information Security Management Act of 2002 (FISMA)** defines the framework for protecting government data, operations, and assets against natural or man-made threats.
- 
+
   - **Health Insurance Portability and Accountability Act (HIPAA)** regulates the flow of healthcare information and defines how personally identifiable information (PII) must be protected from misuse and theft within the healthcare industry.
- 
+
     - Any organization that collects, stores, administers, or provides PII is obligated to abide by HIPPA. This includes such organizations as health maintenance organizations (HMOs), dental offices, optometrist practices, and chiropractic offices.
- 
+
 #### Regulations
- 
+
 Regulations are detailed instructions for how to enforce laws.
 
 - Sometimes referred to as administrative laws, regulations are legally required and their application is mandatory.
@@ -224,11 +224,11 @@ Note the difference between laws and regulations:
 Some of the more popular regulations within information security include:
 
 - **Sarbanes Oxley (SOX)**, a result of the Enron and WorldCom scandal, holds corporate officers, board members, and executive management responsible if the organization they represent is not compliant with a law. Noncompliance includes negligence and failure to implement any recommended precautions. Due diligence and due care must be demonstrated at all times.
- 
+
   - **Due diligence** is, for example, when a company or individual properly investigates all of the possible weaknesses and vulnerabilities, in order to fully understand threats.
- 
+
   - **Due care** is, for example, when a company has done all it can reasonably do to prevent a security breach, compromise, or disaster, and implemented the necessary countermeasures, such as security controls (safeguards).
- 
+
 - **General Data Protection Regulation (GDPR)** protects the private data of all citizens of the European Union (EU) and European Economic Area (EEA). It requires organizations that process data belonging to EU citizens to protect the data sufficiently. GDPR regulations apply to organizations based in the EU, as well as those based elsewhere that process data belonging to EU citizens.
 
 You'll learn more about individual regulations on the job, but the ones that you need to know specifically depend on the industry you work in.
@@ -238,11 +238,11 @@ You'll learn more about individual regulations on the job, but the ones that you
   - Answer: Laws govern each person equally. Regulations affect organizations or entities whose operations, such as the protection of data, require specific vigilance.
 
 #### Standards
- 
+
 Standards are published specifications used to establish a common language and technical criteria across an organization or industry.
- 
+
 - For example, merchants that process financial transactions are legally required to comply with the **Payment Card Industry Data Security Standard** (**PCI-DSS**) to help guarantee that their customers' data remains confidential. If a company suffers a breach that results in the disclosure of customer PII, they may have to pay large fines and/or face other legal penalties.
- 
+
 
 #### Risk Management Frameworks
 
@@ -255,13 +255,13 @@ A risk management framework (RMF) is a set of standards developed by the **Natio
   - [Special Publication 800-53](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-53r4.pdf), “Security and Privacy Controls for Federal Information Systems and Organizations” describes a structured process for selecting system security controls and integrating them as part of an organizational risk management program.
 
 A properly implemented information security framework allows security professionals to more intelligently manage cyber risks within their organizations.
- 
+
 - Frameworks consist of various documents that clearly define adopted procedures, policies, and processes followed by an organization. 
- 
+
 - Having an information security framework in place reduces an organization's risk and exposure to vulnerabilities.
- 
+
 Other advantages of establishing a solid information security framework include:
- 
+
  - Instills confidence in your industry.
  - Establishes a strong reputation with business partners.
  - Provides a reputable relationship with customers.
@@ -269,24 +269,24 @@ Other advantages of establishing a solid information security framework include:
 NIST produces one of the most commonly used cybersecurity frameworks today.
 
 #### National Institute of Standards and Technology (NIST)
- 
+
 NIST is a federal agency in the United States Department of Commerce.
- 
+
 - NIST’s mission is to develop and promote standards, measurements, and technology that enhances productivity, facilitates trade, and improves quality of life.
- 
+
 - Since 2014, the [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) has provided guidance for critical infrastructure so organizations can better manage and reduce cybersecurity risks.
 
 At the core of the framework is a set of actions that enable specific outcomes. The framework core isn't a checklist, rather it provides a set of key cybersecurity outcomes to work towards. 
- 
+
 The core of the framework includes four elements: 
- 
+
  - **Functions:** Identify, Protect, Detect, Respond, and Recover. These functions aid in the expression of cybersecurity risk management by organizing information that enables risk management decisions. Functions also align with current methodologies for incident management.
- 
+
  - **Categories:** Subdivisions of functions. These are grouped cybersecurity outcomes that are closely related to specific needs and activities. 
    - Examples include Detection Processes, Access Control, and Asset Management.
- 
+
  - **Subcategories:** Divides categories further into specific outcomes of specific activities. The results of of this subset lead to the achievement of outcomes within each category.
- 
+
  - **Informative References:** Specific sections of guidelines, standards, and practices that describe methods for achieving outcomes in each subcategory. 
 
   ![NIST CORE](Images/2222.png) 
@@ -302,20 +302,20 @@ Next we'll take a look at how an organization would implement the adoption of th
 - For example: An organization has just recovered from an attack. The organization must now consider what can they can do to mitigate this attack from happening again.
 
     - The organization decides to incorporate "lessons learned" as part of their incident response. They will adopt and incorporate a security control from the **Improvements** category of the NIST RMF with a subcategory of **RS.IM-1**.
-  
+    
       - **Improvements (RS.IM):** Organizational response activities are improved by incorporating lessons learned from current and previous detection/response activities.
 
        - **RS.IM-1**: Response plans incorporate lessons learned.
 
 
 - An RMF is a set of documents that define best practices that an organization voluntarily follows to manage its cybersecurity risks most efficiently.
- 
+
 - RMFs are completely voluntary and designed to increase the resiliency of an organization’s defenses.
 
 :question: What are two advantages of implementing a risk management framework?
 
   - Answer: Three examples are: instills confidence in your industry,  establishes a strong reputation with business partners, and provides a reputable relationship with customers.
-  
+
 ### 06. Activity: Introduction to CEO Interviews and Question Prep
 
 - [Activity File: CEO Interviews](Activities/06_CEO_Interviews/README.md)
@@ -330,7 +330,7 @@ Summary:
   - The NIST framework can help a business make good decisions to improve their security posture and become compliant with various laws.
 
   - In the real world, businesses often make some good and some bad security decisions for their business.
- 
+
 
 ### 08. Break
 
@@ -447,14 +447,14 @@ One last major consideration for disaster recovery is having alternate sites to 
 ### 12. Wrap-Up and Summary
 
 We've covered a lot of material this week. Some key takeaways include:
- 
+
 - To foster more effective communications, it's useful for security professionals to have an understanding of the roles and responsibilities of C-Suite corporate executives.
 - We discussed the responsibilities of the security department and interdepartmental communications.
 - We discussed how to properly identify appropriate security controls for a given resource and situation.
 - We learned how to prioritize risks based on likelihood and impact potential through the use of risk management spreadsheets.
 - As an information security professional, it's important to use governance frameworks to determine which policies an organization must develop.
 - Developing business continuity and disaster recovery plans is a critical skill to help foster fast recoveries during outages.
- 
+
 ---
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -179,10 +179,10 @@ Step 1: Creating the Hashlist
 Step 2: Running John the Ripper
 
 - You run John the Ripper with the following simple format:
- 
+
     - `john <hashlist>`.
       - For example:  `john hashlist.txt`
-      
+    
 - You can also have John the Ripper run against a predefined wordlist to speed up the cracking process with the following format:
 
     - `john <hashlist> –wordlist="wordlist.txt" `

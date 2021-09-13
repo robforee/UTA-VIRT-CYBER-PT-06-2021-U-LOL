@@ -307,7 +307,7 @@ Remember that this creates a crontab for the `instructor` user in `/var/spool/cr
     # For more information see the manual pages of crontab(5) and cron(8)
     # 
     # m h  dom mon dow   command
-
+  
     0 6 * * 1-5    rm ~/Downloads/*
     ```
 
@@ -618,10 +618,10 @@ Display the system crontab by running the command and displaying the following o
   # command to install the new version when you edit this file
   # and files in /etc/cron.d. These files also have username fields,
   # that none of the other crontabs do.
-
+  
   SHELL=/bin/sh
   PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-
+  
   # m h dom mon dow user  command
   17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
   25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
@@ -647,14 +647,14 @@ Launch a terminal in your VM and run:
   ```bash
   Lynis 2.6.2 - Help
   ==========================
-
+  
   Commands:
   audit
   configure
   show
   update
   upload-only
-
+  
   Use 'lynis show help <command>' to see details
   ```
 

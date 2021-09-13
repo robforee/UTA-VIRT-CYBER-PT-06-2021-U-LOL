@@ -152,7 +152,7 @@ For the remainder of today’s class, we’ll focus on the three-step installati
 | Please read  [this document](https://docs.google.com/document/d/1MKcMYmsiDWMMDZ2rL3KcY41Rq2RulxrYxxV2MYgblC4/edit#heading=h.6saygus57a1j) for thorough step-by-step instructions on downloading and installing your virtual machine. This document also contains more detailed instructions on the Vagrant commands you’ll need to update your virtual machine, as well as common troubleshooting issues. |
 
 
-### Step 1: Accessing the command line and downloading VirtualBox and Vagrant.
+#### Step 1: Accessing the command line and downloading VirtualBox and Vagrant.
 
 To run virtual machines, we first need to make sure that we have the following tools installed:
 
@@ -166,7 +166,7 @@ To run virtual machines, we first need to make sure that we have the following t
 
 Prework provided resources for you to begin this installation process on your own. If you have not yet completed these installs, you should complete them now. 
 
-### Step 2: Downloading the virtual machine using Vagrant files and scripts. 
+#### Step 2: Downloading the virtual machine using Vagrant files and scripts. 
 
 Now that we have our tools installed, we need to download the following files:
 
@@ -188,7 +188,7 @@ It may take up to a half hour for the virtual machine to download, so use this t
 
 Once you have set up your virtual machine using `vagrant-linux.sh` and the Vagrantfile, move on to the next section. 
 
-### Step 3: Accessing the virtual machine.
+#### Step 3: Accessing the virtual machine.
 
 In later units, we will start our virtual machine using Git Bash and Terminal. For now, we will access it via the graphical user interface, or GUI.
 

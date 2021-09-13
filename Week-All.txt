@@ -1,0 +1,658 @@
+2021-09-13 09:29                                                                                   Page 1
+
+
+1.1 Student Guide: The Cybersecurity Mindset	     	03. Instructor Do: Cybersecurity Domains
+   Overview					     	04. Activity: Cybersecurity Careers Research
+   Class Objectives				     	05. Facilitated Discussion: Cybersecurity Careers
+   Slideshow					     	06. Using our Career Services Department
+   01. Introductions				     	07. Break
+   02. Begin Slideshow and SSM Introduce CompTIA     	08. Cybersecurity Certifications
+   03. Instructor Do: The Rise of Cyber		     	09. Introduction to Security+ Certification
+      Defining Cybersecurity			     	   What is the Security+ certification?
+   05. Course Overview				     	   What are some jobs that may require the Securi
+      Course Structure				     	   What skills and knowledge areas are assessed i
+      Example Assignments			     	   At which point in my career should I consider
+      Projects					     	   Why are all the topics in the Sec+ exam not co
+      Tools We'll Use				     	10. Introduction to Security+ Certification Exam
+      Vagrant Local Virtual Machines		     	11. Activity: Security+ Sample Questions
+      Azure Lab Services			     	12. Activity Review: Security+ Sample Questions
+      Personal Azure Accounts			     	13. Homework Introduction
+      Student Resources				     	13.  Wrap-Up
+   06. Online Learning				     2.1 Student Guide: Introduction to Security Within t
+      Tips					     	Overview
+      Zoom Online Best Practices		     	Class Objectives
+      Slack					     	   Slideshow
+      Bringing Engagement to the Online Classroom    	01. How Security Aligns within an Organization
+   07. Break					     	   GRC Framework
+   08.	Introduction to First Activity and Breakout  	   Roles & Responsibilities
+   09. Activity: Assessing Threats		     	   Roles of Exectutive Management (C-Suite)
+   10. Activity Review: Assessing Threats	     	   The Responsibilities of the Security Departmen
+   11. Defining the CIA Triad			     	   Security Teams and the Aligning Organization
+   12. Activity: CIA Triad and Security Scenarios    	02. Activity: Weighing Security and Business Obje
+   13. Activity Review: CIA Triad and Security Scena 	03. Activity Review: Weighing Security and Busine
+   14. Wrapping Up and Looking Ahead		     	04. Security Culture Framework
+      Looking Ahead				     	   The Security Culture Framework
+1.2 Student Guide: Attacking and Defending	     	   Applying the Security Culture Framework
+   Overview					     	05. Activity: Security Culture Framework - Part 1
+   Class Objectives				     	06. Activity Review: Security Culture Framework -
+   Slideshow					     	07. Break
+   01. Welcome and Overview			     	08 Revisiting the Security Culture Framework
+      Today's Topics				     	09. Activity: Security Culture Framework - Part 2
+   02. Introducing Security Challenge	 1 - Attacki 	10. Activity Review: Security Culture Framework -
+   03. Activity: Security Challenge    1 - Attacking 	11. Security Controls
+   04.	Activity Review: Security Challenge    1 - A 	   Defense in Depth
+   05. Security Challenge    2 - Defending the Wall  	12. Activity: Implementing Security Controls
+   06.	Activity Review: Security Challenge    2 - D 	13. Activity Review: Implementing Security Contro
+   08. Break					     	14. Wrap-Up and Summary
+   09. Introduction to Virtual Machines Setup	     2.2 Student Guide: Risk Management and Threat Modeli
+      What is a Virtual Machine?		     	Overview
+   10. Local Virtual Machine Setup		     	Class Objectives
+      Step 1: Accessing the command line and downloa 	Slideshow
+      Step 2: Downloading the virtual machine using  	01. Welcome and Overview
+      Step 3: Accessing the virtual machine.	     	02. Introduction to Threat Modeling and Risk Mana
+   11. Virtual Machine Setup and Maintenance	     	   Risk Management and Threat Modeling
+1.3 Student Guide: Surveying the Cyberspace	     	   Threat Modeling Methodologies
+   Overview					     	   OWASP In-Depth
+   Class Objectives				     	   Step 1: Determining Scope
+   Slideshow					     	   Step 2: Identifying Threat Agents
+   01. Welcome and Today's Themes		     	   Step 3: Identifying Potential Attacks
+   02. Quick Review				     	   Step 4: Identifying Exploitable Vulnerabilitie
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 2
+
+
+      Summary					     	05. Relative Vs. Absolute Paths and the `cp` and
+   03. Activity: Threat Modeling Steps 1-4	     	   File Paths on the Command Line
+   04. Activity Review: Threat Modeling Steps 1-4    	   Copy and Move Demonstration Scenario
+   05. Risk Analysis				     	06. Activity: Finding your Milky Way
+      Qualitative vs. Quantitative Risk Analysis     	07. Activity Review: Finding your Milky Way
+      Qualitative Risk Analysis			     	08. Break
+      Quantitative Risk Analysis		     	09. Preview Commands
+      Asset Value and Exposure Factor		     	   Preview Demonstration Scenario
+      Loss Expectancies				     	   Preview Commands Demonstration
+      Risk Factor and Heat Maps			     	10. Activity: Oh Henry, What Did You Do?
+      Demonstration: The Risk Spreadsheet	     	11. Activity Review: Review Oh Henry, What Did Yo
+   06. Break					     	12. Data Streams and the `Cat` Command
+   07. Activity: Threat Modeling Step 5: Risk Analys 	   `Cat` Demo Scenario
+   08. Activity Review: Threat Modeling Step 5: Risk 	   `Cat` Walkthrough
+   09. Mitigating Risk				     	13. Activity: Internal Investigation: Finding the
+      Deciding on Security Controls		     	14.  Activity Review: Internal Investigation: Fin
+      Mitigation Example			     3.2 Student Guide: Commanding the Command Line
+   10. Activity: Threat Modeling Step 6: Mitigating  	Overview
+   11. Activity Review: Threat Modeling Step 6: Miti 	Class Objectives
+2.3 Student Guide: Governance Frameworks, Compliance 	Slideshow
+   Overview					     	01. Welcome Back to Terminal
+   Class Objectives				     	02. Activity: Warm-Up
+   Slideshow					     	03. Command-Line Structure
+   01. Welcome and Overview			     	   Method 1: Adding an option to modify the comma
+   02. Codifying and Enforcing Behavior with Policie 	   Method 2: Adding an option and an argument to
+      Using Organizational Goals to Define Policies  	   Method 3: Adding options that require their ow
+      Internal Objectives and Policies		     	   Options Demonstration Setup
+   03. Activity: Documenting Company Policies	     	   Options Demonstration
+   04. Activity Review: Documenting Company Policies 	   Demonstration Summary
+   05. Managing Risk in IT Organizations	     	04.  Welcome to Man Pages
+      Policies					     	   Man Pages Demonstration Setup
+      Guidelines				     	   Man Pages Demonstration
+      Laws					     	   Man Pages Demonstration Summary
+      Regulations				     	05. Activity: Learning New Commands
+      Standards					     	06. Activity Review: Learning New Commands
+      Risk Management Frameworks		     	07.  The find Command
+      National Institute of Standards and Technology 	   Syntax for Finding a File
+   06. Activity: Introduction to CEO Interviews and  	   Syntax for Finding a Directory
+   07. Activity: CEO Interviews			     	   find Demonstration Setup
+   08. Break					     	   find Demonstration
+   09. Contingency Planning for Business Continuity  	   Demonstration Summary
+      Contingency Planning			     	08. Activity: Finding Your Way
+      Business Impact Analysis			     	09. Activity Review: Finding Your Way
+   10. Activity: Disaster Recovery Planning for Geld 	10. Break
+   11. Activity Review: Disaster Recovery Planning f 	11. grep Command
+   12. Wrap-Up and Summary			     	   Syntax for grep
+3.1 Student Guide: Terminal 101 Day 1: How Sweet is  	   grep Demonstration Setup
+   Overview					     	   grep Demonstration
+   Lesson Objectives				     	   Demonstration Summary
+   Slideshow					     	12. Activity: grep
+   01. Why Terminal Matters			     	13. Activity Review: grep
+      What is the Command Line?			     	14. Combining Commands with Piping
+      Why the Command Line?			     	   Pipes Demonstration Setup
+   02. Basic Terminal Commands			     	   Pipes Demonstration Summary
+   03. Activity: Take Five and Practice the Command  	15. Activity: Gathering Evidence
+   04. Activity Review: Take Five and Practice the C 	16. Activity Review: Gathering Evidence
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 3
+
+
+3.3 Student Guide: Terminal 101 - Day 3: Stick to th 	   Installing lynis Demo
+   Overview					     	13. Take Home Activity: Installing Packages
+   Class Objectives				     	14. Take Home Activity Review: Installing Package
+   Slideshow					     4.2 Student Guide: Linux Access Controls
+   01. Class Introduction			     	Class Overview
+   02. Activity: Warm-Up Activity		     	Class Objectives
+   03. Introduction to Text Processing		     	Lab Environment
+      Text Processing Commands			     	Slideshow
+   04. Introduction to `sed`			     	01. Welcome and Review
+      Using `sed` for String Replacement	     	   A Brief Introduction to Hashes and Password Cr
+      `sed` Demonstration			     	   Cracking Passwords
+   05. Activity: Using `sed`			     	   Using John the Ripper
+   06. Activity Review: Using `sed`		     	03: Activity: Talk to John
+   07. Introduction to `awk`			     	04: Activity Review: Let's Talk to John
+      `awk` Simple Demonstration		     	05: Privileges, root, sudo and su Demo
+      `awk` Demonstration for a Security Incident    	   Switching Users and Elevating Privileges
+   08.	Activity: Using `awk` Activity		     	   su vs. sudo Demonstration
+   09. Activity Review: Using `awk`		     	   Assigning sudo Access Demo
+   10. Break					     	   Attackers Gaining Root Access Demo
+   11. Introduction to Shell Scripting		     	   Summary
+   12. Writing and Editing Files		     	06: Activity: sudo Wrestling
+   Building a Shell Script Demonstration	     	07. Activity Review: sudo Wrestling
+   13. Activity: My First Shell Script		     	08. Break
+   14. Activity Review: My First Shell Script	     	09. Users and Groups
+   15. Passing Arguments			     	   Users and Groups Demo
+      Passing a Single Argument			     	10. Activity: Users and Groups Activity
+      Adding Multiple Arguments			     	11. Activity Review: Users and Groups
+   16. Activity: Building an IP Lookup Tool	     4.3 Student Guide: Managing Permissions and Services
+   17. Activity Review: Building an IP Lookup Tool   	Overview
+   18. Keeping Vagrant Updated			     	Class Objectives
+4.1 Student Guide: Introduction to Linux	     	Lab Environment
+   Class Overview				     	Slideshow
+   Class Objectives				     	01. Welcome and Review
+   Lab Environment				     	02. Access Controls and Permissions
+   Slideshow					     	   Read, Write and Execute
+   01. So, Why Linux?				     	   Permissions Demonstration Setup
+   02. Linux History and Distributions		     	   Inspecting Permissions
+   03. Activity: Distribution Research		     	   Changing the Owner and Group
+   04. Activity Review: Distribution Research	     	   Changing Permissions
+   05. Linux File System Structure		     	   Octal Notation
+      Linux File Structure Walkthrough		     	   Summary
+      / Root Directory				     	03. Activity: Access Controls and Permissions
+      /home Directory				     	04. Activity Review: Access Controls and Permissi
+      /etc Directory				     	05. Break
+      /sbin and /bin Directories		     	06.  Managing Services
+      /var Directory				     	   A Brief Introduction to Services and the SMB E
+      /tmp Directory				     	   Finding and Stopping SMB Demo
+       Summary					     	07. Activity: Managing Services
+   06. Activity: Linux Landmarks		     	08. Activity Review: Managing Services
+   07. Activity Review: Linux Landmarks		     	09. Service Users
+   08. Break					     	   Set Up Removing and Adding Service Users Demo
+   09. Resources and Processes			     	   Adding and Removing Service Users Demo
+      Inspecting Malicious Files Demo		     	10. Activity: Service Users
+   10. Activity: Process Investigation		     	11. Activity Review: Service Users
+   11. Activity Review: Process Investigation	     	12. Homework Instructions
+   12. Installing Packages			     5.1 Student Guide: Backups and Restoring Data with `
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 4
+
+
+   Overview					     	Slideshow
+   Class Objectives				     	01. Instructor Do: Overview of Log Filtering (0:2
+   Lab Environment				     	   Overview of Logs
+   Class Slides					     	   journalctl
+   01.	Welcome and Overview  (0:10)		     	   `journalctl` Demo Setup
+      Today: Archiving with `tar`		     	   `journalctl` Demonstration
+   02. Creating and Restoring Backups with `tar`  (0 	   Demo Summary
+      Performing a Backup			     	02. Log Filtering Activity
+      Creating an Archive			     	03. Review Log Filtering
+      Compressing archives with `gzip`		     	04. Log Size Management
+      Archiving Best Practices			     	   Logrotate Configuration file
+      Medical Center Scenario			     	dateext
+      Hospital Scenario Demo			     	   `logrotate` Demo Setup
+   03. Creating and Restoring Backups with `tar` Act 	   Logrotate Demo
+   04. Review Creating and Restoring Backups with `t 	   Demo Summary
+   05. Instructor Do: Incremental Backups with `tar` 	05. Log Size Management Activity
+      Creating the Incremental Backup		     	06. Log Size Management Review
+      Incremental Backups Demo Setup		     	07. Log Auditing
+      Incremental Back Up Demo			     	   `auditd` Overview
+   06.	Restoring Data with Incremental Backups Acti 	   `auditd` Demo setup
+   07. Instructor Review: Restoring Data with Increm 	   `auditd` Demo
+   08. Exploiting the `tar` Command with the Checkpo 	   Demo Summary
+      Using Wildcards with `tar`		     	08. Event Monitor Log Activity
+      Checkpoints				     	09. Review Event Monitor Log
+      Using Checkpoints and Wildcards to Exploit a S 6.1 Student Guide:	 Advanced Bash
+      Exploiting `tar` Demo Scenario		     	Lesson Overview
+      Exploiting `tar` Demo			     	Lesson Objectives
+   09. Exploiting `tar`	 (0:25)			     	Lesson Slideshow
+   10. Instructor Review: Exploiting `tar` (0:10)    	01. Compound Commands
+5.2 Student Guides: Introduction to `cron` and Sched 	   Creating Compound Commands
+   Overview					     	   Breaking Down the Command
+   Class Objectives				     	   Chaining with `>` and `>>`
+   Lab Environment				     	   Piping with `|`
+   Slideshow					     	   Combining with `;`
+   01. Welcome and Overview			     	   Combining with `&&`
+   02.	Overview of `cron`			     	   Section Summary
+      Intro to `cron` Syntax Walkthrough	     	02. Compound Commands Activity
+      Crontab Generator Demo			     	03. Review Compound Commands
+   03. Simple Cron Jobs Activity		     	04.  Creating Aliases
+   04. Review Simple Cron Jobs			     	   Aliases Demo
+   05. Introduction to Scripts			     	   Keeping Aliases Across Sessions and Logins
+      Writing a Script Demonstration		     	   Adding an Alias to `.bashrc`
+      Walkthrough Wrap Up			     	05. Creating Aliases Activity
+   06.	Introduction to Scripts Activity	     	06. Creating Aliases Review
+   07. Review Introduction to Scripts Review	     	07. My First Bash Script
+   08.	Scheduling Backups, Cleanups, and Security C 	   Introduction to Variables
+      Single Line Scripts			     	   Variable Demo
+      Lynis Scanner				     	   Built-In Variables
+   09. Scheduling Backups and Cleanups		     	   Common expansion
+   10.Review Scheduling Backups and Cleanups	     	   Variables in Scripts Demonstration
+   11. Additional Cron Assignment		     	   Quick Script Demonstration
+   12. Reviewing `cron` (0:10)			     	08. My First Bash Script Activity
+5.3 Student Guide: Sysadmin Essentials: Monitoring L 	10. First Bash Script Review
+   Overview					     	11. Custom Commands
+   Learning Objectives				     	   PATH Demonstration
+   Lab Environment				     	   Saving PATH to our `.bashrc`.
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 5
+
+
+   12. Custom Commands Activity			     	   CMD Commands
+   13.	Custom Commands Review			     	   CMD Parameters and Help
+6.2 Student Guide: Bash Scripting Continued	     	   Use CMD to Create Todo List Demo
+   Lesson Overview				     	05. Activity: Intro to Task Manager and CMD
+   Lesson Objectives				     	06. Activity Review: Intro to Task Manager and CM
+   Slide Show					     	07. Creating a Report with wmic Output
+   01. If Statements and Exit			     	   Wmic Structure and Conventions
+      Conditions and Decision Making		     	   Wmic Demo
+      `if` Demonstration			     	08. Activity: Creating a Report with wmic Output
+      `if` / `else`				     	09. Activity Review: Creating a Report with wmic
+      Combining Tests with `&&` and `||`	     	   Windows Management Instrumentation Command Sum
+      Creating Conditions			     	Break
+      Equals To and Not Equals to		     	10. Users and Password Policies
+      Greater Than and Less Than		     	   Introducing net
+      Checking Files and Directories as part of Cond 	   Net Demonstration Setup
+      Built-In Variables and Command Expansions	     	   Enumerate Users with net
+   02. Variables and If Statements		     	   Find azadmin's Password Status
+   03. Variables and If Statements Review	     	   Find Groups on the Machine
+   04. Lists and Loops (0:20)			     	   Current Password Policy
+      Lists and `for loops` demonstration	     	11. Activity: Users, Groups and Password Policies
+      Overview of Lists				     	12. Activity Review: Users, Groups, and Password
+      Manually Creating Lists			     	13. Creating Users and Setting Password Policy
+      Command Expansion				     	   Creating a Regular User
+      Loop Syntax				     	   Creating an Administrative User with Elevated
+      For loops examples:			     	   Setting the Windows Workstation's Password Pol
+   05. Lists and Loops				     	14. Activity: Create User and Set Password Policy
+   06. Lists and Loops Review			     	15. Activity Review: Creating Users and Setting P
+   07. Break					     	16. Instructor/Student Do: Task Scheduling
+   08. `For` Loops for a System Administrator	     	   Task Scheduling Demo
+      Looping Packages				     	   Setting the Task Trigger
+      Looping Users				     7.2 Student Guide: PowerShell Scripting
+      Looping Permissions			     	Class Overview
+      Looping Hashes				     	Class Objectives
+      For Loops on the Command Line		     	Instructor Notes
+      Brace Expansion and For Loops		     	Lab Environment
+   09. Loops for System Administrators		     	   Understanding the Windows Unit Lab
+   10. Useful loops Review			     	   Re-staging the Chocolatey Packages
+   11. Script Along				     	Slideshow
+      Script Along				     	01. Welcome and Overview
+7.1 Student Guide: Introduction to Windows and CMD   	   What is PowerShell?
+   Class Overview				     	   Comparing PowerShell and CMD
+   Class Objectives				     	   PowerShell Piping for CMD's Unsupported Operat
+   Lab Environment				     	   Differences Between CMD and PowerShell
+      Windows Lab Environment Guide		     	   PowerShell and Objects Demo
+   Slideshow					     	   More PowerShell Advantages and Aliases
+   01. Introduction to Windows			     	02. Intro to PowerShell
+   02. Launching Your Windows Lab		     	   PowerShell Syntax: Cmdlets
+   03. Introduction to Task Manager		     	   PowerShell Verb-Nouns Demo
+      Introducing Task Manager			     	   Parameters
+      Task Manager Overview			     	   Parameter Examples Demo
+      Task Manager Demo: Ending Processes	     	03. Activity: Move and Create Directories
+      Disabling Startup Processes		     	04. Activity Review: Move and Create Directories
+   04. Introduction to Command Prompt (CMD)	     	05. Generating Windows Event Log Files with Param
+      Directory and File Structure		     	   Powershell Parameters Demo
+      Common Directories			     	   Piping Logs to JavaScript Object Notation with
+      CMD and Environment (ENV) Variables	     	06. Activity: Generating Windows Event Log Files
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 6
+
+
+   07. Activity Review: Generating Windows Event Log 	06. Network Devices
+   08. Scripting with PowerShell		     	   Primary Network Devices
+      Restaging the Chocolatey Apps		     	   Network Security Devices
+      Demo Scenario: Scripting the Removal of Unnece 	   Network Visualization
+      Understanding PowerShell Scripts		     	   Gliffy Demo
+      Creating PowerShell Scripts		     	07. Network Devices Activity
+      What's a CSV File?			     	08. Network Devices Activity Review
+      Using Import-Csv with a foreach Loop Demo	     	09. What's my (Network) Address? (0:15)
+   09. Activity: Removing Unnnecessary Packages with 	   Binary
+   10. Activity Review: Removing Unnecessary Package 	   Binary and Network Addresses
+7.3 Student Guide: Windows Active Directory Domain S 	   IPv4
+   Class Overview				     	   IPv6
+   Class Objectives				     	   Public and Private IP Addresses
+   Lab Environment				     	   Subnetting
+      Additional Lab Notes			     	   Classless Inter-Domain Routing (CIDR)
+      Understanding the Windows Unit Lab	     	   MAC Addresses
+   Lesson Slideshow				     	10. Network Addressing Activity
+   01. Welcome and Overview			     	11. Review Network Addressing Activity
+      Accessing the Lab				     	12. Instructor Do: Addresses and the Internet (0:
+   02. Instructor Do: What is Active Directory (0:25 	   DNS
+      Windows Domains and Domain Controllers	     	   URLs
+      Active Directory Architecture		     	   DNS, URLs and Security
+      Active Directory Authentication		     	   DNS Hijacking Demonstration
+   03. Creating Domain OUs, Users, Groups (0:20)     	13. DNS Hijacking Activity
+      Creating Organizational Units		     	14. Review DNS Hijacking Activity
+      Creating Users				     	Copyright
+      Creating Groups				     8.2 Student Guide: Ports, Protocols, and the OSI Mod
+   04. Creating Domain OUs, Users, Groups Activity   	Overview
+   05. Review Creating Domain OUs, Users, Groups Rev 	Class Objectives
+   06. Break					     	Lab Environment
+   07. Instructor Do: Creating Group Policy with Gro 	Class Slides
+      Creating Group Policy with Group Policy Object 	01.  Welcome and Introduction
+      Create New Group Policy Object		     	02. Protocols
+      Add Group Policies to Group Policy Object	     	   Communications and Protocol
+      Link and Apply the Group Policy Object	     	   Network Protocols
+      Allow Group to Remote Demo		     	   Network Packet Structure
+      Toggle Enhanced Session Mode to Basic session  	   Packets
+   08. Creating Group Policy with Group Policy Objec 	   Protocols and Fields
+   09. Creating Group Policy with Group Policy Objec 	   Interpreting Protocols from Raw Binary Data
+   10. End Day and Shut Down Virtual Machines and La 	03. Interpreting Protocols
+8.1 Student Guide: Introduction to Networking	     	04. Review Interpreting Protocols Activity
+   Overview					     	05. Ports  (0:15)
+   Class Objectives				     	   Port Numbers and Range
+   Lab Environment				     	06.  Ports Activity
+   Slideshow					     	07. Review Ports Activity
+   01. Welcome and Introduction			     	08. OSI Layers
+   02. Instructor Do: Intro to Networks and Network  	   The Open Systems Interconnection (OSI) Model
+      Client-Server Model			     	   Layer by Layer
+      Introduction to Network Security		     	   Layer 7:  Application
+   03. Network Security Activity		     	   Encapsulation and Decapsulation
+   04. Network Security Activity Review		     	   An Email Moving through the OSI Layers
+   05. Instructor Do: Network Structure (0:15)	     	   OSI in a Security Context
+      Local Area Network (LAN)			     	09. OSI Layers
+      Wide Area Network (WAN)			     	10. Review OSI Activity
+      Network Topology				     	11. Introduction to Wireshark
+      Topologies and Network Security		     	   Introduction to Wireshark
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 7
+
+
+      Capturing Packets				     	   Step Four
+      Wireshark Demo				     	   Step Five
+      Customizing Wireshark			     	   Step Six
+   12. Capturing Packets Activity		     	03. Instructor Do: DHCP Attacks (0:10)
+   13. Review Capturing Packets Activity	     	   DHCP Starvation
+   14. Analyzing HTTP Data			     	   DHCP Spoofing
+      Analyzing HTTP web traffic		     	04. DHCP Attacks Activity
+   15. Analyzing HTTP Data Activity		     	05. Review DHCP Attacks Activity
+   16. Review Analyzing HTTP Data Activity	     	06. Routing Schemes and Protocols
+   Copyright					     	   Routing Schemes
+8.3 Student Guide: Following Data Through Layers 2,  	   Routing Techniques
+   Overview					     	   Routing Protocols
+   Class Objectives				     	07. Routing Schemes and Protocols Activity
+   Lab Environment				     	08. Review Routing Schemes and Protocols Activity
+   Lesson Slideshow				     	09. Wireless Networking
+   01. Welcome and Introduction			     	   Wireless Security
+   02. Introduction to enumeration		     	10. Analyzing Wireless Security Activity
+   03. Address Resolution Protocol (ARP) (Layer 2: D 	11. Review Analyzing Wireless Security Activity
+      A Brief Introduction to the Address Resolution 	12. Instructor Do: Decrypting with Aircrack-NG (0
+      ARP Wireshark Demo			     	13. Wireless Attacks Activity
+      ARP Security Implications			     	14. Review Wireless Attacks Activity
+   04.Analyzing ARP Activity			     9.2 Student Guide: Email Networks and Security
+   05. Review Analyzing ARP Activity		     	Overview
+   06. Instructor Do: `ping` (Layer 3: Network) (0:1 	Class Objectives
+      `ping` Demo				     	Lab Environment
+   07. enumeration with `ping`			     	Slideshow
+   08. Review enumeration with `ping`		     	01. Welcome and Introduction
+   09. Introduction to `traceroute`		     	02. DNS Record Types
+      `traceroute` Demo				     	   DNS Record Types
+   10. Enumeration with `traceroute`		     	   DNS Records and Email Communication
+   11. Review Enumeration with `traceroute` Activity 	   `nslookup`
+   12. TCP is as Easy as One-Two-Three		     	   `nslookup` Walkthrough
+      Transmission Control Protocol (TCP)	     	03. DNS Record Types Activity
+      User Datagram Protocol (UDP)		     	04. Instructor Do: Review DNS Record Types Activi
+      TCP Demo					     	05. Introduction to Email Networking
+   13. Analyzing TCP Traffic			     	   Email Headers
+   14. Review Analyzing TCP Traffic Activity (0:08)  	06. Email Networking Activity
+   15. Instructor Do: SYN Scan (0:15)		     	07. Review Email Networking Activity
+      SYN Scan Demo				     	08. Instructor Do: Email Security Issues (0:15)
+      Viewing Behavior of an Open Port		     	   Method One: the *From* Email Header
+      Viewing Behavior of a Filtered Port	     	   Method Three: the *Received* Email Header
+      Demo Summary				     	09. Email Security Activity
+   16. Analyzing a SYN Scan (0:12)		     	10.  Review Email Security Activity
+   17. Review Analyzing a SYN Scan Activity	     	11. Networking Concepts Review Activity
+   Copyright					     	12. Review Networking Review Activity
+9.1 Student Guide: IPs and Routing		     	13. Networking Attacks Activity
+   Overview					     	17. Review Networking Attacks Activity
+   Class Objectives				     10.1 Student Guide: Introduction to Cryptography
+   Slideshow					     	Overview
+   01. DHCP and NAT				     	Class Objectives
+      Dynamic Host Configuration Protocol (DHCP)     	Slideshow
+      Four-Step Walkthrough			     	Student Guide
+      Network Address Translation (NAT)		     	01.  Introduction to Cryptography
+      Step One					     	02. The History of Cryptography
+      Step Two					     	   Caesar Cipher
+      Step Three				     	   The Enigma Machine
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 8
+
+
+      Cracking the Enigma Cipher		     	11. Hashing and Data Integrity
+   03. Caesar Cipher Code Names Activity	     	   Creating Hashes on the Command Line
+   04. Review Caesar Cipher Code Names Activity	     	12. Generating Hashes Activity
+   05. Introduction to Character Encoding	     	13. Review Generating Hashes Activity
+      Encoding					     	14.   Digital Signatures
+      Encryption				     	   Digital Signature Walkthrough
+      Binary Encoding				     	15. Signing with GPG
+      ASCII Encoding				     	   Walkthrough
+      Hex and Octal Encoding			     	16. Digital Signatures Activity
+      Encoding and Decoding Tools		     	17. Instructor Do: Review Digital Signatures Acti
+   06. Decoding Activity			     10.3 Student Guide: Applied Cryptography and Cryptog
+   07. Review Decoding Activity			     	Overview
+   08. Goals of Cryptography			     	Class Objectives
+      1.  Privacy and Confidentiality		     	Slideshow
+      2. Authentication				     	01. Class Overview
+   09. Introduction to Cryptography Ciphers	     	02. Cryptography Refresher
+      Stream Cipher				     	03. Cryptography Refresher Review
+      Substitution Ciphers			     	04. Introduction to Applied Cryptography
+      Block Ciphers				     	   `steghide` Walkthrough
+      Transposition Cipher			     	05. Steganography Activity
+      Summary					     	06. Review Steganography Activity
+   10. Cryptography Concepts and Ciphers Activity    	07. SSL Certificates
+   11. Review Cryptography Concepts and Ciphers Acti 	   Obtaining an SSL Certificate
+   12. Modern Cryptography and Cryptographic Keys    	   SSL Certificates and Authenticity
+      Encryption Strength Walkthrough		     	08. SSL Certificates Activity
+   13. Encryption Strength Activity		     	09. Review SSL Certificates Activity
+   14. Review Encryption Strength Activity	     	10. Cryptographic Attacks
+   15. Symmetric Key Algorithms			     	   Statistical Attack
+      Data Encryption Standard (DES)		     	   Brute Force Attack
+      Advanced Encryption Standard (AES)	     	   Birthday Attack
+   16. Introduction to OpenSSL			     	   Frequency Analysis
+      OpenSSL Demonstration			     	   Replay Attack
+      Creating the Key and Initialization Vector     	   Known-Plaintext
+      Encrypting with OpenSSL			     	   Chosen-Plaintext
+   Decrypting with OpenSSL			     	11. Cryptographic Attacks Activity
+   17. OpenSSL Activity				     	12. Review Cryptographic Attacks Activity
+   18. Review Open SSL Activity			     	13. Introduction to Rainbow Tables and Hashcat
+   Overview					     	   Rainbow Tables
+   Class Objectives				     	   Hashcat
+   Slideshow					     	14. Hashcat Activity
+   01. Overview and Review			     	15. Hashcat Activity
+   02. Cryptography Refresher			     11.1 Student Guide: Introduction to Firewalls and Ne
+   03. Review Cryptography Refresher		     	Overview
+   04. Introduction to Key Management and Exchange   	Class Objectives
+      Disadvantage One: Secure Key Exchange	     	Slideshow
+   Disadvantage Two: Key Management		     	01. Welcome and Motivation
+   05. Asymmetric/Public Key Cryptography	     	   Professional Application
+       Secure Key Exchange			     	02. Firewall Architectures
+      Key Management				     	   Host-Based and Network Firewalls
+      RSA					     	   Firewall Types and Architectures
+   06. Optimizing with Asymmetric Public Keys Activi 	   MAC Layer Filtering Firewall
+   07. Review Optimizing with Asymmetric Public Keys 	   Stateless Firewall
+   08. Applying Public Key Cryptography with GPG     	   Stateful Firewall
+      GPG Demonstration Setup			     	   Circuit-Level Gateway Firewall
+   09. GPG Activity				     	   Application or Proxy Firewalls
+   10.	Review GPG Activity			     	   Summary
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                   Page 9
+
+
+   03. UFW Overview and Demo			     	   NetworkMiner
+      UFW Demo Setup				     	   Summary
+      Enabling UFW				     	11. Alert - FTP File Extraction
+      Setting Default Rules			     	12. Review Alert - FTP File Extraction
+      Allow and Deny Rules			     11.3 Student Guide: Enterprise Security Management (
+      Deleting Rules				     	Overview
+      UFW Demo Summary				     	Class Objectives
+   04.	Configuring UFW Activity		     	Slideshow
+   05. Review Configuring UFW Activity		     	01. Security Onion Set Up
+   06. firewalld Introduction			     	 02. Overview and Alert - C2 Beacon Setup (0:20)
+      firewalld Overview			     	   Network Security Recap
+      firewalld Demo Setup			     	   C2 Alert Beacon Set Up
+      firewalld Demo				     	03. C2 Beacon Activity
+   07. firewalld Configuration			     	04. Review C2 Beacon Activity
+   08. firewalld Configuration Activity		     	05. Enterprise Security Monitoring
+   09.	Testing Firewall Rules with NMAP	     	   OSSEC
+      Nmap Demo Setup				     	   Elastic Stack
+      Basic Nmap Scans				     	   Investigation, Analysis, and Escalation Demo
+      Operating System Fingerprinting		     	   Summary
+      Service and Daemon Name Scans		     	07. Investigation, Analysis, and Escalation
+      Service Type and OS Detection with Fast Execut 	09. Review Investigation, Analysis, and Escalatio
+      Device and Port Enumeration		     	10. Threat Hunting - Cyber Threat Intelligence
+   10. Testing Firewall Rules with Nmap		     	   Threat Intelligence Cards
+   11. Testing Firewall Rules with Nmap Activity     	11. Threat Hunting - Cyber Threat Intelligence
+   Class Summary				     	12. Review: Threat Hunting - Cyber Threat Intelli
+11.2 Student Guide: Introduction to Intrusion Detect 12.1 Student Guide: Introduction To Cloud Computing
+   Overview					     	Class Overview
+   Class Objectives				     	Class Objectives
+   Slideshow					     	Slideshow and Time Tracker
+   01. Security Onion Setup			     	Class References
+   02. Welcome and Overview			     	01.  Introduction To Cloud Computing
+      Network Security Recap			     	   The Rise of the Cloud
+   03. Intro to Intrusion Detection Systems and Snor 	02. Cloud Service Models
+      Intrusion Detection System Overview	     	   Cloud Services
+      IDS Types					     	03. Virtual Networking
+      Intrusion Detection Architecture		     	   Creating an Environment
+      Snort					     	04. Virtual Networking Activity
+      Snort Rules				     	05. Virtual Networking Activity
+   04. Intrusion Detection Systems and Snort Activit 	06. Security Groups
+   05. Review Intrusion Detection Systems and Snort  	   Network Security Group Demonstration
+   06. Instructor Do: Network Security Monitoring an 	08. Security Groups Activity  (0:20)
+      Network Security Monitoring Overview	     	09. Instructor Review: Virtual Private Cloud Acti
+      NSM Strengths				     	10. Instructor Do: Virtual Computing (0:20)
+      NSM Weaknesses				     	   Regions and VM Availability
+      NSM Stages and Processes			     	   SSH setup
+      NSM Sensor Connectivity			     	11. Virtual Computing Activity
+      Security Onion				     	12. Virtual Computing Activity
+      Alert Data				     	   Summary
+      Sguil					     12.2 Student Guide: Cloud Systems Management
+      Sguil's Alert Panel			     	Class Overview
+      Sguil's Snort Rule and Packet Data Sections    	Class Objectives
+      Sguil's IP Resolution Section		     	Slideshow
+   07. Security Onion and NSM Overview		     	01. Introduction to Cloud Systems Management
+   08. Review Security Onion and NSM Overview Activi 	02. Foundations of Network Architecture
+   10. Instructor Do: Alert - FTP File Extraction    	Configuration vs. Architecture
+      Security Onion Demo			     	   Network Redundancy
+
+
+
+
+
+
+
+2021-09-13 09:29                                                                                  Page 10
+
+
+   03.	Cloud Architecture Activity		     	02. Ansible Playbooks (0:15)
+   04. Review Cloud Architecture Activity	     	   YAML Walkthrough
+   05. Instructor Do: Jump Box Administration (0:10) 	03. Ansible Playbooks Activity
+       Virtual Private Networks			     	04. Review Ansible Playbooks Activity
+   06. Jump Box Administration Activity		     	05.  Load Balancing
+   07. Review Jump Box Administration		     	06. Load Balancing Activity
+   08. Containers				     	07. Review Load Balancing Activity
+      Running Containers			     	08. Instructor Do: Firewall Configuration (0:10)
+      Docker					     	09. Security Configuration Activity
+      Docker Demo				     	10. Review: Security Configuration Activity
+   09. Containers Activity			     12.4 Lesson Plan: Testing Redundant Systems
+   10. Review Containers Activity		     	Class Overview
+   11.	Infrastructure as Code and Provisioners	     	Class Objectives
+      Container and Provisioner Demo: Docker and Ans 	Slideshow
+   13. Provisioners Activity			     	01. Welcome and Overview
+   14. Review Provisioners Activity		     	02. Redundancy Testing
+   Copyright					     	03. Student Do: Redundancy Testing
+12.3 Student Guide: Load Balancing		     	04. Instructor Review: Redundancy Testing Activit
+   Class Overview				     	05. Break
+   Class Objectives				     	06. Alternate Hostname Activity Demonstration (**
+   Instructor Notes				     	07. Student Do: Alternate Hostname Testing Activi
+   Slideshow					     	08. Instructor Review: Alternate Hostname Testing
+   01. Welcome and Overview (0:05)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

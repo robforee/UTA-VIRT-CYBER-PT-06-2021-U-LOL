@@ -20,10 +20,8 @@
 
     # Preview the contents
 head Summary/MySummary.txt
-```
+ ```
 
 -------
-
-## Copyright
 
 Trilogy Education Services © 2019. All Rights Reserved.

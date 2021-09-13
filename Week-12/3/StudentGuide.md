@@ -1,4 +1,4 @@
-## 12. 3 Student Guide: Load Balancing
+## 12.3 Student Guide: Load Balancing
 
 ### Class Overview
 

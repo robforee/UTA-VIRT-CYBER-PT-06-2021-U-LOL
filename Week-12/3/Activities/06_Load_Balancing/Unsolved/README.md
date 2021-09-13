@@ -27,3 +27,4 @@ Create a new load balancer in your red team resource group and give it a name.
 
 ---
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+

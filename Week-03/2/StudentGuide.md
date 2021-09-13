@@ -241,7 +241,7 @@ Now we will practice using command line options by covering the following scenar
 
 
 
-### 4.  Welcome to Man Pages
+### 04.  Welcome to Man Pages
 
 We just covered how commands have default behaviors, and options can modify this default behavior to perform additional tasks.
 
@@ -327,18 +327,18 @@ The following scenario shows how man pages can assist with learning a new comman
 
 - Man pages can be used to learn about new commands and the options of those commands.
 
-### 5. Activity: Learning New Commands
+### 05. Activity: Learning New Commands
 
 - [Activity File: Learning New Commands](Activities/06_learning_new_commands/unsolved/readme.md)
 - [Directories/Files: Learning New Commands](Resources/learning_new_commands.zip)
 
 
-### 6. Activity Review: Learning New Commands
+### 06. Activity Review: Learning New Commands
 
 - [Solution Guide: Learning New Commands](Activities/06_learning_new_commands/solved/readme.md)
 
 
-### 7.  The find Command 
+### 07.  The find Command 
 
 In order to find files or directories, we have been navigating in and out of multiple directories. But this process is very time consuming and some file systems have hundreds of directories to search through.
 
@@ -349,7 +349,7 @@ There is a terminal command called `find` designed to simplify this task by sear
   - By default, `find` will search through the current directory and the subdirectories within that current directory.
 
   - However, `find` does not look at the contents of a file, only the file name or the directory name.
-  
+
 Now we will now discuss the syntax for the various methods of finding a file. We will be using the same base command throughout the examples, but we will slightly modify the command to achieve different results.
 
 
@@ -385,25 +385,25 @@ Now we will now discuss the syntax for the various methods of finding a file. We
 
 
     - At times, you may need to search for part of a file name.
-
+    
       - For example, you may want to look for all file names that begin with a certain date, regardless of what the file name ends with.
-
+    
       - This can be done with a wildcard, signified by an asterisk `*`.
-
+    
     - Wildcards can come before text, such as `*.txt`, or after text such as `0517*`
-
+    
       - As with the above example, if we use the `find` command to search for `*.txt`, the command might return the following:
-
+    
           - `log1.txt`
-
+    
           - `apachefile.txt`
-
+    
           - `FILEAB.txt`
-
+    
       - If we use the `find` command to search for `0517*`, the command might return:  
-
+    
           - `0517apache.log`
-
+    
           - `0517textdata.txt`
 
 
@@ -554,7 +554,7 @@ We have previously used preview commands, such as `head`, `more`, `tail`, and `l
 There is a command called `grep` that allows us to search within a file or multiple files to find a specific data point.
 
   - `grep`, which stands for 
-  "global regular expression print," is a command to search for data inside of files.
+    "global regular expression print," is a command to search for data inside of files.
 
   - `grep` by default returns the entire line that the desired data point is found in.
 
@@ -590,7 +590,7 @@ There is a command called `grep` that allows us to search within a file or multi
 
         - `bob` is the specific data point being searched for.
         - `*.txt` is the wildcard. `*` indicates that the command will search through all files that end with `.txt`.
-
+    
     - After this command is run, it will display the files where the value of `bob`  was found, followed by the lines where it was found inside of all the `.txt` files.
 
 
@@ -666,12 +666,12 @@ There is a command called `grep` that allows us to search within a file or multi
       - `transfer`: The specific data point being searched for.
 
       - `banklogs0517`: The file we will search through, since the transfer happened on 0517, and this was the only file from this date in which Sally Stealer appears.
-     
+    
 6. After running the command, note that the results show the following line:
 
 
     - `81.220.24.207 - - [17/May/2015:10:05:52 +0000] "SALLYSTEALER : Transfer funds : $1,000,754 from Company DDA 012  to Personal SAV 876:`
-
+    
     - This clearly proves that Sally Stealer did transfer funds from a company account to a personal account.   
     
     - Furthermore, this happened at 10:05:52 on  May 17th.  
@@ -698,7 +698,7 @@ There is a command called `grep` that allows us to search within a file or multi
 
 
 ### 13. Activity Review: grep
- 
+
 - [Solution Guide: grep](Activities/13_grep_activity/solved/readme.md)
 
 
@@ -782,7 +782,7 @@ Rather than running these multiple commands separately, we can combine them usin
 
 - [Solution Guide: Gathering Evidence](Activities/16_Gathering_Evidence/solved/readme.md)
 
- 
+
 -------
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

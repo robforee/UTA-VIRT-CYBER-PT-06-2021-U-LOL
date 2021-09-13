@@ -297,7 +297,7 @@ The syntax for creating an alias is as follows:
    drwxr-xr-x  3 user user 4.0K Aug 28 12:52 2
    drwxr-xr-x  2 user user 4.0K Aug 27 14:46 3
    drwxr-xr-x  2 user user 4.0K Sep  4 16:00 dir
-
+   
    ```
 
 Now we can now use `lh` any time we want to run the command `ls -lah`.
@@ -397,7 +397,7 @@ If we want the alias to remain across logins, all we need to do is open the `~/.
    - Scroll down and look at the section that already has some aliases defined. These are some of the aliases we saw earlier:
 
 ```
-# some more ls aliases
+ # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -408,7 +408,7 @@ We can add aliases here, or modify the ones that already exist. Alternatively, y
 Move to the bottom of the page and enter your alias along with a `# Custom Alias Section` comment:
 
 ```bash
-# Custom Alias Section
+ # Custom Alias Section
 alias la='ls -lah'
 ```
 
@@ -793,24 +793,24 @@ Next, run `./my_script.sh`
 
    ```bash
    Hello Jake.
-
+   
    This is my script.
-
+   
    The files in /home/sysadmin are:
    file1
    file2
    file3
    ...
-
+   
    Copying the passwd file to your current directory.
-
+   
    The files in /home/sysadmin are now:
    file1
    file2
    file3
    passwd
    ...
-
+   
    Have a great day!
    ```
 
