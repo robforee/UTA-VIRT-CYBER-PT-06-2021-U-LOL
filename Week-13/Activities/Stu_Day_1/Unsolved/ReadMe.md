@@ -18,7 +18,7 @@ Today, you will configure an ELK server within your virtual network. Specificall
 
 - [`elk-docker` Container Documentation](https://elk-docker.readthedocs.io/)
 - [Elastic.co: The Elastic Stack](https://www.elastic.co/elastic-stack)
-- [Ansible Documentation](https://docs.ansible.com/ansible/latest/modules/modules_by_category.html)
+- [Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html)
 - [`elk-docker` Image Documentation](https://elk-docker.readthedocs.io/#elasticsearch-logstash-kibana-elk-docker-image-documentation)
 - [Virtual Memory Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.0/vm-max-map-count.html#vm-max-map-count)
 - ELK Server URL: http://[your.IP]:5601

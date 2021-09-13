@@ -132,14 +132,14 @@ Today, you will continue building up your ELK server. Specifically, if you have 
     - Note that the default credentials are `elastic:changeme` and should not be changed at this step.
 
 
-    - Save this file in  `/etc/ansible/files/filebeat-config.yml`.
+    - Save the file `filebeat-config.yml` in the appropriate directory.
 
 #### Part 3: Creating the Filebeat Installation Play
 
 5. Next, create a new playbook that installs Filebeat and then copies the Filebeat configuration file you just made to the correct location.
 
     - On the Ansible VM, create a playbook file, `filebeat-playbook.yml`.
-      - Locate this file in your `/etc/ansible/roles/` directory.  
+      - Locate this file in the correct directory.  
 
     - Open your playbook and implement the following tasks:
       
@@ -213,7 +213,6 @@ Note that there are fewer instructions and setup files provided here. However, t
     - Update and copy the provided [Metricbeat config file](https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat).
     - Run the `metricbeat modules enable docker` command.
     - Run the `metricbeat setup` command.
-    - Run the `metricbeat -e` command.
     - Enable the Metricbeat service on boot.
 
 - Verify that your play works as expected:
