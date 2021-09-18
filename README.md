@@ -69,7 +69,9 @@ Personal Azure Account:
 [13 Project Week ELK Stack.pdf](Week-13/13%20Project%20Week%20ELK%20Stack.pdf) | [13 Student Guide](Week-13/StudentGuide.md) | [13-ELK-Project](Week-13/Homework/Unsolved/)
 
 ### Module 4 - Offensive Security
-
+| Slides | Student Guide | Homework |
+|--------| ------------- | -------- |
+|[14.1 HTTP with Session and Cookies.pdf](Week-14/1/14.1%20HTTP%20with%20Session%20and%20Cookies.pdf) | [14.1 Student Guide](Week-14/1/StudentGuide.md) |
 ### Module 5 - Defensive Security - Project 2
 
 ### Module 6 - Review - Final Project
