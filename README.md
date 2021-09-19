@@ -71,7 +71,8 @@ Personal Azure Account:
 ### Module 4 - Offensive Security
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
-|[14.1 HTTP with Session and Cookies.pdf](Week-14/1/14.1%20HTTP%20with%20Session%20and%20Cookies.pdf) | [14.1 Student Guide](Week-14/1/StudentGuide.md) |
+|[14.1 HTTP with Session and Cookies.pdf](Week-14/1/14.1%20HTTP%20with%20Session%20and%20Cookies.pdf) | [14.1 Student Guide](Week-14/1/StudentGuide.md) | 
+|[14.2 Microservices and Container Security.pdf](Week-14/2/14.2&20Microservices&20and&20Container Security.pdf) | [14.2 Student Guide](Week-14/2/StudentGuide.md) | [14-Web-Development](Week-14/Homework)
 ### Module 5 - Defensive Security - Project 2
 
 ### Module 6 - Review - Final Project
