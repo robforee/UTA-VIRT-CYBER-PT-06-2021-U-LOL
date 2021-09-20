@@ -154,7 +154,7 @@ While it may feel less substantial than the project itself, one of the most impo
 
 </details>
 
-     
+
 <details><summary> Instructions for creating your Network Diagram</summary>
 <br> 
 
@@ -187,7 +187,7 @@ Check your repo for any errors or typos. You now have a GitHub repository that i
 
 Once your repository is complete, submit the link on BCS. 
     
---- 
+---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 

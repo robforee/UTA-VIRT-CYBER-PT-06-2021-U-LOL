@@ -415,8 +415,7 @@ Now that we have a working instance of Kibana, we will learn a bit about how to 
 
 - Companies use tools like Kibana to research events that have happened on your network.
 
-- Any attack leaves a trace that can be followed and investigated using logs. As well,
-registrars sometimes don't take down clever malicious domains, leaving businesses to index and defend against them themselves.
+- Any attack leaves a trace that can be followed and investigated using logs. As well, registrars sometimes don't take down clever malicious domains, leaving businesses to index and defend against them themselves.
 
 Kibana is an interface to such data, and allows cyber professionals to gain insight from a lots of data that otherwise would be un manageable.
 
@@ -446,11 +445,12 @@ The following walkthrough provides a quick overview of using Kibana.
    - Kibana categorizes everything based on timestamps.
 
     - Click on the drop down and show that there are several predefined options that can be chosen: Today, Last 7 days, Last 24 hours, etc.
-        
-   ![](Images/kibana/Change-time.png)
       
+   
+   ![](Images/kibana/Change-time.png)
+   
    - Overview of data panes:
-
+   
         - **Unique Visitors**: Unique visitors to the website for the time frame specified.
       - **Source Country**: Web traffic by country.
       - **Visitors by OS**: The kind of OS visitors are using. 
