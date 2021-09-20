@@ -72,7 +72,7 @@ To install WordPress and create a sysadmin account, complete the following:
 
  ![cookies.png](cookies.png)
 
-6. Refresh the page and you will be taken back to the WordPress login page. Sign in as your hacker user and import the sysadmin's cookies using Cookie-Editor. Refresh the page. 
+6. Refresh the page and you will be taken back to the WordPress login page. Sign in as your hacker user and import the sysadmin's cookies using a. Refresh the page. 
 
 You just swapped your sessions between users without having to log out of them.
 
