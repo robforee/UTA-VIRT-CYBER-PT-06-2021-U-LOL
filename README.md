@@ -50,6 +50,7 @@ Personal Azure Account:
 ### Module 3 - Networks and Network Security - Project 1
 <details>
     <summary>Click to expand!</summary>
+
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
 |[8.1 Introduction to Networking.pdf](Week-08/1/8.1%20Introduction%20to%20Networking.pdf) | [8.1 Student Guide](Week-08/1/StudentGuide.md) | 
