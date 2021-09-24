@@ -48,6 +48,9 @@ Personal Azure Account:
 </details>
 
 ### Module 3 - Networks and Network Security - Project 1
+<details>
+    <summary>Click to expand!</summary>
+
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
 |[8.1 Introduction to Networking.pdf](Week-08/1/8.1%20Introduction%20to%20Networking.pdf) | [8.1 Student Guide](Week-08/1/StudentGuide.md) | 
@@ -67,6 +70,7 @@ Personal Azure Account:
 [12.3 Load Balancing and Redundancy.pdf](Week-12/3/12.3%20Load%20Balancing%20and%20Redundancy.pdf) | [12.3 Student Guide](Week-12/3/StudentGuide.md) |
 [12.4 Testing Redundant Systems.pdf](Week-12/4/12.4%20Testing%20Redundant%20Systems.pdf) | [12.4 Student Guide](Week-12/4/StudentGuide.md) | [12-Cloud-Security](Week-12/Homework) |
 [13 Project Week ELK Stack.pdf](Week-13/13%20Project%20Week%20ELK%20Stack.pdf) | [13 Student Guide](Week-13/StudentGuide.md) | [13-ELK-Project](Week-13/Homework/Unsolved/)
+</details>
 
 ### Module 4 - Offensive Security
 | Slides | Student Guide | Homework |
@@ -74,6 +78,7 @@ Personal Azure Account:
 |[14.1 HTTP with Session and Cookies.pdf](Week-14/1/14.1%20HTTP%20with%20Session%20and%20Cookies.pdf) | [14.1 Student Guide](Week-14/1/StudentGuide.md) | 
 |[14.2 Microservices and Container Security.pdf](Week-14/2/14.2%20Microservices%20and%20Container%20Security.pdf) | [14.2 Student Guide](Week-14/2/StudentGuide.md) | [14-Web-Development](Week-14/Homework) |
 |[15.1 Injection Vulnerabilities.pdf](Week-15/1/15.1%20Injection%20Vulnerabilities.pdf) | [15.1 Student Guide](Week-15/1/StudentGuide.md) |
+|[15.2 Backend Components Vulnerabilities.pdf](15.2%20Backend%20Components%20Vulnerabilities.pdf) | [15.2 Student Guide](Week-15/2/StudentGuide.md) |
 ### Module 5 - Defensive Security - Project 2
 
 ### Module 6 - Review - Final Project
