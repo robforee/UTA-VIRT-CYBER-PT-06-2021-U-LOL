@@ -39,3 +39,8 @@
 		- Data transfer pricing
 		- Transfer acceleration
 		- Cross region replication
+
+### EC2 - Elastic Cloud Compute
+	- On Demand - pay a fixed rate by the second with no commitment
+	- Reserved - contract terms of 1 or 3 years, discount from on demand
+	- Spot - bid on a price, you will get the server when the price drops below your bid
