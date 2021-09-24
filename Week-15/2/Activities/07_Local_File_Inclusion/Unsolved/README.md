@@ -116,7 +116,7 @@ The webpage you have accessed represents a page within the Replicants website. T
         
         4. `ps`
 
-    - **Note**: While this is a safe place to experiment with commands, DO NOT run commands that might delete or alter files that your system needs, such as `rm`, `mv`, or `rdmir`.
+    - **Note**: While this is a safe place to experiment with commands, DO NOT run commands that might delete or alter files that your system needs, such as `rm`, `mv`, or `rmdir`.
 
 4. **Bonus**: Run commands to explore files with your PHP script.
 
