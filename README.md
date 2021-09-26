@@ -79,6 +79,7 @@ Personal Azure Account:
 |[14.2 Microservices and Container Security.pdf](Week-14/2/14.2%20Microservices%20and%20Container%20Security.pdf) | [14.2 Student Guide](Week-14/2/StudentGuide.md) | [14-Web-Development](Week-14/Homework) |
 |[15.1 Injection Vulnerabilities.pdf](Week-15/1/15.1%20Injection%20Vulnerabilities.pdf) | [15.1 Student Guide](Week-15/1/StudentGuide.md) |
 |[15.2 Backend Components Vulnerabilities.pdf](15.2%20Backend%20Components%20Vulnerabilities.pdf) | [15.2 Student Guide](Week-15/2/StudentGuide.md) |
+|[15.3 Web App Tool Time.pdf](Week-15/3/15.3%20Web%20App%20Tool%20Time.pdf) | [15.3 Student Guide](Week-15/3/StudentGuide.md) | [15-Web-Vulnerabilities-and-Hardening](Week-15/Homework) |
 ### Module 5 - Defensive Security - Project 2
 
 ### Module 6 - Review - Final Project

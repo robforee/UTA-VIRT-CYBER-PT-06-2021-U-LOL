@@ -39,3 +39,43 @@
 		- Data transfer pricing
 		- Transfer acceleration
 		- Cross region replication
+
+### EC2 - Elastic Cloud Compute - Virtual Machine
+	- Pricing model
+		- On Demand - pay a fixed rate by the second with no commitment
+		- Reserved - contract terms of 1 or 3 years, discount from on demand
+			- Standard Reserved Instances - Up to 75% off on demand instances, instance type specific
+			- Convertable Reserved Instances - Up to 54% off on demand instances, can convert between different instance types
+			- Scheduled Reserved Instances - Reserve instances based on time windows to match capacity requirements
+		- Spot - bid on a price, you will get the server when the price drops below your bid
+			- If a spot instance is terminated by AWS, you don't have to pay for full hour. If you terminate a spot instance, you pay for the full hour
+		- Dedicated hosts - physical EC2 server dedicated for your use only
+	- Usange
+		- On Demand
+			- For users that want flexiablity without up front payment
+			- Good for applications that have unpredicatble usage
+			- Useful for testing instances
+		- Reserved
+			- Good for applications that are in steady state or predicatble usage
+			- The longer the reserved period, the better the pricing
+		- Spot
+			- Useful for application that have flexible start and end times
+			- Good for application that are only feasible at very low compute prices (ex. DNA sequencing applications)
+		- Dedicated hosts
+			- Needed for regulatory requirements that disallow the use of multi-tenant virtualization (ex. government applications)
+			- Good for software that have licensing requirments that do not support multi-tenancy
+			- Can be purchased on demand as well as reserved
+	- Instance types
+		- F1, I3, G4, H1, T4g, D2, R6g, M6g, C6g, P3, X1e, Z1D, A1, U-12TB1
+		- T4g - T class - lowest cost general purpose - web server/small DBs
+		- M6g - M class - general purpose, higher specs than T class - application servers
+		- C6g - C class - compute optimized, better CPU for CPU intensive apps
+		- R6g - R class - memory optimized, better RAM for memory intensive apps
+
+### EBS - Elastic Block Storage
+	- SSD
+		- General Purpose SSD (GP2) - blanaces prices and perforamce for wide variety of workloads
+		- Provisioned IOPS SSD (IO1) - highest performance SSD for low-latency and high-throughput
+	- Magnetic
+		- Throughput Optimized HDD (ST1) - low cost HDD designed for frequencly accessed workloads
+		- Cold HDD (SC1) - lowest cost HDD volume for less frequently accessed data
