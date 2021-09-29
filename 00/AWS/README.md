@@ -1,3 +1,90 @@
+#### AWS Pricing Model
+	- AWS Pricing Whitepaper: [https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf)
+	- Capex vs Opex
+		- Capital Expenditure - Pay up front, fixed sunk cost
+		- Operational Expenditure - Pay as you go, and pay for what you use
+	- AWS pricing philosophy
+		- Pay as you go
+		- Pay for what you use
+		- Pay less as you use more
+		- Pay even less when you reserve capacity
+	- Key principles and best practices
+		- Understand the fundamentals of pricing
+		- Start early with cost optimization
+		- Maximize the power of flexibility
+		- Use the right pricing model for the job
+	- Understand the fundamentals of pricing
+		- Compute
+		- Storage
+		- Data out bound
+	- Start early with cost optimization
+		- Put cost controls in place before your environment grows out of control
+	- Maximize the power of flexibility
+		- Pay for what your need when you need
+		- Turn off things you are not using
+	- Use the right pricing model for the job
+		- On demand, reserved, spot, dedicated host
+		- Free account services
+			- Amazon VPC
+			- Elastic Beanstalk
+			- CloudFormation
+			- IAM
+			- Auto Scaling
+			- Opsworks
+			- Consolidated Billing
+	- EC2 pricing
+		- Clock hour of server time
+		- Instance type
+		- Pricing model 
+		- Number of instances
+		- Load balancing
+		- Detailed monitoring
+		- Auto scaling
+		- Elastic IP addess
+		- OS charges (eg. Windows)
+	- Lambda pricing
+		- Number of requests (1 million per month free)
+		- $0.20 per 1 million after
+		- Duration cost - how long compute times take
+		- Data transfer cost - lambda moving data to other services
+	- EBS pricing
+		- Volumes (per GB)
+		- Snapshots (per GB)
+		- Data Transfer 
+	- S3 pricing
+		- Storage class (Standard, IA, 1 AZ IA etc)
+		- Storage size
+		- Requests (GET PUT COPY)
+		- Data transfer
+		- Glacier pricing 
+			- Retrival time based, longer = cheaper
+	-  Snowball pricing
+		- Service fee per job
+			- 50 TB: $200
+			- 80 TB: $250
+		- Daily charge
+			- First 10 free, $15 per day after
+		- Data transfer
+			- Free to transfer data in S3, not if transfering data out
+	- RDS pricing
+		- Server time (compute time)
+		- Database characteristics (MS SQL vs MySQL)
+		- Database purchase type
+		- Number of instances
+		- Provisioned storage
+		- Additional storage (for backups)
+		- Requests
+		- Deployment type (Muti-AZ)
+		- Data transfer
+	- DynamoDB pricing
+		- Provisioned throughput (write)
+		- Provisioned throughput (read)
+		- Indexed data storage
+	- Cloud Front
+		- Traffic Distribution
+		- Number of requests
+		- Data transfer out
+
 #### IAM Best Practice
 	- Do not use your root account to login
 	- Always enable MFA when possible
