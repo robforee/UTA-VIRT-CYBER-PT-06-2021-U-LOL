@@ -1,5 +1,6 @@
 #### AWS Pricing Model
-	- AWS Pricing Whitepaper: https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf
+	- AWS Pricing Whitepaper: 
+		- https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf
 	- Capex vs Opex
 		- Capital Expenditure - Pay up front, fixed sunk cost
 		- Operational Expenditure - Pay as you go, and pay for what you use
