@@ -167,3 +167,27 @@
 	- Magnetic
 		- Throughput Optimized HDD (ST1) - low cost HDD designed for frequencly accessed workloads
 		- Cold HDD (SC1) - lowest cost HDD volume for less frequently accessed data
+
+### Database
+	- RDS - Relational Database Service
+		- Database types
+			- MS SQL Server
+			- Oracle
+			- MySQL Server
+			- PostgreSQL
+			- Aurora - created by AWS
+			- MariaDB
+	- Key features
+		- Multi-AZ - for disaster recover
+		- Read replicas - for performance, up to 5 copies
+	- DynamoDB - Non-relational Database created by AWS
+	- OLTP vs OLAP
+		- OnLine Trasactions Processing - used for basic database queries
+			- Example: give me user with id 22312
+		- OnLine Analitics Processing - more complex queries, used for Business Intellengenc (BI) 
+			- Example: give me earning of product xyz in the Europe market for Q2 and compare with Q1
+			- Data warehousing used to run OLAP queries outside of production database
+			- Redshift - AWS's data warehouse solution
+	- ElastiCache - used to cache common queries from database for better performance 
+		- Example: Amazon's home page can be visited by thousands of users any given moment, it would be better to cache that result instead of querying the database
+		- Memcached and Redis are the two different solutions for ElastiCache
