@@ -10,6 +10,8 @@
 | |  | | Production system impaired: < 4 hours | Production system impaired: < 4 hours |
 | | | | Production system down: < 1 hour| Production system down: < 1 hour |
 | | | | | Business-critical system down: < 15 minutes |
+- Which support plan has a TAM?
+- Which support plan only has email technical support?
 
 #### AWS Pricing Model
 	- AWS Pricing Whitepaper: 
