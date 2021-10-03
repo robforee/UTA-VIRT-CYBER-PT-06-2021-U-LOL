@@ -6,7 +6,10 @@
 | TAM (Technical Account Manager) | No | No | No | Yes |
 | Who can open cases? | None | 1 person/unlimited cases | Unlimited contacts/unlimited cases | Unlimited contacts/unlimited cases|
 | Case Severity/Response Times | None | General guidance: < 24 business hours| General guidance: < 24 hours | Genreal guidance: < 24 hours|
-
+| |  | System impaired: < 12 business hours | System impaired: < 12 hours | System impaired: < 12 hours |
+| |  | | Production system impaired: < 4 hours | Production system impaired: < 4 hours |
+| | | | Production system down: < 1 hour| Production system down: < 1 hour |
+| | | | | Business-critical system down: < 15 minutes |
 
 #### AWS Pricing Model
 	- AWS Pricing Whitepaper: 
