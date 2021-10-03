@@ -1,3 +1,13 @@
+#### AWS Support Model
+|   | Basic | Developer | Business | Enterprise |
+|---| ----- | --------- | -------- | ---------- |
+| Cost | FREE | $29/month | $100/month | $15,000/month |
+| Tech Support| None | Email during business hours| 24 x 7 email, chat & phone | 24 x 7 email, chat & phone |
+| TAM (Technical Account Manager) | No | No | No | Yes |
+| Who can open cases? | None | 1 person/unlimited cases | Unlimited contacts/unlimited cases | Unlimited contacts/unlimited cases|
+| Case Severity/Response Times | None | General guidance: < 24 business hours| General guidance: < 24 hours | Genreal guidance: < 24 hours|
+
+
 #### AWS Pricing Model
 	- AWS Pricing Whitepaper: 
 		- https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf
