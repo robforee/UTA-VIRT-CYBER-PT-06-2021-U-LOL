@@ -1,4 +1,4 @@
-## Solution Guide: Monolith to Microservices
+## Monolith to Microservices
 
 In this activity you developed a microservices version of an existing web store app in order to prepare for redundancy and scaling.
 

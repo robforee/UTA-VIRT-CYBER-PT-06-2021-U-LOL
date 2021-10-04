@@ -33,11 +33,10 @@
 The webpage you have accessed represents a page within the Replicants website. While this webpage is technically part of the Replicants website, it is designed to simulate the session ID created each time a different user logs into the application.
 
 - **Important**: Make sure your security level on this webpage is shown as Low!
-
   - If it is not, select **DVWA SECURITY** from the menu on the left side of the page.
-
+  
   - Then change your security level back to Low and click Submit.
-
+  
 - Complete the following steps to test for session management vulnerabilities.
 
   - Note that Steps 1 through 4 will be similar to the demonstration conducted by your instructor.
@@ -59,11 +58,11 @@ The webpage you have accessed represents a page within the Replicants website. W
     - Let's now capture the HTTP request that is generated when we click the button.
 
       - Click the Generate button. 
-    
+   
       - Note that the loading bar on the browser tab should be spinning:
-    
+   
     -  Return to Burp Suite Intercept to view this HTTP request.
-    
+   
     -  Note that you should have an HTTP POST request similar to the following:
 
               POST /vulnerabilities/weak_id/ HTTP/1.1
@@ -102,21 +101,21 @@ The webpage you have accessed represents a page within the Replicants website. W
     - If you return to your browser, you will notice the loading bar in the browser tab is still spinning.
       
       - This means that even though the HTTP request was sent to the web server, and the web server returned the response to Burp, the response has not yet been returned to the browser.
-    
+   
     - Look at the line of the HTTP response that contains the session ID returned from the web server:
-    
+   
       - `Set-Cookie: dvwaSession=1`
-    
+   
     - Note that the first session ID is `1`.
-    
+   
     - Press the Send button again, then note how the session ID has changed:
-    
+   
       - `Set-Cookie: dvwaSession=2`
-    
+   
     - Press the Send button again several more times, and note that the session IDs increment by one digit each time.
-    
+   
     - Note that this illustrates the intended purpose of the application, to generate a different session ID every time a user selects Generate from the web application. 
-    
+   
       - Additionally, note that this is WEAK security, as an attacker could use the knowledge of how the session ID gets generated to hijack a user's session.
 
 5. Determine the Medium-level session IDs.
@@ -132,26 +131,29 @@ The webpage you have accessed represents a page within the Replicants website. W
     - Now press the Send button again and note how the session ID has changed in the HTTP response, to a 10-digit number:
 
       - Here is a sample (your number will be different): `Set-Cookie: dvwaSession=1612452171`.
-    
+
     - Now press the Send button again and note how the session ID has changed in the HTTP response, to a different 10-digit number:
-    
+
       - Here is a sample (your number will be different): `Set-Cookie: dvwaSession=1612452402`.
-    
+
     - Continue to press Send to observe how the session IDs change each time. 
-    
+
     - As a security analyst, you are tasked with determining whether the formula or method for generating each session ID can be predicted.     
-    
+
       - **Hint**: While the Low level uses a mathematical formula (+1), to generate each session ID, the Medium level uses a different method.
-    
+
       - **Hint**: Examine other fields in the HTTP response for clues.
-    
+
     - Document the method used to generate these session IDs. 
+
+      - (1*100) + 6 + 13
 
 6. Answer the following mitigation strategy questions:
 
     - Describe to your management how a malicious user could take advantage of the vulnerabilities you just exploited. Be sure to include the potential impact.
-
+      - a malicious user could impersonate an active session and cause havoc
     - Describe in plain language to your manager how you would mitigate the vulnerabilities that you just exploited.
+      - we should generate a more random session id
 
 7. **Bonus**: Determine the High-level session IDs.
 

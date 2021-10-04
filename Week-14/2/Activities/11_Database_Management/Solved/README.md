@@ -1,4 +1,4 @@
-## Solution Guide: Database Management
+## Database Management
 
 In this activity, you deployed a container set and managed the database. 
 
@@ -47,7 +47,7 @@ In this activity, you deployed a container set and managed the database.
    ```SQL
     INSERT INTO employees (firstname, lastname, email, department)  
     VALUES ('Fran', 'Frappucino', 'ffrappucino@goodcorp.net', 'Finance');
-    ```
+   ```
 
     - Reload the webpage to see the changes.
 

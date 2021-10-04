@@ -1,4 +1,4 @@
-## Solution Guide: Using `curl`
+## Using `curl`
 
 The goal of this activity was to get familiar with the command-line tool `curl`. It's important to note that `curl` is one of the most widely used tools by security professionals for investigating HTTP requests and responses.
 
@@ -59,5 +59,4 @@ The goal of this activity was to get familiar with the command-line tool `curl`.
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-
 

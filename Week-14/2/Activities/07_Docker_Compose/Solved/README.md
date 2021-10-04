@@ -1,4 +1,4 @@
-## Solution Guide: Deploying and Testing a Container Set
+## Deploying and Testing a Container Set
 
 This activity required students to use Docker-Compose to deploy a container set and confirm functionality. 
 

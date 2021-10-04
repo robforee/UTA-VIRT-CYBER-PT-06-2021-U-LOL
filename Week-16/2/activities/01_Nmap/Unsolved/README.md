@@ -1,7 +1,7 @@
 ## Activity File: Port Scanning with Nmap
 
 In this activity, you will play the role of an independent penetration tester hired to use Nmap to simulate malicious port scans of a host.
- 
+
 - Nmap offers many different scanning options. Experiment with them and think about how each one applies to your pentest and the client.
   
 - Keep in mind that each scan type has a unique purpose. Choosing the right one can save a lot of time and effort.
@@ -19,8 +19,8 @@ For this activity you will use the following two VMs:
 1. Perform a basic TCP connect scan against Metasploitable 2.
 
    - Run the command to perform a TCP connect scan.
-    
    - Of the ports listed, which two present the biggest potential vulnerability and why?
+   - **mysql && postgress**
 
 Discovering open ports is useful, but it's even more useful to know which services are listening on each port.
 
@@ -30,16 +30,18 @@ For example, if port `80` is open, we know it's probably a web server. But we'll
    
    Notice that in addition to the service type, Nmap displays the enumerated version numbers.
    
-   -  What web service and version is running?
+   -  What web service and version is running?  **Apache 2.2.8**
       
-   - Is this web service version vulnerable? If so, what is the vulnerability?
-      
+   - Is this web service version vulnerable? If so, what is the vulnerability?  **CVE-2017-9798**+
+   
  4. Look at port `21`. Google VSFTPD v2.3.4.
-      - What does this tell you about this software and version?
+      - What does this tell you about this software and version? **VSFTPD v2.3.4 Backdoor Command Execution**
    
       - How is this information useful to an attacker?
-    
-   
+      
+      - ### can Backdoor Command Execution
+
+
 3. Experiment with using various scan techniques and interpret the results. 
 
    - Type `nmap` at the command prompt to get a list of commands that you can play with.

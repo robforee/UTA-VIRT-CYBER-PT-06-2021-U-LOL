@@ -1,4 +1,4 @@
-## Solution Guide: HTTP Requests and Responses
+## HTTP Requests and Responses
 
 The goal of this activity was to combine skills in research and critical thinking to investigate the HTTP sequences of a web attack that occurred on your company's servers.
 
@@ -18,9 +18,9 @@ The goal of this activity was to combine skills in research and critical thinkin
      WWW-Authenticate: Cookie realm="fakesite"
      Allow: OPTIONS, GET, POST, HEAD, PUT
      ```
-
+    
     **Question:** What kind of request was used here that would cause an HTTP server to tell the client all of the HTTP request methods it will respond to?
-
+    
     - Solution: They used the OPTIONS method here. This was the attacker's reconnaissance phase, where they found out all available HTTP methods that can be requested to the HTTP server.
 
    **Analysis:** Do you think this HTTP request method can be used by an attacker to gather information about an HTTP server? Why or why not?
@@ -103,7 +103,7 @@ The goal of this activity was to combine skills in research and critical thinkin
         **Hint**: Google the term "XSS" if you need help.
 
         - Solution: The attacker could not inject XSS code without uploading a file with it.
-    
+   
       - How did the server respond?
 
         - Solution: The attacker used the PUT method to upload a cross-site script to steal the cookies of users and send the cookies to their own server.
@@ -118,13 +118,13 @@ The goal of this activity was to combine skills in research and critical thinkin
      ```
 
    **Question:** Look back at the previous response (HTTP Response 3). What request and headers are seen in this GET request?
-    
+   
     - Solution: Looking at HTTP Response 3, the corresponding response to the PUT request was a success.
 
     **Analysis:** Is there anything interesting about the URL requested?
-    
+   
     - Solution: Looking at HTTP Request 4, it's clear that the attacker stole a cookie and was able to log into the admin portal using a GET request with stolen cookies set in the header.
 
---- 
+---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 

@@ -1,5 +1,5 @@
 ## Activity File: Metasploitable Report
- 
+
 You will be playing the role of an SOC analyst. 
 
 - Nessus provides many scan options. In this activity, you will use Nessus to perform a Metasploitable scan.
@@ -10,7 +10,7 @@ You will be playing the role of an SOC analyst.
 
 
 ### Instructions
- 
+
 Log onto your Kali VM in Hyper-V and start up Nessus by doing the following:
 
 1. Open your terminal and run `/etc/init.d/nessusd start`. 
@@ -37,46 +37,43 @@ Alternatively, if you are still unable to access the page you can use the downlo
 
 
 5. Download and the Metasploitable report. The report includes three vulnerabilities from a completed Metasploitable scan. Review the report and answer the questions below. 
- 
+
     - Write your answers so they can be understood by a non-technical audience. Be prepared to share with the class. 
 
 #### Samba Badlock Vulnerability
 
 
-1. What is the primary purpose of Samba? 
+1. What is the primary purpose of Samba? **Samba is a networking protocol providing file and print services for windows clients and can integrate as  a Windows Domain Controller or member.**
 
 
-2. Based on the scan results, how is our Samba server being exploited? 
+2. Based on the scan results, how ~~is our~~ can out Samba server being exploited? **By exploiting an un patched vuln?**
 
 
-3. How can we patch this vulnerability?
+3. How can we patch this vulnerability? **we can upgrade to Samba version 4.2.11 / 4.3.8 / 4.4.2 or later**
 
 
-4. What are some of the disadvantages of fixing this vulnerability?
+4. What are some of the disadvantages of fixing this vulnerability? **this may break services relying on it**
 
 
 
 #### NFS Exported Share Information Disclosure
 
-1. What is the primary purpose of a network file system (NFS)? 
-
-2. Based on the scan results, how is our NFS being exploited? 
-
-3. Because NFS does not support authentication or encryption, how would you suggest fixing this vulnerability (assuming that our other servers are patched and don't have vulnerabilities)?  
-
-4. If we wanted to fix this, how would it affect our day-to-day business activities, such as how our users share files?
+1. What is the primary purpose of a network file system (NFS)?  **NFS is a protocol for sharing files over a network**
+2. Based on the scan results, how is our NFS being exploited?  **By allowing an unauthorized remote server to mount a file system** 
+3. Because NFS does not support authentication or encryption, how would you suggest fixing this vulnerability (assuming that our other servers are patched and don't have vulnerabilities)?  **configure NFS ON-REMOTE-HOST to only allow authoized hosts to mount it's remote shares.**
+4. If we wanted to fix this, how would it affect our day-to-day business activities, such as how our users share files?  **?????????????????** 
 
 
 
 **Unencrypted Telnet Server**
 
-1. What is the purpose of Telnet?
+1. What is the purpose of Telnet? **telnet provides command line interface for communication with a remote device**
 
 
-2. What port does Telnet use?
+2. What port does Telnet use? **Telnet uses point 23**
 
 
-3. What protocol should we use to connect to the server?
+3. What protocol should we use to connect to the server? **We should use SSH to connect to the server**
 
 
 

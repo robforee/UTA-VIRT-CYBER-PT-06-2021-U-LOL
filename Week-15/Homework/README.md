@@ -70,29 +70,29 @@ When complete, submit the file on BCS.
 
 
       - To launch the environment, complete the following:
-
+    
         - Launch Vagrant from GitBash or the Mac terminal using the following command: `vagrant up`
         
         - Then, open the command line inside Vagrant and run the following command: `cd ./Documents/web-vulns && docker-compose up`.
-
+    
         - Leave this page open and continue to the next step. 
-
+    
       - To access the Replicants website, open a web browser within Vagrant and access the following webpage: <http://192.168.13.25/setup.php>.
-
+    
         - On the bottom of this page, click **Create / Reset Database**.
       
         - This will configure the database for the application.
         
         - The message "Setup Successful" at the bottom of the page will indicate that it is complete. 
-
+    
       - To log in to the mock Replicants website, access the following webpage: <http://192.168.13.25/login.php>.
-
+    
         - Log in with the following credentials:
           
           - Username: `admin`
           
           - Password: `password`
-
+    
     </details>
 
 
@@ -117,9 +117,9 @@ When complete, submit the file on BCS.
     - This command uses two ampersands to add a second command to the original request:
 
       - `pwd` is the second command. It will display the directory location where the command is run on the Replicants webserver.
-     
+    
       - This would be no different than running `ping 8.8.8.8 && pwd` on the command line. 
-  
+    
    - Press Enter. Note the ping results are the results of the second `pwd` command:
 
      ![wd_hw4](Images/wd_hw4.png)
@@ -131,9 +131,10 @@ When complete, submit the file on BCS.
    - `/etc/passwd`
    
    - `/etc/hosts`
-  
+    
+   
    **Hint:** Try testing out a command directly on the command line to help design your payload.
-
+   
 5. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
 
 
@@ -142,7 +143,7 @@ When complete, submit the file on BCS.
 1. Complete the following steps to set up the activity. 
 
     - Open a browser on Vagrant and navigate to the webpage <http://192.168.13.35/install.php>.
-  
+    
     -  The page should look like the following:
 
        ![wd_hw5](Images/wd_hw5.png)
@@ -157,21 +158,21 @@ When complete, submit the file on BCS.
 
        ![wd_hw6](Images/wd_hw6.png)
 
- 
+
     - This will take you to the following page:
-
+    
       ![wd_hw7](Images/wd_hw7.png)
-
+    
     - To access the application where we will perform our activity, enter in the following URL: <http://192.168.13.35/ba_insecure_login_1.php>
-
+    
       - This will take you to the following page:
-
+    
         ![wd_hw8](Images/wd_hw8.png)
 
 2. This page is an administrative web application that serves as a simple login page. An administrator enters their username and password and selects Login.
-     
+   
     - If the user/password combination is correct, it will return a successful message.
-     
+    
     - If the user/password combination is incorrect, it will return the message, "Invalid credentials."
 
 3. Years ago, Replicants had a systems breach and several administrators passwords were stolen by a malicious hacker. The malicious hacker was only able to capture a list of passwords, not the associated accounts' usernames. Your manager is concerned that one of the administrators that accesses this new web application is using one of these compromised passwords. Therefore, there is a risk that the malicious hacker can use these passwords to access an administrator's account and view confidential data.
@@ -183,9 +184,9 @@ When complete, submit the file on BCS.
      - [List of Administrators](listofadmins.txt)
      
      - [Breached list of Passwords](breached_passwords.txt)
-  
+    
    - Hint: Refer back to the Burp Intruder activity `10_Brute_Force` from Day 3 for guidance.
- 
+
 4. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
 
 ### Web Application 3: *Where's the BeEF?*
@@ -218,7 +219,7 @@ When complete, submit the file on BCS.
 2. The Browser Exploitation Framework (BeEF) is a practical client-side attack tool that exploits vulnerabilities of web browsers to assess the security posture of a target.      
 
    - While BeEF was developed for lawful research and penetration testing, criminal hackers leverage it as an attack tool.
-  
+    
    - An attacker takes a small snippet of code, called a BeEF Hook, and determines a way to add this code into a target website. This is commonly done by cross-site scripting.
 
    - When subsequent users access the infected website, the users' browsers become *hooked*.
@@ -227,13 +228,13 @@ When complete, submit the file on BCS.
        - Social engineering attacks 
        - Stealing confidential data from the victim's machine
        - Accessing system and network information from the victim's machine
-       
+   
 3. BeEF includes a feature to test out a simulation of an infected website.
-    
+   
     - To access this simulated infected website, locate the following sentence on the BeEF control panel: `To begin with, you can point a browser towards the basic demo page here, or the advanced version here.`
     
     - Click the second "here" to access the advanced version.  
-     
+    
        ![wd_hw13](Images/wd_hw13.png)
 
     - This will open the following website, which has been infected with a BeEF hook.
@@ -257,7 +258,7 @@ When complete, submit the file on BCS.
     - Select the Commands tabs. 
     
       - This will list folders of hundreds of exploits that can be ran against the hooked browser. Note that many may not work, as they are dependent on the browser and security settings enabled.
-  
+    
    - First, we'll attempt a social engineering phishing exploit to create a fake Google login pop up. We can use this to capture user credentials.
      
    - To access this exploit, select Google Phishing under Social Engineering.
@@ -294,7 +295,7 @@ When complete, submit the file on BCS.
    -  When you attempt to inject this payload,  you will encounter a client-side limitation that will not allow you to enter the whole payload. You will need to find away around this limitation.    
       
       - **Hint:** Try right-clicking and selecting "Inspecting the Element".
-    
+   
    - Once you are able to hook into Replicants website, attempt a couple BeEF exploits. Some that work well include:
      
      - Social Engineering >> Pretty Theft
@@ -302,7 +303,7 @@ When complete, submit the file on BCS.
      - Social Engineering >> Fake Notification Bar
      
      - Host >> Get Geolocation (Third Party)
-    
+   
 6. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
 
 ---

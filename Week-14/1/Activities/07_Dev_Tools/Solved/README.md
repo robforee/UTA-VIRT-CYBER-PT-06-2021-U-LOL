@@ -1,4 +1,4 @@
-## Solution Guide: Inspecting with Developer Tools
+## Inspecting with Developer Tools
 
 The goal of this activity was to get comfortable using your browser's native tools to examine HTTP requests and responses, and particularly security headers. For this specific task, you inspected request and response headers from www.crowdstrike.com.
 

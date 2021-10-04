@@ -151,7 +151,7 @@ The typical client-server communication is as follows:
 1. A user's device (the client) communicates with a server in order to request resources from it.
 2. The server queries the resources from the internal servers it is connected to.
 3. The server sends a response back to the client.
- 
+
   ![HTTP Web Client Server](./Images/HTTP_web_client_server.png)
 
 In order for clients and servers to communicate over the web, they must use the **HTTP protocol**.
@@ -388,8 +388,7 @@ For the purpose of this class, we'll only be looking at the **Network** tab.
 
 For our demo we'll be looking at the website of a well-known managed security provider, SecureWorks.
 
-
-![secureworks](Images/header.png)
+<img src="Images/header.png" alt="secureworks" style="zoom:200%;" />
 
 
 - Navigate to secureworks.com.

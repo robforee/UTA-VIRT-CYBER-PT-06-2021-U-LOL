@@ -1,4 +1,4 @@
-## Activity File: Swapping Sessions
+## Swapping Sessions
 
 In this activity, you will continue in your role as a web application security engineer.
 
