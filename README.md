@@ -82,7 +82,8 @@ Personal Azure Account:
 |[15.3 Web App Tool Time.pdf](Week-15/3/15.3%20Web%20App%20Tool%20Time.pdf) | [15.3 Student Guide](Week-15/3/StudentGuide.md) | [15-Web-Vulnerabilities-and-Hardening](Week-15/Homework) |
 [16.1 Introduction to Pen Testing and Open Source Intelligence.pdf](Week-16/1/16.1%20Introduction%20to%20Pen%20Testing%20and%20Open%20Source%20Intelligence.pdf) | [16.1 Sudent Guide](Week-16/1/StudentGuide.md) |
 [16.2 Network Discovery and Vulnerability Scanning.pdf](Week-16/2/16.2%20Network%20Discovery%20and%20Vulnerability%20Scanning.pdf) | [16.2 Student Guide](Week-16/2/studentguide.md)
-[16.3 Exploiting Vulnerabilities.pdf](Week-16/3/16.3%20Exploiting%20Vulnerabilities.pdf) | [16.3 Student Guide](Week-16/3/StudentGuide.md) | [16-Penetration-Testing](Week-16/Homework)
+[16.3 Exploiting Vulnerabilities.pdf](Week-16/3/16.3%20Exploiting%20Vulnerabilities.pdf) | [16.3 Student Guide](Week-16/3/StudentGuide.md) | [16-Penetration-Testing](Week-16/Homework) |
+[17.1 Introduction to Metasploit.pdf](Week-17/1/17.1%20Introduction%20to%20Metasploit.pdf) | [17.1 Student Guide](Week-17/1/StudentGuide.md) |
 ### Module 5 - Defensive Security - Project 2
 
 ### Module 6 - Review - Final Project
