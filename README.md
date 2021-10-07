@@ -84,6 +84,8 @@ Personal Azure Account:
 [16.2 Network Discovery and Vulnerability Scanning.pdf](Week-16/2/16.2%20Network%20Discovery%20and%20Vulnerability%20Scanning.pdf) | [16.2 Student Guide](Week-16/2/studentguide.md)
 [16.3 Exploiting Vulnerabilities.pdf](Week-16/3/16.3%20Exploiting%20Vulnerabilities.pdf) | [16.3 Student Guide](Week-16/3/StudentGuide.md) | [16-Penetration-Testing](Week-16/Homework) |
 [17.1 Introduction to Metasploit.pdf](Week-17/1/17.1%20Introduction%20to%20Metasploit.pdf) | [17.1 Student Guide](Week-17/1/StudentGuide.md) |
+[17.2 Post-Exploitation with Meterpreter.pdf](Week-17/2/17.2%20Post-Exploitation%20with%20Meterpreter.pdf) | [17.2 Student Guide](Week-17/2/StudentGuide.md)|
+
 ### Module 5 - Defensive Security - Project 2
 
 ### Module 6 - Review - Final Project
