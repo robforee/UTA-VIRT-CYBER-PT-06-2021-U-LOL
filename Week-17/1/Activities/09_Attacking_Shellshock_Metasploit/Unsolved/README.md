@@ -1,5 +1,5 @@
 ## Activity File: Attacking Shellshock with Metasploit 
- 
+
 In this activity, you will play the role of an independent penetration tester.
 
 - You've been hired as a contractor to investigate suspicious activity on a company's web server. 
@@ -8,6 +8,7 @@ In this activity, you will play the role of an independent penetration tester.
 
 - Specifically you will exploit Shellshock, create a shell session, and then read the `/etc/passwd` file.
   
+
 Use the following virtual machine environment:
 
 - Attacking machine: Kali Linux 
@@ -49,8 +50,9 @@ Use the following virtual machine environment:
 7. A Meterpreter session should now be open. 
    - Try to locate the hidden `flag` file on the exploited machine. 
    - **Hint** We'll cover this more in class next time, but try using Meterpreter's `shell` command to gain a **bash shell** into the victims machine.
- 
+
 
 ____
-  
+
 &copy; 2020 Trilogy Education Services, a 2U Inc Brand.   All Rights Reserved.
+

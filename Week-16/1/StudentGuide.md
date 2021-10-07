@@ -174,7 +174,7 @@ Today's reconnaissance will focus on external reconnaissance, also referred to a
 
 #### Introduction to OSINT
 
-OSINT aims to gather publicly available information about a target. 
+OSINT aims to gather publicly available information about a target. 	
 
 Since no view pentesters begin their engagement with very limited knowledge, they must use OSINT to gain as much information about a target as possible. 
 
@@ -425,6 +425,7 @@ We'll continue our Reconnaissance efforts with a tool called **Recon-ng**.
   - Built-in convenience functions
   - Interactive help
   - Command completion 
+  - 
 
 There are many scripts and programs that can assist with integrating OSINT tools into Recon-ng.
 

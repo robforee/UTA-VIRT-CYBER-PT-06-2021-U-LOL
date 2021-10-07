@@ -22,7 +22,7 @@ The Heartbleed machine will act as the victims computer:
 1. Use `searchsploit` to identify Heartbleed exploits.
 
 2. Inspect the Python exploits you identify:
-    
+   
     - Read the source code of each exploit with the `-x` option. 
 
       - **Hint:** `searchsploit -x <exploit>`
@@ -33,3 +33,4 @@ The Heartbleed machine will act as the victims computer:
 
 ---
 &copy; 2020 Trilogy Education Services, a 2U Inc Brand. All Rights Reserved.
+

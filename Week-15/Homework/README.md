@@ -131,7 +131,7 @@ When complete, submit the file on BCS.
    - `/etc/passwd`
    
    - `/etc/hosts`
-    
+   
    
    **Hint:** Try testing out a command directly on the command line to help design your payload.
    
@@ -184,7 +184,7 @@ When complete, submit the file on BCS.
      - [List of Administrators](listofadmins.txt)
      
      - [Breached list of Passwords](breached_passwords.txt)
-    
+   
    - Hint: Refer back to the Burp Intruder activity `10_Brute_Force` from Day 3 for guidance.
 
 4. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
@@ -219,7 +219,7 @@ When complete, submit the file on BCS.
 2. The Browser Exploitation Framework (BeEF) is a practical client-side attack tool that exploits vulnerabilities of web browsers to assess the security posture of a target.      
 
    - While BeEF was developed for lawful research and penetration testing, criminal hackers leverage it as an attack tool.
-    
+   
    - An attacker takes a small snippet of code, called a BeEF Hook, and determines a way to add this code into a target website. This is commonly done by cross-site scripting.
 
    - When subsequent users access the infected website, the users' browsers become *hooked*.
@@ -309,3 +309,4 @@ When complete, submit the file on BCS.
 ---
 
 © 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
