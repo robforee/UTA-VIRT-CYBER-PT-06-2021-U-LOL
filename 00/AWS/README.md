@@ -183,6 +183,10 @@
 		- Throughput Optimized HDD (ST1) - low cost HDD designed for frequencly accessed workloads
 		- Cold HDD (SC1) - lowest cost HDD volume for less frequently accessed data
 
+### CloudFront
+	- AWS' content delivery network (CDN)
+	![CND](Resources/cdn-origin-server-user.jpeg)
+
 ### Database
 	- RDS - Relational Database Service
 		- Database types
