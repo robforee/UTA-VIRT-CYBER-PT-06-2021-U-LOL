@@ -185,7 +185,6 @@
 
 ### CloudFront
 	- AWS' content delivery network (CDN)
-![CND](Resources/cdn-origin-server-user.jpeg)
 	- Edge Locations - where content will be cached
 	- Origin - The origin of the file for distribution
 	- How does CloudFront work
@@ -193,7 +192,7 @@
 		2. If content doesn't already exists, CloudFront will copy content from orgin to edge location
 		3. Second user queries the same content, since edge location already have it, it will get directly from edge location
 	- Content will be cached for a set amount of time, and that time is called TTL (Time to Live), usually 48 hours in seconds (86400)
-	
+![CDN](Resources/cdn-origin-server-user.jpeg)	
 ### Load Balancers
 	- Types
 		- Application
