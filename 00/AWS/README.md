@@ -185,7 +185,7 @@
 
 ### CloudFront
 	- AWS' content delivery network (CDN)
-	![CND](Resources/cdn-origin-server-user.jpeg)
+![CND](Resources/cdn-origin-server-user.jpeg)
 
 ### Database
 	- RDS - Relational Database Service
