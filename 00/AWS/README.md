@@ -183,6 +183,38 @@
 		- Throughput Optimized HDD (ST1) - low cost HDD designed for frequencly accessed workloads
 		- Cold HDD (SC1) - lowest cost HDD volume for less frequently accessed data
 
+### CloudFront
+	- AWS' content delivery network (CDN)
+	- Edge Locations - where content will be cached
+	- Origin - The origin of the file for distribution
+	- How does CloudFront work
+		1. First user queries edge location
+		2. If content doesn't already exists, CloudFront will copy content from orgin to edge location
+		3. Second user queries the same content, since edge location already have it, it will get directly from edge location
+	- Content will be cached for a set amount of time, and that time is called TTL (Time to Live), usually 48 hours in seconds (86400)
+![CDN](Resources/cdn-origin-server-user.jpeg)	
+### Load Balancers
+	- Types
+		- Application
+		- Network
+		- Classic
+	- Application Load balancer
+		- Operates on layer 7 
+		- Can make intellgent routing decisions
+	- Network Load balancer
+		- Fast performance
+		- Can have static IP addresses
+	- Classic
+		- Old and will be phased out
+
+### Route 53
+	- AWS' DNS Service
+	- Features
+		- DNS Management 
+		- Traffic Management
+		- Availability Monitoring
+		- Domain Registration
+
 ### Database
 	- RDS - Relational Database Service
 		- Database types

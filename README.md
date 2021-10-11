@@ -85,7 +85,7 @@ Personal Azure Account:
 [16.3 Exploiting Vulnerabilities.pdf](Week-16/3/16.3%20Exploiting%20Vulnerabilities.pdf) | [16.3 Student Guide](Week-16/3/StudentGuide.md) | [16-Penetration-Testing](Week-16/Homework) |
 [17.1 Introduction to Metasploit.pdf](Week-17/1/17.1%20Introduction%20to%20Metasploit.pdf) | [17.1 Student Guide](Week-17/1/StudentGuide.md) |
 [17.2 Post-Exploitation with Meterpreter.pdf](Week-17/2/17.2%20Post-Exploitation%20with%20Meterpreter.pdf) | [17.2 Student Guide](Week-17/2/StudentGuide.md)|
-
+[17.3 Crafting Payloads.pdf](Week-17/3/17.3%20Crafting%20Payloads.pdf) | [17.3 Student Guide](Week-17/3/StudentGuide.md) | [17-Pentration-Testing-2](Week-17/Homework) | 
 ### Module 5 - Defensive Security - Project 2
 
 ### Module 6 - Review - Final Project
