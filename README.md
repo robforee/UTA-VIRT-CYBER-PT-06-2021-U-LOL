@@ -87,5 +87,7 @@ Personal Azure Account:
 [17.2 Post-Exploitation with Meterpreter.pdf](Week-17/2/17.2%20Post-Exploitation%20with%20Meterpreter.pdf) | [17.2 Student Guide](Week-17/2/StudentGuide.md)|
 [17.3 Crafting Payloads.pdf](Week-17/3/17.3%20Crafting%20Payloads.pdf) | [17.3 Student Guide](Week-17/3/StudentGuide.md) | [17-Pentration-Testing-2](Week-17/Homework) | 
 ### Module 5 - Defensive Security - Project 2
-
+| Slides | Student Guide | Homework |
+|--------| ------------- | -------- |
+|[18.1 Introduction to SIEM.pdf](Week-18/1/18.1%20Introduction%20to%20SIEM.pdf) | [18.1 Student Guide](Week-18/1/StudentGuide.md)|
 ### Module 6 - Review - Final Project
