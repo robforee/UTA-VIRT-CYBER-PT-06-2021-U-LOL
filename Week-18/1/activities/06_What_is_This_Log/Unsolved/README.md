@@ -4,7 +4,7 @@ You are a recently hired SOC manager at OMP.
 
 - One of your first tasks as SOC manager is to understand the types of logs available for monitoring.
 
-- Your predecessor left you with a directory labeled `logs` containing various log files.
+- Your predecessor left you with a directory labeled `logs` containing various [log files](../../../resources/logfiles.zip).
 
 - Unfortunately, there is no indication of what each log type is for. You must analyze and categorize each log.
 
