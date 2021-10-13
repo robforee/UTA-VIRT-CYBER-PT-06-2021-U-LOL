@@ -9,7 +9,7 @@
 
 ### Instructions
 
-You have been provided one log record from each web server to help you normalize the logs.
+You have been provided one [log record](../../../resources/webserver_logs.txt) from each web server to help you normalize the logs.
 
 Identify the various fields from each log record. The fields include:
    - Date
