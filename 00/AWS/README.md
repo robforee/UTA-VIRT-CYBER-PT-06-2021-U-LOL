@@ -238,3 +238,20 @@
 	- ElastiCache - used to cache common queries from database for better performance 
 		- Example: Amazon's home page can be visited by thousands of users any given moment, it would be better to cache that result instead of querying the database
 		- Memcached and Redis are the two different solutions for ElastiCache
+
+### Elastic Beanstalk
+	- Allows you to manage applications in AWS without having to worry about the underlying infrastructure
+
+### CloudFormation
+	- Infrastructure as Code (IaC) for AWS
+	- Can be used to deploy any resources in AWS
+	- More advanced than Elastic Beanstalk
+
+### Architecting for the Cloud
+	- https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
+	- Five Pillars of the framework
+		- Operational Excellence
+		- Security
+		- Reliability
+		- Performance Efficiency
+		- Cost Optimization
