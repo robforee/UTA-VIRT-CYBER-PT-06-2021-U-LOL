@@ -90,5 +90,6 @@ Personal Azure Account:
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
 |[18.1 Introduction to SIEM.pdf](Week-18/1/18.1%20Introduction%20to%20SIEM.pdf) | [18.1 Student Guide](Week-18/1/StudentGuide.md)|
-|[18.2 Splunk Searches.pdf](Week-18/2/18.2%20Splunk%20Searches.pdf) | [18.2 Student Guide](Week-18/2/StudentGuide.md)|
+|[18.2 Splunk Searches.pdf](Week-18/2/18.2%20Splunk%20Searches.pdf) | [18.2 Student Guide](Week-18/2/StudentGuide.md)| 
+|[18.3 Splunk Reports and Alerts.pdf](Week-18/3/18.3%20Splunk%20Reports%20and%20Alerts.pdf)|[18.3 Student Guide](Week-18/3/StudentGuide.md)|[18-SIEM](Week-18/Homework)
 ### Module 6 - Review - Final Project
