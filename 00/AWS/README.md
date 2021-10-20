@@ -255,3 +255,15 @@
 		- Reliability
 		- Performance Efficiency
 		- Cost Optimization
+
+### Security in AWS
+	- Shared responsibility model - very important to understand
+		- https://aws.amazon.com/compliance/shared-responsibility-model/
+	- AWS compliance and Artifacts
+		- https://aws.amazon.com/compliance/programs/
+	- AWS WAF - web application firewall
+		- Layer 7 firewall that will block things like SQL injections and XSS
+	- AWS Shield
+		- DDoS mitigation service
+	- AWS CloudWatch
+	- AWS CloudTrail

@@ -73,6 +73,9 @@ Personal Azure Account:
 </details>
 
 ### Module 4 - Offensive Security
+<details>
+    <summary>Click to expand!</summary>
+
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
 |[14.1 HTTP with Session and Cookies.pdf](Week-14/1/14.1%20HTTP%20with%20Session%20and%20Cookies.pdf) | [14.1 Student Guide](Week-14/1/StudentGuide.md) | 
@@ -86,10 +89,14 @@ Personal Azure Account:
 [17.1 Introduction to Metasploit.pdf](Week-17/1/17.1%20Introduction%20to%20Metasploit.pdf) | [17.1 Student Guide](Week-17/1/StudentGuide.md) |
 [17.2 Post-Exploitation with Meterpreter.pdf](Week-17/2/17.2%20Post-Exploitation%20with%20Meterpreter.pdf) | [17.2 Student Guide](Week-17/2/StudentGuide.md)|
 [17.3 Crafting Payloads.pdf](Week-17/3/17.3%20Crafting%20Payloads.pdf) | [17.3 Student Guide](Week-17/3/StudentGuide.md) | [17-Pentration-Testing-2](Week-17/Homework) | 
+</details>
+
 ### Module 5 - Defensive Security - Project 2
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
 |[18.1 Introduction to SIEM.pdf](Week-18/1/18.1%20Introduction%20to%20SIEM.pdf) | [18.1 Student Guide](Week-18/1/StudentGuide.md)|
 |[18.2 Splunk Searches.pdf](Week-18/2/18.2%20Splunk%20Searches.pdf) | [18.2 Student Guide](Week-18/2/StudentGuide.md)| 
-|[18.3 Splunk Reports and Alerts.pdf](Week-18/3/18.3%20Splunk%20Reports%20and%20Alerts.pdf)|[18.3 Student Guide](Week-18/3/StudentGuide.md)|[18-SIEM](Week-18/Homework)
+|[18.3 Splunk Reports and Alerts.pdf](Week-18/3/18.3%20Splunk%20Reports%20and%20Alerts.pdf)|[18.3 Student Guide](Week-18/3/StudentGuide.md)|[18-SIEM](Week-18/Homework)|
+|[19.1 Splunk Dashboards and Visualizations.pdf](Week-19/1/19.1%20Splunk%20Dashboards%20and%20Visualizations.pdf) | [19.1 Student Guide](Week-19/1/studentguide.md)|
+
 ### Module 6 - Review - Final Project
