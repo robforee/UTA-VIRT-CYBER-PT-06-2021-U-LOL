@@ -265,3 +265,5 @@
 		- Layer 7 firewall that will block things like SQL injections and XSS
 	- AWS Shield
 		- DDoS mitigation service
+	- AWS CloudWatch
+	- AWS CloudTrail
