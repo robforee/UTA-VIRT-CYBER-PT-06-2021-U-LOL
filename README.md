@@ -98,5 +98,6 @@ Personal Azure Account:
 |[18.2 Splunk Searches.pdf](Week-18/2/18.2%20Splunk%20Searches.pdf) | [18.2 Student Guide](Week-18/2/StudentGuide.md)| 
 |[18.3 Splunk Reports and Alerts.pdf](Week-18/3/18.3%20Splunk%20Reports%20and%20Alerts.pdf)|[18.3 Student Guide](Week-18/3/StudentGuide.md)|[18-SIEM](Week-18/Homework)|
 |[19.1 Splunk Dashboards and Visualizations.pdf](Week-19/1/19.1%20Splunk%20Dashboards%20and%20Visualizations.pdf) | [19.1 Student Guide](Week-19/1/studentguide.md)|
+|[19.2 Splunk ES.pdf](Week-19/2/19.2%20Splunk%20ES.pdf) |[19.2 Student Guide](Week-19/2/StudentGuide.md) |
 
 ### Module 6 - Review - Final Project
