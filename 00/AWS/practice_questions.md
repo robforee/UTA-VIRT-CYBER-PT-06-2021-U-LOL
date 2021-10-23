@@ -5,8 +5,8 @@
 	d. AWS API  
 	<details>
  		<summary>Click to see answer.</summary>
-
-	b
+	
+	`b - AWS Management Console is a web application for managing Amazon Web Services.`
 	</details>
 
 2. You need to review actions taken in the AWS Management Console as well as the CLI, which service should you use?  
@@ -14,6 +14,11 @@
 	b. AWS CloudTrail  
 	c. Amazon CloudWatch  
 	d. IAM  
+        <details>
+                <summary>Click to see answer.</summary>
+
+        b
+        </details>
 3. A Healthcare agency needs to store certain patient information for up to 10 years. To save cost, they want to archive this data to cheaper storage. The data needs to be retrieved within 12 hours. Which is the cheapest option?  
 	a. Glacier Deep Archive  
 	b. Glacier  
