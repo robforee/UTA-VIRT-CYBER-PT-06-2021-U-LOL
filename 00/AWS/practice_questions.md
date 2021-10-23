@@ -3,11 +3,11 @@
 	b. AWS Management Console  
 	c. AWS CLI  
 	d. AWS API  
-<details>
- 	<summary>Click to see answer.</summary>
+	<details>
+ 		<summary>Click to see answer.</summary>
 
-b
-</details>
+	b
+	</details>
 
 2. You need to review actions taken in the AWS Management Console as well as the CLI, which service should you use?
 	a. AWS Config
