@@ -1,8 +1,8 @@
-1. Which of the following can you use as a web-based interface to view processes in AWS?
-	a. AWS SDK
-	b. AWS Management Console
-	c. AWS CLI
-	d. AWS API
+1. Which of the following can you use as a web-based interface to view processes in AWS? 
+	a. AWS SDK 
+	b. AWS Management Console 
+	c. AWS CLI 
+	d. AWS API 
 <details>
  	<summary>Click to see answer.</summary>
 
