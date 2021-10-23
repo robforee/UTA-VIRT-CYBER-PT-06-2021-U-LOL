@@ -51,6 +51,7 @@
 	d. CloudFormation 
  	<details>
  		<summary>Click to see answer.</summary>
+
 	> c - AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. https://aws.amazon.com/elasticbeanstalk/
 	</details>
 
@@ -59,16 +60,35 @@
 	b. Amazon RDS  
 	c. Amazon Virtual Private Cloud  
 	d. Elastic Network Interface  
+ 	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> c - Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud. You have complete control over your virtual networking environment, including the selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways. You can use both IPv4 and IPv6 in your VPC for secure and easy access to resources and applications. https://aws.amazon.com/vpc/
+	</details>
+
 7. Microsoft has announced a new patch for its operating system. For a Platform as a Service solution, who would be responsible for applying the patch?  
 	a. AWS  
 	b. The Customer for spot instances only  
 	c. Customer  
 	d. Either can apply this patch  
+ 	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> a - Platforms as a service remove the need for organizations to manage the underlying infrastructure (usually hardware and operating systems) and allow you to focus on the deployment and management of your applications.  
+	> The customer would be responsible for patching the Operating System for Infrastructure as a Service solutions
+	</details>
+
 8. A company is configuring IAM for its new AWS account. There are 5 departments with between 5 to 10 users in each department. How can they efficiently apply access permissions for each of these departments and simplify management of these users?  
 	a. Create a policies defining the permissions needed. Attach the policies to all users in each department.  
 	b. Create an IAM role defining the permissions needed. Create an IAM group and attach the policy to the group. Add the department's members to the group.  
 	c. Create an IAM group for each department. Add the department's members to the group.  
 	d. Create policies for each department that define the permissions needed. Create an IAM group for each department and attach the policy to each group. Add each department's members to their respective IAM group.  
+ 	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> d - By creating an IAM group, all like users can be managed all at one time. Once the permissions are defined within the policy, it can be attached to the IAM group, allowing them access to the resources/services stated within the policy.
+	</details>
+
 9. Your company utilizes DNS and wants to migrate DNS and management of DNS to the cloud. Which AWS service would you use?  
 	a. CloudFormation  
 	b. Application Load Balancer  
