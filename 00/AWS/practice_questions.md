@@ -48,7 +48,12 @@
 	a. ECS  
 	b. Auto Scaling  
 	c. Elastic Beanstalk   
-	d. CloudFormation  
+	d. CloudFormation 
+ 	<details>
+ 		<summary>Click to see answer.</summary>
+	> c - AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. https://aws.amazon.com/elasticbeanstalk/
+	</details>
+
 6. What AWS service lets you provision a logically isolated section of the AWS Cloud?  
 	a. Amazon Route 53  
 	b. Amazon RDS  
