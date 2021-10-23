@@ -4,7 +4,7 @@
 	c. AWS CLI
 	d. AWS API
 <details>
-	<summary>Click to see answer.</summary>
+  <summary>Click to see answer.</summary>
 
 b
 <details>
