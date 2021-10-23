@@ -9,6 +9,9 @@ Azure Lab Services
 Personal Azure Account:
 - [Set Up Guide](https://docs.google.com/document/d/1gs_09b7eotl7hzTL82xlqPt-OwOd0aWA78qcQxtMr6Y/edit)
 
+Project Groups:
+- [Project Group Sheet](https://docs.google.com/spreadsheets/d/1YYE612y5y73sJwqGA9wCtT8mwXDAE3RyB7hpd91u_9M/edit#gid=0)
+- 
 ### Module 1 - Security Fundamentals
 <details>
     <summary>Click to expand!</summary>
