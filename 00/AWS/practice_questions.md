@@ -36,6 +36,14 @@
 	b. Benefit from minor economies of scale  
 	c. Stop spending money running and maintaining data centers  
 	d. Go global in minutes  
+	<details>
+ 		<summary>Click to see answer.</summary>
+	
+	> c and d
+	> Stop spending money running and maintaining data centers – Focus on projects that differentiate your business, not the infrastructure. Cloud computing lets you focus on your own customers, rather than on the heavy lifting of racking, stacking, and powering servers. https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
+	> Go global in minutes – Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at a minimal cost. https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
+	</details>
+
 5. You are trying out AWS on a trial basis and need to deploy an application without having to configure servers. Which AWS service can you use?  
 	a. ECS  
 	b. Auto Scaling  
