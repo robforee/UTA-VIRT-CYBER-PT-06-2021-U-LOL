@@ -11,7 +11,7 @@ Personal Azure Account:
 
 Project Groups:
 - [Project Group Sheet](https://docs.google.com/spreadsheets/d/1YYE612y5y73sJwqGA9wCtT8mwXDAE3RyB7hpd91u_9M/edit#gid=0)
-- 
+
 ### Module 1 - Security Fundamentals
 <details>
     <summary>Click to expand!</summary>
