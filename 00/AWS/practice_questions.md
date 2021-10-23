@@ -94,35 +94,79 @@
 	b. Application Load Balancer  
 	c. Route 53  
 	d. CloudFront  
+	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> c - Amazon Route 53 provides highly available and scalable Domain Name System (DNS) services, domain name registration, and health-checking web services. It is designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications by translating names like example.com into the numeric IP addresses, such as 192.0.2.1, that computers use to connect. https://aws.amazon.com/route53/
+	</details>
+
 10. Configuring user permissions so that users can access only the resources they need to do their job follows what principle?  
 	a. Principle of Least Privilege  
 	b. Principle of Minimum Permissions  
 	c. Principle of Organizations  
 	d. IAM Principle  
+	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> a - When you create IAM policies, follow the standard security advice of granting the least privilege, or granting only the permissions required to perform a task. Determine what users (and roles) need to do, and then craft policies that allow them to perform only those tasks. https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege
+	</details>
+
 11. You need to set up a virtual firewall for your EC2 instance. Which would you use?  
 	a. Network ACL  
 	b. Security Group  
 	c. Subnet  
 	d. IAM Policy  
+	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> b - A security group acts as a virtual firewall for your instance to control inbound and outbound traffic. When you launch an instance in a VPC, you can assign up to five security groups to the instance. Security groups act at the instance level, not the subnet level. Therefore, each instance in a subnet in your VPC can be assigned to a different set of security groups. https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html
+	</details>
+
 12. The CTO of a software company had requested an Executive Summary detailing the advantages of a potential move to the AWS Cloud. What can you say is an advantage of an RDS database over a traditional database?  
 	a. It is 5 times faster than traditional databases.  
 	b. AWS maintains the underlying OS and performs software patching on the database.  
 	c. It is much easier to convert to a NoSQL database.  
 	d. There is much greater access for DBAs.  
+	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> b - Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching, and backups. It frees you to focus on your applications so you can give them the fast performance, high availability, security, and the compatibility they need. https://aws.amazon.com/rds/
+	</details>
+
 13. You need to purchase reserved instances for a 3-year project. But a company initiative may change all the company compute operating systems from Windows to Linux midway through this project. What type of reserved instance should you purchase?  
 	a. Automatic  
 	b. Standard  
 	c. Convertible  
 	d. Zonal  
+	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> c - Can be exchanged during the term for another Convertible Reserved Instance with new attributes including instance family, instance type, platform, scope, or tenancy. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/reserved-instances-types.html
+	</details>
+
 14. A company needs to use a Load Balancer which can serve traffic at the TCP, and UDP layers. Additionally, it needs to handle millions of requests per second at very low latencies. Which Load Balancer should they use?  
 	a. Application Load Balancer  
 	b. TCP Load Balancer  
 	c. Classic Load Balancer  
 	d. Network Load Balancer  
+	<details>
+ 		<summary>Click to see answer.</summary>
+
+	> d - Network Load Balancer is best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP) and Transport Layer Security (TLS) traffic where extreme performance is required. Operating at the connection level (Layer 4), Network Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) and is capable of handling millions of requests per second while maintaining ultra-low latencies. https://aws.amazon.com/elasticloadbalancing/
+	</details>
+
 15. AWS uses the shared responsibility model. For security, which of the following are the responsibilities of AWS? (Choose 3)  
 	a. Physically securing compute resources  
 	b. Disk disposal  
 	c. Configure Security Group  
 	d. Network patching  
 	e. User password rules  
+	<details>
+ 		<summary>Click to see answer.</summary>
 
+	> a - AWS is in charge of physically securing compute resources, as it is part of the infrastructure that runs all of the services offered in the AWS Cloud.  
+
+	> b - Disk disposal is one of AWS's responsibilities, as it is connected to the infrastructure, which AWS handles.  
+
+	> d - Network patching is one of AWS's responsibilities, as it is connected to the infrastructure that AWS handles.
+	</details>
