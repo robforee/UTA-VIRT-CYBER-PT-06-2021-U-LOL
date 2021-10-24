@@ -18,7 +18,7 @@ You've been provided the following logs:
     
 ### Windows Server Logs Instructions and Deliverables
 
-1. Load the logs into your Splunk environment.
+1. Load the [logs](../../../resources/windows_server_logs.csv) into your Splunk environment.
     - Select all default options provided.
     - **Important:** For the time range, select **All Time**.
 
@@ -83,7 +83,7 @@ You've been provided the following logs:
 
 ### Apache Web Server Instructions and Deliverables
 
-1. Load the logs into your Splunk environment.
+1. Load the [logs](../../../resources/apache_logs.txt) into your Splunk environment.
     - Select all default options provided.
     - **Important:** For the time range, select **All Time**. 
 

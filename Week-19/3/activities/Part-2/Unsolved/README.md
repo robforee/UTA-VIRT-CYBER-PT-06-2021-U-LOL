@@ -12,7 +12,7 @@ You have been provided two logs files of suspicious activity:
     
 ### Windows Server Logs 
 
-Load the logs in your Splunk environment. 
+Load the [logs](../../../resources/windows_server_attack_logs.csv) in your Splunk environment. 
 
    - Select all default options provided.
    - **Important:** For the time range, always select **All Time**.  
@@ -182,7 +182,7 @@ Analyze your new dashboard results, and answer the following question:
 
 ### Apache Web Server Logs
 
-Load the logs in your Splunk environment. 
+Load the [logs](../../../resources/apache_attack_logs.txt) in your Splunk environment. 
   - Select all default options provided.
   - **Important:** For the time range, always select **All Time**.
 
