@@ -103,7 +103,7 @@ Project Groups:
 |[19.1 Splunk Dashboards and Visualizations.pdf](Week-19/1/19.1%20Splunk%20Dashboards%20and%20Visualizations.pdf) | [19.1 Student Guide](Week-19/1/studentguide.md)|
 |[19.2 Splunk ES.pdf](Week-19/2/19.2%20Splunk%20ES.pdf) |[19.2 Student Guide](Week-19/2/StudentGuide.md) |
 |[19.3 Master of the SOC.pdf](Week-19/3/19.3%20Master%20of%20the%20SOC.pdf) |[19.3 Student Guide](Week-19/3/StudentGuide.md) | [19-SIEMs-2](Week-19/Homework) |
-[20. Project Week 2 Red vs. Blue.pdf](Week-20/20.%20Project%20Week%202%20Red%20vs.%20Blue.pdf) | [20 Student Guide](Week-20/README.md) |
+[20. Project Week 2 Red vs. Blue.pdf](Week-20/20.%20Project%20Week%202%20Red%20vs.%20Blue.pdf) | [20 Student Guide](Week-20/README.md) | 
 [21.1 Introduction to Digital Forensics.pdf](Week-21/1/21.1%20Introduction%20to%20Digital%20Forensics.pdf) | [21.1 Student Guide](Week-21/1/StudentGuide.md)
 
 ### Module 6 - Review - Final Project
