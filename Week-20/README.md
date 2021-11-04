@@ -8,6 +8,7 @@ As the Red Team, you will attack a vulnerable VM within your environment, ultima
 
 Then, you will interpret your log data to suggest mitigation measures for each exploit that you've successfully performed.
 
+The class slides are available on Google Drive here: [20 Slides](https://docs.google.com/presentation/d/1NpqxpVtpPjXTx_6MZPfCLAoWja0EWYVZG9dn2kpy16o/edit#slide=id.g7269dbc03e_0_4458)
 
 ### Unit Objectives
 
