@@ -106,5 +106,6 @@ Project Groups:
 [20. Project Week 2 Red vs. Blue.pdf](Week-20/20.%20Project%20Week%202%20Red%20vs.%20Blue.pdf) | [20 Student Guide](Week-20/README.md) | 
 [21.1 Introduction to Digital Forensics.pdf](Week-21/1/21.1%20Introduction%20to%20Digital%20Forensics.pdf) | [21.1 Student Guide](Week-21/1/StudentGuide.md) |
 [21.2 Autopsy and iPhone Forensics.pdf](Week-21/2/21.2%20Autopsy%20and%20iPhone%20Forensics.pdf) | [21.2 Student Guide](Week-21/2/StudentGuide.md) |
+[21.3 Evidence Acquisition and Reports.pdf](Week-21/3/21.3%20Evidence%20Acquisition%20and%20Reports.pdf) | [21.3 Student Guide](Week-21/3/StudentGuide.md) | [21-Digital-Forensics](Week-21/Homework)
 
 ### Module 6 - Review - Final Project
