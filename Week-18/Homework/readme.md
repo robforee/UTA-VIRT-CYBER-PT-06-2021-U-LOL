@@ -3,9 +3,9 @@
 ### Scenario
 
 You have just been hired as an SOC Analyst by Vandalay Industries, an importing and exporting company.
- 
+
 - Vandalay Industries uses Splunk for their security monitoring and have been experiencing a variety of security issues against their online systems over the past few months. 
- 
+
 - You are tasked with developing searches, custom reports and alerts to monitor Vandalay's security environment in order to protect them from future attacks.
 
 
@@ -54,23 +54,31 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 2. Using the `eval` command, create a field called `ratio` that shows the ratio between the upload and download speeds.
    - Hint: The format for creating a ratio is: `| eval new_field_name = 'fieldA'  / 'fieldB'`
-      
+   
 3. Create a report using the Splunk's `table` command to display the following fields in a statistics report:
     - `_time`
     - `IP_ADDRESS`
     - `DOWNLOAD_MEGABITS`
     - `UPLOAD_MEGABITS`
     - `ratio`
-  
-   Hint: Use the following format when for the `table` command: `| table fieldA  fieldB fieldC`
-
+    
+      
+    
+    Hint: Use the following format when for the `table` command: `| table fieldA  fieldB fieldC`
+    
 4. Answer the following questions:
 
     - Based on the report created, what is the approximate date and time of the attack?
+      - Feb 22, 11:30 PM to Feb 23, 2:30 PM
     - How long did it take your systems to recover?
+      - it took 9 hours to revover
 
 Submit a screen shot of your report and the answer to the questions above.
- 
+
+![image-20211025151714052](F:\UTCyber\Week-18\Homework\resources\image-20211025151714052.png)
+
+![image-20211025151603919](F:\UTCyber\Week-18\Homework\resources\image-20211025151603919.png)
+
 ### Step 2: Are We Vulnerable? 
 
 **Background:**  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
@@ -85,8 +93,12 @@ Submit a screen shot of your report and the answer to the questions above.
 2. Create a report that shows the `count` of critical vulnerabilities from the customer database server.
    - The database server IP is `10.11.36.23`.
    - The field that identifies the level of vulnerabilities is `severity`.
-      
+   
+   ![image-20211025164753036](F:\UTCyber\Week-18\Homework\resources\image-20211025164753036.png)
+   
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
+
+![image-20211025165320423](F:\UTCyber\Week-18\Homework\resources\image-20211025165320423.png)
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
@@ -95,27 +107,25 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
 
 **Background:**  A Vandaly server is also experiencing brute force attacks into their administrator account. Management would like you to set up monitoring to notify the SOC team if a brute force attack occurs again.
 
-
 **Task:** Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
 
 1. Upload the administrator login logs.
    - [Admin Logins](resources/Administrator_logs.csv)
-
 2. When did the brute force attack occur?
+   - **8AM Friday Feb 21st till 2PM Friday Feb 21st**
    - Hints:
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
-
-      
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
-
+   1. **normal activity is less than 25 per hour**
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
+   ![image-20211026172427364](F:\UTCyber\Week-18\Homework\resources\image-20211026172427364.png)
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
- 
- 
+
+
 ### Your Submission
-  
+
 In a word document, provide the following:
   - Answers to all questions where indicated. 
   - Screenshots where indicated.

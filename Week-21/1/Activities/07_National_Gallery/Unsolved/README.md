@@ -1,9 +1,9 @@
 ## Activity File: 2012 National Gallery Case
 
 - In this activity, you will assume the role of a forensic investigator tasked with examining a case that involves a DoS attack which occurred at an online shopping website.
- 
+
 - Your task is to prepare for the investigation and discover the  challenges associated with maintaining a proper chain of custody.
- 
+
 - Depending on how well the chain of custody was maintained, you will also have to determine which evidence, if any, is admissible in a court of law.
 
 
@@ -24,3 +24,4 @@
 ----
 
 &copy; 2020 Trilogy Education Services, a 2U Inc Brand.   All Rights Reserved.
+

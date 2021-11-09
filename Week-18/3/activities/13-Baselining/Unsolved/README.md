@@ -14,7 +14,7 @@
 
 2. Design a search to look at failed logins, which is represented by `EventCode` `4625`.
 
-3. Determine when the attack happened.
+3. Determine when the attack happened. 2/11/2020 @ 7AM
 
 4. Determine the approximate average of normal bad logins per hour.
 

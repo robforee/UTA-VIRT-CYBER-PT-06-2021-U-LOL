@@ -11,17 +11,17 @@ In today's activities, you will continue to play the role of the SOC manager at 
 
 1. Upload the provided log file: `fortinet_IPS_logs.csv`
 
-2. Determine the top source IP address.
+2. Determine the top source IP address. 12.30.60.5
 
-3. Determine the primary attack name in the logs.
+3. Determine the primary attack name in the logs.  Oracle.9i TNS, OneByte.DoS
 
 4. Answer the following questions. (Use Google to assist in your research.)
 
-    - Fortinet logs are from which type of device?
+    - Fortinet logs are from which type of device? IDS
 
-    - What is the city and country of the top source IP address?
+    - What is the city and country of the top source IP address? South Africa
 
-    - Provide a brief summary of the attack name found.
+    - Provide a brief summary of the attack name found. denail of service
     
     - What is a recommended mitigation for this attack?
 

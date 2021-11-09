@@ -16,10 +16,16 @@ As the SOC manager at OMP, you have successfully normalized the various web serv
 Without using any code, design a rule that will assist with detecting the following security events:
 
 1. There was suspicious and unsuccessful web activity from Beijing.
-   
+   1. not US
+   2. not response 200
+   3. 
 2. There were floods of web requests from a single source IP in a short period of time.
-   
+   1. web request count > 5/sec
+   2. repeating IP
 3. There were suspicious successful web requests to access JPG images from IPs outside of the United States.
+   1. not US
+   2. request jpg
+   3. not-normal
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  

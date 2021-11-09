@@ -12,12 +12,15 @@
 
 1. Read the following case study: 
      - ["Case Study: Digital Forensics in the Cloud," University of Alabama Birmingham, 2013.](Digital_Forensics_in_Cloud.pdf)
-
 2. List at least four challenges associated with conducting a cloud forensics investigation. 
-
+     1. distributed compute equipment
+     2. variable control of data
+     3. no persistant storage
+     4. unable to trace chain of custody
 3. Using the following resource for additional research, explain how these challenges affect the chain of custody. 
 
      - ["Digital Forensics in the Cloud," *CrossTalk*, 2013.](Hasan_Zawoad_CrossTalk.pdf)
+     - 
 
 #### Bonus 
 

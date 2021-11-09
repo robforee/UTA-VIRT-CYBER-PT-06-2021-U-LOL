@@ -40,45 +40,46 @@ You've been provided the following logs:
           - This will show VSI if there is a suspicious level of failed activities on their server.
 
             **Hint:** Check the `status` field for this information.
-            
+      
     - **Alerts**: Design the following alerts to notify VSI of suspicious activity:
 
         1. Determine a baseline and threshold for hourly level of failed Windows activity.
 
               - Create an alert to trigger when the threshold has been reached.
               - The alert should trigger an email to SOC@VSI-company.com.
-
+         - ![image-20211025194046371](F:\UTCyber\Week-18\Homework\resources\image-20211025194046371.png)
+        
         2. Determine a baseline and threshold for hourly count of the signature: **an account was successfully logged on**.
-            - Create an alert to trigger when the threshold has been reached.
-
-            - The alert should trigger an email to SOC@VSI-company.com.
-
+       - Create an alert to trigger when the threshold has been reached.
+        
+       - The alert should trigger an email to SOC@VSI-company.com.
+        
         3. Determine a baseline and threshold for hourly count of the signature: **a user account was deleted**.
-              - Design the alert based on the corresponding SignatureID, as the signature name sometimes changes when the Windows system updates.
-
+         - Design the alert based on the corresponding SignatureID, as the signature name sometimes changes when the Windows system updates.
+        
             - Create an alert to trigger when the threshold has been reached.
             - The alert should trigger an email to SOC@VSI-company.com.   
-          
 
     - **Visualizations and Dashboards**: Design the following visualizations and add them to a dashboard called Windows Server Monitoring:
+        
         1. A line chart that displays the different `signature` field values over time.
-            - **Hint:** Add the following after your search:  `timechart span=1h count by signature`
-
-        2. A line chart that displays the different `user` field values over time. 
-
-        3. A bar, column, or pie chart that illustrates the count of different signatures.
-
-        4. A bar, column, or pie chart that illustrates the count of different users.
-
-        5. A statistical chart that illustrates the count of different users.
-
-        6. One single value visualization of your choice: radial gauge, marker gauge, etc.     
-
+           - **Hint:** Add the following after your search:  `timechart span=1h count by signature`
+        
+       2. A line chart that displays the different `user` field values over time. 
+        
+       3. A bar, column, or pie chart that illustrates the count of different signatures.
+        
+       4. A bar, column, or pie chart that illustrates the count of different users.
+        
+       5. A statistical chart that illustrates the count of different users.
+        
+       6. One single value visualization of your choice: radial gauge, marker gauge, etc.     
+   
 4. On your dashboard, add the ability to change the time range for all your visualizations.
 
     - Be sure to title all your panels appropriately.
     - Align your dashboard panels as you see fit.
-        
+      
 ---
 
 ### Apache Web Server Instructions and Deliverables
@@ -101,7 +102,7 @@ You've been provided the following logs:
 
       3. A report that shows the count of the HTTP response codes.
          - This will provide insight into any suspicious levels of HTTP responses.
-            
+      
     - **Alerts**: Design the following alerts:
       1. Determine a baseline and threshold for hourly activity from a country other than the United States.
          - Create an alert to trigger when the threshold has been reached.
@@ -112,23 +113,21 @@ You've been provided the following logs:
           - Create an alert to trigger when the threshold has been reached.
 
           - The alert should trigger an email to SOC@VSI-company.com.
-          
-    - **Visualizations and Dashboards**: Design the following visualizations and add them to a dashboard called Apache WebServer Monitoring.
-
-      1. A line chart that displays the different HTTP `methods` field over time.
-          - **Hint:** Add the following after your search:  `timechart span=1h count by method`.
-
-      2. A geographical map showing the location based on the `clientip` field.
-
-      3. A bar, column, or pie chart that displays the number of different URIs.
-
-      4. A bar, column, or pie chart that displays the counts of the top 10 countries.
-
-      5. A statistical chart that illustrates the count of different user agents.
-
-      6. One single value visualization of your choice: radial gauge, marker gauge, etc.     
-
       
+    - **Visualizations and Dashboards**: Design the following visualizations and add them to a dashboard called Apache WebServer Monitoring.
+    1. A line chart that displays the different HTTP `methods` field over time.
+          - **Hint:** Add the following after your search:  `timechart span=1h count by method`.
+      
+    2. A geographical map showing the location based on the `clientip` field.
+      
+    3. A bar, column, or pie chart that displays the number of different URIs.
+      
+    4. A bar, column, or pie chart that displays the counts of the top 10 countries.
+      
+    5. A statistical chart that illustrates the count of different user agents.
+      
+    6. One single value visualization of your choice: radial gauge, marker gauge, etc.     
+    
 4. On your dashboard, add the ability to change the time range for all your visualizations:
     - Be sure to title all your panels appropriately.
     - Align your dashboard panels as you see fit.
@@ -137,6 +136,6 @@ You've been provided the following logs:
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
-     
-     
-     
+
+​     
+​     

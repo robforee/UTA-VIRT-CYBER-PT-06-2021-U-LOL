@@ -12,12 +12,25 @@ You are a recently hired SOC manager at OMP.
 ### Instructions
 
 1. Analyze the five raw log files provided.
-
 2. Determine the type of each log file and note your reasoning.
 
     - **Hint:** Look for keywords or phrases in each log file to determine the type of log.
-
 3. Provide a brief summary of the security events that each log file identifies.
+
+
+
+1 network device log? (ids, firewall, network, tcp, ips)
+
+2 OS log groupadd
+
+3 application log (apache)
+
+4 os log
+
+5 website activity?
+
+
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
+

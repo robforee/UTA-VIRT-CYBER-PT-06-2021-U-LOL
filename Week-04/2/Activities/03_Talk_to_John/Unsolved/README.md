@@ -1,4 +1,4 @@
-## Activity File: Let's Talk to John
+## Activity File: Let's Talk to John the Ripper
 
 
 In this activity, your senior administrator has asked you to audit the strength of users' passwords by using the `john` program and document any passwords that you find.
@@ -24,5 +24,4 @@ To complete these tasks, you will use the program `john the ripper` on the passw
 —--
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-
 

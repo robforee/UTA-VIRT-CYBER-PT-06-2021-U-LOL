@@ -3,33 +3,33 @@
 - While we do not need to know every module and command that Meterpreter offers, it is important to become familiar with its key elements and common commands.
 
 - Answer the following questions about Meterpreter as if you were speaking to a non-technical audience, and be prepared to share with the class.   
- 
- 
+
+
 #### Meterpreter Basics
- 
-1. In your own words, what is Meterpreter?
 
- 
-2. When connecting to the remote host, does Meterpreter start new processes, similar to SSH or Ncat?
+1. In your own words, what is Meterpreter? **custom shell**
 
 
-3. True or False: Meterpreter encrypts all communication to and from the victim machine.
+2. When connecting to the remote host, does Meterpreter start new processes, similar to SSH or Ncat? **no new process**
+
+
+3. True or False: Meterpreter encrypts all communication to and from the victim machine. **false**
 
 
 #### Basic Meterpreter Commands
 
 Assuming that you have a Meterpreter shell, answer the following:
 
-1. What command would you use to display the help menu?
-
- 
-2. What command would you use to identify detailed Windows privilege information?
-
- 
-3. What command would you use to gather the victim's system information?
+1. What command would you use to display the help menu? **?**
 
 
-4. What command lets you upload a `readme.txt` to your victim's computer?
+2. What command would you use to identify detailed Windows privilege information? **run win_privs**
+
+
+3. What command would you use to gather the victim's system information? **sysinfo**
+
+
+4. What command lets you upload a `readme.txt` to your victim's computer?  **upload**
 
 #### BONUS
 

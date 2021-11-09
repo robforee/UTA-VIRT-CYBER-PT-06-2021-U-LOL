@@ -1,5 +1,5 @@
 ## Solution Guide: Part 2 - Defend Your SOC
-   
+
 ### Windows Server Logs
 
 #### Report Analysis for Severity
@@ -38,7 +38,7 @@ Did you detect any suspicious changes in failed activities?
 	```
 
 - This indicates that there is not a major change in the cumulative failure of events. 
-   
+  
 ---
 #### Alert Analysis for Failed Windows Activity
 
@@ -48,7 +48,7 @@ Did you detect any suspicious changes in failed activities?
 
 - The count of activity is 35 events during this hour.
                 
-   
+  
 #### Alert Analysis for Successful Logons
 
 - Several of the answers are dependent on what the groups select for their baselines and thresholds.
@@ -64,7 +64,7 @@ Did you detect any suspicious changes in failed activities?
 Did you detect a suspicious volume of deleted accounts?  
 	
 - There was no suspicious activity of deleted accounts.
-   
+  
 ---
 #### Dashboard Analysis for Time Chart of Signatures
 
@@ -79,6 +79,8 @@ Did you detect a suspicious volume of deleted accounts?
 	- An attempt was made to reset a users password: Started around 9 a.m. and ended at 11 a.m. on March 25th. The peak count was 1,258.
 
 	- The account was successfully logged on: Started around 11 a.m. and ended at 1 p.m. on March 25th. The peak count was 196.
+
+​      ![img](C:\Users\robforee\Documents\FreeMind\wk-19\wk-19_7134245337183293791.jpeg)          
 
  #### Dashboard Analysis for Users
 
@@ -113,7 +115,7 @@ Did you detect a suspicious volume of deleted accounts?
 
 
 ### Apache WebServer Logs 
-   
+
 #### Report Analysis for Methods
 
 - Did you detect any suspicious changes in HTTP methods? If so, which one?
@@ -123,7 +125,7 @@ Did you detect a suspicious volume of deleted accounts?
 
 	- POST is used to submit or update information to a web server.
 							
-   
+  
 #### Report Analysis for Referrer Domains
 
 - Did you detect any suspicious changes in referrer domains?
@@ -151,11 +153,11 @@ Did you detect a suspicious volume of deleted accounts?
 	- There was a spike in POST method activity at 8 p.m. on Weds, March 25th, and had a count of 1,296 events.
 
 - The other answers are dependent on each group's baselines and thresholds.
- 
+
 ---
 
 #### Dashboard Analysis for Time Chart of HTTP Methods
-  
+
 - Does anything stand out as suspicious?
 	- Yes, there were suspicious activities of the POST and GET method.
 
@@ -165,7 +167,7 @@ Did you detect a suspicious volume of deleted accounts?
 	- THE GET method was used, starting at 6 p.m. and ending at 7 p.m. The peak count was 729.
     
  #### Dashboard Analysis for Cluster Map
-  
+
 - Does anything stand out as suspicious? What new country, city on the map has a high volume of activity?
 	- Yes, there is suspicious activity in Ukraine.
 
@@ -184,6 +186,6 @@ Did you detect a suspicious volume of deleted accounts?
 	- The attacker may be trying to brute force the VSI logon page.
 
 ---
-    
+
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

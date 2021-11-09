@@ -1,4 +1,4 @@
-## 17.1 Student Guide: Introduction to Metasploit
+## 	17.1 Student Guide: Introduction to Metasploit
 
 ### Overview
 
@@ -227,8 +227,9 @@ For today's lesson, we'll use auxiliary and exploit modules.
 
 - Each module has additional attacks and information, as seen in the image below:
 
+  ![Images/mse2.png](Images/mse2.png)
 
-    ![Images/msfconsole.png](Images/mse2.png)
+
 
 
 #### Metasploit Demonstration Setup 
@@ -262,8 +263,7 @@ We will also use the Shellshock VM, which will serve as the vulnerable web serve
      For example, type the following command to find all modules related to Java:
 
      - `search java`
-
-        - Metasploit uses the search command to locate specific modules within the modules library.
+- Metasploit uses the search command to locate specific modules within the modules library.
 
 
      Results will resemble the following: 
@@ -377,10 +377,10 @@ In the following demonstration, we will use the Kali machine to exploit the Hear
 
     ```bash
     msf > search heartbleed
-
+    
     Matching Modules
     ================
-
+    
        Name                                              Disclosure Date  Rank    Check  Description
        ----                                              ---------------  ----    -----  -----------
        auxiliary/scanner/ssl/openssl_heartbleed          2014-04-07       normal  Yes    OpenSSL Heartbeat (Heartbleed) Information Leak
@@ -402,9 +402,9 @@ In the following demonstration, we will use the Kali machine to exploit the Hear
     ```
     msf > use  auxiliary/scanner/ssl/openssl_heartbleed
     msf auxiliary(scanner/ssl/openssl_heartbleed) > show options
-
+    
     Module options (auxiliary/scanner/ssl/openssl_heartbleed):
-
+    
       Name              Current Setting  Required  Description
       ----              ---------------  --------  -----------
       DUMPFILTER                         no        Pattern to filter leaked memory before storing

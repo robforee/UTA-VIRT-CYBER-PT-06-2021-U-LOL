@@ -26,21 +26,23 @@ In this activity, you will play the role of a newly hired SOC manager at Omni Mi
 
 ### OMP Security Events
 
-  A. ____ An employee in the Omaha office recently downloaded ransomware from a phishing email onto their work laptop.
+  E. __1__ A terminated employee was not removed from the active directory and has continued to log into their account. 1
 
-  B. ____ The primary web server in the New York office briefly experienced an outage due to a DDOS attack.
+  A. **2** An employee in the Omaha office recently downloaded ransomware from a phishing email onto their work laptop.
 
-  C. ____ The administrative application website occasionally experiences brute force attacks.
+  H. __3__ In the last several weeks, the VPN logs showed a source IP coming from Asia, where no employees are located.
 
-  D. ____ Vendors were inadvertently provided physical access to the data center in the Atlanta office.
+  D. __4__ Vendors were inadvertently provided physical access to the data center in the Atlanta office.
 
-  E. ____ A terminated employee was not removed from the active directory and has continued to log into their account.
+  G. __5__ Last month, an inventory database audit log ran out of disk space and stopped writing.
 
-  F. ____ SQL injection attacks were attempted on the primary purchasing web application.
+  C. __6__ The administrative application website occasionally experiences brute force attacks.
 
-  G. ____ Last month, an inventory database audit log ran out of disk space and stopped writing.
+  F. __7__ SQL injection attacks were attempted on the primary purchasing web application.
 
-  H. ____ In the last several weeks, the VPN logs showed a source IP coming from Asia, where no employees are located.
+  B. __8__ The primary web server in the New York office briefly experienced an outage due to a DDOS attack.
+
+
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  

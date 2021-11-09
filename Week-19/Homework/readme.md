@@ -14,21 +14,21 @@ You will be using the Splunk app located in the Ubuntu VM.
 
 Use the same log files you used during the Master of SOC activity:
 
-- [Windows Logs](resources/windows_server_logs.csv)
-- [Windows Attack Logs](resources/windows_server_attack_logs.csv)
-- [Apache Webserver Logs](resources/apache_logs.txt	)
-- [Apache Webserver Attack Logs](resources/apache_attack_logs.txt	)
+- [Windows server Logs](resources/windows_server_logs.csv)
+- [Windows server  Attack Logs](resources/windows_server_attack_logs.csv)
+- [Apache Logs](resources/apache_logs.txt	)
+- [Apache Attack Logs](resources/apache_attack_logs.txt	)
 
 ---
 
 ### Part 1: Windows Server Attack
 
 Note: This is a public-facing windows server that VSI employees access.
- 
+
 #### Question 1
 - Several users were impacted during the attack on March 25th.
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
-  
+- 
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
@@ -53,7 +53,7 @@ Note: This is a public-facing windows server that VSI employees access.
 
 
 ### Guidelines for your Submission:
-  
+
 In a word document, provide the following:
 - Answers for all questions.
 - Screenshots where indicated

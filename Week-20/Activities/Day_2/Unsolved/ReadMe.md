@@ -142,19 +142,33 @@ After creating your dashboard and becoming familiar with the search syntax, use 
 1. Identify the offensive traffic.
    - Identify the traffic between your machine and the web machine:
      - When did the interaction occur?
+       - start port scan at Oct 28 00:04 (kali)
+       - 
      - What responses did the victim send back?
+       - Oct 28 1:16:42  -> 192.168.1.90:36040 400
+       - after much scanning
+       - http response status code 400 to port 36040
+       - ![image-20211101114521707](F:\UTCyber\Week-20\Images\image-20211101114521707.png)
      - What data is concerning from the Blue Team perspective?
-
+       - scan data probing many destination ports
+       - ![image-20211101115422095](F:\UTCyber\Week-20\Images\image-20211101115422095.png)
+   
 2. Find the request for the hidden directory.
    - In your attack, you found a secret folder. Let's look at that interaction between these two machines.
      - How many requests were made to this directory? At what time and from which IP address(es)?
+       - from Oct 28 00:26 TO Nov 1, 17:10
+       - 14,992 hits 
+         - 99.04% from 192.168.1.90
+         - 00.06% from 192.168.1.1
+       - 
      - Which files were requested? What information did they contain?
+       - ​	connect_to_corp_server
      - What kind of alarm would you set to detect this behavior in the future?
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
-
+   
 3. Identify the brute force attack.
    - After identifying the hidden directory, you used Hydra to brute-force the target server. Answer the following questions:
-     - Can you identify packets specifically from Hydra?
+     - Can you identify packets specifically from Hydra? **YES**
      - How many requests were made in the brute-force attack?
      - How many requests had the attacker made before discovering the correct password in this one?
      - What kind of alarm would you set to detect this behavior in the future and at what threshold(s)?
