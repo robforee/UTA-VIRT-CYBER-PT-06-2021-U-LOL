@@ -109,3 +109,6 @@ Project Groups:
 [21.3 Evidence Acquisition and Reports.pdf](Week-21/3/21.3%20Evidence%20Acquisition%20and%20Reports.pdf) | [21.3 Student Guide](Week-21/3/StudentGuide.md) | [21-Digital-Forensics](Week-21/Homework)
 
 ### Module 6 - Review - Final Project
+| Slides | Student Guide | Homework |
+|--------| ------------- | -------- |
+[22.1 Introduction to InfoSec Certifications.pdf](Week-22/1/22.1%20Introduction%20to%20InfoSec%20Certifications.pdf) | [22.1 Student Guide](Week-22/1/StudentGuide.md)
