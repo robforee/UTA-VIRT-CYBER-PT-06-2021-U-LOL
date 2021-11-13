@@ -111,4 +111,6 @@ Project Groups:
 ### Module 6 - Review - Final Project
 | Slides | Student Guide | Homework |
 |--------| ------------- | -------- |
-[22.1 Introduction to InfoSec Certifications.pdf](Week-22/1/22.1%20Introduction%20to%20InfoSec%20Certifications.pdf) | [22.1 Student Guide](Week-22/1/StudentGuide.md)
+[22.1 Introduction to InfoSec Certifications.pdf](Week-22/1/22.1%20Introduction%20to%20InfoSec%20Certifications.pdf) | [22.1 Student Guide](Week-22/1/StudentGuide.md) |
+[22.2 Security+.pdf](Week-22/2/22.2%20Security+.pdf) |
+[22.2 Student Guide](Week-22/2/StudentGuide.md)
