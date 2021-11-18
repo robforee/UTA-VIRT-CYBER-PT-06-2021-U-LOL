@@ -114,3 +114,4 @@ Project Groups:
 [22.1 Introduction to InfoSec Certifications.pdf](Week-22/1/22.1%20Introduction%20to%20InfoSec%20Certifications.pdf) | [22.1 Student Guide](Week-22/1/StudentGuide.md) |
 | [22.2 Security+.pdf](Week-22/2/22.2%20Security+.pdf) | [22.2 Student Guide](Week-22/2/StudentGuide.md) |
 | [22.3 CEH and CISSP.pdf](Week-22/3/22.3%20CEH%20and%20CISSP.pdf) | [22.3 Student Guide](Week-22/3/StudentGuide.md) | [22-Certification-Prep](Week-22/Homework) |
+|[23.1 Intro to Career Prep.pdf](Week-23/1/23.1%20Intro%20to%20Career%20Prep.pdf) | [23.1 Student Guide](Week-23/1/StudentGuide.md) |
