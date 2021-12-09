@@ -25,7 +25,7 @@ In order to get started, you will need to:
 - Profile users' behavior from their packet data.
 
 If you are unable to find some of the solutions, it is possible you did not allow Wireshark to capture traffic for long enough. To save time, feel free to use the following PCAP file below to answer the questions:
-  
+
   - [PCAP](https://drive.google.com/file/d/1ggMVl1t_DZfw1WB93FO6hMLe5Ffqz40F/view?usp=sharing) 
   - If copy and paste is not available on the VM, use `curl` to download the file with this alternate URL: [http://tinyurl.com/yaajh8o8](http://tinyurl.com/yaajh8o8).
     - For example: `curl -L -o pcap.pcap http://tinyurl.com/yaajh8o8`
@@ -63,12 +63,19 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 
 You must inspect your traffic capture to answer the following questions in your Network Report:
 1. What is the domain name of the users' custom site?
-2. What is the IP address of the Domain Controller (DC) of the AD network?
-3. What is the name of the malware downloaded to the 10.6.12.203 machine?
-   - Once you have found the file, export it to your Kali machine's desktop.
+   1. DESKTOP-86J4BX.frank-n-ted.com
 
+2. What is the IP address of the Domain Controller (DC) of the AD network?
+   1. 10.6.12.12
+
+3. What is the name of the malware downloaded to the 10.6.12.203 machine?
+   - june11.dll
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
+   1. done
+
 5. What kind of malware is this classified as?
+   1. Trojan.Yakes
+
 
 #### Vulnerable Windows Machines
 
@@ -81,13 +88,18 @@ The Security team received reports of an infected Windows host on the network. T
 Inspect your traffic to answer the following questions in your network report:
 
 1. Find the following information about the infected Windows machine:
-    - Host name
-    - IP address
-    - MAC address
-    
+    - Host name ROTTERDAM-PC<00> (Workstation/Redirector)
+    - IP address   172.16.4.205
+    - MAC address   00:59:07:b0:63:a4
 2. What is the username of the Windows user whose computer is infected?
+    1. matthijs.devries
+
 3. What are the IP addresses used in the actual infection traffic?
+    1. 185.243.115.84
+
 4. As a bonus, retrieve the desktop background of the Windows host.
+    1. 
+
 
 
 #### Illegal Downloads
@@ -103,11 +115,11 @@ IT shared the following about the torrent activity:
 Your task is to isolate torrent traffic and answer the following questions in your Network Report:
 
 1. Find the following information about the machine with IP address `10.0.0.201`:
-    - MAC address
-    - Windows username
-    - OS version
-
+    - MAC address   00:16:17:18:66:c8
+    - Windows username  blanco-desktop$
+    - OS version    Windows
 2. Which torrent file did the user download?
+2. Betty_Boop_Rhythm_on_the_Reservation.avi.torrent
 
 
 ---

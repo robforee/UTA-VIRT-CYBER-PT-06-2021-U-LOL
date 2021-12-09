@@ -25,6 +25,8 @@
 
 2. Create (but don't send) an email to introduce yourself to these decision makers.
 
+    1. 
+
 3. Exchange emails with your partner, and proofread.
    - Provide suggestions for your partner's email.
 

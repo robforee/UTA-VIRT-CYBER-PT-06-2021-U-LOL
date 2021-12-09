@@ -25,7 +25,7 @@ Review the below list of free and inexpensive certifications below. Select one c
 
 - [Cloud Computing Basics](https://www.coursera.org/learn/cloud-computing-basics)
    - Cost: Free training, free exam
-  
+
 
 #### Vulnerability Management
 
@@ -78,7 +78,7 @@ All of the following courses are free:
         - It takes longer than three hours to complete.
         - Completion requires several courses.
         - No formal certification is awarded. 
-
+    
     If any of these are the case, complete three hours of training towards your selected certification and submit a one page summary that includes:
         - Certification title
         - Issuing organization
@@ -92,11 +92,11 @@ All of the following courses are free:
 - **Option 1**: Submit a screen shot that shows proof of completion.
 
 - **Option 2**: Submit a one page summary that includes:
-    - Certification title
-    - Issuing organization
-    - Description of certification
-    - Why you are interested in this certification.
-    - Summary of what was learned during your training.
+    - Certification title **Splunk 7.x Fundamentals Part 1.**
+    - Issuing organization **Splunk**
+    - Description of certification Splunk Fundamentals
+    - Why you are interested in this certification.  **Seeking position which uses Splunk to analyze logs**
+    - Summary of what was learned during your training. **Great**
 
 
 ---

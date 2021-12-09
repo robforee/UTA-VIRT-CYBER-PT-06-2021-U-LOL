@@ -17,6 +17,16 @@
 
     Remember, your answer shouldn't be longer than a few minutes. 
 
+   
+
+   My background is in data analysis, software development and document automation.
+
+   I am interested in the data streams and processing tools used in the cyber sec industry.
+
+   I bring my data pipeline management and anomaly analysis skills.
+
+   
+
 2. When you and a partner have your answers ready, take turns reciting them. 
 
 3. Provide constructive feedback, such as:

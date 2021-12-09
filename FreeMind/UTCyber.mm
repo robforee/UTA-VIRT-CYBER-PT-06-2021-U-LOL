@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#339900" CREATED="1633633101367" ID="ID_135370172" MODIFIED="1635076344699" STYLE="fork" TEXT="UTCyber">
+<node COLOR="#339900" CREATED="1633633101367" ID="ID_135370172" LINK="../Week-21/Homework/README.md" MODIFIED="1637603364064" STYLE="fork" TEXT="UTCyber">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
 <node COLOR="#ff0033" CREATED="1634845648244" ID="ID_178001215" MODIFIED="1634845716036" POSITION="left">
 <richcontent TYPE="NODE"><html>
@@ -18,7 +18,7 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 </node>
-<node COLOR="#ff0066" CREATED="1634723458642" FOLDED="true" ID="ID_1365893725" MODIFIED="1635076344692" POSITION="left" STYLE="fork">
+<node COLOR="#ff0066" CREATED="1634723458642" ID="ID_1365893725" MODIFIED="1637612786009" POSITION="left" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -36,13 +36,13 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#999999" CREATED="1633967320599" FOLDED="true" ID="ID_1718476238" MODIFIED="1635076344692" STYLE="fork" TEXT="Week-01">
+<node COLOR="#999999" CREATED="1633967320599" ID="ID_1718476238" MODIFIED="1637612788551" STYLE="fork" TEXT="Week-01">
 <node CREATED="1633967416041" ID="ID_1701320453" MODIFIED="1634730487545" STYLE="fork" TEXT="The Cybersecurity Mindset "/>
 <node CREATED="1633967434095" ID="ID_860622612" MODIFIED="1634730487545" STYLE="fork" TEXT="Attacking and Defending"/>
 <node CREATED="1633967443391" ID="ID_1174946114" MODIFIED="1634730487545" STYLE="fork" TEXT="Surveying the Cyberspace"/>
 <node CREATED="1633967446575" ID="ID_1285611092" MODIFIED="1634730487545" STYLE="fork" TEXT=""/>
 </node>
-<node COLOR="#999999" CREATED="1633967225135" FOLDED="true" ID="ID_1988264390" MODIFIED="1635076344692" STYLE="fork" TEXT="Week-02">
+<node COLOR="#999999" CREATED="1633967225135" ID="ID_1988264390" MODIFIED="1637612789825" STYLE="fork" TEXT="Week-02">
 <node CREATED="1633967244291" ID="ID_451611409" LINK="../../../../../F:/UTCyber/Week-02/1/StudentGuide.md" MODIFIED="1634730487545" STYLE="fork" TEXT="Introduction to Security Within the Organization"/>
 <node CREATED="1633967251831" ID="ID_1411633837" LINK="../../../../../F:/UTCyber/Week-02/2/StudentGuide.md" MODIFIED="1634730487545" STYLE="fork" TEXT="Risk Management and Threat Modeling"/>
 <node CREATED="1633967265583" ID="ID_1205127676" LINK="../../../../../F:/UTCyber/Week-02/3/StudentGuide.md" MODIFIED="1634730487545" STYLE="fork" TEXT="Governance Frameworks, Compliance, and BCP/DR"/>
@@ -171,33 +171,47 @@
 <node CREATED="1634725772759" ID="ID_337797905" MODIFIED="1634730487546" STYLE="fork" TEXT=""/>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634723571699" FOLDED="true" ID="ID_87929308" MODIFIED="1635076344694" POSITION="left" STYLE="fork" TEXT="Networking">
+<node COLOR="#ff0066" CREATED="1634723571699" ID="ID_87929308" MODIFIED="1637601736992" POSITION="left" STYLE="fork" TEXT="Networking">
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#999999" CREATED="1633966475078" FOLDED="true" ID="ID_633338676" MODIFIED="1635076344694" STYLE="fork" TEXT="Week-08">
+<node COLOR="#999999" CREATED="1633966475078" ID="ID_633338676" MODIFIED="1637601739096" STYLE="fork" TEXT="Week-08">
 <node CREATED="1633966480735" FOLDED="true" ID="ID_591256308" LINK="F:\UTCyber\Week-08\1\StudentGuide.md" MODIFIED="1635025621310" STYLE="fork" TEXT=" Introduction to Networking">
 <node CREATED="1634733541981" ID="ID_89326265" MODIFIED="1634733541981" TEXT="Network Security"/>
 <node CREATED="1634735847890" MODIFIED="1634735847890" TEXT="Network Devices"/>
 <node CREATED="1634735859076" MODIFIED="1634735859076" TEXT="Network Addressing"/>
 <node CREATED="1634735868246" MODIFIED="1634735868246" TEXT="DNS Spoofing"/>
 </node>
-<node CREATED="1633966501599" FOLDED="true" ID="ID_1986294276" LINK="F:\UTCyber\Week-08\2\StudentGuide.md" MODIFIED="1635025621311" STYLE="fork" TEXT="Ports, Protocols, and the OSI Model">
+<node CREATED="1633966501599" FOLDED="true" ID="ID_1986294276" LINK="F:\UTCyber\Week-08\2\StudentGuide.md" MODIFIED="1637611912210" STYLE="fork" TEXT="Ports, Protocols, and the OSI Model">
 <node CREATED="1634735895654" MODIFIED="1634735895654" TEXT="Interpreting Protocols"/>
 <node CREATED="1634735903858" MODIFIED="1634735903858" TEXT="Ports"/>
 <node CREATED="1634735912747" MODIFIED="1634735912747" TEXT="OSI"/>
 <node CREATED="1634735921394" MODIFIED="1634735921394" TEXT="Capturing Packets"/>
 <node CREATED="1634735929581" MODIFIED="1634735929581" TEXT="Analyzing HTTP Data"/>
 </node>
-<node CREATED="1633966509407" FOLDED="true" ID="ID_315981639" LINK="F:\UTCyber\Week-08\3\StudentGuide.md" MODIFIED="1635025621311" STYLE="fork" TEXT="Following Data Through Layers 2, 3, and 4">
-<node CREATED="1634735951965" MODIFIED="1634735951965" TEXT="Analyzing ARP"/>
-<node CREATED="1634735962181" MODIFIED="1634735962181" TEXT="Footprinting with `ping`"/>
-<node CREATED="1634735971666" MODIFIED="1634735971666" TEXT="Footprinting with `traceroute`"/>
+<node CREATED="1633966509407" ID="ID_315981639" LINK="F:\UTCyber\Week-08\3\StudentGuide.md" MODIFIED="1637611953027" STYLE="fork">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Following Data Through
+    </p>
+    <p>
+      Layers 2, 3, and 4
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1634735951965" ID="ID_1190192517" MODIFIED="1637611918314" TEXT="Analyzing Layer 2: Data Link ARP"/>
+<node CREATED="1634735962181" ID="ID_22206916" MODIFIED="1634735962181" TEXT="Footprinting with `ping`"/>
+<node CREATED="1634735971666" ID="ID_1996556626" MODIFIED="1634735971666" TEXT="Footprinting with `traceroute`"/>
 <node CREATED="1634735980782" MODIFIED="1634735980782" TEXT="Analyzing TCP Traffic"/>
-<node CREATED="1634735990701" MODIFIED="1634735990701" TEXT="Analyzing a SYN Scan"/>
+<node CREATED="1634735990701" ID="ID_1969774493" MODIFIED="1634735990701" TEXT="Analyzing a SYN Scan"/>
 </node>
 <node CREATED="1634736024281" ID="ID_230573473" LINK="F:\UTCyber\Week-08\Homework\readme.md" MODIFIED="1634737711669" TEXT="Homework network scan"/>
 <node CREATED="1633967035632" ID="ID_1477364239" MODIFIED="1634730487546" STYLE="fork" TEXT=""/>
 </node>
-<node COLOR="#999999" CREATED="1633966357670" FOLDED="true" ID="ID_266709892" MODIFIED="1635076344694" STYLE="fork" TEXT="Week-09">
+<node COLOR="#999999" CREATED="1633966357670" ID="ID_266709892" MODIFIED="1637601771188" STYLE="fork" TEXT="Week-09">
 <node CREATED="1633966375106" FOLDED="true" ID="ID_535426801" LINK="F:\UTCyber\Week-09\1\StudentGuide.md" MODIFIED="1635025621312" STYLE="fork" TEXT="IPs and Routing">
 <node CREATED="1634725914609" ID="ID_187895737" LINK="F:\UTCyber\Week-09\1\VPN.md" MODIFIED="1634730487539" STYLE="fork" TEXT="VPN"/>
 <node CREATED="1634733032255" MODIFIED="1634733032255" TEXT="DHCP Attacks"/>
@@ -217,7 +231,7 @@
 <node CREATED="1633967035632" ID="ID_675364425" MODIFIED="1634730487546" STYLE="fork" TEXT=""/>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634727296170" FOLDED="true" ID="ID_1734622500" MODIFIED="1635076344695" POSITION="right" STYLE="fork">
+<node COLOR="#ff0066" CREATED="1634727296170" ID="ID_1734622500" MODIFIED="1637602627321" POSITION="right" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -235,7 +249,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#999999" CREATED="1633966155624" FOLDED="true" ID="ID_774638042" MODIFIED="1635076344694" STYLE="fork" TEXT="Week-12">
+<node COLOR="#999999" CREATED="1633966155624" ID="ID_774638042" MODIFIED="1637602632252" STYLE="fork" TEXT="Week-12">
 <node CREATED="1633966173167" FOLDED="true" ID="ID_1321748039" LINK="F:\UTCyber\Week-12\1\StudentGuide.md" MODIFIED="1635025621313" STYLE="fork" TEXT="Introduction To Cloud Computing">
 <node CREATED="1634733206845" MODIFIED="1634733206845" TEXT="Virtual Networking"/>
 <node CREATED="1634733220661" MODIFIED="1634733220661" TEXT="Security Groups"/>
@@ -253,7 +267,7 @@
 <node CREATED="1634733320404" MODIFIED="1634733320404" TEXT="Security Configuration"/>
 <node CREATED="1634733328252" MODIFIED="1634733328252" TEXT="Redundancy"/>
 </node>
-<node CREATED="1633966205159" FOLDED="true" ID="ID_875401956" LINK="F:\UTCyber\Week-12\4\StudentGuide.md" MODIFIED="1635025621313" STYLE="fork" TEXT="Testing Redundant Systems">
+<node CREATED="1633966205159" FOLDED="true" ID="ID_875401956" LINK="F:\UTCyber\Week-12\4\StudentGuide.md" MODIFIED="1637602715004" STYLE="fork" TEXT="Testing Redundant Systems">
 <node CREATED="1634733351460" ID="ID_1131053331" MODIFIED="1634733351460" TEXT="Redundancy Testing"/>
 <node CREATED="1634733371660" MODIFIED="1634733371660" TEXT="Cloud Security"/>
 <node CREATED="1634733393548" MODIFIED="1634733393548" TEXT="Alternate Hostname Testing Activity"/>
@@ -261,7 +275,7 @@
 <node CREATED="1634737984138" ID="ID_1615113976" LINK="F:\UTCyber\Week-12\Homework\README.md" MODIFIED="1634738013721" TEXT="Homework: Cloud Security"/>
 <node CREATED="1633967035632" ID="ID_408997573" MODIFIED="1634730487546" STYLE="fork" TEXT=""/>
 </node>
-<node COLOR="#999999" CREATED="1633966043310" FOLDED="true" ID="ID_430964863" MODIFIED="1635076344694" STYLE="fork" TEXT="Week-13">
+<node COLOR="#999999" CREATED="1633966043310" ID="ID_430964863" MODIFIED="1637602639426" STYLE="fork" TEXT="Week-13">
 <node CREATED="1634727525442" FOLDED="true" ID="ID_636852987" LINK="F:\UTCyber\Week-13\StudentGuide.md" MODIFIED="1635025621314" STYLE="fork" TEXT="ELK Stack Project Week">
 <node CREATED="1634727588331" ID="ID_1438976183" LINK="F:\UTCyber\Week-13\Activities\Stu_Day_1\Unsolved\ReadMe.md" MODIFIED="1634730487535" STYLE="fork" TEXT="ELK Installation"/>
 <node CREATED="1634727611659" FOLDED="true" ID="ID_1925682432" LINK="F:\UTCyber\Week-13\Activities\Stu_Day_2\Unsolved\ReadMe.md" MODIFIED="1634730487535" STYLE="fork" TEXT="Filebeat and Metricbeat Installation">
@@ -299,7 +313,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634728119786" FOLDED="true" ID="ID_1229722670" MODIFIED="1635076344695" POSITION="right" STYLE="fork">
+<node COLOR="#ff0066" CREATED="1634728119786" ID="ID_1229722670" MODIFIED="1637602747775" POSITION="right" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -314,7 +328,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#999999" CREATED="1633958812056" FOLDED="true" ID="ID_273666426" MODIFIED="1635076344695" STYLE="fork" TEXT="Week-14">
+<node COLOR="#999999" CREATED="1633958812056" ID="ID_273666426" MODIFIED="1637602749085" STYLE="fork" TEXT="Week-14">
 <node CREATED="1633965972598" FOLDED="true" ID="ID_347610973" LINK="F:\UTCyber\Week-14\1\StudentGuide.md" MODIFIED="1635025621314" STYLE="fork" TEXT="HTTP with Sessions and Cookies">
 <node CREATED="1634728260794" ID="ID_1668372746" MODIFIED="1634730487534" STYLE="fork" TEXT="HTTP Requests and Responses Reference"/>
 <node CREATED="1634728270082" ID="ID_1592791939" MODIFIED="1634730487534" STYLE="fork" TEXT="HTTP Requests and Responses"/>
@@ -368,7 +382,7 @@
 <node CREATED="1633958935311" ID="ID_155041623" MODIFIED="1634730487534" STYLE="fork" TEXT="sql to examine database"/>
 </node>
 </node>
-<node COLOR="#999999" CREATED="1633958805583" FOLDED="true" ID="ID_975615399" MODIFIED="1635076344695" STYLE="fork" TEXT="Week-15">
+<node COLOR="#999999" CREATED="1633958805583" ID="ID_975615399" MODIFIED="1637602750132" STYLE="fork" TEXT="Week-15">
 <node CREATED="1633965719214" FOLDED="true" ID="ID_739862727" LINK="F:\UTCyber\Week-15\1\StudentGuide.md" MODIFIED="1635025621315" STYLE="fork" TEXT="Introduction to Web Vulnerabilities and Hardening">
 <node CREATED="1634728565259" ID="ID_713052570" MODIFIED="1634730487534" STYLE="fork" TEXT="SQL Refresher and Unintended SQL Queries"/>
 <node CREATED="1634728576331" ID="ID_39002606" MODIFIED="1634730487534" STYLE="fork" TEXT="Testing SQL Injection on Web Applications"/>
@@ -497,7 +511,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634729770003" FOLDED="true" ID="ID_134540976" MODIFIED="1635604845889" POSITION="right" STYLE="fork">
+<node COLOR="#ff0066" CREATED="1634729770003" ID="ID_134540976" MODIFIED="1637602995412" POSITION="right" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -558,7 +572,7 @@
 <node CREATED="1634738281257" ID="ID_556148289" MODIFIED="1634738281257" TEXT=""/>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634730631568" FOLDED="true" ID="ID_395929864" MODIFIED="1635604847597" POSITION="right">
+<node COLOR="#ff0066" CREATED="1634730631568" ID="ID_395929864" MODIFIED="1637603052205" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -576,7 +590,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#999999" CREATED="1634729407704" FOLDED="true" ID="ID_1038568313" MODIFIED="1635076344696" STYLE="fork" TEXT="Week-18">
+<node COLOR="#999999" CREATED="1634729407704" ID="ID_1038568313" MODIFIED="1637603083271" STYLE="fork" TEXT="Week-18">
 <node CREATED="1634729418506" FOLDED="true" ID="ID_1425221001" LINK="F:\UTCyber\Week-18\1\StudentGuide.md" MODIFIED="1635025621319" STYLE="fork" TEXT="Introduction to SIEMs">
 <node CREATED="1634729433771" ID="ID_1541002034" MODIFIED="1634730487529" STYLE="fork" TEXT="Monitoring Assets"/>
 <node CREATED="1634729445187" ID="ID_1159928346" MODIFIED="1634730487529" STYLE="fork" TEXT="What is this Log Activity"/>
@@ -615,172 +629,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1634736167217" ID="ID_1644786883" MODIFIED="1635025493493">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Mon Oct 18 ~ 18 homework due
-    </p>
-    <p>
-      try to exploit dvw10 box
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1635077012791" ID="ID_914523046" MODIFIED="1635077027267" TEXT="unable to find more exploits"/>
-<node CREATED="1635077044247" ID="ID_1406735935" MODIFIED="1635077058048" TEXT="recommend">
-<node CREATED="1635077058048" ID="ID_750341665" MODIFIED="1635077072980" TEXT="add patches"/>
-<node CREATED="1635077074191" ID="ID_530950203" MODIFIED="1635077079316" TEXT="restrict ports"/>
-<node CREATED="1635077110576" ID="ID_880716653" MODIFIED="1635077125803" TEXT="chmod files"/>
-<node CREATED="1635077136079" ID="ID_1540302975" MODIFIED="1635077141067" TEXT="strong passwords"/>
-</node>
-<node CREATED="1635077163967" ID="ID_1499598539" MODIFIED="1635077167945" TEXT="report format">
-<node CREATED="1635077167945" ID="ID_1326502806" MODIFIED="1635077176708" TEXT="Report Cover"/>
-<node CREATED="1635077219127" ID="ID_1435231951" MODIFIED="1635077224931" TEXT="High-Level Summary"/>
-<node CREATED="1635077248527" ID="ID_1746392002" MODIFIED="1635077248527" TEXT="">
-<node CREATED="1635077249098" ID="ID_1972100479" MODIFIED="1635077261617">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      GoodSecurity was tasked with
-    </p>
-    <p>
-      performing
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1635081596942" ID="ID_692912257" MODIFIED="1635081616141" TEXT="hyper-v to run">
-<node CREATED="1635081620834" ID="ID_1780423962" MODIFIED="1635081620834" TEXT=""/>
-<node CREATED="1635081616143" ID="ID_1925885208" MODIFIED="1635081619014" TEXT="DVW10">
-<node CREATED="1635081633562" ID="ID_94046563" LINK="https://app.vagrantup.com/cybersecurity/boxes/dvw10" MODIFIED="1635081633562" TEXT="https://app.vagrantup.com/cybersecurity/boxes/dvw10"/>
-<node CREATED="1635081636659" ID="ID_607999503" MODIFIED="1635081653687" TEXT="how to tell vagrant to use hyper-v, not virtual box?"/>
-</node>
-</node>
-</node>
-<node CREATED="1635025137487" ID="ID_811711733" MODIFIED="1635025150970" TEXT="Sat Oct 23 ~ class"/>
-<node CREATED="1635076897160" ID="ID_148743649" MODIFIED="1635076901908" TEXT="Sun Oct 24"/>
-<node CREATED="1634736167217" FOLDED="true" ID="ID_63328237" MODIFIED="1635076344696">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Mon Oct 25 ~ 19 homework&#160;
-    </p>
-    <p>
-      load data, create reports/alerts
-    </p>
-  </body>
-</html>
-</richcontent>
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1635025330633" FOLDED="true" ID="ID_1149275098" MODIFIED="1635025621321" TEXT="1">
-<node CREATED="1635025257127" ID="ID_1215415475" MODIFIED="1635025307432">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif" size="16px">Create a report to determine the impact that the DDOS attack </font>
-    </p>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif" size="16px">had on download and upload speed. </font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1635025308680" ID="ID_1610203399" MODIFIED="1635025320325">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      create an additional field to calculate the ratio of the
-    </p>
-    <p>
-      upload speed to the download speed.&#160;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1635025332168" FOLDED="true" ID="ID_1898595308" MODIFIED="1635025621321" TEXT="2">
-<node CREATED="1635025333441" FOLDED="true" ID="ID_275197450" MODIFIED="1635025619307" TEXT="">
-<node CREATED="1635025344209" ID="ID_1859822927" MODIFIED="1635025358654">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Create a report determining how many critical
-    </p>
-    <p>
-      vulnerabilities exist on the customer data server.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1635025351562" ID="ID_1140875209" MODIFIED="1635025371172">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Then, build an alert to notify your team if a
-    </p>
-    <p>
-      critical vulnerability reappears on this server.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1635025398854" FOLDED="true" ID="ID_651220037" MODIFIED="1635025621321" TEXT="3">
-<node CREATED="1635025400607" FOLDED="true" ID="ID_511233453" MODIFIED="1635025619307" TEXT="">
-<node CREATED="1635025402016" ID="ID_799058470" MODIFIED="1635025423063">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif" size="16px">Analyze administrator logs that document a brute force attack. </font>
-    </p>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif" size="16px">Then, create a baseline of the ordinary amount of administrator </font>
-    </p>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif" size="16px">bad logins and determine a threshold to indicate </font>
-    </p>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif" size="16px">if a brute force attack is occurring.</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
 <node COLOR="#999999" CREATED="1634051077390" ID="ID_1279110041" MODIFIED="1635103203359" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -802,7 +650,7 @@
 <node CREATED="1634774172660" ID="ID_1446612703" LINK="F:\UTCyber\Week-19\1\activities\13-Dashboard\Unsolved\README.md" MODIFIED="1634774179939" TEXT="Creating Dashboards"/>
 <node CREATED="1634774189812" ID="ID_1964032538" LINK="F:\UTCyber\Week-19\1\activities\16-Advanced-Dashboards\Unsolved\README.md" MODIFIED="1634774197215" TEXT="Advanced Dashboards"/>
 </node>
-<node CREATED="1634051087845" FOLDED="true" ID="ID_1839497075" MODIFIED="1635286475361" STYLE="fork" TEXT="2">
+<node CREATED="1634051087845" ID="ID_1839497075" MODIFIED="1637603128655" STYLE="fork" TEXT="2">
 <node CREATED="1634051184246" FOLDED="true" ID="ID_1148393528" LINK="f:\UTCyber\Week-19\2\StudentGuide.md" MODIFIED="1635025592933" STYLE="fork" TEXT="Advanced Security Monitoring Tools">
 <node CREATED="1635024916420" ID="ID_1730304932" LINK="f:\UTCyber\Week-19\2\activities\02-Splunk-ES\Unsolved\README.md" MODIFIED="1635024923936" TEXT="Splunk ES"/>
 <node CREATED="1635024939139" ID="ID_635207554" LINK="f:\UTCyber\Week-19\2\activities\05-Advanced-Security-Monitoring\Unsolved\README.md" MODIFIED="1635024946864" TEXT="Advanced Security Monitoring"/>
@@ -810,9 +658,8 @@
 <node CREATED="1635024990036" ID="ID_10953858" LINK="f:\UTCyber\Week-19\2\activities\12-Splunk-Certifications\Unsolved\README.md" MODIFIED="1635025000712" TEXT="Continuing your Splunk Education"/>
 </node>
 </node>
-<node CREATED="1634051090086" ID="ID_1895712317" MODIFIED="1635103210830" STYLE="fork" TEXT="3">
-<node CREATED="1635103227283" ID="ID_619214550" MODIFIED="1635103239656" TEXT="Mon Oct 25"/>
-<node CREATED="1634051194193" ID="ID_981391542" MODIFIED="1634730487527" STYLE="fork" TEXT="Masters of the SOC">
+<node CREATED="1634051090086" ID="ID_1895712317" MODIFIED="1637603130944" STYLE="fork" TEXT="3">
+<node CREATED="1634051194193" FOLDED="true" ID="ID_981391542" MODIFIED="1637603133110" STYLE="fork" TEXT="Masters of the SOC">
 <node CREATED="1635205631226" ID="ID_629727854" MODIFIED="1635205634767" TEXT="reports">
 <node CREATED="1635205638259" ID="ID_16343034" MODIFIED="1635205645562">
 <richcontent TYPE="NODE"><html>
@@ -830,8 +677,7 @@
       | stats count by signature, signature_id
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1635207423660" ID="ID_1349892907" MODIFIED="1635207427954">
 <richcontent TYPE="NODE"><html>
@@ -849,8 +695,7 @@
       | table signature,tc
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -870,14 +715,14 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1634230998049" ID="ID_452655283" MODIFIED="1635103181598" STYLE="fork" TEXT="1">
+<node CREATED="1634230998049" FOLDED="true" ID="ID_452655283" MODIFIED="1637603140098" STYLE="fork" TEXT="1">
 <node CREATED="1635103184635" ID="ID_1199282539" MODIFIED="1635103244616" TEXT="Wed Oct 27"/>
 <node CREATED="1634231862889" ID="ID_1889757125" MODIFIED="1634730487526" STYLE="fork" TEXT="Project 2"/>
 </node>
-<node CREATED="1634231000952" ID="ID_392335271" MODIFIED="1634730487547" STYLE="fork" TEXT="2">
+<node CREATED="1634231000952" FOLDED="true" ID="ID_392335271" MODIFIED="1637603142898" STYLE="fork" TEXT="2">
 <node CREATED="1635103172437" ID="ID_1210234926" MODIFIED="1635103257263" TEXT="Sat Oct 30"/>
 </node>
-<node CREATED="1634231002504" ID="ID_1447254006" MODIFIED="1635103258806" STYLE="fork" TEXT="3">
+<node CREATED="1634231002504" FOLDED="true" ID="ID_1447254006" MODIFIED="1637603144146" STYLE="fork" TEXT="3">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1634233103763" ID="ID_715351146" MODIFIED="1635103288991" STYLE="fork" TEXT="Mon Nov 1st "/>
 <node CREATED="1634231862889" ID="ID_598416407" MODIFIED="1634730487526" STYLE="fork" TEXT="Project 2"/>
@@ -885,19 +730,86 @@
 <node CREATED="1634233116562" ID="ID_1419472217" MODIFIED="1634730487526" STYLE="fork" TEXT="SIEM Homework due"/>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634730014475" FOLDED="true" ID="ID_586441343" MODIFIED="1636049694419" POSITION="right" STYLE="fork" TEXT="Forensics">
+<node COLOR="#ff0066" CREATED="1634730014475" ID="ID_586441343" MODIFIED="1637603239766" POSITION="right" STYLE="fork" TEXT="Forensics">
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#999999" CREATED="1634230943472" ID="ID_886382668" MODIFIED="1635103105021" STYLE="fork" TEXT="Week-21">
-<node CREATED="1634230998049" ID="ID_1708321365" MODIFIED="1634732959813" STYLE="fork" TEXT="1">
+<node CREATED="1634230998049" ID="ID_1708321365" LINK="../Week-21/1/StudentGuide.md" MODIFIED="1637603322468" STYLE="fork" TEXT="1">
 <node CREATED="1635103373235" ID="ID_1558033664" MODIFIED="1635103437967" TEXT="Wed Nov 3rd"/>
 </node>
-<node CREATED="1634231000952" ID="ID_1806566237" MODIFIED="1634730487547" STYLE="fork" TEXT="2">
+<node CREATED="1634231000952" ID="ID_1806566237" LINK="../Week-21/2/StudentGuide.md" MODIFIED="1637603338014" STYLE="fork" TEXT="2">
 <node CREATED="1635103415379" ID="ID_1305433727" MODIFIED="1635103420335" TEXT="Sat Nov 6th"/>
 </node>
-<node CREATED="1634231002504" ID="ID_1107840296" MODIFIED="1634730487547" STYLE="fork" TEXT="3">
+<node CREATED="1634231002504" ID="ID_1107840296" LINK="../Week-21/3/21.3%20Evidence%20Acquisition%20and%20Reports.pdf" MODIFIED="1637603351093" STYLE="fork" TEXT="3">
 <node CREATED="1635103468315" ID="ID_601139403" MODIFIED="1635103473407" TEXT="Mon Nov 8th"/>
 </node>
+<node CREATED="1637603352496" ID="ID_913186835" MODIFIED="1637603354620" TEXT="Homework"/>
 </node>
+</node>
+<node COLOR="#ff0000" CREATED="1637607286033" ID="ID_1118106053" MODIFIED="1637607404289" POSITION="right" TEXT="Missing">
+<node CREATED="1637607288355" ID="ID_222378821" LINK="f:\UTCyber\Week-22\2\StudentGuide.md" MODIFIED="1637607433927" TEXT="Week-All">
+<node CREATED="1637607293427" ID="ID_1899710824" MODIFIED="1637607295733" TEXT="Identity and Access Management">
+<node CREATED="1637607309718" ID="ID_1452972712" MODIFIED="1637607329146" TEXT="2.4 - Summarize authentication and authorization design concepts"/>
+<node CREATED="1637607337678" MODIFIED="1637607337678" TEXT="3.8 - Given a scenario, implement authentication and authorization solutions"/>
+</node>
+<node CREATED="1637607355699" ID="ID_683806746" MODIFIED="1637607355699" TEXT="Security+ Architecture and Design">
+<node CREATED="1637607365466" MODIFIED="1637607365466" TEXT="Summarize secure application development, deployment, and automation concepts."/>
+<node CREATED="1637607375413" MODIFIED="1637607375413" TEXT="Subdomain 3: Summarize secure application development, deployment, and automation concepts."/>
+<node CREATED="1637607382702" MODIFIED="1637607382702" TEXT="Subdomain 6:  Explain the security implications of embedded and specialized systems."/>
+<node CREATED="1637607388884" MODIFIED="1637607388884" TEXT="Subdomain 7: Explain the importance of physical security controls."/>
+</node>
+</node>
+</node>
+<node CREATED="1637603968394" ID="ID_673776022" MODIFIED="1637604150594" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cybersecurity<br />Certifications
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1637603969138" ID="ID_992129396" MODIFIED="1637603972662" TEXT="Week-22">
+<node CREATED="1637604173282" ID="ID_1511788618" LINK="f:\UTCyber\Week-22\1\StudentGuide.md" MODIFIED="1637607454494" TEXT="1 Certifications"/>
+<node CREATED="1637604177011" ID="ID_330312023" LINK="f:\UTCyber\Week-22\2\StudentGuide.md" MODIFIED="1637607472090" TEXT="2 Security+"/>
+<node CREATED="1637604179347" ID="ID_5659297" MODIFIED="1637604219871" TEXT="3 CEH and CISSP"/>
+</node>
+</node>
+<node CREATED="1637603973898" ID="ID_1556432119" MODIFIED="1637604267578" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Employer
+    </p>
+    <p>
+      Ready
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1637603974812" ID="ID_1007545570" MODIFIED="1637603978775" TEXT="Week-23"/>
+</node>
+<node CREATED="1637603979969" ID="ID_1674803862" MODIFIED="1637604281273" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Project
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;III
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1637603980819" ID="ID_65954623" MODIFIED="1637603984966" TEXT="Week-24"/>
 </node>
 <node CREATED="1635103337515" FOLDED="true" ID="ID_1906999766" MODIFIED="1636049691482" POSITION="right" TEXT="Test Review">
 <node CREATED="1635103332899" ID="ID_562886189" MODIFIED="1635103343845" TEXT="Week-22">
@@ -952,9 +864,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634724073036" FOLDED="true" ID="ID_1380452466" MODIFIED="1635076344698" POSITION="left" STYLE="fork" TEXT="Cryptography">
+<node COLOR="#ff0066" CREATED="1634724073036" ID="ID_1380452466" MODIFIED="1637601767659" POSITION="left" STYLE="fork" TEXT="Cryptography">
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#999999" CREATED="1633966318286" FOLDED="true" ID="ID_717470963" MODIFIED="1635076344698" STYLE="fork" TEXT="Week-10">
+<node COLOR="#999999" CREATED="1633966318286" ID="ID_717470963" MODIFIED="1637601828686" STYLE="fork" TEXT="Week-10">
 <node CREATED="1633966327065" FOLDED="true" ID="ID_553454837" LINK="F:\UTCyber\Week-10\1\StudentGuide.md" MODIFIED="1635025621322" STYLE="fork" TEXT="Introduction to Cryptography">
 <node CREATED="1634726025161" ID="ID_1707044378" LINK="F:\UTCyber\Week-10\1\activities\03_Caesar_Cipher_Code_Names\solved\readme.md" MODIFIED="1634730487538" STYLE="fork" TEXT="Caesar Cipher"/>
 <node CREATED="1634726061892" ID="ID_1661213814" LINK="F:\UTCyber\Week-10\1\activities\06_Decoding\solved\readme.md" MODIFIED="1634730487538" STYLE="fork" TEXT="Decoding"/>
@@ -996,7 +908,7 @@
 <node CREATED="1633967035632" ID="ID_1535472715" MODIFIED="1634730487546" STYLE="fork" TEXT=""/>
 </node>
 </node>
-<node COLOR="#ff0066" CREATED="1634724085371" FOLDED="true" ID="ID_743112306" MODIFIED="1635076344699" POSITION="left" STYLE="fork">
+<node COLOR="#ff0066" CREATED="1634724085371" ID="ID_743112306" MODIFIED="1637601850259" POSITION="left" STYLE="fork">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -1011,13 +923,30 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#999999" CREATED="1634727222066" FOLDED="true" ID="ID_758967061" MODIFIED="1635076344699" STYLE="fork" TEXT="Week-11">
-<node CREATED="1633966266207" FOLDED="true" ID="ID_1609066828" LINK="F:\UTCyber\Week-11\1\StudentGuide.md" MODIFIED="1635025621323" STYLE="fork" TEXT=" Introduction to Firewalls and Network Security">
+<node COLOR="#999999" CREATED="1634727222066" ID="ID_758967061" MODIFIED="1637612618515" STYLE="fork" TEXT="Week-11">
+<node CREATED="1633966266207" FOLDED="true" ID="ID_1609066828" LINK="F:\UTCyber\Week-11\1\StudentGuide.md" MODIFIED="1637612494991" STYLE="fork" TEXT="11.1 Introduction to Firewalls and Network Security">
 <node CREATED="1634726382914" ID="ID_1075218682" MODIFIED="1634730487537" STYLE="fork" TEXT="Configuring UFW"/>
 <node CREATED="1634726394541" ID="ID_1759654002" MODIFIED="1634730487537" STYLE="fork" TEXT="firewalld Configuration"/>
 <node CREATED="1634726402405" ID="ID_1126060342" MODIFIED="1634730487537" STYLE="fork" TEXT="Testing Firewall Rules with Nmap"/>
 </node>
-<node CREATED="1633966275191" FOLDED="true" ID="ID_1203760723" LINK="F:\UTCyber\Week-11\2\StudentGuide.md" MODIFIED="1635025621324" STYLE="fork" TEXT="Introduction to Intrusion Detection, Snort, and Network Security Monitoring">
+<node CREATED="1633966275191" ID="ID_1203760723" LINK="F:\UTCyber\Week-11\2\StudentGuide.md" MODIFIED="1637612531555" STYLE="fork">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      11.02 Introduction to
+    </p>
+    <p>
+      Intrusion Detection, Snort, and
+    </p>
+    <p>
+      Network Security Monitoring
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1634726476044" ID="ID_423132246" MODIFIED="1634730487537" STYLE="fork" TEXT="Security Onion Setup"/>
 <node CREATED="1634726486708" ID="ID_475822331" MODIFIED="1634730487537" STYLE="fork" TEXT="Intrusion Detection Systems and Snort"/>
 <node CREATED="1634727045555" FOLDED="true" ID="ID_612794213" MODIFIED="1634730487537" STYLE="fork" TEXT="">
@@ -1027,13 +956,14 @@
 <node CREATED="1634726536620" ID="ID_338330974" MODIFIED="1634730487537" STYLE="fork" TEXT="Alert - FTP File Extraction"/>
 <node CREATED="1634726545189" ID="ID_1971943224" MODIFIED="1634730487537" STYLE="fork" TEXT="Alert - ET INFO Executable Download"/>
 </node>
-<node CREATED="1633966284286" FOLDED="true" ID="ID_1793249511" LINK="F:\UTCyber\Week-11\3\StudentGuide.md" MODIFIED="1635025621324" STYLE="fork" TEXT="Enterprise Security Management (ESM)">
+<node CREATED="1633966284286" ID="ID_1793249511" LINK="F:\UTCyber\Week-11\3\StudentGuide.md" MODIFIED="1637602161459" STYLE="fork" TEXT="Enterprise Security Management (ESM)">
 <node CREATED="1634726570644" ID="ID_1534885956" MODIFIED="1634730487537" STYLE="fork" TEXT="Security Onion Setup"/>
 <node CREATED="1634726578539" ID="ID_1561395319" MODIFIED="1634730487537" STYLE="fork" TEXT="Alert - C2 Beacon"/>
 <node CREATED="1634726587139" ID="ID_1316240362" MODIFIED="1634730487537" STYLE="fork" TEXT="Investigation, Analysis, and Escalation"/>
 <node CREATED="1634726600188" ID="ID_834529421" MODIFIED="1634730487537" STYLE="fork" TEXT="Threat Hunting - Cyber Threat Intelligence"/>
 </node>
 <node CREATED="1634737842809" ID="ID_1928246058" LINK="F:\UTCyber\Week-11\Homework\README.md" MODIFIED="1634737880776" TEXT="Homework: Network Security"/>
+<node CREATED="1637612618502" ID="ID_326392178" MODIFIED="1637612618502" TEXT="">
 <node CREATED="1634726648568" ID="ID_847483278" LINK="F:\UTCyber\Week-11\Firewall-Cheetsheet.md" MODIFIED="1634730487537" STYLE="fork" TEXT="Firewall Summary">
 <font NAME="SansSerif" SIZE="18"/>
 </node>
@@ -1042,6 +972,7 @@
 </node>
 <node CREATED="1634726690280" ID="ID_529225475" LINK="F:\UTCyber\Week-11\Week-11-Review.md" MODIFIED="1634730487537" STYLE="fork" TEXT="Week-11 Review">
 <font NAME="SansSerif" SIZE="17"/>
+</node>
 </node>
 <node CREATED="1634727241224" ID="ID_1852661503" MODIFIED="1634730487537" STYLE="fork" TEXT=""/>
 </node>
